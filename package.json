@@ -1,0 +1,23 @@
+{
+	"name": "font-awesome-icon-chars",
+	"version": "1.0.0",
+	"description": "Font Awesome Icon Character List",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gluons/font-awesome-icon-chars.git"
+	},
+	"keywords": [
+		"font-awesome"
+	],
+	"author": {
+		"name": "Gluons"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/gluons/font-awesome-icon-chars/issues"
+	},
+	"homepage": "https://github.com/gluons/font-awesome-icon-chars#readme"
+}
