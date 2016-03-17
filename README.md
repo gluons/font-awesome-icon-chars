@@ -25,6 +25,7 @@ You can use characters list file in [character-list](https://github.com/gluons/F
   ```
   gulp make:xml
   ```
+
 ### Want ID start with `fa-`?
 Use `--fa` argument in gulp command.
 ```
