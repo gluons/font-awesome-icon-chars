@@ -1,4 +1,4 @@
-var gulp = require('gulp-param')(require('gulp'), process.argv);
+var gulp = require('gulp-help')(require('gulp-param')(require('gulp'), process.argv));
 var gutil = require('gulp-util');
 
 var plumber = require('gulp-plumber');
@@ -47,16 +47,7 @@ var createStream = function (filename, content) {
 /*
  * Gulp Tasks.
  */
-gulp.task('clean', function () {
-	var deferred = Q.defer();
-
-	del(['font-awesome/icons.json', 'character-list/*']).then(() => {
-		deferred.resolve();
-	});
-	return deferred.promise;
-});
-
-gulp.task('convert-src', ['clean'], function () {
+gulp.task('convert-src', 'Convert icons.yml source file to JSON source file.', ['clean'], function () {
 	return gulp.src('font-awesome/icons.yml')
 		.pipe(plumber())
 		.pipe(yaml({
@@ -65,14 +56,14 @@ gulp.task('convert-src', ['clean'], function () {
 		.pipe(gulp.dest('font-awesome'));
 });
 
-gulp.task('make-json', ['convert-src'], function (fa) {
+gulp.task('make:json', 'Build JSON character list file.', ['convert-src'], function (fa) {
 	var charList = loadJSON(fa);
 	var src = createStream('character-list.json', JSON.stringify(charList, null, '\t'));
 	return src.pipe(plumber())
 		.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('make-xml', ['convert-src'], function (fa) {
+gulp.task('make:xml', 'Build XML character list file.', ['convert-src'], function (fa) {
 	var charList = loadJSON(fa);
 	var xmlObj = {
 		icons: []
@@ -99,4 +90,15 @@ gulp.task('make-xml', ['convert-src'], function (fa) {
 		.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('default', ['make-json', 'make-xml']);
+gulp.task('make', 'Build all file format.', ['make:json', 'make:xml']);
+
+gulp.task('clean', 'Clean all built file & JSON source file.', function () {
+	var deferred = Q.defer();
+
+	del(['font-awesome/icons.json', 'character-list/*']).then(() => {
+		deferred.resolve();
+	});
+	return deferred.promise;
+});
+
+gulp.task('default', 'Default task. Run "make" task.', ['make']);
