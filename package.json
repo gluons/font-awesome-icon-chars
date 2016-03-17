@@ -1,23 +1,34 @@
 {
-	"name": "font-awesome-icon-chars",
-	"version": "1.0.0",
-	"description": "Font Awesome Icon Character List",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/gluons/font-awesome-icon-chars.git"
-	},
-	"keywords": [
-		"font-awesome"
-	],
-	"author": {
-		"name": "Gluons"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/gluons/font-awesome-icon-chars/issues"
-	},
-	"homepage": "https://github.com/gluons/font-awesome-icon-chars#readme"
+  "name": "font-awesome-icon-chars",
+  "version": "1.0.0",
+  "description": "Font Awesome Icon Character List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/Font-Awesome-Icon-Chars.git"
+  },
+  "keywords": [
+    "font-awesome"
+  ],
+  "author": {
+    "name": "Gluons"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gluons/Font-Awesome-Icon-Chars/issues"
+  },
+  "homepage": "https://github.com/gluons/Font-Awesome-Icon-Chars#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-param": "^1.0.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-yaml": "^1.0.1",
+    "q": "^1.4.1",
+    "xml": "^1.0.1"
+  }
 }

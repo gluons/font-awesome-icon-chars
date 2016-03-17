@@ -1,0 +1,47 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"rules": {
+		"indent": [
+			1,
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"linebreak-style": [
+			1,
+			"windows"
+		],
+		"semi": [
+			2,
+			"always"
+		],
+		"no-unused-vars": [
+			1
+		],
+		"no-console": [
+			1
+		],
+		"no-redeclare": [
+			1
+		],
+		"space-before-function-paren": [
+			0
+		],
+		"space-infix-ops": [
+			2,
+			{
+				"int32Hint": true
+			}
+		]
+	},
+	"env": {
+		"browser": true,
+		"jquery": true,
+		"node": true,
+		"es6": true
+	},
+	"extends": "eslint:recommended"
+}
