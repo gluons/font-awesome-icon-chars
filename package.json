@@ -2,7 +2,6 @@
   "name": "font-awesome-icon-chars",
   "version": "1.0.0",
   "description": "Font Awesome Icon Character List",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
