@@ -13,14 +13,17 @@ You can use characters list file in [character-list](https://github.com/gluons/F
   ```
   gulp
   ```
+
 - Convert `icons.yml` source file to JSON source file.
   ```
   gulp convert-src
   ```
+
 - Build **JSON** file.
   ```
   gulp make:json
   ```
+
 - Build **XML** file.
   ```
   gulp make:xml
