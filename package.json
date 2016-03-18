@@ -13,7 +13,8 @@
     "font-awesome"
   ],
   "author": {
-    "name": "Gluons"
+    "name": "Gluons",
+	"email": "sarunta@gmail.com"
   },
   "license": "MIT",
   "bugs": {
