@@ -2,6 +2,16 @@
 The list of [Font Awesome](http://fontawesome.io/) icon unicode characters in several file format.
 ## Icon Source
 I use icon source from [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/master/src/icons.yml)
+## Installation
+#### Bower
+```
+bower install font-awesome-icon-chars
+```
+#### NPM
+```
+npm install font-awesome-icon-chars
+```
+
 ## Usage
 You can use characters list file in [character-list](https://github.com/gluons/Font-Awesome-Icon-Chars/tree/master/character-list) directory. All files that has been built will place in this directory.
 ## Build
@@ -29,7 +39,7 @@ You can use characters list file in [character-list](https://github.com/gluons/F
   gulp make:xml
   ```
 
-### Want ID start with `fa-`?
+#### Want ID start with `fa-`?
 Use `--fa` argument in gulp command.
 ```
 gulp --fa
