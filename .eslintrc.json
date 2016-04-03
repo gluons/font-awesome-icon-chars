@@ -1,47 +1,47 @@
 {
-	"parserOptions": {
-		"ecmaVersion": 6
-	},
-	"rules": {
-		"indent": [
-			1,
-			"tab",
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "indent": [
+            "warn",
+            "tab",
 			{
-				"SwitchCase": 1
-			}
-		],
-		"linebreak-style": [
-			1,
-			"windows"
-		],
-		"semi": [
-			2,
-			"always"
-		],
-		"no-unused-vars": [
-			1
-		],
-		"no-console": [
-			1
-		],
-		"no-redeclare": [
-			1
-		],
-		"space-before-function-paren": [
-			0
-		],
-		"space-infix-ops": [
-			2,
+                "SwitchCase": 1
+            }
+        ],
+        "linebreak-style": [
+            "warn",
+            "windows"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-unused-vars": [
+            "warn"
+        ],
+        "no-console": [
+            "warn"
+        ],
+        "no-redeclare": [
+            "warn"
+        ],
+        "space-before-function-paren": [
+            "error"
+        ],
+        "space-infix-ops": [
+            "error",
 			{
-				"int32Hint": true
-			}
-		]
-	},
-	"env": {
-		"browser": true,
-		"jquery": true,
-		"node": true,
-		"es6": true
-	},
-	"extends": "eslint:recommended"
+                "int32Hint": false
+            }
+        ]
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended"
 }

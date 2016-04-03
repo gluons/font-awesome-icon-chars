@@ -7,7 +7,7 @@
 The list of [Font Awesome](http://fontawesome.io/) icon unicode characters in several file format.
 
 ## Icon Source
-I use icon source from [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/master/src/icons.yml)
+Using icon source from [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/master/src/icons.yml).
 
 ## Installation
 #### Bower
@@ -15,7 +15,7 @@ I use icon source from [icons.yml](https://github.com/FortAwesome/Font-Awesome/b
 bower install font-awesome-icon-chars
 ```
 #### NPM
-[![NPM](https://nodei.co/npm/font-awesome-icon-chars.png)](https://www.npmjs.com/package/font-awesome-icon-chars)
+[![NPM](https://nodei.co/npm/font-awesome-icon-chars.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/font-awesome-icon-chars/)
 ```
 npm install font-awesome-icon-chars
 ```
@@ -33,11 +33,6 @@ You can use characters list file in [character-list](https://github.com/gluons/F
   gulp
   ```
 
-- Convert `icons.yml` source file to JSON source file.
-  ```
-  gulp convert-src
-  ```
-
 - Build **JSON** file.
   ```
   gulp make:json
@@ -48,6 +43,11 @@ You can use characters list file in [character-list](https://github.com/gluons/F
   gulp make:xml
   ```
 
+- Build **CSON** file.
+  ```
+  gulp make:cson
+  ```
+
 #### Want ID start with `fa-`?
 Use `--fa` argument in gulp command.
 ```
@@ -55,4 +55,5 @@ gulp --fa
 gulp make --fa
 gulp make:json --fa
 gulp make:xml --fa
+gulp make:cson --fa
 ```

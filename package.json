@@ -1,10 +1,10 @@
 {
   "name": "font-awesome-icon-chars",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Font Awesome Icon Character List",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,13 +25,17 @@
   "homepage": "https://github.com/gluons/Font-Awesome-Icon-Chars#readme",
   "dependencies": {},
   "devDependencies": {
+    "chai": "^3.5.0",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-help": "^1.6.1",
+    "gulp-json2cson": "^1.0.0",
     "gulp-param": "^1.0.3",
     "gulp-plumber": "^1.1.0",
     "gulp-yaml": "^1.0.1",
+    "mocha": "^2.4.5",
     "q": "^1.4.1",
-    "xml": "^1.0.1"
+    "xml2js": "^0.4.16",
+    "xmlbuilder": "^8.2.0"
   }
 }

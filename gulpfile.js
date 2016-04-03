@@ -3,10 +3,11 @@ var gutil = require('gulp-util');
 
 var plumber = require('gulp-plumber');
 var yaml = require('gulp-yaml');
+var json2cson = require('gulp-json2cson');
 
 var Q = require('q');
 var del = require('del');
-var xml = require('xml');
+var xmlBuilder = require('xmlbuilder');
 
 /*
  * Functions.
@@ -44,53 +45,74 @@ var createStream = function (filename, content) {
 	return src;
 };
 
-/*
- * Gulp Tasks.
- */
-gulp.task('convert-src', 'Convert icons.yml source file to JSON source file.', ['clean'], function () {
-	return gulp.src('font-awesome/icons.yml')
+// Convert source file.
+var convertSrc = function () {
+	var deferred = Q.defer();
+	gulp.src('font-awesome/icons.yml')
 		.pipe(plumber())
 		.pipe(yaml({
 			space: '\t'
 		}))
-		.pipe(gulp.dest('font-awesome'));
-});
+		.pipe(gulp.dest('font-awesome'))
+		.on('end', function () {
+			deferred.resolve();
+		});
+	return deferred.promise;
+};
 
-gulp.task('make:json', 'Build JSON character list file.', ['convert-src'], function (fa) {
-	var charList = loadJSON(fa);
-	var src = createStream('character-list.json', JSON.stringify(charList, null, '\t'));
-	return src.pipe(plumber())
-		.pipe(gulp.dest('character-list'));
-});
+/*
+ * Gulp Tasks.
+ */
 
-gulp.task('make:xml', 'Build XML character list file.', ['convert-src'], function (fa) {
-	var charList = loadJSON(fa);
-	var xmlObj = {
-		icons: []
-	};
-	for (var icon of charList.icons) {
-		var iconNode = {
-			icon: [
-				{
-					_attr: {
-						id: icon.id
-					}
-				},
-				icon.unicode
-			]
-		};
-		xmlObj.icons.push(iconNode);
-	}
-	var xmlStr = xml(xmlObj, {
-		indent: '\t',
-		declaration: true
+gulp.task('make:json', 'Build JSON character list file.', function (fa) {
+	convertSrc().then(function () {
+		var charList = loadJSON(fa);
+		var src = createStream('character-list.json', JSON.stringify(charList, null, '\t'));
+		return src.pipe(plumber())
+			.pipe(gulp.dest('character-list'));
 	});
-	var src = createStream('character-list.xml', xmlStr);
-	return src.pipe(plumber())
-		.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('make', 'Build all file format.', ['make:json', 'make:xml']);
+gulp.task('make:xml', 'Build XML character list file.', function (fa) {
+	convertSrc().then(function () {
+		var charList = loadJSON(fa);
+
+		// Create XML String.
+		var xmlObj = {
+			icons: {
+				icon: []
+			}
+		};
+		for (var i in charList.icons) {
+			xmlObj.icons.icon.push({
+				'@id': charList.icons[i].id,
+				'#text': charList.icons[i].unicode
+			});
+		}
+		var xmlStr = xmlBuilder.create(xmlObj, {
+			encoding: 'UTF-8'
+		}).end({
+			pretty: true,
+			indent: '\t'
+		});
+
+		var src = createStream('character-list.xml', xmlStr);
+		return src.pipe(plumber())
+			.pipe(gulp.dest('character-list'));
+	});
+});
+
+gulp.task('make:cson', 'Build CSON character list file.', function (fa) {
+	convertSrc().then(function () {
+		var charList = loadJSON(fa);
+		var src = createStream('character-list.json', JSON.stringify(charList, null, '\t'));
+		return src.pipe(plumber())
+			.pipe(json2cson())
+			.pipe(gulp.dest('character-list'));
+	});
+});
+
+gulp.task('make', 'Build all file format.', ['make:json', 'make:xml', 'make:cson']);
 
 gulp.task('clean', 'Clean all built file & JSON source file.', function () {
 	var deferred = Q.defer();
