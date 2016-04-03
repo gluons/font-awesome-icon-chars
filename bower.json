@@ -25,7 +25,7 @@
     "node"
   ],
   "ignore": [
-	"font-awesome",
+    "font-awesome",
     "node_modules",
     "bower_components",
     "test",

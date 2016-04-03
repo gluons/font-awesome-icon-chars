@@ -26,6 +26,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
+    "cson": "^3.0.2",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-help": "^1.6.1",
