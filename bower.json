@@ -3,7 +3,8 @@
   "description": "Font Awesome Icon Character List",
   "main": [
     "character-list/character-list.json",
-    "character-list/character-list.xml"
+    "character-list/character-list.xml",
+    "character-list/character-list.cson"
   ],
   "authors": [
     {
@@ -14,7 +15,7 @@
   "license": "MIT",
   "keywords": [
     "font-awesome",
-	"font awesome"
+    "font awesome"
   ],
   "homepage": "https://github.com/gluons/Font-Awesome-Icon-Chars",
   "repository": {
