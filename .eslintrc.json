@@ -1,47 +1,47 @@
 {
-    "parserOptions": {
-        "ecmaVersion": 6
-    },
-    "rules": {
-        "indent": [
-            "warn",
-            "tab",
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"rules": {
+		"indent": [
+			"warn",
+			"tab",
 			{
-                "SwitchCase": 1
-            }
-        ],
-        "linebreak-style": [
-            "warn",
-            "windows"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "no-unused-vars": [
-            "warn"
-        ],
-        "no-console": [
-            "warn"
-        ],
-        "no-redeclare": [
-            "warn"
-        ],
-        "space-before-function-paren": [
-            "error"
-        ],
-        "space-infix-ops": [
-            "error",
+				"SwitchCase": 1
+			}
+		],
+		"linebreak-style": [
+			"warn",
+			"windows"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"no-unused-vars": [
+			"warn"
+		],
+		"no-console": [
+			"warn"
+		],
+		"no-redeclare": [
+			"warn"
+		],
+		"space-before-function-paren": [
+			"error"
+		],
+		"space-infix-ops": [
+			"error",
 			{
-                "int32Hint": false
-            }
-        ]
-    },
-    "env": {
-        "browser": true,
-        "node": true,
-        "es6": true,
-        "mocha": true
-    },
-    "extends": "eslint:recommended"
+				"int32Hint": false
+			}
+		]
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true,
+		"mocha": true
+	},
+	"extends": "eslint:recommended"
 }
