@@ -1,6 +1,6 @@
 {
   "name": "font-awesome-icon-chars",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Font Awesome Icon Character List",
   "main": "index.js",
   "scripts": {
