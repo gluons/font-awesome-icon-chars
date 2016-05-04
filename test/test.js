@@ -6,7 +6,7 @@ var yaml = require('js-yaml');
 var xml2js = require('xml2js');
 var CSON = require('cson');
 
-var iconCount = 605;
+var iconCount = 628;
 
 describe('Convert YML source file to JSON source file', function () {
 	it('should create valid JSON source file from YML source file', function (done) {

@@ -64,7 +64,7 @@ var convertSrc = function () {
  * Gulp Tasks.
  */
 
-gulp.task('make:json', 'Build JSON character list file.', function (fa) {
+gulp.task('make:json', 'Build JSON character list file.', ['clean'], function (fa) {
 	convertSrc().then(function () {
 		var charList = loadJSON(fa);
 		var src = createStream('character-list.json', JSON.stringify(charList, null, '\t'));
@@ -73,7 +73,7 @@ gulp.task('make:json', 'Build JSON character list file.', function (fa) {
 	});
 });
 
-gulp.task('make:xml', 'Build XML character list file.', function (fa) {
+gulp.task('make:xml', 'Build XML character list file.', ['clean'], function (fa) {
 	convertSrc().then(function () {
 		var charList = loadJSON(fa);
 
@@ -102,7 +102,7 @@ gulp.task('make:xml', 'Build XML character list file.', function (fa) {
 	});
 });
 
-gulp.task('make:cson', 'Build CSON character list file.', function (fa) {
+gulp.task('make:cson', 'Build CSON character list file.', ['clean'], function (fa) {
 	convertSrc().then(function () {
 		var charList = loadJSON(fa);
 		var src = createStream('character-list.json', JSON.stringify(charList, null, '\t'));
@@ -115,12 +115,7 @@ gulp.task('make:cson', 'Build CSON character list file.', function (fa) {
 gulp.task('make', 'Build all file format.', ['make:json', 'make:xml', 'make:cson']);
 
 gulp.task('clean', 'Clean all built file & JSON source file.', function () {
-	var deferred = Q.defer();
-
-	del(['font-awesome/icons.json', 'character-list/*']).then(() => {
-		deferred.resolve();
-	});
-	return deferred.promise;
+	return del(['font-awesome/icons.json', 'character-list/*']);
 });
 
 gulp.task('default', 'Default task. Run "make" task.', ['make']);

@@ -2419,4 +2419,96 @@ icons: [
     id: "percent"
     unicode: "f295"
   }
+  {
+    id: "gitlab"
+    unicode: "f296"
+  }
+  {
+    id: "wpbeginner"
+    unicode: "f297"
+  }
+  {
+    id: "wpforms"
+    unicode: "f298"
+  }
+  {
+    id: "envira"
+    unicode: "f299"
+  }
+  {
+    id: "universal-access"
+    unicode: "f29a"
+  }
+  {
+    id: "wheelchair-alt"
+    unicode: "f29b"
+  }
+  {
+    id: "question-circle-o"
+    unicode: "f29c"
+  }
+  {
+    id: "blind"
+    unicode: "f29d"
+  }
+  {
+    id: "audio-description"
+    unicode: "f29e"
+  }
+  {
+    id: "volume-control-phone"
+    unicode: "f2a0"
+  }
+  {
+    id: "braille"
+    unicode: "f2a1"
+  }
+  {
+    id: "assistive-listening-systems"
+    unicode: "f2a2"
+  }
+  {
+    id: "american-sign-language-interpreting"
+    unicode: "f2a3"
+  }
+  {
+    id: "deaf"
+    unicode: "f2a4"
+  }
+  {
+    id: "glide"
+    unicode: "f2a5"
+  }
+  {
+    id: "glide-g"
+    unicode: "f2a6"
+  }
+  {
+    id: "sign-language"
+    unicode: "f2a7"
+  }
+  {
+    id: "low-vision"
+    unicode: "f2a8"
+  }
+  {
+    id: "viadeo"
+    unicode: "f2a9"
+  }
+  {
+    id: "viadeo-square"
+    unicode: "f2aa"
+  }
+  {
+    id: "snapchat"
+    unicode: "f2ab"
+  }
+  {
+    id: "snapchat-ghost"
+    unicode: "f2ac"
+  }
+  {
+    id: "snapchat-square"
+    unicode: "f2ad"
+  }
 ]

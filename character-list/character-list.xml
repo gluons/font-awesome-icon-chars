@@ -605,4 +605,27 @@
 	<icon id="bluetooth">f293</icon>
 	<icon id="bluetooth-b">f294</icon>
 	<icon id="percent">f295</icon>
+	<icon id="gitlab">f296</icon>
+	<icon id="wpbeginner">f297</icon>
+	<icon id="wpforms">f298</icon>
+	<icon id="envira">f299</icon>
+	<icon id="universal-access">f29a</icon>
+	<icon id="wheelchair-alt">f29b</icon>
+	<icon id="question-circle-o">f29c</icon>
+	<icon id="blind">f29d</icon>
+	<icon id="audio-description">f29e</icon>
+	<icon id="volume-control-phone">f2a0</icon>
+	<icon id="braille">f2a1</icon>
+	<icon id="assistive-listening-systems">f2a2</icon>
+	<icon id="american-sign-language-interpreting">f2a3</icon>
+	<icon id="deaf">f2a4</icon>
+	<icon id="glide">f2a5</icon>
+	<icon id="glide-g">f2a6</icon>
+	<icon id="sign-language">f2a7</icon>
+	<icon id="low-vision">f2a8</icon>
+	<icon id="viadeo">f2a9</icon>
+	<icon id="viadeo-square">f2aa</icon>
+	<icon id="snapchat">f2ab</icon>
+	<icon id="snapchat-ghost">f2ac</icon>
+	<icon id="snapchat-square">f2ad</icon>
 </icons>
