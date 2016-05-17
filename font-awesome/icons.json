@@ -4587,7 +4587,7 @@
 			"name": "Instagram",
 			"id": "instagram",
 			"unicode": "f16d",
-			"created": 3.2,
+			"created": 4.6,
 			"categories": [
 				"Brand Icons"
 			]
@@ -5202,8 +5202,8 @@
 			]
 		},
 		{
-			"name": "Pied Piper Logo",
-			"id": "pied-piper",
+			"name": "Pied Piper PP Logo (Old)",
+			"id": "pied-piper-pp",
 			"unicode": "f1a7",
 			"created": 4.1,
 			"categories": [
@@ -5602,7 +5602,8 @@
 			"unicode": "f1d0",
 			"created": 4.1,
 			"aliases": [
-				"ra"
+				"ra",
+				"resistance"
 			],
 			"categories": [
 				"Brand Icons"
@@ -7392,6 +7393,7 @@
 			"id": "fort-awesome",
 			"unicode": "f286",
 			"created": 4.5,
+			"url": "fortawesome.com",
 			"categories": [
 				"Brand Icons"
 			]
@@ -7756,6 +7758,68 @@
 			"id": "snapchat-square",
 			"unicode": "f2ad",
 			"created": 4.6,
+			"categories": [
+				"Brand Icons"
+			]
+		},
+		{
+			"name": "Pied Piper Logo",
+			"id": "pied-piper",
+			"unicode": "f2ae",
+			"created": 4.6,
+			"categories": [
+				"Brand Icons"
+			]
+		},
+		{
+			"name": "First Order",
+			"id": "first-order",
+			"unicode": "f2b0",
+			"created": 4.6,
+			"categories": [
+				"Brand Icons"
+			]
+		},
+		{
+			"name": "Yoast",
+			"id": "yoast",
+			"unicode": "f2b1",
+			"created": 4.6,
+			"url": "yoast.com",
+			"categories": [
+				"Brand Icons"
+			]
+		},
+		{
+			"name": "ThemeIsle",
+			"id": "themeisle",
+			"unicode": "f2b2",
+			"created": 4.6,
+			"url": "themeisle.com",
+			"categories": [
+				"Brand Icons"
+			]
+		},
+		{
+			"name": "Google Plus Official",
+			"id": "google-plus-official",
+			"unicode": "f2b3",
+			"created": 4.6,
+			"aliases": [
+				"google-plus-circle"
+			],
+			"categories": [
+				"Brand Icons"
+			]
+		},
+		{
+			"name": "Font Awesome",
+			"id": "font-awesome",
+			"unicode": "f2b4",
+			"created": 4.6,
+			"aliases": [
+				"fa"
+			],
 			"categories": [
 				"Brand Icons"
 			]

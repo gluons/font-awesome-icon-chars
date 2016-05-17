@@ -1532,7 +1532,7 @@ icons: [
     unicode: "f1a6"
   }
   {
-    id: "pied-piper"
+    id: "pied-piper-pp"
     unicode: "f1a7"
   }
   {
@@ -2510,5 +2510,29 @@ icons: [
   {
     id: "snapchat-square"
     unicode: "f2ad"
+  }
+  {
+    id: "pied-piper"
+    unicode: "f2ae"
+  }
+  {
+    id: "first-order"
+    unicode: "f2b0"
+  }
+  {
+    id: "yoast"
+    unicode: "f2b1"
+  }
+  {
+    id: "themeisle"
+    unicode: "f2b2"
+  }
+  {
+    id: "google-plus-official"
+    unicode: "f2b3"
+  }
+  {
+    id: "font-awesome"
+    unicode: "f2b4"
   }
 ]

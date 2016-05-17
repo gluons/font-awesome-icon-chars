@@ -383,7 +383,7 @@
 	<icon id="stumbleupon">f1a4</icon>
 	<icon id="delicious">f1a5</icon>
 	<icon id="digg">f1a6</icon>
-	<icon id="pied-piper">f1a7</icon>
+	<icon id="pied-piper-pp">f1a7</icon>
 	<icon id="pied-piper-alt">f1a8</icon>
 	<icon id="drupal">f1a9</icon>
 	<icon id="joomla">f1aa</icon>
@@ -628,4 +628,10 @@
 	<icon id="snapchat">f2ab</icon>
 	<icon id="snapchat-ghost">f2ac</icon>
 	<icon id="snapchat-square">f2ad</icon>
+	<icon id="pied-piper">f2ae</icon>
+	<icon id="first-order">f2b0</icon>
+	<icon id="yoast">f2b1</icon>
+	<icon id="themeisle">f2b2</icon>
+	<icon id="google-plus-official">f2b3</icon>
+	<icon id="font-awesome">f2b4</icon>
 </icons>
