@@ -16,7 +16,7 @@ Using icon source from [icons.yml](https://github.com/FortAwesome/Font-Awesome/b
 bower install font-awesome-icon-chars
 ```
 #### NPM
-[![NPM](https://nodei.co/npm/font-awesome-icon-chars.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/font-awesome-icon-chars/)
+[![NPM](https://nodei.co/npm/font-awesome-icon-chars.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/font-awesome-icon-chars)
 ```
 npm install font-awesome-icon-chars
 ```
