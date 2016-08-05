@@ -1,121 +1,62 @@
-var gulp = require('gulp-help')(require('gulp-param')(require('gulp'), process.argv));
-var gutil = require('gulp-util');
+'use strict';
 
-var plumber = require('gulp-plumber');
-var yaml = require('gulp-yaml');
-var json2cson = require('gulp-json2cson');
+const gulp = require('gulp-help')(require('gulp-param')(require('gulp'), process.argv));
 
-var Q = require('q');
-var del = require('del');
-var xmlBuilder = require('xmlbuilder');
+const json2cson = require('gulp-json2cson');
+const plumber = require('gulp-plumber');
 
-/*
- * Functions.
- */
-// Load source JSON data to character list JSON.
-var loadJSON = function (fa) {
-	var icons = require('./font-awesome/icons.json').icons;
-	var charList = {
-		icons: []
-	};
-	for (var icon of icons) {
-		var newIcon = {
-			id: fa ? ('fa-' + icon.id) : icon.id,
-			unicode: icon.unicode
-		};
-		charList.icons.push(newIcon);
-	}
-	return charList;
-};
+const del = require('del');
+const xmlBuilder = require('xmlbuilder');
 
-// Create new file stream.
-var createStream = function (filename, content) {
-	var src = require('stream').Readable({
-		objectMode: true
-	});
-	src._read = function () {
-		this.push(new gutil.File({
-			cwd: '',
-			base: '',
-			path: filename,
-			contents: new Buffer(content)
-		}));
-		this.push(null);
-	};
-	return src;
-};
+const utils = require('./lib/utils');
 
-// Convert source file.
-var convertSrc = function () {
-	var deferred = Q.defer();
-	gulp.src('font-awesome/icons.yml')
-		.pipe(plumber())
-		.pipe(yaml({
-			space: '\t'
-		}))
-		.pipe(gulp.dest('font-awesome'))
-		.on('end', function () {
-			deferred.resolve();
-		});
-	return deferred.promise;
-};
+const filename = 'character-list';
+let icons = utils.getSource();
 
-/*
- * Gulp Tasks.
- */
-
-gulp.task('make:json', 'Build JSON character list file.', ['clean'], function (fa) {
-	convertSrc().then(function () {
-		var charList = loadJSON(fa);
-		var src = createStream('character-list.json', JSON.stringify(charList, null, '\t'));
-		return src.pipe(plumber())
+gulp.task('build:json', 'Build JSON character list file.', ['clean'], function (fa) {
+	let json = utils.convertSource(icons, fa);
+	return utils.createStream(`${filename}.json`, JSON.stringify(json, null, '\t'))
+			.pipe(plumber())
 			.pipe(gulp.dest('character-list'));
-	});
 });
 
-gulp.task('make:xml', 'Build XML character list file.', ['clean'], function (fa) {
-	convertSrc().then(function () {
-		var charList = loadJSON(fa);
-
-		// Create XML String.
-		var xmlObj = {
-			icons: {
-				icon: []
-			}
-		};
-		for (var i in charList.icons) {
-			xmlObj.icons.icon.push({
-				'@id': charList.icons[i].id,
-				'#text': charList.icons[i].unicode
-			});
+gulp.task('build:xml', 'Build XML character list file.', ['clean'], function (fa) {
+	let json = utils.convertSource(icons, fa);
+	let xmlObj = {
+		icons: {
+			icon: []
 		}
-		var xmlStr = xmlBuilder.create(xmlObj, {
-			encoding: 'UTF-8'
-		}).end({
-			pretty: true,
-			indent: '\t'
+	};
+	for(let icon of json.icons) {
+		xmlObj.icons.icon.push({
+			'@id': icon.id,
+			'#text': icon.unicode
 		});
-
-		var src = createStream('character-list.xml', xmlStr);
-		return src.pipe(plumber())
-			.pipe(gulp.dest('character-list'));
+	}
+	let xmlStr = xmlBuilder.create(xmlObj, {
+		version: '1.0',
+		encoding: 'UTF-8'
+	}).end({
+		pretty: true,
+		indent: '\t'
 	});
+	return utils.createStream(`${filename}.xml`, xmlStr)
+			.pipe(plumber())
+			.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('make:cson', 'Build CSON character list file.', ['clean'], function (fa) {
-	convertSrc().then(function () {
-		var charList = loadJSON(fa);
-		var src = createStream('character-list.json', JSON.stringify(charList, null, '\t'));
-		return src.pipe(plumber())
+gulp.task('build:cson', 'Build CSON character list file.', ['clean'], function (fa) {
+	let json = utils.convertSource(icons, fa);
+	return utils.createStream(`${filename}.cson`, JSON.stringify(json))
+			.pipe(plumber())
 			.pipe(json2cson())
 			.pipe(gulp.dest('character-list'));
-	});
 });
 
-gulp.task('make', 'Build all file format.', ['make:json', 'make:xml', 'make:cson']);
+gulp.task('build', 'Build all file format.', ['build:json', 'build:xml', 'build:cson']);
 
 gulp.task('clean', 'Clean all built file & JSON source file.', function () {
-	return del(['font-awesome/icons.json', 'character-list/*']);
+	return del(['character-list/*']);
 });
 
-gulp.task('default', 'Default task. Run "make" task.', ['make']);
+gulp.task('default', 'Default task. Run "build" task.', ['build']);

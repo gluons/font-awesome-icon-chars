@@ -1,28 +1,11 @@
-var fs = require('fs');
+const fs = require('fs');
 
-var expect = require('chai').expect;
+const expect = require('chai').expect;
 
-var yaml = require('js-yaml');
-var xml2js = require('xml2js');
-var CSON = require('cson');
+const CSON = require('cson');
+const xml2js = require('xml2js');
 
-var iconCount = 634;
-
-describe('Convert YML source file to JSON source file', function () {
-	it('should create valid JSON source file from YML source file', function (done) {
-		var jsonSource = yaml.safeLoad(fs.readFileSync('font-awesome/icons.yml', 'utf8'));
-		expect(jsonSource.icons).to.have.length(iconCount);
-		expect(jsonSource.icons[0]).to.have.all.keys([
-			'name',
-			'id',
-			'unicode',
-			'created',
-			'filter',
-			'categories'
-		]);
-		done();
-	});
-});
+const iconCount = 634;
 
 describe('Build character list files', function () {
 	it('should create valid JSON character list file', function (done) {
@@ -30,7 +13,7 @@ describe('Build character list files', function () {
 			fs.accessSync('character-list/character-list.json', fs.F_OK | fs.R_OK);
 		}).to.not.throw(Error);
 
-		var charListJSON = require('../character-list/character-list.json');
+		let charListJSON = require('../character-list/character-list.json');
 		expect(charListJSON.icons).to.have.length(iconCount);
 		expect(charListJSON.icons[0]).to.have.all.keys([
 			'id',
@@ -43,7 +26,7 @@ describe('Build character list files', function () {
 			fs.accessSync('character-list/character-list.xml', fs.F_OK | fs.R_OK);
 		}).to.not.throw(Error);
 
-		var charListXML = fs.readFileSync('character-list/character-list.xml', 'utf8');
+		let charListXML = fs.readFileSync('character-list/character-list.xml', 'utf8');
 		xml2js.parseString(charListXML, function (err, result) {
 			expect(result.icons.icon).to.have.length(iconCount);
 			expect(result.icons.icon[0].$).to.have.all.keys('id');
@@ -55,7 +38,7 @@ describe('Build character list files', function () {
 			fs.accessSync('character-list/character-list.cson', fs.F_OK | fs.R_OK);
 		}).to.not.throw(Error);
 
-		var charListCSON = CSON.parse(fs.readFileSync('character-list/character-list.cson', 'utf8'));
+		let charListCSON = CSON.parse(fs.readFileSync('character-list/character-list.cson', 'utf8'));
 		expect(charListCSON).to.not.be.instanceof(Error);
 		expect(charListCSON.icons).to.have.length(iconCount);
 		expect(charListCSON.icons[0]).to.have.all.keys([

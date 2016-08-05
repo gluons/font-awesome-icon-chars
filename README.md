@@ -22,12 +22,12 @@ npm install font-awesome-icon-chars
 ```
 
 ## Usage
-You can use characters list file in [character-list](https://github.com/gluons/Font-Awesome-Icon-Chars/tree/master/character-list) directory. All files that has been built will place in this directory.
+You can use characters list file in [character-list](./character-list) directory. All files that has been built will place in this directory.
 
 ## Build
 - Build all file.
   ```
-  gulp make
+  gulp build
   ```
   Or use default gulp task.
   ```
@@ -36,25 +36,25 @@ You can use characters list file in [character-list](https://github.com/gluons/F
 
 - Build **JSON** file.
   ```
-  gulp make:json
+  gulp build:json
   ```
 
 - Build **XML** file.
   ```
-  gulp make:xml
+  gulp build:xml
   ```
 
 - Build **CSON** file.
   ```
-  gulp make:cson
+  gulp build:cson
   ```
 
 #### Want ID start with `fa-`?
 Use `--fa` argument in gulp command.
 ```
 gulp --fa
-gulp make --fa
-gulp make:json --fa
-gulp make:xml --fa
-gulp make:cson --fa
+gulp build --fa
+gulp build:json --fa
+gulp build:xml --fa
+gulp build:cson --fa
 ```
