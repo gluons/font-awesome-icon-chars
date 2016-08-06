@@ -7,8 +7,6 @@
 
 The list of [Font Awesome](http://fontawesome.io/) icon unicode characters in several file format.
 
-## Icon Source
-Using icon source from [icons.yml](https://github.com/FortAwesome/Font-Awesome/blob/master/src/icons.yml).
 
 ## Installation
 #### Bower
@@ -22,7 +20,16 @@ npm install font-awesome-icon-chars
 ```
 
 ## Usage
-You can use characters list file in [character-list](./character-list) directory. All files that has been built will place in this directory.
+### Assets
+You can use characters list file in [character-list](./character-list) directory. All characters list files will be placed in this directory.
+### Node.js
+You will get array of icon from this module.
+```javascript
+const faIconChars = require('font-awesome-icon-chars');
+for (let icon of faIconChars) {
+	console.log(`Icon ID: ${icon.id}, Icon Unicode: ${icon.unicode}`);
+}
+```
 
 ## Build
 - Build all file.

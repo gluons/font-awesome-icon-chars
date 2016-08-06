@@ -20,7 +20,7 @@ describe('Build character list files', function () {
 
 		let charListCSON = CSON.parse(fs.readFileSync('character-list/character-list.cson', 'utf8'));
 		expect(charListCSON).to.not.be.instanceof(Error);
-		expect(charListCSON.icons).to.have.length(iconCount);
+		expect(charListCSON.icons).to.have.lengthOf(iconCount);
 		expect(charListCSON.icons[0]).to.have.all.keys([
 			'id',
 			'unicode'
@@ -32,7 +32,7 @@ describe('Build character list files', function () {
 		}).to.not.throw(Error);
 
 		let charListJSON = require('../character-list/character-list.json');
-		expect(charListJSON.icons).to.have.length(iconCount);
+		expect(charListJSON.icons).to.have.lengthOf(iconCount);
 		expect(charListJSON.icons[0]).to.have.all.keys([
 			'id',
 			'unicode'
@@ -46,7 +46,7 @@ describe('Build character list files', function () {
 
 		expect(function () {
 			let charListTOML = toml.parse(fs.readFileSync('character-list/character-list.toml', 'utf8'));
-			expect(charListTOML.icons).to.have.length(iconCount);
+			expect(charListTOML.icons).to.have.lengthOf(iconCount);
 			expect(charListTOML.icons[0]).to.have.all.keys([
 				'id',
 				'unicode'
@@ -62,7 +62,7 @@ describe('Build character list files', function () {
 		let charListXML = fs.readFileSync('character-list/character-list.xml', 'utf8');
 		xml2js.parseString(charListXML, function (err, result) {
 			expect(err).to.not.be.ok;
-			expect(result.icons.icon).to.have.length(iconCount);
+			expect(result.icons.icon).to.have.lengthOf(iconCount);
 			expect(result.icons.icon[0].$).to.have.all.keys('id');
 			done();
 		});
@@ -74,7 +74,7 @@ describe('Build character list files', function () {
 
 		expect(function () {
 			let charListYAML = yaml.safeLoad(fs.readFileSync('character-list/character-list.yaml', 'utf8'));
-			expect(charListYAML.icons).to.have.length(iconCount);
+			expect(charListYAML.icons).to.have.lengthOf(iconCount);
 			expect(charListYAML.icons[0]).to.have.all.keys([
 				'id',
 				'unicode'

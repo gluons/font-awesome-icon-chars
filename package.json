@@ -3,9 +3,6 @@
   "version": "1.1.0",
   "description": "Font Awesome Icon Character List",
   "main": "index.js",
-  "files": [
-    "character-list"
-  ],
   "scripts": {
     "build": "gulp build",
     "test": "mocha"
