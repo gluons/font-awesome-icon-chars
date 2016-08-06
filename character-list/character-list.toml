@@ -1,0 +1,2535 @@
+[[icons]]
+id = "glass"
+unicode = "f000"
+
+[[icons]]
+id = "music"
+unicode = "f001"
+
+[[icons]]
+id = "search"
+unicode = "f002"
+
+[[icons]]
+id = "envelope-o"
+unicode = "f003"
+
+[[icons]]
+id = "heart"
+unicode = "f004"
+
+[[icons]]
+id = "star"
+unicode = "f005"
+
+[[icons]]
+id = "star-o"
+unicode = "f006"
+
+[[icons]]
+id = "user"
+unicode = "f007"
+
+[[icons]]
+id = "film"
+unicode = "f008"
+
+[[icons]]
+id = "th-large"
+unicode = "f009"
+
+[[icons]]
+id = "th"
+unicode = "f00a"
+
+[[icons]]
+id = "th-list"
+unicode = "f00b"
+
+[[icons]]
+id = "check"
+unicode = "f00c"
+
+[[icons]]
+id = "times"
+unicode = "f00d"
+
+[[icons]]
+id = "search-plus"
+unicode = "f00e"
+
+[[icons]]
+id = "search-minus"
+unicode = "f010"
+
+[[icons]]
+id = "power-off"
+unicode = "f011"
+
+[[icons]]
+id = "signal"
+unicode = "f012"
+
+[[icons]]
+id = "cog"
+unicode = "f013"
+
+[[icons]]
+id = "trash-o"
+unicode = "f014"
+
+[[icons]]
+id = "home"
+unicode = "f015"
+
+[[icons]]
+id = "file-o"
+unicode = "f016"
+
+[[icons]]
+id = "clock-o"
+unicode = "f017"
+
+[[icons]]
+id = "road"
+unicode = "f018"
+
+[[icons]]
+id = "download"
+unicode = "f019"
+
+[[icons]]
+id = "arrow-circle-o-down"
+unicode = "f01a"
+
+[[icons]]
+id = "arrow-circle-o-up"
+unicode = "f01b"
+
+[[icons]]
+id = "inbox"
+unicode = "f01c"
+
+[[icons]]
+id = "play-circle-o"
+unicode = "f01d"
+
+[[icons]]
+id = "repeat"
+unicode = "f01e"
+
+[[icons]]
+id = "refresh"
+unicode = "f021"
+
+[[icons]]
+id = "list-alt"
+unicode = "f022"
+
+[[icons]]
+id = "lock"
+unicode = "f023"
+
+[[icons]]
+id = "flag"
+unicode = "f024"
+
+[[icons]]
+id = "headphones"
+unicode = "f025"
+
+[[icons]]
+id = "volume-off"
+unicode = "f026"
+
+[[icons]]
+id = "volume-down"
+unicode = "f027"
+
+[[icons]]
+id = "volume-up"
+unicode = "f028"
+
+[[icons]]
+id = "qrcode"
+unicode = "f029"
+
+[[icons]]
+id = "barcode"
+unicode = "f02a"
+
+[[icons]]
+id = "tag"
+unicode = "f02b"
+
+[[icons]]
+id = "tags"
+unicode = "f02c"
+
+[[icons]]
+id = "book"
+unicode = "f02d"
+
+[[icons]]
+id = "bookmark"
+unicode = "f02e"
+
+[[icons]]
+id = "print"
+unicode = "f02f"
+
+[[icons]]
+id = "camera"
+unicode = "f030"
+
+[[icons]]
+id = "font"
+unicode = "f031"
+
+[[icons]]
+id = "bold"
+unicode = "f032"
+
+[[icons]]
+id = "italic"
+unicode = "f033"
+
+[[icons]]
+id = "text-height"
+unicode = "f034"
+
+[[icons]]
+id = "text-width"
+unicode = "f035"
+
+[[icons]]
+id = "align-left"
+unicode = "f036"
+
+[[icons]]
+id = "align-center"
+unicode = "f037"
+
+[[icons]]
+id = "align-right"
+unicode = "f038"
+
+[[icons]]
+id = "align-justify"
+unicode = "f039"
+
+[[icons]]
+id = "list"
+unicode = "f03a"
+
+[[icons]]
+id = "outdent"
+unicode = "f03b"
+
+[[icons]]
+id = "indent"
+unicode = "f03c"
+
+[[icons]]
+id = "video-camera"
+unicode = "f03d"
+
+[[icons]]
+id = "picture-o"
+unicode = "f03e"
+
+[[icons]]
+id = "pencil"
+unicode = "f040"
+
+[[icons]]
+id = "map-marker"
+unicode = "f041"
+
+[[icons]]
+id = "adjust"
+unicode = "f042"
+
+[[icons]]
+id = "tint"
+unicode = "f043"
+
+[[icons]]
+id = "pencil-square-o"
+unicode = "f044"
+
+[[icons]]
+id = "share-square-o"
+unicode = "f045"
+
+[[icons]]
+id = "check-square-o"
+unicode = "f046"
+
+[[icons]]
+id = "arrows"
+unicode = "f047"
+
+[[icons]]
+id = "step-backward"
+unicode = "f048"
+
+[[icons]]
+id = "fast-backward"
+unicode = "f049"
+
+[[icons]]
+id = "backward"
+unicode = "f04a"
+
+[[icons]]
+id = "play"
+unicode = "f04b"
+
+[[icons]]
+id = "pause"
+unicode = "f04c"
+
+[[icons]]
+id = "stop"
+unicode = "f04d"
+
+[[icons]]
+id = "forward"
+unicode = "f04e"
+
+[[icons]]
+id = "fast-forward"
+unicode = "f050"
+
+[[icons]]
+id = "step-forward"
+unicode = "f051"
+
+[[icons]]
+id = "eject"
+unicode = "f052"
+
+[[icons]]
+id = "chevron-left"
+unicode = "f053"
+
+[[icons]]
+id = "chevron-right"
+unicode = "f054"
+
+[[icons]]
+id = "plus-circle"
+unicode = "f055"
+
+[[icons]]
+id = "minus-circle"
+unicode = "f056"
+
+[[icons]]
+id = "times-circle"
+unicode = "f057"
+
+[[icons]]
+id = "check-circle"
+unicode = "f058"
+
+[[icons]]
+id = "question-circle"
+unicode = "f059"
+
+[[icons]]
+id = "info-circle"
+unicode = "f05a"
+
+[[icons]]
+id = "crosshairs"
+unicode = "f05b"
+
+[[icons]]
+id = "times-circle-o"
+unicode = "f05c"
+
+[[icons]]
+id = "check-circle-o"
+unicode = "f05d"
+
+[[icons]]
+id = "ban"
+unicode = "f05e"
+
+[[icons]]
+id = "arrow-left"
+unicode = "f060"
+
+[[icons]]
+id = "arrow-right"
+unicode = "f061"
+
+[[icons]]
+id = "arrow-up"
+unicode = "f062"
+
+[[icons]]
+id = "arrow-down"
+unicode = "f063"
+
+[[icons]]
+id = "share"
+unicode = "f064"
+
+[[icons]]
+id = "expand"
+unicode = "f065"
+
+[[icons]]
+id = "compress"
+unicode = "f066"
+
+[[icons]]
+id = "plus"
+unicode = "f067"
+
+[[icons]]
+id = "minus"
+unicode = "f068"
+
+[[icons]]
+id = "asterisk"
+unicode = "f069"
+
+[[icons]]
+id = "exclamation-circle"
+unicode = "f06a"
+
+[[icons]]
+id = "gift"
+unicode = "f06b"
+
+[[icons]]
+id = "leaf"
+unicode = "f06c"
+
+[[icons]]
+id = "fire"
+unicode = "f06d"
+
+[[icons]]
+id = "eye"
+unicode = "f06e"
+
+[[icons]]
+id = "eye-slash"
+unicode = "f070"
+
+[[icons]]
+id = "exclamation-triangle"
+unicode = "f071"
+
+[[icons]]
+id = "plane"
+unicode = "f072"
+
+[[icons]]
+id = "calendar"
+unicode = "f073"
+
+[[icons]]
+id = "random"
+unicode = "f074"
+
+[[icons]]
+id = "comment"
+unicode = "f075"
+
+[[icons]]
+id = "magnet"
+unicode = "f076"
+
+[[icons]]
+id = "chevron-up"
+unicode = "f077"
+
+[[icons]]
+id = "chevron-down"
+unicode = "f078"
+
+[[icons]]
+id = "retweet"
+unicode = "f079"
+
+[[icons]]
+id = "shopping-cart"
+unicode = "f07a"
+
+[[icons]]
+id = "folder"
+unicode = "f07b"
+
+[[icons]]
+id = "folder-open"
+unicode = "f07c"
+
+[[icons]]
+id = "arrows-v"
+unicode = "f07d"
+
+[[icons]]
+id = "arrows-h"
+unicode = "f07e"
+
+[[icons]]
+id = "bar-chart"
+unicode = "f080"
+
+[[icons]]
+id = "twitter-square"
+unicode = "f081"
+
+[[icons]]
+id = "facebook-square"
+unicode = "f082"
+
+[[icons]]
+id = "camera-retro"
+unicode = "f083"
+
+[[icons]]
+id = "key"
+unicode = "f084"
+
+[[icons]]
+id = "cogs"
+unicode = "f085"
+
+[[icons]]
+id = "comments"
+unicode = "f086"
+
+[[icons]]
+id = "thumbs-o-up"
+unicode = "f087"
+
+[[icons]]
+id = "thumbs-o-down"
+unicode = "f088"
+
+[[icons]]
+id = "star-half"
+unicode = "f089"
+
+[[icons]]
+id = "heart-o"
+unicode = "f08a"
+
+[[icons]]
+id = "sign-out"
+unicode = "f08b"
+
+[[icons]]
+id = "linkedin-square"
+unicode = "f08c"
+
+[[icons]]
+id = "thumb-tack"
+unicode = "f08d"
+
+[[icons]]
+id = "external-link"
+unicode = "f08e"
+
+[[icons]]
+id = "sign-in"
+unicode = "f090"
+
+[[icons]]
+id = "trophy"
+unicode = "f091"
+
+[[icons]]
+id = "github-square"
+unicode = "f092"
+
+[[icons]]
+id = "upload"
+unicode = "f093"
+
+[[icons]]
+id = "lemon-o"
+unicode = "f094"
+
+[[icons]]
+id = "phone"
+unicode = "f095"
+
+[[icons]]
+id = "square-o"
+unicode = "f096"
+
+[[icons]]
+id = "bookmark-o"
+unicode = "f097"
+
+[[icons]]
+id = "phone-square"
+unicode = "f098"
+
+[[icons]]
+id = "twitter"
+unicode = "f099"
+
+[[icons]]
+id = "facebook"
+unicode = "f09a"
+
+[[icons]]
+id = "github"
+unicode = "f09b"
+
+[[icons]]
+id = "unlock"
+unicode = "f09c"
+
+[[icons]]
+id = "credit-card"
+unicode = "f09d"
+
+[[icons]]
+id = "rss"
+unicode = "f09e"
+
+[[icons]]
+id = "hdd-o"
+unicode = "f0a0"
+
+[[icons]]
+id = "bullhorn"
+unicode = "f0a1"
+
+[[icons]]
+id = "bell"
+unicode = "f0f3"
+
+[[icons]]
+id = "certificate"
+unicode = "f0a3"
+
+[[icons]]
+id = "hand-o-right"
+unicode = "f0a4"
+
+[[icons]]
+id = "hand-o-left"
+unicode = "f0a5"
+
+[[icons]]
+id = "hand-o-up"
+unicode = "f0a6"
+
+[[icons]]
+id = "hand-o-down"
+unicode = "f0a7"
+
+[[icons]]
+id = "arrow-circle-left"
+unicode = "f0a8"
+
+[[icons]]
+id = "arrow-circle-right"
+unicode = "f0a9"
+
+[[icons]]
+id = "arrow-circle-up"
+unicode = "f0aa"
+
+[[icons]]
+id = "arrow-circle-down"
+unicode = "f0ab"
+
+[[icons]]
+id = "globe"
+unicode = "f0ac"
+
+[[icons]]
+id = "wrench"
+unicode = "f0ad"
+
+[[icons]]
+id = "tasks"
+unicode = "f0ae"
+
+[[icons]]
+id = "filter"
+unicode = "f0b0"
+
+[[icons]]
+id = "briefcase"
+unicode = "f0b1"
+
+[[icons]]
+id = "arrows-alt"
+unicode = "f0b2"
+
+[[icons]]
+id = "users"
+unicode = "f0c0"
+
+[[icons]]
+id = "link"
+unicode = "f0c1"
+
+[[icons]]
+id = "cloud"
+unicode = "f0c2"
+
+[[icons]]
+id = "flask"
+unicode = "f0c3"
+
+[[icons]]
+id = "scissors"
+unicode = "f0c4"
+
+[[icons]]
+id = "files-o"
+unicode = "f0c5"
+
+[[icons]]
+id = "paperclip"
+unicode = "f0c6"
+
+[[icons]]
+id = "floppy-o"
+unicode = "f0c7"
+
+[[icons]]
+id = "square"
+unicode = "f0c8"
+
+[[icons]]
+id = "bars"
+unicode = "f0c9"
+
+[[icons]]
+id = "list-ul"
+unicode = "f0ca"
+
+[[icons]]
+id = "list-ol"
+unicode = "f0cb"
+
+[[icons]]
+id = "strikethrough"
+unicode = "f0cc"
+
+[[icons]]
+id = "underline"
+unicode = "f0cd"
+
+[[icons]]
+id = "table"
+unicode = "f0ce"
+
+[[icons]]
+id = "magic"
+unicode = "f0d0"
+
+[[icons]]
+id = "truck"
+unicode = "f0d1"
+
+[[icons]]
+id = "pinterest"
+unicode = "f0d2"
+
+[[icons]]
+id = "pinterest-square"
+unicode = "f0d3"
+
+[[icons]]
+id = "google-plus-square"
+unicode = "f0d4"
+
+[[icons]]
+id = "google-plus"
+unicode = "f0d5"
+
+[[icons]]
+id = "money"
+unicode = "f0d6"
+
+[[icons]]
+id = "caret-down"
+unicode = "f0d7"
+
+[[icons]]
+id = "caret-up"
+unicode = "f0d8"
+
+[[icons]]
+id = "caret-left"
+unicode = "f0d9"
+
+[[icons]]
+id = "caret-right"
+unicode = "f0da"
+
+[[icons]]
+id = "columns"
+unicode = "f0db"
+
+[[icons]]
+id = "sort"
+unicode = "f0dc"
+
+[[icons]]
+id = "sort-desc"
+unicode = "f0dd"
+
+[[icons]]
+id = "sort-asc"
+unicode = "f0de"
+
+[[icons]]
+id = "envelope"
+unicode = "f0e0"
+
+[[icons]]
+id = "linkedin"
+unicode = "f0e1"
+
+[[icons]]
+id = "undo"
+unicode = "f0e2"
+
+[[icons]]
+id = "gavel"
+unicode = "f0e3"
+
+[[icons]]
+id = "tachometer"
+unicode = "f0e4"
+
+[[icons]]
+id = "comment-o"
+unicode = "f0e5"
+
+[[icons]]
+id = "comments-o"
+unicode = "f0e6"
+
+[[icons]]
+id = "bolt"
+unicode = "f0e7"
+
+[[icons]]
+id = "sitemap"
+unicode = "f0e8"
+
+[[icons]]
+id = "umbrella"
+unicode = "f0e9"
+
+[[icons]]
+id = "clipboard"
+unicode = "f0ea"
+
+[[icons]]
+id = "lightbulb-o"
+unicode = "f0eb"
+
+[[icons]]
+id = "exchange"
+unicode = "f0ec"
+
+[[icons]]
+id = "cloud-download"
+unicode = "f0ed"
+
+[[icons]]
+id = "cloud-upload"
+unicode = "f0ee"
+
+[[icons]]
+id = "user-md"
+unicode = "f0f0"
+
+[[icons]]
+id = "stethoscope"
+unicode = "f0f1"
+
+[[icons]]
+id = "suitcase"
+unicode = "f0f2"
+
+[[icons]]
+id = "bell-o"
+unicode = "f0a2"
+
+[[icons]]
+id = "coffee"
+unicode = "f0f4"
+
+[[icons]]
+id = "cutlery"
+unicode = "f0f5"
+
+[[icons]]
+id = "file-text-o"
+unicode = "f0f6"
+
+[[icons]]
+id = "building-o"
+unicode = "f0f7"
+
+[[icons]]
+id = "hospital-o"
+unicode = "f0f8"
+
+[[icons]]
+id = "ambulance"
+unicode = "f0f9"
+
+[[icons]]
+id = "medkit"
+unicode = "f0fa"
+
+[[icons]]
+id = "fighter-jet"
+unicode = "f0fb"
+
+[[icons]]
+id = "beer"
+unicode = "f0fc"
+
+[[icons]]
+id = "h-square"
+unicode = "f0fd"
+
+[[icons]]
+id = "plus-square"
+unicode = "f0fe"
+
+[[icons]]
+id = "angle-double-left"
+unicode = "f100"
+
+[[icons]]
+id = "angle-double-right"
+unicode = "f101"
+
+[[icons]]
+id = "angle-double-up"
+unicode = "f102"
+
+[[icons]]
+id = "angle-double-down"
+unicode = "f103"
+
+[[icons]]
+id = "angle-left"
+unicode = "f104"
+
+[[icons]]
+id = "angle-right"
+unicode = "f105"
+
+[[icons]]
+id = "angle-up"
+unicode = "f106"
+
+[[icons]]
+id = "angle-down"
+unicode = "f107"
+
+[[icons]]
+id = "desktop"
+unicode = "f108"
+
+[[icons]]
+id = "laptop"
+unicode = "f109"
+
+[[icons]]
+id = "tablet"
+unicode = "f10a"
+
+[[icons]]
+id = "mobile"
+unicode = "f10b"
+
+[[icons]]
+id = "circle-o"
+unicode = "f10c"
+
+[[icons]]
+id = "quote-left"
+unicode = "f10d"
+
+[[icons]]
+id = "quote-right"
+unicode = "f10e"
+
+[[icons]]
+id = "spinner"
+unicode = "f110"
+
+[[icons]]
+id = "circle"
+unicode = "f111"
+
+[[icons]]
+id = "reply"
+unicode = "f112"
+
+[[icons]]
+id = "github-alt"
+unicode = "f113"
+
+[[icons]]
+id = "folder-o"
+unicode = "f114"
+
+[[icons]]
+id = "folder-open-o"
+unicode = "f115"
+
+[[icons]]
+id = "smile-o"
+unicode = "f118"
+
+[[icons]]
+id = "frown-o"
+unicode = "f119"
+
+[[icons]]
+id = "meh-o"
+unicode = "f11a"
+
+[[icons]]
+id = "gamepad"
+unicode = "f11b"
+
+[[icons]]
+id = "keyboard-o"
+unicode = "f11c"
+
+[[icons]]
+id = "flag-o"
+unicode = "f11d"
+
+[[icons]]
+id = "flag-checkered"
+unicode = "f11e"
+
+[[icons]]
+id = "terminal"
+unicode = "f120"
+
+[[icons]]
+id = "code"
+unicode = "f121"
+
+[[icons]]
+id = "reply-all"
+unicode = "f122"
+
+[[icons]]
+id = "star-half-o"
+unicode = "f123"
+
+[[icons]]
+id = "location-arrow"
+unicode = "f124"
+
+[[icons]]
+id = "crop"
+unicode = "f125"
+
+[[icons]]
+id = "code-fork"
+unicode = "f126"
+
+[[icons]]
+id = "chain-broken"
+unicode = "f127"
+
+[[icons]]
+id = "question"
+unicode = "f128"
+
+[[icons]]
+id = "info"
+unicode = "f129"
+
+[[icons]]
+id = "exclamation"
+unicode = "f12a"
+
+[[icons]]
+id = "superscript"
+unicode = "f12b"
+
+[[icons]]
+id = "subscript"
+unicode = "f12c"
+
+[[icons]]
+id = "eraser"
+unicode = "f12d"
+
+[[icons]]
+id = "puzzle-piece"
+unicode = "f12e"
+
+[[icons]]
+id = "microphone"
+unicode = "f130"
+
+[[icons]]
+id = "microphone-slash"
+unicode = "f131"
+
+[[icons]]
+id = "shield"
+unicode = "f132"
+
+[[icons]]
+id = "calendar-o"
+unicode = "f133"
+
+[[icons]]
+id = "fire-extinguisher"
+unicode = "f134"
+
+[[icons]]
+id = "rocket"
+unicode = "f135"
+
+[[icons]]
+id = "maxcdn"
+unicode = "f136"
+
+[[icons]]
+id = "chevron-circle-left"
+unicode = "f137"
+
+[[icons]]
+id = "chevron-circle-right"
+unicode = "f138"
+
+[[icons]]
+id = "chevron-circle-up"
+unicode = "f139"
+
+[[icons]]
+id = "chevron-circle-down"
+unicode = "f13a"
+
+[[icons]]
+id = "html5"
+unicode = "f13b"
+
+[[icons]]
+id = "css3"
+unicode = "f13c"
+
+[[icons]]
+id = "anchor"
+unicode = "f13d"
+
+[[icons]]
+id = "unlock-alt"
+unicode = "f13e"
+
+[[icons]]
+id = "bullseye"
+unicode = "f140"
+
+[[icons]]
+id = "ellipsis-h"
+unicode = "f141"
+
+[[icons]]
+id = "ellipsis-v"
+unicode = "f142"
+
+[[icons]]
+id = "rss-square"
+unicode = "f143"
+
+[[icons]]
+id = "play-circle"
+unicode = "f144"
+
+[[icons]]
+id = "ticket"
+unicode = "f145"
+
+[[icons]]
+id = "minus-square"
+unicode = "f146"
+
+[[icons]]
+id = "minus-square-o"
+unicode = "f147"
+
+[[icons]]
+id = "level-up"
+unicode = "f148"
+
+[[icons]]
+id = "level-down"
+unicode = "f149"
+
+[[icons]]
+id = "check-square"
+unicode = "f14a"
+
+[[icons]]
+id = "pencil-square"
+unicode = "f14b"
+
+[[icons]]
+id = "external-link-square"
+unicode = "f14c"
+
+[[icons]]
+id = "share-square"
+unicode = "f14d"
+
+[[icons]]
+id = "compass"
+unicode = "f14e"
+
+[[icons]]
+id = "caret-square-o-down"
+unicode = "f150"
+
+[[icons]]
+id = "caret-square-o-up"
+unicode = "f151"
+
+[[icons]]
+id = "caret-square-o-right"
+unicode = "f152"
+
+[[icons]]
+id = "eur"
+unicode = "f153"
+
+[[icons]]
+id = "gbp"
+unicode = "f154"
+
+[[icons]]
+id = "usd"
+unicode = "f155"
+
+[[icons]]
+id = "inr"
+unicode = "f156"
+
+[[icons]]
+id = "jpy"
+unicode = "f157"
+
+[[icons]]
+id = "rub"
+unicode = "f158"
+
+[[icons]]
+id = "krw"
+unicode = "f159"
+
+[[icons]]
+id = "btc"
+unicode = "f15a"
+
+[[icons]]
+id = "file"
+unicode = "f15b"
+
+[[icons]]
+id = "file-text"
+unicode = "f15c"
+
+[[icons]]
+id = "sort-alpha-asc"
+unicode = "f15d"
+
+[[icons]]
+id = "sort-alpha-desc"
+unicode = "f15e"
+
+[[icons]]
+id = "sort-amount-asc"
+unicode = "f160"
+
+[[icons]]
+id = "sort-amount-desc"
+unicode = "f161"
+
+[[icons]]
+id = "sort-numeric-asc"
+unicode = "f162"
+
+[[icons]]
+id = "sort-numeric-desc"
+unicode = "f163"
+
+[[icons]]
+id = "thumbs-up"
+unicode = "f164"
+
+[[icons]]
+id = "thumbs-down"
+unicode = "f165"
+
+[[icons]]
+id = "youtube-square"
+unicode = "f166"
+
+[[icons]]
+id = "youtube"
+unicode = "f167"
+
+[[icons]]
+id = "xing"
+unicode = "f168"
+
+[[icons]]
+id = "xing-square"
+unicode = "f169"
+
+[[icons]]
+id = "youtube-play"
+unicode = "f16a"
+
+[[icons]]
+id = "dropbox"
+unicode = "f16b"
+
+[[icons]]
+id = "stack-overflow"
+unicode = "f16c"
+
+[[icons]]
+id = "instagram"
+unicode = "f16d"
+
+[[icons]]
+id = "flickr"
+unicode = "f16e"
+
+[[icons]]
+id = "adn"
+unicode = "f170"
+
+[[icons]]
+id = "bitbucket"
+unicode = "f171"
+
+[[icons]]
+id = "bitbucket-square"
+unicode = "f172"
+
+[[icons]]
+id = "tumblr"
+unicode = "f173"
+
+[[icons]]
+id = "tumblr-square"
+unicode = "f174"
+
+[[icons]]
+id = "long-arrow-down"
+unicode = "f175"
+
+[[icons]]
+id = "long-arrow-up"
+unicode = "f176"
+
+[[icons]]
+id = "long-arrow-left"
+unicode = "f177"
+
+[[icons]]
+id = "long-arrow-right"
+unicode = "f178"
+
+[[icons]]
+id = "apple"
+unicode = "f179"
+
+[[icons]]
+id = "windows"
+unicode = "f17a"
+
+[[icons]]
+id = "android"
+unicode = "f17b"
+
+[[icons]]
+id = "linux"
+unicode = "f17c"
+
+[[icons]]
+id = "dribbble"
+unicode = "f17d"
+
+[[icons]]
+id = "skype"
+unicode = "f17e"
+
+[[icons]]
+id = "foursquare"
+unicode = "f180"
+
+[[icons]]
+id = "trello"
+unicode = "f181"
+
+[[icons]]
+id = "female"
+unicode = "f182"
+
+[[icons]]
+id = "male"
+unicode = "f183"
+
+[[icons]]
+id = "gratipay"
+unicode = "f184"
+
+[[icons]]
+id = "sun-o"
+unicode = "f185"
+
+[[icons]]
+id = "moon-o"
+unicode = "f186"
+
+[[icons]]
+id = "archive"
+unicode = "f187"
+
+[[icons]]
+id = "bug"
+unicode = "f188"
+
+[[icons]]
+id = "vk"
+unicode = "f189"
+
+[[icons]]
+id = "weibo"
+unicode = "f18a"
+
+[[icons]]
+id = "renren"
+unicode = "f18b"
+
+[[icons]]
+id = "pagelines"
+unicode = "f18c"
+
+[[icons]]
+id = "stack-exchange"
+unicode = "f18d"
+
+[[icons]]
+id = "arrow-circle-o-right"
+unicode = "f18e"
+
+[[icons]]
+id = "arrow-circle-o-left"
+unicode = "f190"
+
+[[icons]]
+id = "caret-square-o-left"
+unicode = "f191"
+
+[[icons]]
+id = "dot-circle-o"
+unicode = "f192"
+
+[[icons]]
+id = "wheelchair"
+unicode = "f193"
+
+[[icons]]
+id = "vimeo-square"
+unicode = "f194"
+
+[[icons]]
+id = "try"
+unicode = "f195"
+
+[[icons]]
+id = "plus-square-o"
+unicode = "f196"
+
+[[icons]]
+id = "space-shuttle"
+unicode = "f197"
+
+[[icons]]
+id = "slack"
+unicode = "f198"
+
+[[icons]]
+id = "envelope-square"
+unicode = "f199"
+
+[[icons]]
+id = "wordpress"
+unicode = "f19a"
+
+[[icons]]
+id = "openid"
+unicode = "f19b"
+
+[[icons]]
+id = "university"
+unicode = "f19c"
+
+[[icons]]
+id = "graduation-cap"
+unicode = "f19d"
+
+[[icons]]
+id = "yahoo"
+unicode = "f19e"
+
+[[icons]]
+id = "google"
+unicode = "f1a0"
+
+[[icons]]
+id = "reddit"
+unicode = "f1a1"
+
+[[icons]]
+id = "reddit-square"
+unicode = "f1a2"
+
+[[icons]]
+id = "stumbleupon-circle"
+unicode = "f1a3"
+
+[[icons]]
+id = "stumbleupon"
+unicode = "f1a4"
+
+[[icons]]
+id = "delicious"
+unicode = "f1a5"
+
+[[icons]]
+id = "digg"
+unicode = "f1a6"
+
+[[icons]]
+id = "pied-piper-pp"
+unicode = "f1a7"
+
+[[icons]]
+id = "pied-piper-alt"
+unicode = "f1a8"
+
+[[icons]]
+id = "drupal"
+unicode = "f1a9"
+
+[[icons]]
+id = "joomla"
+unicode = "f1aa"
+
+[[icons]]
+id = "language"
+unicode = "f1ab"
+
+[[icons]]
+id = "fax"
+unicode = "f1ac"
+
+[[icons]]
+id = "building"
+unicode = "f1ad"
+
+[[icons]]
+id = "child"
+unicode = "f1ae"
+
+[[icons]]
+id = "paw"
+unicode = "f1b0"
+
+[[icons]]
+id = "spoon"
+unicode = "f1b1"
+
+[[icons]]
+id = "cube"
+unicode = "f1b2"
+
+[[icons]]
+id = "cubes"
+unicode = "f1b3"
+
+[[icons]]
+id = "behance"
+unicode = "f1b4"
+
+[[icons]]
+id = "behance-square"
+unicode = "f1b5"
+
+[[icons]]
+id = "steam"
+unicode = "f1b6"
+
+[[icons]]
+id = "steam-square"
+unicode = "f1b7"
+
+[[icons]]
+id = "recycle"
+unicode = "f1b8"
+
+[[icons]]
+id = "car"
+unicode = "f1b9"
+
+[[icons]]
+id = "taxi"
+unicode = "f1ba"
+
+[[icons]]
+id = "tree"
+unicode = "f1bb"
+
+[[icons]]
+id = "spotify"
+unicode = "f1bc"
+
+[[icons]]
+id = "deviantart"
+unicode = "f1bd"
+
+[[icons]]
+id = "soundcloud"
+unicode = "f1be"
+
+[[icons]]
+id = "database"
+unicode = "f1c0"
+
+[[icons]]
+id = "file-pdf-o"
+unicode = "f1c1"
+
+[[icons]]
+id = "file-word-o"
+unicode = "f1c2"
+
+[[icons]]
+id = "file-excel-o"
+unicode = "f1c3"
+
+[[icons]]
+id = "file-powerpoint-o"
+unicode = "f1c4"
+
+[[icons]]
+id = "file-image-o"
+unicode = "f1c5"
+
+[[icons]]
+id = "file-archive-o"
+unicode = "f1c6"
+
+[[icons]]
+id = "file-audio-o"
+unicode = "f1c7"
+
+[[icons]]
+id = "file-video-o"
+unicode = "f1c8"
+
+[[icons]]
+id = "file-code-o"
+unicode = "f1c9"
+
+[[icons]]
+id = "vine"
+unicode = "f1ca"
+
+[[icons]]
+id = "codepen"
+unicode = "f1cb"
+
+[[icons]]
+id = "jsfiddle"
+unicode = "f1cc"
+
+[[icons]]
+id = "life-ring"
+unicode = "f1cd"
+
+[[icons]]
+id = "circle-o-notch"
+unicode = "f1ce"
+
+[[icons]]
+id = "rebel"
+unicode = "f1d0"
+
+[[icons]]
+id = "empire"
+unicode = "f1d1"
+
+[[icons]]
+id = "git-square"
+unicode = "f1d2"
+
+[[icons]]
+id = "git"
+unicode = "f1d3"
+
+[[icons]]
+id = "hacker-news"
+unicode = "f1d4"
+
+[[icons]]
+id = "tencent-weibo"
+unicode = "f1d5"
+
+[[icons]]
+id = "qq"
+unicode = "f1d6"
+
+[[icons]]
+id = "weixin"
+unicode = "f1d7"
+
+[[icons]]
+id = "paper-plane"
+unicode = "f1d8"
+
+[[icons]]
+id = "paper-plane-o"
+unicode = "f1d9"
+
+[[icons]]
+id = "history"
+unicode = "f1da"
+
+[[icons]]
+id = "circle-thin"
+unicode = "f1db"
+
+[[icons]]
+id = "header"
+unicode = "f1dc"
+
+[[icons]]
+id = "paragraph"
+unicode = "f1dd"
+
+[[icons]]
+id = "sliders"
+unicode = "f1de"
+
+[[icons]]
+id = "share-alt"
+unicode = "f1e0"
+
+[[icons]]
+id = "share-alt-square"
+unicode = "f1e1"
+
+[[icons]]
+id = "bomb"
+unicode = "f1e2"
+
+[[icons]]
+id = "futbol-o"
+unicode = "f1e3"
+
+[[icons]]
+id = "tty"
+unicode = "f1e4"
+
+[[icons]]
+id = "binoculars"
+unicode = "f1e5"
+
+[[icons]]
+id = "plug"
+unicode = "f1e6"
+
+[[icons]]
+id = "slideshare"
+unicode = "f1e7"
+
+[[icons]]
+id = "twitch"
+unicode = "f1e8"
+
+[[icons]]
+id = "yelp"
+unicode = "f1e9"
+
+[[icons]]
+id = "newspaper-o"
+unicode = "f1ea"
+
+[[icons]]
+id = "wifi"
+unicode = "f1eb"
+
+[[icons]]
+id = "calculator"
+unicode = "f1ec"
+
+[[icons]]
+id = "paypal"
+unicode = "f1ed"
+
+[[icons]]
+id = "google-wallet"
+unicode = "f1ee"
+
+[[icons]]
+id = "cc-visa"
+unicode = "f1f0"
+
+[[icons]]
+id = "cc-mastercard"
+unicode = "f1f1"
+
+[[icons]]
+id = "cc-discover"
+unicode = "f1f2"
+
+[[icons]]
+id = "cc-amex"
+unicode = "f1f3"
+
+[[icons]]
+id = "cc-paypal"
+unicode = "f1f4"
+
+[[icons]]
+id = "cc-stripe"
+unicode = "f1f5"
+
+[[icons]]
+id = "bell-slash"
+unicode = "f1f6"
+
+[[icons]]
+id = "bell-slash-o"
+unicode = "f1f7"
+
+[[icons]]
+id = "trash"
+unicode = "f1f8"
+
+[[icons]]
+id = "copyright"
+unicode = "f1f9"
+
+[[icons]]
+id = "at"
+unicode = "f1fa"
+
+[[icons]]
+id = "eyedropper"
+unicode = "f1fb"
+
+[[icons]]
+id = "paint-brush"
+unicode = "f1fc"
+
+[[icons]]
+id = "birthday-cake"
+unicode = "f1fd"
+
+[[icons]]
+id = "area-chart"
+unicode = "f1fe"
+
+[[icons]]
+id = "pie-chart"
+unicode = "f200"
+
+[[icons]]
+id = "line-chart"
+unicode = "f201"
+
+[[icons]]
+id = "lastfm"
+unicode = "f202"
+
+[[icons]]
+id = "lastfm-square"
+unicode = "f203"
+
+[[icons]]
+id = "toggle-off"
+unicode = "f204"
+
+[[icons]]
+id = "toggle-on"
+unicode = "f205"
+
+[[icons]]
+id = "bicycle"
+unicode = "f206"
+
+[[icons]]
+id = "bus"
+unicode = "f207"
+
+[[icons]]
+id = "ioxhost"
+unicode = "f208"
+
+[[icons]]
+id = "angellist"
+unicode = "f209"
+
+[[icons]]
+id = "cc"
+unicode = "f20a"
+
+[[icons]]
+id = "ils"
+unicode = "f20b"
+
+[[icons]]
+id = "meanpath"
+unicode = "f20c"
+
+[[icons]]
+id = "buysellads"
+unicode = "f20d"
+
+[[icons]]
+id = "connectdevelop"
+unicode = "f20e"
+
+[[icons]]
+id = "dashcube"
+unicode = "f210"
+
+[[icons]]
+id = "forumbee"
+unicode = "f211"
+
+[[icons]]
+id = "leanpub"
+unicode = "f212"
+
+[[icons]]
+id = "sellsy"
+unicode = "f213"
+
+[[icons]]
+id = "shirtsinbulk"
+unicode = "f214"
+
+[[icons]]
+id = "simplybuilt"
+unicode = "f215"
+
+[[icons]]
+id = "skyatlas"
+unicode = "f216"
+
+[[icons]]
+id = "cart-plus"
+unicode = "f217"
+
+[[icons]]
+id = "cart-arrow-down"
+unicode = "f218"
+
+[[icons]]
+id = "diamond"
+unicode = "f219"
+
+[[icons]]
+id = "ship"
+unicode = "f21a"
+
+[[icons]]
+id = "user-secret"
+unicode = "f21b"
+
+[[icons]]
+id = "motorcycle"
+unicode = "f21c"
+
+[[icons]]
+id = "street-view"
+unicode = "f21d"
+
+[[icons]]
+id = "heartbeat"
+unicode = "f21e"
+
+[[icons]]
+id = "venus"
+unicode = "f221"
+
+[[icons]]
+id = "mars"
+unicode = "f222"
+
+[[icons]]
+id = "mercury"
+unicode = "f223"
+
+[[icons]]
+id = "transgender"
+unicode = "f224"
+
+[[icons]]
+id = "transgender-alt"
+unicode = "f225"
+
+[[icons]]
+id = "venus-double"
+unicode = "f226"
+
+[[icons]]
+id = "mars-double"
+unicode = "f227"
+
+[[icons]]
+id = "venus-mars"
+unicode = "f228"
+
+[[icons]]
+id = "mars-stroke"
+unicode = "f229"
+
+[[icons]]
+id = "mars-stroke-v"
+unicode = "f22a"
+
+[[icons]]
+id = "mars-stroke-h"
+unicode = "f22b"
+
+[[icons]]
+id = "neuter"
+unicode = "f22c"
+
+[[icons]]
+id = "genderless"
+unicode = "f22d"
+
+[[icons]]
+id = "facebook-official"
+unicode = "f230"
+
+[[icons]]
+id = "pinterest-p"
+unicode = "f231"
+
+[[icons]]
+id = "whatsapp"
+unicode = "f232"
+
+[[icons]]
+id = "server"
+unicode = "f233"
+
+[[icons]]
+id = "user-plus"
+unicode = "f234"
+
+[[icons]]
+id = "user-times"
+unicode = "f235"
+
+[[icons]]
+id = "bed"
+unicode = "f236"
+
+[[icons]]
+id = "viacoin"
+unicode = "f237"
+
+[[icons]]
+id = "train"
+unicode = "f238"
+
+[[icons]]
+id = "subway"
+unicode = "f239"
+
+[[icons]]
+id = "medium"
+unicode = "f23a"
+
+[[icons]]
+id = "y-combinator"
+unicode = "f23b"
+
+[[icons]]
+id = "optin-monster"
+unicode = "f23c"
+
+[[icons]]
+id = "opencart"
+unicode = "f23d"
+
+[[icons]]
+id = "expeditedssl"
+unicode = "f23e"
+
+[[icons]]
+id = "battery-full"
+unicode = "f240"
+
+[[icons]]
+id = "battery-three-quarters"
+unicode = "f241"
+
+[[icons]]
+id = "battery-half"
+unicode = "f242"
+
+[[icons]]
+id = "battery-quarter"
+unicode = "f243"
+
+[[icons]]
+id = "battery-empty"
+unicode = "f244"
+
+[[icons]]
+id = "mouse-pointer"
+unicode = "f245"
+
+[[icons]]
+id = "i-cursor"
+unicode = "f246"
+
+[[icons]]
+id = "object-group"
+unicode = "f247"
+
+[[icons]]
+id = "object-ungroup"
+unicode = "f248"
+
+[[icons]]
+id = "sticky-note"
+unicode = "f249"
+
+[[icons]]
+id = "sticky-note-o"
+unicode = "f24a"
+
+[[icons]]
+id = "cc-jcb"
+unicode = "f24b"
+
+[[icons]]
+id = "cc-diners-club"
+unicode = "f24c"
+
+[[icons]]
+id = "clone"
+unicode = "f24d"
+
+[[icons]]
+id = "balance-scale"
+unicode = "f24e"
+
+[[icons]]
+id = "hourglass-o"
+unicode = "f250"
+
+[[icons]]
+id = "hourglass-start"
+unicode = "f251"
+
+[[icons]]
+id = "hourglass-half"
+unicode = "f252"
+
+[[icons]]
+id = "hourglass-end"
+unicode = "f253"
+
+[[icons]]
+id = "hourglass"
+unicode = "f254"
+
+[[icons]]
+id = "hand-rock-o"
+unicode = "f255"
+
+[[icons]]
+id = "hand-paper-o"
+unicode = "f256"
+
+[[icons]]
+id = "hand-scissors-o"
+unicode = "f257"
+
+[[icons]]
+id = "hand-lizard-o"
+unicode = "f258"
+
+[[icons]]
+id = "hand-spock-o"
+unicode = "f259"
+
+[[icons]]
+id = "hand-pointer-o"
+unicode = "f25a"
+
+[[icons]]
+id = "hand-peace-o"
+unicode = "f25b"
+
+[[icons]]
+id = "trademark"
+unicode = "f25c"
+
+[[icons]]
+id = "registered"
+unicode = "f25d"
+
+[[icons]]
+id = "creative-commons"
+unicode = "f25e"
+
+[[icons]]
+id = "gg"
+unicode = "f260"
+
+[[icons]]
+id = "gg-circle"
+unicode = "f261"
+
+[[icons]]
+id = "tripadvisor"
+unicode = "f262"
+
+[[icons]]
+id = "odnoklassniki"
+unicode = "f263"
+
+[[icons]]
+id = "odnoklassniki-square"
+unicode = "f264"
+
+[[icons]]
+id = "get-pocket"
+unicode = "f265"
+
+[[icons]]
+id = "wikipedia-w"
+unicode = "f266"
+
+[[icons]]
+id = "safari"
+unicode = "f267"
+
+[[icons]]
+id = "chrome"
+unicode = "f268"
+
+[[icons]]
+id = "firefox"
+unicode = "f269"
+
+[[icons]]
+id = "opera"
+unicode = "f26a"
+
+[[icons]]
+id = "internet-explorer"
+unicode = "f26b"
+
+[[icons]]
+id = "television"
+unicode = "f26c"
+
+[[icons]]
+id = "contao"
+unicode = "f26d"
+
+[[icons]]
+id = "500px"
+unicode = "f26e"
+
+[[icons]]
+id = "amazon"
+unicode = "f270"
+
+[[icons]]
+id = "calendar-plus-o"
+unicode = "f271"
+
+[[icons]]
+id = "calendar-minus-o"
+unicode = "f272"
+
+[[icons]]
+id = "calendar-times-o"
+unicode = "f273"
+
+[[icons]]
+id = "calendar-check-o"
+unicode = "f274"
+
+[[icons]]
+id = "industry"
+unicode = "f275"
+
+[[icons]]
+id = "map-pin"
+unicode = "f276"
+
+[[icons]]
+id = "map-signs"
+unicode = "f277"
+
+[[icons]]
+id = "map-o"
+unicode = "f278"
+
+[[icons]]
+id = "map"
+unicode = "f279"
+
+[[icons]]
+id = "commenting"
+unicode = "f27a"
+
+[[icons]]
+id = "commenting-o"
+unicode = "f27b"
+
+[[icons]]
+id = "houzz"
+unicode = "f27c"
+
+[[icons]]
+id = "vimeo"
+unicode = "f27d"
+
+[[icons]]
+id = "black-tie"
+unicode = "f27e"
+
+[[icons]]
+id = "fonticons"
+unicode = "f280"
+
+[[icons]]
+id = "reddit-alien"
+unicode = "f281"
+
+[[icons]]
+id = "edge"
+unicode = "f282"
+
+[[icons]]
+id = "credit-card-alt"
+unicode = "f283"
+
+[[icons]]
+id = "codiepie"
+unicode = "f284"
+
+[[icons]]
+id = "modx"
+unicode = "f285"
+
+[[icons]]
+id = "fort-awesome"
+unicode = "f286"
+
+[[icons]]
+id = "usb"
+unicode = "f287"
+
+[[icons]]
+id = "product-hunt"
+unicode = "f288"
+
+[[icons]]
+id = "mixcloud"
+unicode = "f289"
+
+[[icons]]
+id = "scribd"
+unicode = "f28a"
+
+[[icons]]
+id = "pause-circle"
+unicode = "f28b"
+
+[[icons]]
+id = "pause-circle-o"
+unicode = "f28c"
+
+[[icons]]
+id = "stop-circle"
+unicode = "f28d"
+
+[[icons]]
+id = "stop-circle-o"
+unicode = "f28e"
+
+[[icons]]
+id = "shopping-bag"
+unicode = "f290"
+
+[[icons]]
+id = "shopping-basket"
+unicode = "f291"
+
+[[icons]]
+id = "hashtag"
+unicode = "f292"
+
+[[icons]]
+id = "bluetooth"
+unicode = "f293"
+
+[[icons]]
+id = "bluetooth-b"
+unicode = "f294"
+
+[[icons]]
+id = "percent"
+unicode = "f295"
+
+[[icons]]
+id = "gitlab"
+unicode = "f296"
+
+[[icons]]
+id = "wpbeginner"
+unicode = "f297"
+
+[[icons]]
+id = "wpforms"
+unicode = "f298"
+
+[[icons]]
+id = "envira"
+unicode = "f299"
+
+[[icons]]
+id = "universal-access"
+unicode = "f29a"
+
+[[icons]]
+id = "wheelchair-alt"
+unicode = "f29b"
+
+[[icons]]
+id = "question-circle-o"
+unicode = "f29c"
+
+[[icons]]
+id = "blind"
+unicode = "f29d"
+
+[[icons]]
+id = "audio-description"
+unicode = "f29e"
+
+[[icons]]
+id = "volume-control-phone"
+unicode = "f2a0"
+
+[[icons]]
+id = "braille"
+unicode = "f2a1"
+
+[[icons]]
+id = "assistive-listening-systems"
+unicode = "f2a2"
+
+[[icons]]
+id = "american-sign-language-interpreting"
+unicode = "f2a3"
+
+[[icons]]
+id = "deaf"
+unicode = "f2a4"
+
+[[icons]]
+id = "glide"
+unicode = "f2a5"
+
+[[icons]]
+id = "glide-g"
+unicode = "f2a6"
+
+[[icons]]
+id = "sign-language"
+unicode = "f2a7"
+
+[[icons]]
+id = "low-vision"
+unicode = "f2a8"
+
+[[icons]]
+id = "viadeo"
+unicode = "f2a9"
+
+[[icons]]
+id = "viadeo-square"
+unicode = "f2aa"
+
+[[icons]]
+id = "snapchat"
+unicode = "f2ab"
+
+[[icons]]
+id = "snapchat-ghost"
+unicode = "f2ac"
+
+[[icons]]
+id = "snapchat-square"
+unicode = "f2ad"
+
+[[icons]]
+id = "pied-piper"
+unicode = "f2ae"
+
+[[icons]]
+id = "first-order"
+unicode = "f2b0"
+
+[[icons]]
+id = "yoast"
+unicode = "f2b1"
+
+[[icons]]
+id = "themeisle"
+unicode = "f2b2"
+
+[[icons]]
+id = "google-plus-official"
+unicode = "f2b3"
+
+[[icons]]
+id = "font-awesome"
+unicode = "f2b4"

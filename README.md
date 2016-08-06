@@ -34,19 +34,29 @@ You can use characters list file in [character-list](./character-list) directory
   gulp
   ```
 
-- Build **JSON** file.
+- Build **[CSON](https://github.com/bevry/cson)** file.
+  ```
+  gulp build:cson
+  ```
+
+- Build **[JSON](http://www.json.org/)** file.
   ```
   gulp build:json
   ```
 
-- Build **XML** file.
+- Build **[TOML](https://github.com/toml-lang/toml)** file.
+  ```
+  gulp build:toml
+  ```
+
+- Build **[XML](https://www.w3.org/XML/)** file.
   ```
   gulp build:xml
   ```
 
-- Build **CSON** file.
+- Build **[YAML](http://yaml.org/)** file.
   ```
-  gulp build:cson
+  gulp build:yaml
   ```
 
 #### Want ID start with `fa-`?
@@ -54,7 +64,9 @@ Use `--fa` argument in gulp command.
 ```
 gulp --fa
 gulp build --fa
-gulp build:json --fa
-gulp build:xml --fa
 gulp build:cson --fa
+gulp build:json --fa
+gulp build:toml --fa
+gulp build:xml --fa
+gulp build:yaml --fa
 ```
