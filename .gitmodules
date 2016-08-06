@@ -1,4 +1,4 @@
 [submodule "font-awesome"]
 	path = font-awesome
-	url = https://github.com/gluons/Font-Awesome-Icon-Chars.git
+	url = https://github.com/FortAwesome/Font-Awesome.git
 	branch = master
