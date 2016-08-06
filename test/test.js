@@ -6,11 +6,12 @@ const expect = require('chai').expect;
 
 const CSON = require('cson');
 const xml2js = require('xml2js');
+const yaml = require('js-yaml');
 
 const iconCount = 634;
 
 describe('Build character list files', function () {
-	it('should create valid JSON character list file', function (done) {
+	it('should create valid JSON character list file', function () {
 		expect(function () {
 			fs.accessSync('character-list/character-list.json', fs.F_OK | fs.R_OK);
 		}).to.not.throw(Error);
@@ -21,7 +22,6 @@ describe('Build character list files', function () {
 			'id',
 			'unicode'
 		]);
-		done();
 	});
 	it('should create valid XML character list file', function (done) {
 		expect(function () {
@@ -35,7 +35,7 @@ describe('Build character list files', function () {
 			done();
 		});
 	});
-	it('should create valid CSON character list file', function (done) {
+	it('should create valid CSON character list file', function () {
 		expect(function () {
 			fs.accessSync('character-list/character-list.cson', fs.F_OK | fs.R_OK);
 		}).to.not.throw(Error);
@@ -47,6 +47,19 @@ describe('Build character list files', function () {
 			'id',
 			'unicode'
 		]);
-		done();
+	});
+	it('should create valid YAML character list file', function () {
+		expect(function () {
+			fs.accessSync('character-list/character-list.yaml', fs.F_OK | fs.R_OK);
+		}).to.not.throw(Error);
+
+		expect(function () {
+			let charListYAML = yaml.safeLoad(fs.readFileSync('character-list/character-list.yaml', 'utf8'));
+			expect(charListYAML.icons).to.have.length(iconCount);
+			expect(charListYAML.icons[0]).to.have.all.keys([
+				'id',
+				'unicode'
+			]);
+		}).to.not.throw(Error);
 	});
 });

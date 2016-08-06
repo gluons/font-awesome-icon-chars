@@ -7,6 +7,7 @@ const plumber = require('gulp-plumber');
 
 const del = require('del');
 const xmlBuilder = require('xmlbuilder');
+const yaml = require('js-yaml');
 
 const utils = require('./lib/utils');
 
@@ -53,9 +54,16 @@ gulp.task('build:cson', 'Build CSON character list file.', ['clean'], function (
 			.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('build', 'Build all file format.', ['build:json', 'build:xml', 'build:cson']);
+gulp.task('build:yaml', 'Build YAML character list file.', ['clean'], function (fa) {
+	let json = utils.convertSource(icons, fa);
+	return utils.createStream(`${filename}.yaml`, '---\n' + yaml.safeDump(json))
+			.pipe(plumber())
+			.pipe(gulp.dest('character-list'));
+});
 
-gulp.task('clean', 'Clean all built file & JSON source file.', function () {
+gulp.task('build', 'Build all file format.', ['build:json', 'build:xml', 'build:cson', 'build:yaml']);
+
+gulp.task('clean', 'Clean all built files.', function () {
 	return del(['character-list/*']);
 });
 
