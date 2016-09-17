@@ -26,11 +26,12 @@
     "node"
   ],
   "ignore": [
-    "font-awesome",
+    "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests",
+    "font-awesome",
     "gulpfile.js"
   ]
 }
