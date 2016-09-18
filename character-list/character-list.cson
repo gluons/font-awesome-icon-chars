@@ -53,6 +53,10 @@ icons: [
   }
   {
     id: "times"
+    aliases: [
+      "remove"
+      "close"
+    ]
     unicode: "f00d"
   }
   {
@@ -73,6 +77,9 @@ icons: [
   }
   {
     id: "cog"
+    aliases: [
+      "gear"
+    ]
     unicode: "f013"
   }
   {
@@ -117,6 +124,9 @@ icons: [
   }
   {
     id: "repeat"
+    aliases: [
+      "rotate-right"
+    ]
     unicode: "f01e"
   }
   {
@@ -225,6 +235,9 @@ icons: [
   }
   {
     id: "outdent"
+    aliases: [
+      "dedent"
+    ]
     unicode: "f03b"
   }
   {
@@ -237,6 +250,10 @@ icons: [
   }
   {
     id: "picture-o"
+    aliases: [
+      "photo"
+      "image"
+    ]
     unicode: "f03e"
   }
   {
@@ -257,6 +274,9 @@ icons: [
   }
   {
     id: "pencil-square-o"
+    aliases: [
+      "edit"
+    ]
     unicode: "f044"
   }
   {
@@ -377,6 +397,9 @@ icons: [
   }
   {
     id: "share"
+    aliases: [
+      "mail-forward"
+    ]
     unicode: "f064"
   }
   {
@@ -425,6 +448,9 @@ icons: [
   }
   {
     id: "exclamation-triangle"
+    aliases: [
+      "warning"
+    ]
     unicode: "f071"
   }
   {
@@ -481,6 +507,9 @@ icons: [
   }
   {
     id: "bar-chart"
+    aliases: [
+      "bar-chart-o"
+    ]
     unicode: "f080"
   }
   {
@@ -501,6 +530,9 @@ icons: [
   }
   {
     id: "cogs"
+    aliases: [
+      "gears"
+    ]
     unicode: "f085"
   }
   {
@@ -581,6 +613,9 @@ icons: [
   }
   {
     id: "facebook"
+    aliases: [
+      "facebook-f"
+    ]
     unicode: "f09a"
   }
   {
@@ -597,6 +632,9 @@ icons: [
   }
   {
     id: "rss"
+    aliases: [
+      "feed"
+    ]
     unicode: "f09e"
   }
   {
@@ -673,10 +711,16 @@ icons: [
   }
   {
     id: "users"
+    aliases: [
+      "group"
+    ]
     unicode: "f0c0"
   }
   {
     id: "link"
+    aliases: [
+      "chain"
+    ]
     unicode: "f0c1"
   }
   {
@@ -689,10 +733,16 @@ icons: [
   }
   {
     id: "scissors"
+    aliases: [
+      "cut"
+    ]
     unicode: "f0c4"
   }
   {
     id: "files-o"
+    aliases: [
+      "copy"
+    ]
     unicode: "f0c5"
   }
   {
@@ -701,6 +751,9 @@ icons: [
   }
   {
     id: "floppy-o"
+    aliases: [
+      "save"
+    ]
     unicode: "f0c7"
   }
   {
@@ -709,6 +762,10 @@ icons: [
   }
   {
     id: "bars"
+    aliases: [
+      "navicon"
+      "reorder"
+    ]
     unicode: "f0c9"
   }
   {
@@ -781,14 +838,23 @@ icons: [
   }
   {
     id: "sort"
+    aliases: [
+      "unsorted"
+    ]
     unicode: "f0dc"
   }
   {
     id: "sort-desc"
+    aliases: [
+      "sort-down"
+    ]
     unicode: "f0dd"
   }
   {
     id: "sort-asc"
+    aliases: [
+      "sort-up"
+    ]
     unicode: "f0de"
   }
   {
@@ -801,14 +867,23 @@ icons: [
   }
   {
     id: "undo"
+    aliases: [
+      "rotate-left"
+    ]
     unicode: "f0e2"
   }
   {
     id: "gavel"
+    aliases: [
+      "legal"
+    ]
     unicode: "f0e3"
   }
   {
     id: "tachometer"
+    aliases: [
+      "dashboard"
+    ]
     unicode: "f0e4"
   }
   {
@@ -821,6 +896,9 @@ icons: [
   }
   {
     id: "bolt"
+    aliases: [
+      "flash"
+    ]
     unicode: "f0e7"
   }
   {
@@ -833,6 +911,9 @@ icons: [
   }
   {
     id: "clipboard"
+    aliases: [
+      "paste"
+    ]
     unicode: "f0ea"
   }
   {
@@ -957,6 +1038,9 @@ icons: [
   }
   {
     id: "mobile"
+    aliases: [
+      "mobile-phone"
+    ]
     unicode: "f10b"
   }
   {
@@ -981,6 +1065,9 @@ icons: [
   }
   {
     id: "reply"
+    aliases: [
+      "mail-reply"
+    ]
     unicode: "f112"
   }
   {
@@ -1033,10 +1120,17 @@ icons: [
   }
   {
     id: "reply-all"
+    aliases: [
+      "mail-reply-all"
+    ]
     unicode: "f122"
   }
   {
     id: "star-half-o"
+    aliases: [
+      "star-half-empty"
+      "star-half-full"
+    ]
     unicode: "f123"
   }
   {
@@ -1053,6 +1147,9 @@ icons: [
   }
   {
     id: "chain-broken"
+    aliases: [
+      "unlink"
+    ]
     unicode: "f127"
   }
   {
@@ -1205,18 +1302,30 @@ icons: [
   }
   {
     id: "caret-square-o-down"
+    aliases: [
+      "toggle-down"
+    ]
     unicode: "f150"
   }
   {
     id: "caret-square-o-up"
+    aliases: [
+      "toggle-up"
+    ]
     unicode: "f151"
   }
   {
     id: "caret-square-o-right"
+    aliases: [
+      "toggle-right"
+    ]
     unicode: "f152"
   }
   {
     id: "eur"
+    aliases: [
+      "euro"
+    ]
     unicode: "f153"
   }
   {
@@ -1225,26 +1334,47 @@ icons: [
   }
   {
     id: "usd"
+    aliases: [
+      "dollar"
+    ]
     unicode: "f155"
   }
   {
     id: "inr"
+    aliases: [
+      "rupee"
+    ]
     unicode: "f156"
   }
   {
     id: "jpy"
+    aliases: [
+      "cny"
+      "rmb"
+      "yen"
+    ]
     unicode: "f157"
   }
   {
     id: "rub"
+    aliases: [
+      "ruble"
+      "rouble"
+    ]
     unicode: "f158"
   }
   {
     id: "krw"
+    aliases: [
+      "won"
+    ]
     unicode: "f159"
   }
   {
     id: "btc"
+    aliases: [
+      "bitcoin"
+    ]
     unicode: "f15a"
   }
   {
@@ -1401,6 +1531,9 @@ icons: [
   }
   {
     id: "gratipay"
+    aliases: [
+      "gittip"
+    ]
     unicode: "f184"
   }
   {
@@ -1449,6 +1582,9 @@ icons: [
   }
   {
     id: "caret-square-o-left"
+    aliases: [
+      "toggle-left"
+    ]
     unicode: "f191"
   }
   {
@@ -1465,6 +1601,9 @@ icons: [
   }
   {
     id: "try"
+    aliases: [
+      "turkish-lira"
+    ]
     unicode: "f195"
   }
   {
@@ -1493,10 +1632,17 @@ icons: [
   }
   {
     id: "university"
+    aliases: [
+      "institution"
+      "bank"
+    ]
     unicode: "f19c"
   }
   {
     id: "graduation-cap"
+    aliases: [
+      "mortar-board"
+    ]
     unicode: "f19d"
   }
   {
@@ -1601,10 +1747,16 @@ icons: [
   }
   {
     id: "car"
+    aliases: [
+      "automobile"
+    ]
     unicode: "f1b9"
   }
   {
     id: "taxi"
+    aliases: [
+      "cab"
+    ]
     unicode: "f1ba"
   }
   {
@@ -1645,18 +1797,31 @@ icons: [
   }
   {
     id: "file-image-o"
+    aliases: [
+      "file-photo-o"
+      "file-picture-o"
+    ]
     unicode: "f1c5"
   }
   {
     id: "file-archive-o"
+    aliases: [
+      "file-zip-o"
+    ]
     unicode: "f1c6"
   }
   {
     id: "file-audio-o"
+    aliases: [
+      "file-sound-o"
+    ]
     unicode: "f1c7"
   }
   {
     id: "file-video-o"
+    aliases: [
+      "file-movie-o"
+    ]
     unicode: "f1c8"
   }
   {
@@ -1677,6 +1842,12 @@ icons: [
   }
   {
     id: "life-ring"
+    aliases: [
+      "life-bouy"
+      "life-buoy"
+      "life-saver"
+      "support"
+    ]
     unicode: "f1cd"
   }
   {
@@ -1685,10 +1856,17 @@ icons: [
   }
   {
     id: "rebel"
+    aliases: [
+      "ra"
+      "resistance"
+    ]
     unicode: "f1d0"
   }
   {
     id: "empire"
+    aliases: [
+      "ge"
+    ]
     unicode: "f1d1"
   }
   {
@@ -1701,6 +1879,10 @@ icons: [
   }
   {
     id: "hacker-news"
+    aliases: [
+      "y-combinator-square"
+      "yc-square"
+    ]
     unicode: "f1d4"
   }
   {
@@ -1713,14 +1895,23 @@ icons: [
   }
   {
     id: "weixin"
+    aliases: [
+      "wechat"
+    ]
     unicode: "f1d7"
   }
   {
     id: "paper-plane"
+    aliases: [
+      "send"
+    ]
     unicode: "f1d8"
   }
   {
     id: "paper-plane-o"
+    aliases: [
+      "send-o"
+    ]
     unicode: "f1d9"
   }
   {
@@ -1757,6 +1948,9 @@ icons: [
   }
   {
     id: "futbol-o"
+    aliases: [
+      "soccer-ball-o"
+    ]
     unicode: "f1e3"
   }
   {
@@ -1909,6 +2103,10 @@ icons: [
   }
   {
     id: "ils"
+    aliases: [
+      "shekel"
+      "sheqel"
+    ]
     unicode: "f20b"
   }
   {
@@ -1997,6 +2195,9 @@ icons: [
   }
   {
     id: "transgender"
+    aliases: [
+      "intersex"
+    ]
     unicode: "f224"
   }
   {
@@ -2061,6 +2262,9 @@ icons: [
   }
   {
     id: "bed"
+    aliases: [
+      "hotel"
+    ]
     unicode: "f236"
   }
   {
@@ -2081,6 +2285,9 @@ icons: [
   }
   {
     id: "y-combinator"
+    aliases: [
+      "yc"
+    ]
     unicode: "f23b"
   }
   {
@@ -2097,22 +2304,37 @@ icons: [
   }
   {
     id: "battery-full"
+    aliases: [
+      "battery-4"
+    ]
     unicode: "f240"
   }
   {
     id: "battery-three-quarters"
+    aliases: [
+      "battery-3"
+    ]
     unicode: "f241"
   }
   {
     id: "battery-half"
+    aliases: [
+      "battery-2"
+    ]
     unicode: "f242"
   }
   {
     id: "battery-quarter"
+    aliases: [
+      "battery-1"
+    ]
     unicode: "f243"
   }
   {
     id: "battery-empty"
+    aliases: [
+      "battery-0"
+    ]
     unicode: "f244"
   }
   {
@@ -2161,14 +2383,23 @@ icons: [
   }
   {
     id: "hourglass-start"
+    aliases: [
+      "hourglass-1"
+    ]
     unicode: "f251"
   }
   {
     id: "hourglass-half"
+    aliases: [
+      "hourglass-2"
+    ]
     unicode: "f252"
   }
   {
     id: "hourglass-end"
+    aliases: [
+      "hourglass-3"
+    ]
     unicode: "f253"
   }
   {
@@ -2177,10 +2408,16 @@ icons: [
   }
   {
     id: "hand-rock-o"
+    aliases: [
+      "hand-grab-o"
+    ]
     unicode: "f255"
   }
   {
     id: "hand-paper-o"
+    aliases: [
+      "hand-stop-o"
+    ]
     unicode: "f256"
   }
   {
@@ -2265,6 +2502,9 @@ icons: [
   }
   {
     id: "television"
+    aliases: [
+      "tv"
+    ]
     unicode: "f26c"
   }
   {
@@ -2469,10 +2709,17 @@ icons: [
   }
   {
     id: "american-sign-language-interpreting"
+    aliases: [
+      "asl-interpreting"
+    ]
     unicode: "f2a3"
   }
   {
     id: "deaf"
+    aliases: [
+      "deafness"
+      "hard-of-hearing"
+    ]
     unicode: "f2a4"
   }
   {
@@ -2485,6 +2732,9 @@ icons: [
   }
   {
     id: "sign-language"
+    aliases: [
+      "signing"
+    ]
     unicode: "f2a7"
   }
   {
@@ -2529,10 +2779,16 @@ icons: [
   }
   {
     id: "google-plus-official"
+    aliases: [
+      "google-plus-circle"
+    ]
     unicode: "f2b3"
   }
   {
     id: "font-awesome"
+    aliases: [
+      "fa"
+    ]
     unicode: "f2b4"
   }
 ]

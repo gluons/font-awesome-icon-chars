@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = (function () {
-	var charList = require('./character-list/character-list.json');
+	let charList = require('./character-list/character-list.json');
 	return charList.icons;
 })();

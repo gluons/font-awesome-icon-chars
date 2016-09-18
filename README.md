@@ -77,3 +77,44 @@ gulp build:toml --fa
 gulp build:xml --fa
 gulp build:yaml --fa
 ```
+
+# Note
+#### Version 1.1.1 - XML file breaking change.
+After [version 1.1.1](https://github.com/gluons/Font-Awesome-Icon-Chars/releases/tag/v1.1.1), **Font-Awesome-Icon-Chars** now support [FontAwesome](https://github.com/FortAwesome/Font-Awesome) **aliases**.
+
+So I have to change XML file structure.
+
+Other files have new `aliases` property.
+
+**Before 1.1.1:**
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+	<icon id="glass">f000</icon>
+	<icon id="music">f001</icon>
+	.
+	.
+	.
+</icons>
+```
+
+**After 1.1.1:**
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+	<icon id="glass">
+		<unicode>f000</unicode>
+	</icon>
+	.
+	.
+	.
+	<icon id="times">
+		<alias>remove</alias>
+		<alias>close</alias>
+		<unicode>f00d</unicode>
+	</icon>
+	.
+	.
+	.
+</icons>
+```

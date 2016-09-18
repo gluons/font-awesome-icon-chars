@@ -45,10 +45,22 @@ gulp.task('build:xml', 'Build XML character list file.', ['clean'], function (fa
 		}
 	};
 	for(let icon of json.icons) {
-		xmlObj.icons.icon.push({
+		let iconObj = {};
+		if (icon.aliases) {
+			iconObj.alias = [];
+			for (let alias of icon.aliases) {
+				iconObj.alias.push({
+					'#text': alias
+				});
+			}
+		}
+		Object.assign(iconObj, {
 			'@id': icon.id,
-			'#text': icon.unicode
+			unicode: {
+				'#text': icon.unicode
+			}
 		});
+		xmlObj.icons.icon.push(iconObj);
 	}
 	let xmlStr = xmlBuilder.create(xmlObj, {
 		version: '1.0',
