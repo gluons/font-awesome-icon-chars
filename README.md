@@ -80,7 +80,7 @@ gulp build:yaml --fa
 
 # Note
 #### Version 1.1.1 - XML file breaking change.
-After [version 1.1.1](https://github.com/gluons/Font-Awesome-Icon-Chars/releases/tag/v1.1.1), **Font-Awesome-Icon-Chars** now support [FontAwesome](https://github.com/FortAwesome/Font-Awesome) **aliases**.
+After [version 1.1.1](https://github.com/gluons/Font-Awesome-Icon-Chars/releases/tag/v1.1.1), **Font-Awesome-Icon-Chars** now support [Font Awesome](https://github.com/FortAwesome/Font-Awesome) **aliases**.
 
 So I have to change XML file structure.
 
