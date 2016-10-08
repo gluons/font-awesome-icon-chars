@@ -2,17 +2,21 @@
 
 const fs = require('fs');
 
-const expect = require('chai').expect;
+const chai = require('chai');
+const expect = chai.expect;
+const _ = require('lodash');
 
 const CSON = require('cson');
 const toml = require('toml');
 const xml2js = require('xml2js');
 const yaml = require('js-yaml');
 
-const iconCount = require('./icon-count.json').count;
+const iconCount = require('./icon-count.json');
+
+chai.use(require('chai-things'));
 
 describe('Build character list files', function () {
-	this.slow(500);
+	this.slow(1000);
 	it('should create valid CSON character list file', function () {
 		expect(function () {
 			fs.accessSync('character-list/character-list.cson', fs.F_OK | fs.R_OK);
@@ -21,11 +25,13 @@ describe('Build character list files', function () {
 		let charListCSON = CSON.parse(fs.readFileSync('character-list/character-list.cson', 'utf8'));
 		expect(charListCSON).to.not.be.instanceof(Error);
 		expect(charListCSON.icons).to.be.instanceof(Array);
-		expect(charListCSON.icons).to.have.lengthOf(iconCount);
-		expect(charListCSON.icons[0]).to.have.all.keys([
-			'id',
-			'unicode'
-		]);
+		expect(charListCSON.icons).to.have.lengthOf(iconCount.count);
+		expect(charListCSON.icons).to.have.all.property('id');
+		expect(charListCSON.icons).to.have.all.property('unicode');
+		_.each(iconCount.aliases, (aliasCount, id) => {
+			let item = _.find(charListCSON.icons, { id: id });
+			expect(item.aliases).to.have.lengthOf(aliasCount);
+		});
 	});
 	it('should create valid JSON character list file', function () {
 		expect(function () {
@@ -34,11 +40,13 @@ describe('Build character list files', function () {
 
 		let charListJSON = require('../character-list/character-list.json');
 		expect(charListJSON.icons).to.be.instanceof(Array);
-		expect(charListJSON.icons).to.have.lengthOf(iconCount);
-		expect(charListJSON.icons[0]).to.have.all.keys([
-			'id',
-			'unicode'
-		]);
+		expect(charListJSON.icons).to.have.lengthOf(iconCount.count);
+		expect(charListJSON.icons).to.have.all.property('id');
+		expect(charListJSON.icons).to.have.all.property('unicode');
+		_.each(iconCount.aliases, (aliasCount, id) => {
+			let item = _.find(charListJSON.icons, { id: id });
+			expect(item.aliases).to.have.lengthOf(aliasCount);
+		});
 	});
 	it('should create valid TOML character list file', function () {
 		expect(function () {
@@ -48,11 +56,13 @@ describe('Build character list files', function () {
 		expect(function () {
 			let charListTOML = toml.parse(fs.readFileSync('character-list/character-list.toml', 'utf8'));
 			expect(charListTOML.icons).to.be.instanceof(Array);
-			expect(charListTOML.icons).to.have.lengthOf(iconCount);
-			expect(charListTOML.icons[0]).to.have.all.keys([
-				'id',
-				'unicode'
-			]);
+			expect(charListTOML.icons).to.have.lengthOf(iconCount.count);
+			expect(charListTOML.icons).to.have.all.property('id');
+			expect(charListTOML.icons).to.have.all.property('unicode');
+			_.each(iconCount.aliases, (aliasCount, id) => {
+				let item = _.find(charListTOML.icons, { id: id });
+				expect(item.aliases).to.have.lengthOf(aliasCount);
+			});
 		}).to.not.throw(Error);
 	});
 	it('should create valid XML character list file', function (done) {
@@ -64,12 +74,12 @@ describe('Build character list files', function () {
 		xml2js.parseString(charListXML, function (err, result) {
 			expect(err).to.not.be.ok;
 			expect(result.icons.icon).to.be.instanceof(Array);
-			expect(result.icons.icon).to.have.lengthOf(iconCount);
-			expect(result.icons.icon[0]).to.have.all.keys([
-				'$',
-				'unicode'
-			]);
-			expect(result.icons.icon[0].$).to.have.all.keys('id');
+			expect(result.icons.icon).to.have.lengthOf(iconCount.count);
+			expect(result.icons.icon).to.have.all.property('$');
+			expect(result.icons.icon).to.have.all.property('unicode');
+			_.each(result.icons.icon, (item) => {
+				expect([item.$]).to.have.all.keys('id');
+			});
 			done();
 		});
 	});
@@ -81,11 +91,13 @@ describe('Build character list files', function () {
 		expect(function () {
 			let charListYAML = yaml.safeLoad(fs.readFileSync('character-list/character-list.yaml', 'utf8'));
 			expect(charListYAML.icons).to.be.instanceof(Array);
-			expect(charListYAML.icons).to.have.lengthOf(iconCount);
-			expect(charListYAML.icons[0]).to.have.all.keys([
-				'id',
-				'unicode'
-			]);
+			expect(charListYAML.icons).to.have.lengthOf(iconCount.count);
+			expect(charListYAML.icons).to.have.all.property('id');
+			expect(charListYAML.icons).to.have.all.property('unicode');
+			_.each(iconCount.aliases, (aliasCount, id) => {
+				let item = _.find(charListYAML.icons, { id: id });
+				expect(item.aliases).to.have.lengthOf(aliasCount);
+			});
 		}).to.not.throw(Error);
 	});
 });

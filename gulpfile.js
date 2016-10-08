@@ -13,7 +13,11 @@ const yaml = require('js-yaml');
 const utils = require('./lib/utils');
 
 const filename = 'character-list';
-let icons = utils.getSource();
+const icons = utils.getSource();
+
+gulp.task('clean', 'Clean all built files.', function () {
+	return del(['character-list/*']);
+});
 
 gulp.task('build:cson', 'Build CSON character list file.', ['clean'], function (fa) {
 	let json = utils.convertSource(icons, fa);
@@ -83,8 +87,19 @@ gulp.task('build:yaml', 'Build YAML character list file.', ['clean'], function (
 
 gulp.task('build', 'Build all file format.', ['build:cson', 'build:json', 'build:toml', 'build:xml', 'build:yaml']);
 
-gulp.task('clean', 'Clean all built files.', function () {
-	return del(['character-list/*']);
+gulp.task('count:test', 'Count Font Awesome icons for testing.', function () {
+	let json = utils.convertSource(icons);
+	let iconCount = {
+		count: json.icons.length,
+		aliases: {}
+	};
+	for (let icon of json.icons) {
+		if (icon.aliases) {
+			iconCount.aliases[icon.id] = icon.aliases.length;
+		}
+	}
+	return utils.createStream('icon-count.json', JSON.stringify(iconCount, null, '\t'))
+			.pipe(gulp.dest('test'));
 });
 
 gulp.task('default', 'Default task. Run "build" task.', ['build']);

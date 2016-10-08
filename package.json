@@ -27,6 +27,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "*",
+    "chai-things": "^0.2.0",
     "cson": "^3.0.2",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
@@ -35,6 +36,7 @@
     "gulp-param": "^1.0.3",
     "gulp-plumber": "^1.1.0",
     "js-yaml": "^3.5.5",
+    "lodash": "^4.16.4",
     "mocha": "*",
     "toml": "^2.3.0",
     "tomlify-j0.4": "^1.0.1",
