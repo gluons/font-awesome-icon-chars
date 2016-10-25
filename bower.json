@@ -1,6 +1,6 @@
 {
   "name": "font-awesome-icon-chars",
-  "description": "Font Awesome Icon Character List",
+  "description": "The list of Font Awesome icon unicode characters in several file format",
   "main": [
     "character-list/character-list.cson",
     "character-list/character-list.json",
