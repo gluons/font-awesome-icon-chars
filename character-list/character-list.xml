@@ -1653,6 +1653,7 @@
 	</icon>
 	<icon id="battery-full">
 		<alias>battery-4</alias>
+		<alias>battery</alias>
 		<unicode>f240</unicode>
 	</icon>
 	<icon id="battery-three-quarters">
@@ -1997,5 +1998,142 @@
 	<icon id="font-awesome">
 		<alias>fa</alias>
 		<unicode>f2b4</unicode>
+	</icon>
+	<icon id="handshake-o">
+		<unicode>f2b5</unicode>
+	</icon>
+	<icon id="envelope-open">
+		<unicode>f2b6</unicode>
+	</icon>
+	<icon id="envelope-open-o">
+		<unicode>f2b7</unicode>
+	</icon>
+	<icon id="linode">
+		<unicode>f2b8</unicode>
+	</icon>
+	<icon id="address-book">
+		<unicode>f2b9</unicode>
+	</icon>
+	<icon id="address-book-o">
+		<unicode>f2ba</unicode>
+	</icon>
+	<icon id="address-card">
+		<alias>vcard</alias>
+		<unicode>f2bb</unicode>
+	</icon>
+	<icon id="address-card-o">
+		<alias>vcard-o</alias>
+		<unicode>f2bc</unicode>
+	</icon>
+	<icon id="user-circle">
+		<unicode>f2bd</unicode>
+	</icon>
+	<icon id="user-circle-o">
+		<unicode>f2be</unicode>
+	</icon>
+	<icon id="user-o">
+		<unicode>f2c0</unicode>
+	</icon>
+	<icon id="id-badge">
+		<unicode>f2c1</unicode>
+	</icon>
+	<icon id="id-card">
+		<alias>drivers-license</alias>
+		<unicode>f2c2</unicode>
+	</icon>
+	<icon id="id-card-o">
+		<alias>drivers-license-o</alias>
+		<unicode>f2c3</unicode>
+	</icon>
+	<icon id="quora">
+		<unicode>f2c4</unicode>
+	</icon>
+	<icon id="free-code-camp">
+		<unicode>f2c5</unicode>
+	</icon>
+	<icon id="telegram">
+		<unicode>f2c6</unicode>
+	</icon>
+	<icon id="thermometer-full">
+		<alias>thermometer-4</alias>
+		<alias>thermometer</alias>
+		<unicode>f2c7</unicode>
+	</icon>
+	<icon id="thermometer-three-quarters">
+		<alias>thermometer-3</alias>
+		<unicode>f2c8</unicode>
+	</icon>
+	<icon id="thermometer-half">
+		<alias>thermometer-2</alias>
+		<unicode>f2c9</unicode>
+	</icon>
+	<icon id="thermometer-quarter">
+		<alias>thermometer-1</alias>
+		<unicode>f2ca</unicode>
+	</icon>
+	<icon id="thermometer-empty">
+		<alias>thermometer-0</alias>
+		<unicode>f2cb</unicode>
+	</icon>
+	<icon id="shower">
+		<unicode>f2cc</unicode>
+	</icon>
+	<icon id="bath">
+		<alias>bathtub</alias>
+		<alias>s15</alias>
+		<unicode>f2cd</unicode>
+	</icon>
+	<icon id="podcast">
+		<unicode>f2ce</unicode>
+	</icon>
+	<icon id="window-maximize">
+		<unicode>f2d0</unicode>
+	</icon>
+	<icon id="window-minimize">
+		<unicode>f2d1</unicode>
+	</icon>
+	<icon id="window-restore">
+		<unicode>f2d2</unicode>
+	</icon>
+	<icon id="window-close">
+		<alias>times-rectangle</alias>
+		<unicode>f2d3</unicode>
+	</icon>
+	<icon id="window-close-o">
+		<alias>times-rectangle-o</alias>
+		<unicode>f2d4</unicode>
+	</icon>
+	<icon id="bandcamp">
+		<unicode>f2d5</unicode>
+	</icon>
+	<icon id="grav">
+		<unicode>f2d6</unicode>
+	</icon>
+	<icon id="etsy">
+		<unicode>f2d7</unicode>
+	</icon>
+	<icon id="imdb">
+		<unicode>f2d8</unicode>
+	</icon>
+	<icon id="ravelry">
+		<unicode>f2d9</unicode>
+	</icon>
+	<icon id="eercast">
+		<unicode>f2da</unicode>
+	</icon>
+	<icon id="microchip">
+		<unicode>f2db</unicode>
+	</icon>
+	<icon id="snowflake-o">
+		<unicode>f2dc</unicode>
+	</icon>
+	<icon id="superpowers">
+		<unicode>f2dd</unicode>
+	</icon>
+	<icon id="wpexplorer">
+		<unicode>f2de</unicode>
+	</icon>
+	<icon id="meetup">
+		<unicode>f2e0</unicode>
 	</icon>
 </icons>

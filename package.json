@@ -1,6 +1,6 @@
 {
   "name": "font-awesome-icon-chars",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Font Awesome Icon Character List",
   "main": "index.js",
   "scripts": {
@@ -15,10 +15,7 @@
     "font-awesome",
     "font awesome"
   ],
-  "author": {
-    "name": "Gluons",
-    "email": "sarunta@gmail.com"
-  },
+  "author": "Saran Tanpituckpong <sarunta@gmail>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gluons/Font-Awesome-Icon-Chars/issues"

@@ -2,15 +2,14 @@
   "name": "font-awesome-icon-chars",
   "description": "Font Awesome Icon Character List",
   "main": [
+    "character-list/character-list.cson",
     "character-list/character-list.json",
+    "character-list/character-list.toml",
     "character-list/character-list.xml",
-    "character-list/character-list.cson"
+    "character-list/character-list.yaml"
   ],
   "authors": [
-    {
-      "name": "Gluons",
-      "email": "sarunta@gmail.com"
-    }
+    "Saran Tanpituckpong <sarunta@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -20,7 +19,7 @@
   "homepage": "https://github.com/gluons/Font-Awesome-Icon-Chars",
   "repository": {
     "type": "git",
-	"url": "git+https://github.com/gluons/Font-Awesome-Icon-Chars.git"
+    "url": "git+https://github.com/gluons/Font-Awesome-Icon-Chars.git"
   },
   "moduleType": [
     "node"

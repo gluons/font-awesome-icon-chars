@@ -2160,7 +2160,7 @@ unicode = "f23e"
 
 [[icons]]
 id = "battery-full"
-aliases = ["battery-4"]
+aliases = ["battery-4", "battery"]
 unicode = "f240"
 
 [[icons]]
@@ -2613,3 +2613,179 @@ unicode = "f2b3"
 id = "font-awesome"
 aliases = ["fa"]
 unicode = "f2b4"
+
+[[icons]]
+id = "handshake-o"
+unicode = "f2b5"
+
+[[icons]]
+id = "envelope-open"
+unicode = "f2b6"
+
+[[icons]]
+id = "envelope-open-o"
+unicode = "f2b7"
+
+[[icons]]
+id = "linode"
+unicode = "f2b8"
+
+[[icons]]
+id = "address-book"
+unicode = "f2b9"
+
+[[icons]]
+id = "address-book-o"
+unicode = "f2ba"
+
+[[icons]]
+id = "address-card"
+aliases = ["vcard"]
+unicode = "f2bb"
+
+[[icons]]
+id = "address-card-o"
+aliases = ["vcard-o"]
+unicode = "f2bc"
+
+[[icons]]
+id = "user-circle"
+unicode = "f2bd"
+
+[[icons]]
+id = "user-circle-o"
+unicode = "f2be"
+
+[[icons]]
+id = "user-o"
+unicode = "f2c0"
+
+[[icons]]
+id = "id-badge"
+unicode = "f2c1"
+
+[[icons]]
+id = "id-card"
+aliases = ["drivers-license"]
+unicode = "f2c2"
+
+[[icons]]
+id = "id-card-o"
+aliases = ["drivers-license-o"]
+unicode = "f2c3"
+
+[[icons]]
+id = "quora"
+unicode = "f2c4"
+
+[[icons]]
+id = "free-code-camp"
+unicode = "f2c5"
+
+[[icons]]
+id = "telegram"
+unicode = "f2c6"
+
+[[icons]]
+id = "thermometer-full"
+aliases = ["thermometer-4", "thermometer"]
+unicode = "f2c7"
+
+[[icons]]
+id = "thermometer-three-quarters"
+aliases = ["thermometer-3"]
+unicode = "f2c8"
+
+[[icons]]
+id = "thermometer-half"
+aliases = ["thermometer-2"]
+unicode = "f2c9"
+
+[[icons]]
+id = "thermometer-quarter"
+aliases = ["thermometer-1"]
+unicode = "f2ca"
+
+[[icons]]
+id = "thermometer-empty"
+aliases = ["thermometer-0"]
+unicode = "f2cb"
+
+[[icons]]
+id = "shower"
+unicode = "f2cc"
+
+[[icons]]
+id = "bath"
+aliases = ["bathtub", "s15"]
+unicode = "f2cd"
+
+[[icons]]
+id = "podcast"
+unicode = "f2ce"
+
+[[icons]]
+id = "window-maximize"
+unicode = "f2d0"
+
+[[icons]]
+id = "window-minimize"
+unicode = "f2d1"
+
+[[icons]]
+id = "window-restore"
+unicode = "f2d2"
+
+[[icons]]
+id = "window-close"
+aliases = ["times-rectangle"]
+unicode = "f2d3"
+
+[[icons]]
+id = "window-close-o"
+aliases = ["times-rectangle-o"]
+unicode = "f2d4"
+
+[[icons]]
+id = "bandcamp"
+unicode = "f2d5"
+
+[[icons]]
+id = "grav"
+unicode = "f2d6"
+
+[[icons]]
+id = "etsy"
+unicode = "f2d7"
+
+[[icons]]
+id = "imdb"
+unicode = "f2d8"
+
+[[icons]]
+id = "ravelry"
+unicode = "f2d9"
+
+[[icons]]
+id = "eercast"
+unicode = "f2da"
+
+[[icons]]
+id = "microchip"
+unicode = "f2db"
+
+[[icons]]
+id = "snowflake-o"
+unicode = "f2dc"
+
+[[icons]]
+id = "superpowers"
+unicode = "f2dd"
+
+[[icons]]
+id = "wpexplorer"
+unicode = "f2de"
+
+[[icons]]
+id = "meetup"
+unicode = "f2e0"

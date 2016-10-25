@@ -2306,7 +2306,8 @@
 		{
 			"id": "battery-full",
 			"aliases": [
-				"battery-4"
+				"battery-4",
+				"battery"
 			],
 			"unicode": "f240"
 		},
@@ -2791,6 +2792,208 @@
 				"fa"
 			],
 			"unicode": "f2b4"
+		},
+		{
+			"id": "handshake-o",
+			"unicode": "f2b5"
+		},
+		{
+			"id": "envelope-open",
+			"unicode": "f2b6"
+		},
+		{
+			"id": "envelope-open-o",
+			"unicode": "f2b7"
+		},
+		{
+			"id": "linode",
+			"unicode": "f2b8"
+		},
+		{
+			"id": "address-book",
+			"unicode": "f2b9"
+		},
+		{
+			"id": "address-book-o",
+			"unicode": "f2ba"
+		},
+		{
+			"id": "address-card",
+			"aliases": [
+				"vcard"
+			],
+			"unicode": "f2bb"
+		},
+		{
+			"id": "address-card-o",
+			"aliases": [
+				"vcard-o"
+			],
+			"unicode": "f2bc"
+		},
+		{
+			"id": "user-circle",
+			"unicode": "f2bd"
+		},
+		{
+			"id": "user-circle-o",
+			"unicode": "f2be"
+		},
+		{
+			"id": "user-o",
+			"unicode": "f2c0"
+		},
+		{
+			"id": "id-badge",
+			"unicode": "f2c1"
+		},
+		{
+			"id": "id-card",
+			"aliases": [
+				"drivers-license"
+			],
+			"unicode": "f2c2"
+		},
+		{
+			"id": "id-card-o",
+			"aliases": [
+				"drivers-license-o"
+			],
+			"unicode": "f2c3"
+		},
+		{
+			"id": "quora",
+			"unicode": "f2c4"
+		},
+		{
+			"id": "free-code-camp",
+			"unicode": "f2c5"
+		},
+		{
+			"id": "telegram",
+			"unicode": "f2c6"
+		},
+		{
+			"id": "thermometer-full",
+			"aliases": [
+				"thermometer-4",
+				"thermometer"
+			],
+			"unicode": "f2c7"
+		},
+		{
+			"id": "thermometer-three-quarters",
+			"aliases": [
+				"thermometer-3"
+			],
+			"unicode": "f2c8"
+		},
+		{
+			"id": "thermometer-half",
+			"aliases": [
+				"thermometer-2"
+			],
+			"unicode": "f2c9"
+		},
+		{
+			"id": "thermometer-quarter",
+			"aliases": [
+				"thermometer-1"
+			],
+			"unicode": "f2ca"
+		},
+		{
+			"id": "thermometer-empty",
+			"aliases": [
+				"thermometer-0"
+			],
+			"unicode": "f2cb"
+		},
+		{
+			"id": "shower",
+			"unicode": "f2cc"
+		},
+		{
+			"id": "bath",
+			"aliases": [
+				"bathtub",
+				"s15"
+			],
+			"unicode": "f2cd"
+		},
+		{
+			"id": "podcast",
+			"unicode": "f2ce"
+		},
+		{
+			"id": "window-maximize",
+			"unicode": "f2d0"
+		},
+		{
+			"id": "window-minimize",
+			"unicode": "f2d1"
+		},
+		{
+			"id": "window-restore",
+			"unicode": "f2d2"
+		},
+		{
+			"id": "window-close",
+			"aliases": [
+				"times-rectangle"
+			],
+			"unicode": "f2d3"
+		},
+		{
+			"id": "window-close-o",
+			"aliases": [
+				"times-rectangle-o"
+			],
+			"unicode": "f2d4"
+		},
+		{
+			"id": "bandcamp",
+			"unicode": "f2d5"
+		},
+		{
+			"id": "grav",
+			"unicode": "f2d6"
+		},
+		{
+			"id": "etsy",
+			"unicode": "f2d7"
+		},
+		{
+			"id": "imdb",
+			"unicode": "f2d8"
+		},
+		{
+			"id": "ravelry",
+			"unicode": "f2d9"
+		},
+		{
+			"id": "eercast",
+			"unicode": "f2da"
+		},
+		{
+			"id": "microchip",
+			"unicode": "f2db"
+		},
+		{
+			"id": "snowflake-o",
+			"unicode": "f2dc"
+		},
+		{
+			"id": "superpowers",
+			"unicode": "f2dd"
+		},
+		{
+			"id": "wpexplorer",
+			"unicode": "f2de"
+		},
+		{
+			"id": "meetup",
+			"unicode": "f2e0"
 		}
 	]
 }

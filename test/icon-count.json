@@ -1,5 +1,5 @@
 {
-	"count": 634,
+	"count": 675,
 	"aliases": {
 		"times": 2,
 		"cog": 1,
@@ -65,7 +65,7 @@
 		"transgender": 1,
 		"bed": 1,
 		"y-combinator": 1,
-		"battery-full": 1,
+		"battery-full": 2,
 		"battery-three-quarters": 1,
 		"battery-half": 1,
 		"battery-quarter": 1,
@@ -80,6 +80,18 @@
 		"deaf": 2,
 		"sign-language": 1,
 		"google-plus-official": 1,
-		"font-awesome": 1
+		"font-awesome": 1,
+		"address-card": 1,
+		"address-card-o": 1,
+		"id-card": 1,
+		"id-card-o": 1,
+		"thermometer-full": 2,
+		"thermometer-three-quarters": 1,
+		"thermometer-half": 1,
+		"thermometer-quarter": 1,
+		"thermometer-empty": 1,
+		"bath": 2,
+		"window-close": 1,
+		"window-close-o": 1
 	}
 }
