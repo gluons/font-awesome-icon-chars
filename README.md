@@ -4,6 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/font-awesome-icon-chars.svg?style=flat-square)](https://www.npmjs.com/package/font-awesome-icon-chars)
 [![Bower](https://img.shields.io/bower/v/font-awesome-icon-chars.svg?style=flat-square)](https://github.com/gluons/Font-Awesome-Icon-Chars)
 [![Travis](https://img.shields.io/travis/gluons/Font-Awesome-Icon-Chars.svg?style=flat-square)](https://travis-ci.org/gluons/Font-Awesome-Icon-Chars)
+[![ESLint Gluons](https://img.shields.io/badge/code%20style-gluons-9C27B0.svg?style=flat-square)](https://github.com/gluons/eslint-config-gluons)
 
 The list of [Font Awesome](http://fontawesome.io/) icon unicode characters in several file format.
 
@@ -79,42 +80,5 @@ gulp build:yaml --fa
 ```
 
 # Note
-#### Version 1.1.1 - XML file breaking change.
-After [version 1.1.1](https://github.com/gluons/Font-Awesome-Icon-Chars/releases/tag/v1.1.1), **Font-Awesome-Icon-Chars** now support [Font Awesome](https://github.com/FortAwesome/Font-Awesome) **aliases**.
-
-So I have to change XML file structure.
-
-Other files have new `aliases` property.
-
-**Before 1.1.1:**
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<icons>
-	<icon id="glass">f000</icon>
-	<icon id="music">f001</icon>
-	.
-	.
-	.
-</icons>
-```
-
-**After 1.1.1:**
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<icons>
-	<icon id="glass">
-		<unicode>f000</unicode>
-	</icon>
-	.
-	.
-	.
-	<icon id="times">
-		<alias>remove</alias>
-		<alias>close</alias>
-		<unicode>f00d</unicode>
-	</icon>
-	.
-	.
-	.
-</icons>
-```
+#### Version 1.1.1 - XML file breaking change
+Read on [Wiki](https://github.com/gluons/Font-Awesome-Icon-Chars/wiki/Version-1.1.1---XML-file-breaking-change).

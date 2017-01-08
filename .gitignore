@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/node,windows
+# Created by https://www.gitignore.io/api/node,bower,windows
 
 ### Node ###
 # Logs
@@ -38,14 +38,32 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
+# Optional eslint cache
+.eslintcache
+
 # Optional REPL history
 .node_repl_history
 
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
 
 ### Windows ###
-# Windows image file caches
+# Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
 
 # Folder config file
 Desktop.ini
@@ -61,4 +79,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# End of https://www.gitignore.io/api/node,bower,windows
 

@@ -29,7 +29,7 @@ describe('Build character list files', function () {
 		expect(charListCSON.icons).to.have.all.property('id');
 		expect(charListCSON.icons).to.have.all.property('unicode');
 		_.each(iconCount.aliases, (aliasCount, id) => {
-			let item = _.find(charListCSON.icons, { id: id });
+			let item = _.find(charListCSON.icons, { id });
 			expect(item.aliases).to.have.lengthOf(aliasCount);
 		});
 	});
@@ -44,7 +44,7 @@ describe('Build character list files', function () {
 		expect(charListJSON.icons).to.have.all.property('id');
 		expect(charListJSON.icons).to.have.all.property('unicode');
 		_.each(iconCount.aliases, (aliasCount, id) => {
-			let item = _.find(charListJSON.icons, { id: id });
+			let item = _.find(charListJSON.icons, { id });
 			expect(item.aliases).to.have.lengthOf(aliasCount);
 		});
 	});
@@ -60,7 +60,7 @@ describe('Build character list files', function () {
 			expect(charListTOML.icons).to.have.all.property('id');
 			expect(charListTOML.icons).to.have.all.property('unicode');
 			_.each(iconCount.aliases, (aliasCount, id) => {
-				let item = _.find(charListTOML.icons, { id: id });
+				let item = _.find(charListTOML.icons, { id });
 				expect(item.aliases).to.have.lengthOf(aliasCount);
 			});
 		}).to.not.throw(Error);
@@ -77,7 +77,7 @@ describe('Build character list files', function () {
 			expect(result.icons.icon).to.have.lengthOf(iconCount.count);
 			expect(result.icons.icon).to.have.all.property('$');
 			expect(result.icons.icon).to.have.all.property('unicode');
-			_.each(result.icons.icon, (item) => {
+			_.each(result.icons.icon, item => {
 				expect([item.$]).to.have.all.keys('id');
 			});
 			done();
@@ -95,7 +95,7 @@ describe('Build character list files', function () {
 			expect(charListYAML.icons).to.have.all.property('id');
 			expect(charListYAML.icons).to.have.all.property('unicode');
 			_.each(iconCount.aliases, (aliasCount, id) => {
-				let item = _.find(charListYAML.icons, { id: id });
+				let item = _.find(charListYAML.icons, { id });
 				expect(item.aliases).to.have.lengthOf(aliasCount);
 			});
 		}).to.not.throw(Error);

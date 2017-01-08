@@ -48,7 +48,7 @@ gulp.task('build:xml', 'Build XML character list file.', ['clean'], function (fa
 			icon: []
 		}
 	};
-	for(let icon of json.icons) {
+	for (let icon of json.icons) {
 		let iconObj = {};
 		if (icon.aliases) {
 			iconObj.alias = [];
@@ -80,7 +80,9 @@ gulp.task('build:xml', 'Build XML character list file.', ['clean'], function (fa
 
 gulp.task('build:yaml', 'Build YAML character list file.', ['clean'], function (fa) {
 	let json = utils.convertSource(icons, fa);
-	return utils.createStream(`${filename}.yaml`, '---\n' + yaml.safeDump(json))
+	let yamlStr = '---\n';
+	yamlStr += yaml.safeDump(json);
+	return utils.createStream(`${filename}.yaml`, yamlStr)
 			.pipe(plumber())
 			.pipe(gulp.dest('character-list'));
 });

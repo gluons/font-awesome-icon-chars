@@ -18,7 +18,7 @@ describe('Node module', function () {
 		expect(faIconChars).to.have.all.property('id');
 		expect(faIconChars).to.have.all.property('unicode');
 		_.each(iconCount.aliases, (aliasCount, id) => {
-			let item = _.find(faIconChars, { id: id });
+			let item = _.find(faIconChars, { id });
 			expect(item.aliases).to.have.lengthOf(aliasCount);
 		});
 	});

@@ -2,10 +2,12 @@
   "name": "font-awesome-icon-chars",
   "version": "1.1.2",
   "description": "The list of Font Awesome icon unicode characters in several file format",
-  "main": "index.js",
+  "main": "./index.js",
+  "types": "./definition/font-awesome-icon-chars.d.ts",
   "scripts": {
-    "build": "gulp build",
-    "test": "mocha"
+    "build": "gulp",
+    "pretest": "gulp count:test",
+    "test": "mocha --harmony"
   },
   "repository": {
     "type": "git",
@@ -25,15 +27,16 @@
   "devDependencies": {
     "chai": "*",
     "chai-things": "^0.2.0",
-    "cson": "^3.0.2",
+    "cson": "^4.0.0",
     "del": "^2.2.0",
+    "eslint": "^3.13.0",
+    "eslint-config-gluons": "^1.0.4",
     "gulp": "^3.9.1",
     "gulp-help": "^1.6.1",
     "gulp-json2cson": "^1.0.0",
     "gulp-param": "^1.0.3",
     "gulp-plumber": "^1.1.0",
     "js-yaml": "^3.5.5",
-    "lodash": "^4.16.4",
     "mocha": "*",
     "toml": "^2.3.0",
     "tomlify-j0.4": "^1.0.1",
