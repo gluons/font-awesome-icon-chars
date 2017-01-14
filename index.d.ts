@@ -1,5 +1,5 @@
 declare namespace FontAwesomeIconChars {
-	interface Icon {
+	export interface Icon {
 		id: string;
 		aliases?: string[];
 		unicode: string;
@@ -9,5 +9,5 @@ declare namespace FontAwesomeIconChars {
 declare let faIconChars: FontAwesomeIconChars.Icon[];
 
 declare module 'font-awesome-icon-chars' {
-	export default faIconChars;
+	export = faIconChars;
 }

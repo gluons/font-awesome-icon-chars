@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "description": "The list of Font Awesome icon unicode characters in several file format",
   "main": "./index.js",
-  "types": "./definition/font-awesome-icon-chars.d.ts",
+  "typings": "./index.d.ts",
   "scripts": {
     "build": "gulp",
     "pretest": "gulp count:test",
