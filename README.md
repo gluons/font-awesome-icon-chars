@@ -1,4 +1,6 @@
 # Font Awesome Icon Character List
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/gluons/Font-Awesome-Icon-Chars.svg)](https://greenkeeper.io/)
 ![GitHub license](https://img.shields.io/github/license/gluons/Font-Awesome-Icon-Chars.svg?style=flat-square)
 [![npm](https://img.shields.io/npm/v/font-awesome-icon-chars.svg?style=flat-square)](https://www.npmjs.com/package/font-awesome-icon-chars)
 [![npm](https://img.shields.io/npm/dt/font-awesome-icon-chars.svg?style=flat-square)](https://www.npmjs.com/package/font-awesome-icon-chars)
