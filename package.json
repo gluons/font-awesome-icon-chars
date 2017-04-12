@@ -30,7 +30,7 @@
     "cson": "^4.0.0",
     "del": "^2.2.0",
     "eslint": "^3.13.0",
-    "eslint-config-gluons": "^1.0.4",
+    "eslint-config-gluons": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-help": "^1.6.1",
     "gulp-json2cson": "^1.0.0",
