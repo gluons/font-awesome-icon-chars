@@ -40,7 +40,7 @@
     "js-yaml": "^3.5.5",
     "mocha": "*",
     "toml": "^2.3.0",
-    "tomlify-j0.4": "^1.0.1",
+    "tomlify-j0.4": "^2.0.0",
     "xml2js": "^0.4.16",
     "xmlbuilder": "^8.2.0"
   }
