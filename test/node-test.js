@@ -4,7 +4,7 @@ const chai = require('chai');
 const expect = chai.expect;
 const _ = require('lodash');
 
-const faIconChars = require('../');
+const faIconChars = require('../dist');
 
 const iconCount = require('./icon-count.json');
 

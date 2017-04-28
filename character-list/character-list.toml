@@ -52,7 +52,10 @@ unicode = "f00c"
 
 [[icons]]
 id = "times"
-aliases = ["remove", "close"]
+aliases = [
+  "remove",
+  "close"
+]
 unicode = "f00d"
 
 [[icons]]
@@ -73,7 +76,9 @@ unicode = "f012"
 
 [[icons]]
 id = "cog"
-aliases = ["gear"]
+aliases = [
+  "gear"
+]
 unicode = "f013"
 
 [[icons]]
@@ -118,7 +123,9 @@ unicode = "f01d"
 
 [[icons]]
 id = "repeat"
-aliases = ["rotate-right"]
+aliases = [
+  "rotate-right"
+]
 unicode = "f01e"
 
 [[icons]]
@@ -227,7 +234,9 @@ unicode = "f03a"
 
 [[icons]]
 id = "outdent"
-aliases = ["dedent"]
+aliases = [
+  "dedent"
+]
 unicode = "f03b"
 
 [[icons]]
@@ -240,7 +249,10 @@ unicode = "f03d"
 
 [[icons]]
 id = "picture-o"
-aliases = ["photo", "image"]
+aliases = [
+  "photo",
+  "image"
+]
 unicode = "f03e"
 
 [[icons]]
@@ -261,7 +273,9 @@ unicode = "f043"
 
 [[icons]]
 id = "pencil-square-o"
-aliases = ["edit"]
+aliases = [
+  "edit"
+]
 unicode = "f044"
 
 [[icons]]
@@ -382,7 +396,9 @@ unicode = "f063"
 
 [[icons]]
 id = "share"
-aliases = ["mail-forward"]
+aliases = [
+  "mail-forward"
+]
 unicode = "f064"
 
 [[icons]]
@@ -431,7 +447,9 @@ unicode = "f070"
 
 [[icons]]
 id = "exclamation-triangle"
-aliases = ["warning"]
+aliases = [
+  "warning"
+]
 unicode = "f071"
 
 [[icons]]
@@ -488,7 +506,9 @@ unicode = "f07e"
 
 [[icons]]
 id = "bar-chart"
-aliases = ["bar-chart-o"]
+aliases = [
+  "bar-chart-o"
+]
 unicode = "f080"
 
 [[icons]]
@@ -509,7 +529,9 @@ unicode = "f084"
 
 [[icons]]
 id = "cogs"
-aliases = ["gears"]
+aliases = [
+  "gears"
+]
 unicode = "f085"
 
 [[icons]]
@@ -590,7 +612,9 @@ unicode = "f099"
 
 [[icons]]
 id = "facebook"
-aliases = ["facebook-f"]
+aliases = [
+  "facebook-f"
+]
 unicode = "f09a"
 
 [[icons]]
@@ -607,7 +631,9 @@ unicode = "f09d"
 
 [[icons]]
 id = "rss"
-aliases = ["feed"]
+aliases = [
+  "feed"
+]
 unicode = "f09e"
 
 [[icons]]
@@ -684,12 +710,16 @@ unicode = "f0b2"
 
 [[icons]]
 id = "users"
-aliases = ["group"]
+aliases = [
+  "group"
+]
 unicode = "f0c0"
 
 [[icons]]
 id = "link"
-aliases = ["chain"]
+aliases = [
+  "chain"
+]
 unicode = "f0c1"
 
 [[icons]]
@@ -702,12 +732,16 @@ unicode = "f0c3"
 
 [[icons]]
 id = "scissors"
-aliases = ["cut"]
+aliases = [
+  "cut"
+]
 unicode = "f0c4"
 
 [[icons]]
 id = "files-o"
-aliases = ["copy"]
+aliases = [
+  "copy"
+]
 unicode = "f0c5"
 
 [[icons]]
@@ -716,7 +750,9 @@ unicode = "f0c6"
 
 [[icons]]
 id = "floppy-o"
-aliases = ["save"]
+aliases = [
+  "save"
+]
 unicode = "f0c7"
 
 [[icons]]
@@ -725,7 +761,10 @@ unicode = "f0c8"
 
 [[icons]]
 id = "bars"
-aliases = ["navicon", "reorder"]
+aliases = [
+  "navicon",
+  "reorder"
+]
 unicode = "f0c9"
 
 [[icons]]
@@ -798,17 +837,23 @@ unicode = "f0db"
 
 [[icons]]
 id = "sort"
-aliases = ["unsorted"]
+aliases = [
+  "unsorted"
+]
 unicode = "f0dc"
 
 [[icons]]
 id = "sort-desc"
-aliases = ["sort-down"]
+aliases = [
+  "sort-down"
+]
 unicode = "f0dd"
 
 [[icons]]
 id = "sort-asc"
-aliases = ["sort-up"]
+aliases = [
+  "sort-up"
+]
 unicode = "f0de"
 
 [[icons]]
@@ -821,17 +866,23 @@ unicode = "f0e1"
 
 [[icons]]
 id = "undo"
-aliases = ["rotate-left"]
+aliases = [
+  "rotate-left"
+]
 unicode = "f0e2"
 
 [[icons]]
 id = "gavel"
-aliases = ["legal"]
+aliases = [
+  "legal"
+]
 unicode = "f0e3"
 
 [[icons]]
 id = "tachometer"
-aliases = ["dashboard"]
+aliases = [
+  "dashboard"
+]
 unicode = "f0e4"
 
 [[icons]]
@@ -844,7 +895,9 @@ unicode = "f0e6"
 
 [[icons]]
 id = "bolt"
-aliases = ["flash"]
+aliases = [
+  "flash"
+]
 unicode = "f0e7"
 
 [[icons]]
@@ -857,7 +910,9 @@ unicode = "f0e9"
 
 [[icons]]
 id = "clipboard"
-aliases = ["paste"]
+aliases = [
+  "paste"
+]
 unicode = "f0ea"
 
 [[icons]]
@@ -982,7 +1037,9 @@ unicode = "f10a"
 
 [[icons]]
 id = "mobile"
-aliases = ["mobile-phone"]
+aliases = [
+  "mobile-phone"
+]
 unicode = "f10b"
 
 [[icons]]
@@ -1007,7 +1064,9 @@ unicode = "f111"
 
 [[icons]]
 id = "reply"
-aliases = ["mail-reply"]
+aliases = [
+  "mail-reply"
+]
 unicode = "f112"
 
 [[icons]]
@@ -1060,12 +1119,17 @@ unicode = "f121"
 
 [[icons]]
 id = "reply-all"
-aliases = ["mail-reply-all"]
+aliases = [
+  "mail-reply-all"
+]
 unicode = "f122"
 
 [[icons]]
 id = "star-half-o"
-aliases = ["star-half-empty", "star-half-full"]
+aliases = [
+  "star-half-empty",
+  "star-half-full"
+]
 unicode = "f123"
 
 [[icons]]
@@ -1082,7 +1146,9 @@ unicode = "f126"
 
 [[icons]]
 id = "chain-broken"
-aliases = ["unlink"]
+aliases = [
+  "unlink"
+]
 unicode = "f127"
 
 [[icons]]
@@ -1235,22 +1301,30 @@ unicode = "f14e"
 
 [[icons]]
 id = "caret-square-o-down"
-aliases = ["toggle-down"]
+aliases = [
+  "toggle-down"
+]
 unicode = "f150"
 
 [[icons]]
 id = "caret-square-o-up"
-aliases = ["toggle-up"]
+aliases = [
+  "toggle-up"
+]
 unicode = "f151"
 
 [[icons]]
 id = "caret-square-o-right"
-aliases = ["toggle-right"]
+aliases = [
+  "toggle-right"
+]
 unicode = "f152"
 
 [[icons]]
 id = "eur"
-aliases = ["euro"]
+aliases = [
+  "euro"
+]
 unicode = "f153"
 
 [[icons]]
@@ -1259,32 +1333,47 @@ unicode = "f154"
 
 [[icons]]
 id = "usd"
-aliases = ["dollar"]
+aliases = [
+  "dollar"
+]
 unicode = "f155"
 
 [[icons]]
 id = "inr"
-aliases = ["rupee"]
+aliases = [
+  "rupee"
+]
 unicode = "f156"
 
 [[icons]]
 id = "jpy"
-aliases = ["cny", "rmb", "yen"]
+aliases = [
+  "cny",
+  "rmb",
+  "yen"
+]
 unicode = "f157"
 
 [[icons]]
 id = "rub"
-aliases = ["ruble", "rouble"]
+aliases = [
+  "ruble",
+  "rouble"
+]
 unicode = "f158"
 
 [[icons]]
 id = "krw"
-aliases = ["won"]
+aliases = [
+  "won"
+]
 unicode = "f159"
 
 [[icons]]
 id = "btc"
-aliases = ["bitcoin"]
+aliases = [
+  "bitcoin"
+]
 unicode = "f15a"
 
 [[icons]]
@@ -1441,7 +1530,9 @@ unicode = "f183"
 
 [[icons]]
 id = "gratipay"
-aliases = ["gittip"]
+aliases = [
+  "gittip"
+]
 unicode = "f184"
 
 [[icons]]
@@ -1490,7 +1581,9 @@ unicode = "f190"
 
 [[icons]]
 id = "caret-square-o-left"
-aliases = ["toggle-left"]
+aliases = [
+  "toggle-left"
+]
 unicode = "f191"
 
 [[icons]]
@@ -1507,7 +1600,9 @@ unicode = "f194"
 
 [[icons]]
 id = "try"
-aliases = ["turkish-lira"]
+aliases = [
+  "turkish-lira"
+]
 unicode = "f195"
 
 [[icons]]
@@ -1536,12 +1631,17 @@ unicode = "f19b"
 
 [[icons]]
 id = "university"
-aliases = ["institution", "bank"]
+aliases = [
+  "institution",
+  "bank"
+]
 unicode = "f19c"
 
 [[icons]]
 id = "graduation-cap"
-aliases = ["mortar-board"]
+aliases = [
+  "mortar-board"
+]
 unicode = "f19d"
 
 [[icons]]
@@ -1646,12 +1746,16 @@ unicode = "f1b8"
 
 [[icons]]
 id = "car"
-aliases = ["automobile"]
+aliases = [
+  "automobile"
+]
 unicode = "f1b9"
 
 [[icons]]
 id = "taxi"
-aliases = ["cab"]
+aliases = [
+  "cab"
+]
 unicode = "f1ba"
 
 [[icons]]
@@ -1692,22 +1796,31 @@ unicode = "f1c4"
 
 [[icons]]
 id = "file-image-o"
-aliases = ["file-photo-o", "file-picture-o"]
+aliases = [
+  "file-photo-o",
+  "file-picture-o"
+]
 unicode = "f1c5"
 
 [[icons]]
 id = "file-archive-o"
-aliases = ["file-zip-o"]
+aliases = [
+  "file-zip-o"
+]
 unicode = "f1c6"
 
 [[icons]]
 id = "file-audio-o"
-aliases = ["file-sound-o"]
+aliases = [
+  "file-sound-o"
+]
 unicode = "f1c7"
 
 [[icons]]
 id = "file-video-o"
-aliases = ["file-movie-o"]
+aliases = [
+  "file-movie-o"
+]
 unicode = "f1c8"
 
 [[icons]]
@@ -1728,7 +1841,12 @@ unicode = "f1cc"
 
 [[icons]]
 id = "life-ring"
-aliases = ["life-bouy", "life-buoy", "life-saver", "support"]
+aliases = [
+  "life-bouy",
+  "life-buoy",
+  "life-saver",
+  "support"
+]
 unicode = "f1cd"
 
 [[icons]]
@@ -1737,12 +1855,17 @@ unicode = "f1ce"
 
 [[icons]]
 id = "rebel"
-aliases = ["ra", "resistance"]
+aliases = [
+  "ra",
+  "resistance"
+]
 unicode = "f1d0"
 
 [[icons]]
 id = "empire"
-aliases = ["ge"]
+aliases = [
+  "ge"
+]
 unicode = "f1d1"
 
 [[icons]]
@@ -1755,7 +1878,10 @@ unicode = "f1d3"
 
 [[icons]]
 id = "hacker-news"
-aliases = ["y-combinator-square", "yc-square"]
+aliases = [
+  "y-combinator-square",
+  "yc-square"
+]
 unicode = "f1d4"
 
 [[icons]]
@@ -1768,17 +1894,23 @@ unicode = "f1d6"
 
 [[icons]]
 id = "weixin"
-aliases = ["wechat"]
+aliases = [
+  "wechat"
+]
 unicode = "f1d7"
 
 [[icons]]
 id = "paper-plane"
-aliases = ["send"]
+aliases = [
+  "send"
+]
 unicode = "f1d8"
 
 [[icons]]
 id = "paper-plane-o"
-aliases = ["send-o"]
+aliases = [
+  "send-o"
+]
 unicode = "f1d9"
 
 [[icons]]
@@ -1815,7 +1947,9 @@ unicode = "f1e2"
 
 [[icons]]
 id = "futbol-o"
-aliases = ["soccer-ball-o"]
+aliases = [
+  "soccer-ball-o"
+]
 unicode = "f1e3"
 
 [[icons]]
@@ -1968,7 +2102,10 @@ unicode = "f20a"
 
 [[icons]]
 id = "ils"
-aliases = ["shekel", "sheqel"]
+aliases = [
+  "shekel",
+  "sheqel"
+]
 unicode = "f20b"
 
 [[icons]]
@@ -2057,7 +2194,9 @@ unicode = "f223"
 
 [[icons]]
 id = "transgender"
-aliases = ["intersex"]
+aliases = [
+  "intersex"
+]
 unicode = "f224"
 
 [[icons]]
@@ -2122,7 +2261,9 @@ unicode = "f235"
 
 [[icons]]
 id = "bed"
-aliases = ["hotel"]
+aliases = [
+  "hotel"
+]
 unicode = "f236"
 
 [[icons]]
@@ -2143,7 +2284,9 @@ unicode = "f23a"
 
 [[icons]]
 id = "y-combinator"
-aliases = ["yc"]
+aliases = [
+  "yc"
+]
 unicode = "f23b"
 
 [[icons]]
@@ -2160,27 +2303,38 @@ unicode = "f23e"
 
 [[icons]]
 id = "battery-full"
-aliases = ["battery-4", "battery"]
+aliases = [
+  "battery-4",
+  "battery"
+]
 unicode = "f240"
 
 [[icons]]
 id = "battery-three-quarters"
-aliases = ["battery-3"]
+aliases = [
+  "battery-3"
+]
 unicode = "f241"
 
 [[icons]]
 id = "battery-half"
-aliases = ["battery-2"]
+aliases = [
+  "battery-2"
+]
 unicode = "f242"
 
 [[icons]]
 id = "battery-quarter"
-aliases = ["battery-1"]
+aliases = [
+  "battery-1"
+]
 unicode = "f243"
 
 [[icons]]
 id = "battery-empty"
-aliases = ["battery-0"]
+aliases = [
+  "battery-0"
+]
 unicode = "f244"
 
 [[icons]]
@@ -2229,17 +2383,23 @@ unicode = "f250"
 
 [[icons]]
 id = "hourglass-start"
-aliases = ["hourglass-1"]
+aliases = [
+  "hourglass-1"
+]
 unicode = "f251"
 
 [[icons]]
 id = "hourglass-half"
-aliases = ["hourglass-2"]
+aliases = [
+  "hourglass-2"
+]
 unicode = "f252"
 
 [[icons]]
 id = "hourglass-end"
-aliases = ["hourglass-3"]
+aliases = [
+  "hourglass-3"
+]
 unicode = "f253"
 
 [[icons]]
@@ -2248,12 +2408,16 @@ unicode = "f254"
 
 [[icons]]
 id = "hand-rock-o"
-aliases = ["hand-grab-o"]
+aliases = [
+  "hand-grab-o"
+]
 unicode = "f255"
 
 [[icons]]
 id = "hand-paper-o"
-aliases = ["hand-stop-o"]
+aliases = [
+  "hand-stop-o"
+]
 unicode = "f256"
 
 [[icons]]
@@ -2338,7 +2502,9 @@ unicode = "f26b"
 
 [[icons]]
 id = "television"
-aliases = ["tv"]
+aliases = [
+  "tv"
+]
 unicode = "f26c"
 
 [[icons]]
@@ -2543,12 +2709,17 @@ unicode = "f2a2"
 
 [[icons]]
 id = "american-sign-language-interpreting"
-aliases = ["asl-interpreting"]
+aliases = [
+  "asl-interpreting"
+]
 unicode = "f2a3"
 
 [[icons]]
 id = "deaf"
-aliases = ["deafness", "hard-of-hearing"]
+aliases = [
+  "deafness",
+  "hard-of-hearing"
+]
 unicode = "f2a4"
 
 [[icons]]
@@ -2561,7 +2732,9 @@ unicode = "f2a6"
 
 [[icons]]
 id = "sign-language"
-aliases = ["signing"]
+aliases = [
+  "signing"
+]
 unicode = "f2a7"
 
 [[icons]]
@@ -2606,12 +2779,16 @@ unicode = "f2b2"
 
 [[icons]]
 id = "google-plus-official"
-aliases = ["google-plus-circle"]
+aliases = [
+  "google-plus-circle"
+]
 unicode = "f2b3"
 
 [[icons]]
 id = "font-awesome"
-aliases = ["fa"]
+aliases = [
+  "fa"
+]
 unicode = "f2b4"
 
 [[icons]]
@@ -2640,12 +2817,16 @@ unicode = "f2ba"
 
 [[icons]]
 id = "address-card"
-aliases = ["vcard"]
+aliases = [
+  "vcard"
+]
 unicode = "f2bb"
 
 [[icons]]
 id = "address-card-o"
-aliases = ["vcard-o"]
+aliases = [
+  "vcard-o"
+]
 unicode = "f2bc"
 
 [[icons]]
@@ -2666,12 +2847,16 @@ unicode = "f2c1"
 
 [[icons]]
 id = "id-card"
-aliases = ["drivers-license"]
+aliases = [
+  "drivers-license"
+]
 unicode = "f2c2"
 
 [[icons]]
 id = "id-card-o"
-aliases = ["drivers-license-o"]
+aliases = [
+  "drivers-license-o"
+]
 unicode = "f2c3"
 
 [[icons]]
@@ -2688,27 +2873,38 @@ unicode = "f2c6"
 
 [[icons]]
 id = "thermometer-full"
-aliases = ["thermometer-4", "thermometer"]
+aliases = [
+  "thermometer-4",
+  "thermometer"
+]
 unicode = "f2c7"
 
 [[icons]]
 id = "thermometer-three-quarters"
-aliases = ["thermometer-3"]
+aliases = [
+  "thermometer-3"
+]
 unicode = "f2c8"
 
 [[icons]]
 id = "thermometer-half"
-aliases = ["thermometer-2"]
+aliases = [
+  "thermometer-2"
+]
 unicode = "f2c9"
 
 [[icons]]
 id = "thermometer-quarter"
-aliases = ["thermometer-1"]
+aliases = [
+  "thermometer-1"
+]
 unicode = "f2ca"
 
 [[icons]]
 id = "thermometer-empty"
-aliases = ["thermometer-0"]
+aliases = [
+  "thermometer-0"
+]
 unicode = "f2cb"
 
 [[icons]]
@@ -2717,7 +2913,10 @@ unicode = "f2cc"
 
 [[icons]]
 id = "bath"
-aliases = ["bathtub", "s15"]
+aliases = [
+  "bathtub",
+  "s15"
+]
 unicode = "f2cd"
 
 [[icons]]
@@ -2738,12 +2937,16 @@ unicode = "f2d2"
 
 [[icons]]
 id = "window-close"
-aliases = ["times-rectangle"]
+aliases = [
+  "times-rectangle"
+]
 unicode = "f2d3"
 
 [[icons]]
 id = "window-close-o"
-aliases = ["times-rectangle-o"]
+aliases = [
+  "times-rectangle-o"
+]
 unicode = "f2d4"
 
 [[icons]]

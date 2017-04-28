@@ -2,6 +2,7 @@
 
 const gulp = require('gulp-help')(require('gulp-param')(require('gulp'), process.argv));
 
+const babel = require('gulp-babel');
 const json2cson = require('gulp-json2cson');
 const plumber = require('gulp-plumber');
 
@@ -15,11 +16,17 @@ const utils = require('./lib/utils');
 const filename = 'character-list';
 const icons = utils.getSource();
 
-gulp.task('clean', 'Clean all built files.', function () {
+gulp.task('clean:assets', 'Clean character list files.', function () {
 	return del(['character-list/*']);
 });
 
-gulp.task('build:cson', 'Build CSON character list file.', ['clean'], function (fa) {
+gulp.task('clean:node', 'Clean Node module.', function () {
+	return del(['dist/*']);
+});
+
+gulp.task('clean', 'Clean all built files.', ['clean:asset', 'clean:node']);
+
+gulp.task('build:cson', 'Build CSON character list file.', ['clean:assets'], function (fa) {
 	let json = utils.convertSource(icons, fa);
 	return utils.createStream(`${filename}.cson`, JSON.stringify(json))
 			.pipe(plumber())
@@ -27,21 +34,21 @@ gulp.task('build:cson', 'Build CSON character list file.', ['clean'], function (
 			.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('build:json', 'Build JSON character list file.', ['clean'], function (fa) {
+gulp.task('build:json', 'Build JSON character list file.', ['clean:assets'], function (fa) {
 	let json = utils.convertSource(icons, fa);
 	return utils.createStream(`${filename}.json`, JSON.stringify(json, null, '\t'))
 			.pipe(plumber())
 			.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('build:toml', 'Build TOML character list file.', ['clean'], function (fa) {
+gulp.task('build:toml', 'Build TOML character list file.', ['clean:assets'], function (fa) {
 	let json = utils.convertSource(icons, fa);
 	return utils.createStream(`${filename}.toml`, tomlify(json, null, 2))
 			.pipe(plumber())
 			.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('build:xml', 'Build XML character list file.', ['clean'], function (fa) {
+gulp.task('build:xml', 'Build XML character list file.', ['clean:assets'], function (fa) {
 	let json = utils.convertSource(icons, fa);
 	let xmlObj = {
 		icons: {
@@ -78,7 +85,7 @@ gulp.task('build:xml', 'Build XML character list file.', ['clean'], function (fa
 			.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('build:yaml', 'Build YAML character list file.', ['clean'], function (fa) {
+gulp.task('build:yaml', 'Build YAML character list file.', ['clean:assets'], function (fa) {
 	let json = utils.convertSource(icons, fa);
 	let yamlStr = '---\n';
 	yamlStr += yaml.safeDump(json);
@@ -87,7 +94,20 @@ gulp.task('build:yaml', 'Build YAML character list file.', ['clean'], function (
 			.pipe(gulp.dest('character-list'));
 });
 
-gulp.task('build', 'Build all file format.', ['build:cson', 'build:json', 'build:toml', 'build:xml', 'build:yaml']);
+gulp.task('build:node', 'Build Node module.', ['clean:node'], function () {
+	return gulp.src('./src/*.js')
+			.pipe(babel())
+			.pipe(gulp.dest('./dist'));
+});
+
+gulp.task('build', 'Build all file format.', [
+	'build:node',
+	'build:cson',
+	'build:json',
+	'build:toml',
+	'build:xml',
+	'build:yaml'
+]);
 
 gulp.task('count:test', 'Count Font Awesome icons for testing.', function () {
 	let json = utils.convertSource(icons);
