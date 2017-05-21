@@ -17,6 +17,7 @@ chai.use(require('chai-things'));
 
 describe('Build character list files', function () {
 	this.slow(1000);
+
 	it('should create valid CSON character list file', function () {
 		expect(function () {
 			fs.accessSync('character-list/character-list.cson', fs.F_OK | fs.R_OK);
@@ -49,6 +50,8 @@ describe('Build character list files', function () {
 		});
 	});
 	it('should create valid TOML character list file', function () {
+		this.timeout(3000); // Extend timeout from default 2000 to 3000
+
 		expect(function () {
 			fs.accessSync('character-list/character-list.toml', fs.F_OK | fs.R_OK);
 		}).to.not.throw(Error);
