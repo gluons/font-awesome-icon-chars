@@ -12,14 +12,23 @@ The list of [Font Awesome](http://fontawesome.io/) icon unicode characters in se
 
 
 ## Installation
-#### Bower
+
+**Via [Bower](https://bower.io/):**
+
 ```
 bower install font-awesome-icon-chars
 ```
-#### NPM
+**Via [NPM](https://www.npmjs.com/):**
+
 [![NPM](https://nodei.co/npm/font-awesome-icon-chars.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/font-awesome-icon-chars)
+
 ```
 npm install font-awesome-icon-chars
+```
+**Via [Yarn](https://yarnpkg.com/):**
+
+```
+yarn add font-awesome-icon-chars
 ```
 
 ## Usage
@@ -80,7 +89,3 @@ gulp build:toml --fa
 gulp build:xml --fa
 gulp build:yaml --fa
 ```
-
-# Note
-#### Version 1.1.1 - XML file breaking change
-Read on [Wiki](https://github.com/gluons/Font-Awesome-Icon-Chars/wiki/Version-1.1.1---XML-file-breaking-change).
