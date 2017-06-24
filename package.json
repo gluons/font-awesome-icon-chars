@@ -38,7 +38,7 @@
     "chai-things": "^0.2.0",
     "cson": "^4.0.0",
     "del": "^3.0.0",
-    "eslint": "^3.13.0",
+    "eslint": "^4.1.0",
     "eslint-config-gluons": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
