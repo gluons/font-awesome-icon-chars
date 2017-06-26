@@ -32,9 +32,13 @@ yarn add font-awesome-icon-chars
 ```
 
 ## Usage
+
 ### Assets
+
 You can use characters list file in [character-list](./character-list) directory. All characters list files will be placed in this directory.
+
 ### Node.js
+
 You will get array of icon from this module.
 ```javascript
 const faIconChars = require('font-awesome-icon-chars');
@@ -43,7 +47,8 @@ for (let icon of faIconChars) {
 }
 ```
 
-## Build
+## Development
+
 - Build all file.
   ```
   gulp build

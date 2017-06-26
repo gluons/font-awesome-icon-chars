@@ -13,7 +13,7 @@
     "build": "gulp",
     "lint": "eslint .",
     "pretest": "gulp && gulp count:test",
-    "test": "mocha",
+    "test": "npm run lint && mocha",
     "prepublishOnly": "gulp build:node"
   },
   "repository": {
