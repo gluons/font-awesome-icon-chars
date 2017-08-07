@@ -41,7 +41,7 @@
     "eslint": "^4.1.0",
     "eslint-config-gluons": "^2.0.0",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^7.0.0",
     "gulp-help": "^1.6.1",
     "gulp-json2cson": "^1.0.0",
     "gulp-param": "^1.0.3",
