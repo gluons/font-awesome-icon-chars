@@ -24,7 +24,7 @@ gulp.task('clean:node', 'Clean Node module.', function () {
 	return del(['dist/*']);
 });
 
-gulp.task('clean', 'Clean all built files.', ['clean:asset', 'clean:node']);
+gulp.task('clean', 'Clean all built files.', ['clean:assets', 'clean:node']);
 
 gulp.task('build:cson', 'Build CSON character list file.', ['clean:assets'], function (fa) {
 	let json = utils.convertSource(icons, fa);
