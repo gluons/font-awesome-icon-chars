@@ -1,13 +1,9 @@
-declare namespace FontAwesomeIconChars {
-	export interface Icon {
-		id: string;
-		aliases?: string[];
-		unicode: string;
-	}
+export interface FontAwesomeIconMetadata {
+	id: string;
+	aliases?: string[];
+	unicode: string;
 }
 
-declare let faIconChars: FontAwesomeIconChars.Icon[];
+declare const FontAwesomeIconChars: FontAwesomeIconMetadata[];
 
-declare module 'font-awesome-icon-chars' {
-	export = faIconChars;
-}
+export default FontAwesomeIconChars;
