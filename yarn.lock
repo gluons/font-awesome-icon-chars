@@ -2386,9 +2386,9 @@ toml@^2.3.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/toml/-/toml-2.3.2.tgz#5eded5ca42887924949fd06eb0e955656001e834"
 
-tomlify-j0.4@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tomlify-j0.4/-/tomlify-j0.4-2.0.0.tgz#0a2fef1fbca30fedaa6bcfc421a911a8311fd932"
+tomlify-j0.4@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/tomlify-j0.4/-/tomlify-j0.4-3.0.0.tgz#99414d45268c3a3b8bf38be82145b7bba34b7473"
 
 trim-right@^1.0.1:
   version "1.0.1"

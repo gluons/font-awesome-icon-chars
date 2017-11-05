@@ -43,7 +43,7 @@ gulp.task('build:json', 'Build JSON character list file.', ['clean:assets'], fun
 
 gulp.task('build:toml', 'Build TOML character list file.', ['clean:assets'], function (fa) {
 	let json = utils.convertSource(icons, fa);
-	return utils.createStream(`${filename}.toml`, tomlify(json, null, 2))
+	return utils.createStream(`${filename}.toml`, tomlify.toToml(json, { space: 2 }))
 		.pipe(plumber())
 		.pipe(gulp.dest('character-list'));
 });
