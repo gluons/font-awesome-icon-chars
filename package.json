@@ -37,7 +37,7 @@
     "babel-preset-env": "^1.5.0",
     "chai": "*",
     "chai-things": "^0.2.0",
-    "cson": "^4.0.0",
+    "cson": "^5.1.0",
     "del": "^3.0.0",
     "eslint": "^4.1.0",
     "eslint-config-gluons": "^3.0.0",
