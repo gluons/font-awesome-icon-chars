@@ -14,7 +14,7 @@
     "build:assets": "gulp",
     "build": "run-p build:*",
     "lint": "tslint -p .",
-    "pretest": "gulp && gulp count:test",
+    "pretest": "npm run build && gulp count:test",
     "test": "npm run lint && mocha",
     "prepublishOnly": "npm run build:node"
   },
