@@ -27,10 +27,10 @@ icons:
   - id: check
     unicode: f00c
   - id: times
+    unicode: f00d
     aliases:
       - remove
       - close
-    unicode: f00d
   - id: search-plus
     unicode: f00e
   - id: search-minus
@@ -40,9 +40,9 @@ icons:
   - id: signal
     unicode: f012
   - id: cog
+    unicode: f013
     aliases:
       - gear
-    unicode: f013
   - id: trash-o
     unicode: f014
   - id: home
@@ -64,9 +64,9 @@ icons:
   - id: play-circle-o
     unicode: f01d
   - id: repeat
+    unicode: f01e
     aliases:
       - rotate-right
-    unicode: f01e
   - id: refresh
     unicode: f021
   - id: list-alt
@@ -120,18 +120,18 @@ icons:
   - id: list
     unicode: f03a
   - id: outdent
+    unicode: f03b
     aliases:
       - dedent
-    unicode: f03b
   - id: indent
     unicode: f03c
   - id: video-camera
     unicode: f03d
   - id: picture-o
+    unicode: f03e
     aliases:
       - photo
       - image
-    unicode: f03e
   - id: pencil
     unicode: f040
   - id: map-marker
@@ -141,9 +141,9 @@ icons:
   - id: tint
     unicode: f043
   - id: pencil-square-o
+    unicode: f044
     aliases:
       - edit
-    unicode: f044
   - id: share-square-o
     unicode: f045
   - id: check-square-o
@@ -203,9 +203,9 @@ icons:
   - id: arrow-down
     unicode: f063
   - id: share
+    unicode: f064
     aliases:
       - mail-forward
-    unicode: f064
   - id: expand
     unicode: f065
   - id: compress
@@ -229,9 +229,9 @@ icons:
   - id: eye-slash
     unicode: f070
   - id: exclamation-triangle
+    unicode: f071
     aliases:
       - warning
-    unicode: f071
   - id: plane
     unicode: f072
   - id: calendar
@@ -259,9 +259,9 @@ icons:
   - id: arrows-h
     unicode: f07e
   - id: bar-chart
+    unicode: f080
     aliases:
       - bar-chart-o
-    unicode: f080
   - id: twitter-square
     unicode: f081
   - id: facebook-square
@@ -271,9 +271,9 @@ icons:
   - id: key
     unicode: f084
   - id: cogs
+    unicode: f085
     aliases:
       - gears
-    unicode: f085
   - id: comments
     unicode: f086
   - id: thumbs-o-up
@@ -313,9 +313,9 @@ icons:
   - id: twitter
     unicode: f099
   - id: facebook
+    unicode: f09a
     aliases:
       - facebook-f
-    unicode: f09a
   - id: github
     unicode: f09b
   - id: unlock
@@ -323,9 +323,9 @@ icons:
   - id: credit-card
     unicode: f09d
   - id: rss
+    unicode: f09e
     aliases:
       - feed
-    unicode: f09e
   - id: hdd-o
     unicode: f0a0
   - id: bullhorn
@@ -363,38 +363,38 @@ icons:
   - id: arrows-alt
     unicode: f0b2
   - id: users
+    unicode: f0c0
     aliases:
       - group
-    unicode: f0c0
   - id: link
+    unicode: f0c1
     aliases:
       - chain
-    unicode: f0c1
   - id: cloud
     unicode: f0c2
   - id: flask
     unicode: f0c3
   - id: scissors
+    unicode: f0c4
     aliases:
       - cut
-    unicode: f0c4
   - id: files-o
+    unicode: f0c5
     aliases:
       - copy
-    unicode: f0c5
   - id: paperclip
     unicode: f0c6
   - id: floppy-o
+    unicode: f0c7
     aliases:
       - save
-    unicode: f0c7
   - id: square
     unicode: f0c8
   - id: bars
+    unicode: f0c9
     aliases:
       - navicon
       - reorder
-    unicode: f0c9
   - id: list-ul
     unicode: f0ca
   - id: list-ol
@@ -430,49 +430,49 @@ icons:
   - id: columns
     unicode: f0db
   - id: sort
+    unicode: f0dc
     aliases:
       - unsorted
-    unicode: f0dc
   - id: sort-desc
+    unicode: f0dd
     aliases:
       - sort-down
-    unicode: f0dd
   - id: sort-asc
+    unicode: f0de
     aliases:
       - sort-up
-    unicode: f0de
   - id: envelope
     unicode: f0e0
   - id: linkedin
     unicode: f0e1
   - id: undo
+    unicode: f0e2
     aliases:
       - rotate-left
-    unicode: f0e2
   - id: gavel
+    unicode: f0e3
     aliases:
       - legal
-    unicode: f0e3
   - id: tachometer
+    unicode: f0e4
     aliases:
       - dashboard
-    unicode: f0e4
   - id: comment-o
     unicode: f0e5
   - id: comments-o
     unicode: f0e6
   - id: bolt
+    unicode: f0e7
     aliases:
       - flash
-    unicode: f0e7
   - id: sitemap
     unicode: f0e8
   - id: umbrella
     unicode: f0e9
   - id: clipboard
+    unicode: f0ea
     aliases:
       - paste
-    unicode: f0ea
   - id: lightbulb-o
     unicode: f0eb
   - id: exchange
@@ -534,9 +534,9 @@ icons:
   - id: tablet
     unicode: f10a
   - id: mobile
+    unicode: f10b
     aliases:
       - mobile-phone
-    unicode: f10b
   - id: circle-o
     unicode: f10c
   - id: quote-left
@@ -548,9 +548,9 @@ icons:
   - id: circle
     unicode: f111
   - id: reply
+    unicode: f112
     aliases:
       - mail-reply
-    unicode: f112
   - id: github-alt
     unicode: f113
   - id: folder-o
@@ -576,14 +576,14 @@ icons:
   - id: code
     unicode: f121
   - id: reply-all
+    unicode: f122
     aliases:
       - mail-reply-all
-    unicode: f122
   - id: star-half-o
+    unicode: f123
     aliases:
       - star-half-empty
       - star-half-full
-    unicode: f123
   - id: location-arrow
     unicode: f124
   - id: crop
@@ -591,9 +591,9 @@ icons:
   - id: code-fork
     unicode: f126
   - id: chain-broken
+    unicode: f127
     aliases:
       - unlink
-    unicode: f127
   - id: question
     unicode: f128
   - id: info
@@ -669,50 +669,50 @@ icons:
   - id: compass
     unicode: f14e
   - id: caret-square-o-down
+    unicode: f150
     aliases:
       - toggle-down
-    unicode: f150
   - id: caret-square-o-up
+    unicode: f151
     aliases:
       - toggle-up
-    unicode: f151
   - id: caret-square-o-right
+    unicode: f152
     aliases:
       - toggle-right
-    unicode: f152
   - id: eur
+    unicode: f153
     aliases:
       - euro
-    unicode: f153
   - id: gbp
     unicode: f154
   - id: usd
+    unicode: f155
     aliases:
       - dollar
-    unicode: f155
   - id: inr
+    unicode: f156
     aliases:
       - rupee
-    unicode: f156
   - id: jpy
+    unicode: f157
     aliases:
       - cny
       - rmb
       - yen
-    unicode: f157
   - id: rub
+    unicode: f158
     aliases:
       - ruble
       - rouble
-    unicode: f158
   - id: krw
+    unicode: f159
     aliases:
       - won
-    unicode: f159
   - id: btc
+    unicode: f15a
     aliases:
       - bitcoin
-    unicode: f15a
   - id: file
     unicode: f15b
   - id: file-text
@@ -790,9 +790,9 @@ icons:
   - id: male
     unicode: f183
   - id: gratipay
+    unicode: f184
     aliases:
       - gittip
-    unicode: f184
   - id: sun-o
     unicode: f185
   - id: moon-o
@@ -816,9 +816,9 @@ icons:
   - id: arrow-circle-o-left
     unicode: f190
   - id: caret-square-o-left
+    unicode: f191
     aliases:
       - toggle-left
-    unicode: f191
   - id: dot-circle-o
     unicode: f192
   - id: wheelchair
@@ -826,9 +826,9 @@ icons:
   - id: vimeo-square
     unicode: f194
   - id: try
+    unicode: f195
     aliases:
       - turkish-lira
-    unicode: f195
   - id: plus-square-o
     unicode: f196
   - id: space-shuttle
@@ -842,14 +842,14 @@ icons:
   - id: openid
     unicode: f19b
   - id: university
+    unicode: f19c
     aliases:
       - institution
       - bank
-    unicode: f19c
   - id: graduation-cap
+    unicode: f19d
     aliases:
       - mortar-board
-    unicode: f19d
   - id: yahoo
     unicode: f19e
   - id: google
@@ -901,13 +901,13 @@ icons:
   - id: recycle
     unicode: f1b8
   - id: car
+    unicode: f1b9
     aliases:
       - automobile
-    unicode: f1b9
   - id: taxi
+    unicode: f1ba
     aliases:
       - cab
-    unicode: f1ba
   - id: tree
     unicode: f1bb
   - id: spotify
@@ -927,22 +927,22 @@ icons:
   - id: file-powerpoint-o
     unicode: f1c4
   - id: file-image-o
+    unicode: f1c5
     aliases:
       - file-photo-o
       - file-picture-o
-    unicode: f1c5
   - id: file-archive-o
+    unicode: f1c6
     aliases:
       - file-zip-o
-    unicode: f1c6
   - id: file-audio-o
+    unicode: f1c7
     aliases:
       - file-sound-o
-    unicode: f1c7
   - id: file-video-o
+    unicode: f1c8
     aliases:
       - file-movie-o
-    unicode: f1c8
   - id: file-code-o
     unicode: f1c9
   - id: vine
@@ -952,48 +952,48 @@ icons:
   - id: jsfiddle
     unicode: f1cc
   - id: life-ring
+    unicode: f1cd
     aliases:
       - life-bouy
       - life-buoy
       - life-saver
       - support
-    unicode: f1cd
   - id: circle-o-notch
     unicode: f1ce
   - id: rebel
+    unicode: f1d0
     aliases:
       - ra
       - resistance
-    unicode: f1d0
   - id: empire
+    unicode: f1d1
     aliases:
       - ge
-    unicode: f1d1
   - id: git-square
     unicode: f1d2
   - id: git
     unicode: f1d3
   - id: hacker-news
+    unicode: f1d4
     aliases:
       - y-combinator-square
       - yc-square
-    unicode: f1d4
   - id: tencent-weibo
     unicode: f1d5
   - id: qq
     unicode: f1d6
   - id: weixin
+    unicode: f1d7
     aliases:
       - wechat
-    unicode: f1d7
   - id: paper-plane
+    unicode: f1d8
     aliases:
       - send
-    unicode: f1d8
   - id: paper-plane-o
+    unicode: f1d9
     aliases:
       - send-o
-    unicode: f1d9
   - id: history
     unicode: f1da
   - id: circle-thin
@@ -1011,9 +1011,9 @@ icons:
   - id: bomb
     unicode: f1e2
   - id: futbol-o
+    unicode: f1e3
     aliases:
       - soccer-ball-o
-    unicode: f1e3
   - id: tty
     unicode: f1e4
   - id: binoculars
@@ -1089,10 +1089,10 @@ icons:
   - id: cc
     unicode: f20a
   - id: ils
+    unicode: f20b
     aliases:
       - shekel
       - sheqel
-    unicode: f20b
   - id: meanpath
     unicode: f20c
   - id: buysellads
@@ -1136,9 +1136,9 @@ icons:
   - id: mercury
     unicode: f223
   - id: transgender
+    unicode: f224
     aliases:
       - intersex
-    unicode: f224
   - id: transgender-alt
     unicode: f225
   - id: venus-double
@@ -1170,9 +1170,9 @@ icons:
   - id: user-times
     unicode: f235
   - id: bed
+    unicode: f236
     aliases:
       - hotel
-    unicode: f236
   - id: viacoin
     unicode: f237
   - id: train
@@ -1182,9 +1182,9 @@ icons:
   - id: medium
     unicode: f23a
   - id: y-combinator
+    unicode: f23b
     aliases:
       - yc
-    unicode: f23b
   - id: optin-monster
     unicode: f23c
   - id: opencart
@@ -1192,26 +1192,26 @@ icons:
   - id: expeditedssl
     unicode: f23e
   - id: battery-full
+    unicode: f240
     aliases:
       - battery-4
       - battery
-    unicode: f240
   - id: battery-three-quarters
+    unicode: f241
     aliases:
       - battery-3
-    unicode: f241
   - id: battery-half
+    unicode: f242
     aliases:
       - battery-2
-    unicode: f242
   - id: battery-quarter
+    unicode: f243
     aliases:
       - battery-1
-    unicode: f243
   - id: battery-empty
+    unicode: f244
     aliases:
       - battery-0
-    unicode: f244
   - id: mouse-pointer
     unicode: f245
   - id: i-cursor
@@ -1235,27 +1235,27 @@ icons:
   - id: hourglass-o
     unicode: f250
   - id: hourglass-start
+    unicode: f251
     aliases:
       - hourglass-1
-    unicode: f251
   - id: hourglass-half
+    unicode: f252
     aliases:
       - hourglass-2
-    unicode: f252
   - id: hourglass-end
+    unicode: f253
     aliases:
       - hourglass-3
-    unicode: f253
   - id: hourglass
     unicode: f254
   - id: hand-rock-o
+    unicode: f255
     aliases:
       - hand-grab-o
-    unicode: f255
   - id: hand-paper-o
+    unicode: f256
     aliases:
       - hand-stop-o
-    unicode: f256
   - id: hand-scissors-o
     unicode: f257
   - id: hand-lizard-o
@@ -1297,9 +1297,9 @@ icons:
   - id: internet-explorer
     unicode: f26b
   - id: television
+    unicode: f26c
     aliases:
       - tv
-    unicode: f26c
   - id: contao
     unicode: f26d
   - id: 500px
@@ -1401,22 +1401,22 @@ icons:
   - id: assistive-listening-systems
     unicode: f2a2
   - id: american-sign-language-interpreting
+    unicode: f2a3
     aliases:
       - asl-interpreting
-    unicode: f2a3
   - id: deaf
+    unicode: f2a4
     aliases:
       - deafness
       - hard-of-hearing
-    unicode: f2a4
   - id: glide
     unicode: f2a5
   - id: glide-g
     unicode: f2a6
   - id: sign-language
+    unicode: f2a7
     aliases:
       - signing
-    unicode: f2a7
   - id: low-vision
     unicode: f2a8
   - id: viadeo
@@ -1438,13 +1438,13 @@ icons:
   - id: themeisle
     unicode: f2b2
   - id: google-plus-official
+    unicode: f2b3
     aliases:
       - google-plus-circle
-    unicode: f2b3
   - id: font-awesome
+    unicode: f2b4
     aliases:
       - fa
-    unicode: f2b4
   - id: handshake-o
     unicode: f2b5
   - id: envelope-open
@@ -1458,13 +1458,13 @@ icons:
   - id: address-book-o
     unicode: f2ba
   - id: address-card
+    unicode: f2bb
     aliases:
       - vcard
-    unicode: f2bb
   - id: address-card-o
+    unicode: f2bc
     aliases:
       - vcard-o
-    unicode: f2bc
   - id: user-circle
     unicode: f2bd
   - id: user-circle-o
@@ -1474,13 +1474,13 @@ icons:
   - id: id-badge
     unicode: f2c1
   - id: id-card
+    unicode: f2c2
     aliases:
       - drivers-license
-    unicode: f2c2
   - id: id-card-o
+    unicode: f2c3
     aliases:
       - drivers-license-o
-    unicode: f2c3
   - id: quora
     unicode: f2c4
   - id: free-code-camp
@@ -1488,33 +1488,33 @@ icons:
   - id: telegram
     unicode: f2c6
   - id: thermometer-full
+    unicode: f2c7
     aliases:
       - thermometer-4
       - thermometer
-    unicode: f2c7
   - id: thermometer-three-quarters
+    unicode: f2c8
     aliases:
       - thermometer-3
-    unicode: f2c8
   - id: thermometer-half
+    unicode: f2c9
     aliases:
       - thermometer-2
-    unicode: f2c9
   - id: thermometer-quarter
+    unicode: f2ca
     aliases:
       - thermometer-1
-    unicode: f2ca
   - id: thermometer-empty
+    unicode: f2cb
     aliases:
       - thermometer-0
-    unicode: f2cb
   - id: shower
     unicode: f2cc
   - id: bath
+    unicode: f2cd
     aliases:
       - bathtub
       - s15
-    unicode: f2cd
   - id: podcast
     unicode: f2ce
   - id: window-maximize
@@ -1524,13 +1524,13 @@ icons:
   - id: window-restore
     unicode: f2d2
   - id: window-close
+    unicode: f2d3
     aliases:
       - times-rectangle
-    unicode: f2d3
   - id: window-close-o
+    unicode: f2d4
     aliases:
       - times-rectangle-o
-    unicode: f2d4
   - id: bandcamp
     unicode: f2d5
   - id: grav

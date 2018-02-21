@@ -84,3 +84,6 @@ $RECYCLE.BIN/
 
 # Distribution files
 dist/
+
+# Generated files
+src/character-list.ts
