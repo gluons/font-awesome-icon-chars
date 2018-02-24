@@ -6,6 +6,7 @@
 [![Gemnasium](https://img.shields.io/gemnasium/gluons/Font-Awesome-Icon-Chars.svg?style=flat-square)](https://gemnasium.com/github.com/gluons/Font-Awesome-Icon-Chars)
 [![Known Vulnerabilities](https://snyk.io/test/github/gluons/font-awesome-icon-chars/badge.svg?style=flat-square)](https://snyk.io/test/github/gluons/font-awesome-icon-chars)
 [![Travis](https://img.shields.io/travis/gluons/Font-Awesome-Icon-Chars.svg?style=flat-square)](https://travis-ci.org/gluons/Font-Awesome-Icon-Chars)
+[![TSLint](https://img.shields.io/badge/TSLint-gluons-15757B.svg?style=flat-square)](https://github.com/gluons/tslint-config-gluons)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovateapp.com/)
 
 The list of [Font Awesome](http://fontawesome.io/) icon unicode characters in several file format.
