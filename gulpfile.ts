@@ -9,41 +9,47 @@ import xmlBuilder = require('xmlbuilder');
 
 import { convertSource, createStream, getSource } from './lib/utils';
 
+const { parallel, series } = gulp;
+
 const filename = 'character-list';
 const icons = getSource();
 const JSONSource = convertSource(icons);
 
-gulp.task('clean:assets', () => del(['character-list/*']));
+export function cleanAssets() {
+	return del(['character-list/*']);
+}
 
-gulp.task('clean:ts', () => del([`src/${filename}.ts`]));
+export function cleanTS() {
+	return del([`src/${filename}.ts`]);
+}
 
-gulp.task('clean', ['clean:assets', 'clean:ts']);
+export const clean = parallel(cleanAssets, cleanTS);
 
-gulp.task('build:cson', ['clean:assets'], () => {
+export function buildCSON() {
 	return createStream(`${filename}.cson`, JSON.stringify(JSONSource))
 		.pipe(plumber())
 		.pipe(json2cson())
 		.pipe(gulp.dest('character-list'));
-});
+}
 
-gulp.task('build:json', ['clean:assets'], () => {
+export function buildJSON() {
 	return createStream(`${filename}.json`, JSON.stringify(JSONSource, null, '\t'))
 		.pipe(plumber())
 		.pipe(gulp.dest('character-list'));
-});
+}
 
-gulp.task('build:toml', ['clean:assets'], () => {
+export function buildTOML() {
 	return createStream(`${filename}.toml`, tomlify.toToml(JSONSource, { space: 2 }))
 		.pipe(plumber())
 		.pipe(gulp.dest('character-list'));
-});
+}
 
 interface IconXML {
 	'@id': string;
 	'unicode': { '#text': string };
 	'alias'?: Array<{ '#text': string }>;
 }
-gulp.task('build:xml', ['clean:assets'], () => {
+export function buildXML() {
 	let xmlObj = {
 		icons: {
 			icon: JSONSource.icons.map(icon => {
@@ -69,18 +75,18 @@ gulp.task('build:xml', ['clean:assets'], () => {
 	return createStream(`${filename}.xml`, xmlStr)
 		.pipe(plumber())
 		.pipe(gulp.dest('character-list'));
-});
+}
 
-gulp.task('build:yaml', ['clean:assets'], () => {
+export function buildYAML() {
 	let yamlStr = '---\n';
 	yamlStr += yaml.safeDump(JSONSource);
 
 	return createStream(`${filename}.yaml`, yamlStr)
 		.pipe(plumber())
 		.pipe(gulp.dest('character-list'));
-});
+}
 
-gulp.task('generate', ['clean:ts'], () => {
+export const generate = series(cleanTS, function generate() {
 	let JSONSourceStr = JSON.stringify(JSONSource, null, '\t');
 	// Replace quote
 	JSONSourceStr = JSONSourceStr
@@ -96,7 +102,7 @@ gulp.task('generate', ['clean:ts'], () => {
 		.pipe(gulp.dest('src'));
 });
 
-gulp.task('count:test', () => {
+export function countTest() {
 	let iconCount = {
 		count: JSONSource.icons.length,
 		aliases: {}
@@ -109,14 +115,15 @@ gulp.task('count:test', () => {
 
 	return createStream('icon-count.json', JSON.stringify(iconCount, null, '\t'))
 		.pipe(gulp.dest('test'));
-});
+}
 
-gulp.task('build', [
-	'build:cson',
-	'build:json',
-	'build:toml',
-	'build:xml',
-	'build:yaml'
-]);
+export const build = parallel(
+	buildCSON,
+	buildJSON,
+	buildTOML,
+	buildXML,
+	buildYAML
+);
+build.displayName = 'build';
 
-gulp.task('default', ['build']);
+export default build;
