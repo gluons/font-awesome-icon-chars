@@ -40,9 +40,9 @@
 		<unicode>f00c</unicode>
 	</icon>
 	<icon id="times">
+		<unicode>f00d</unicode>
 		<alias>remove</alias>
 		<alias>close</alias>
-		<unicode>f00d</unicode>
 	</icon>
 	<icon id="search-plus">
 		<unicode>f00e</unicode>
@@ -57,8 +57,8 @@
 		<unicode>f012</unicode>
 	</icon>
 	<icon id="cog">
-		<alias>gear</alias>
 		<unicode>f013</unicode>
+		<alias>gear</alias>
 	</icon>
 	<icon id="trash-o">
 		<unicode>f014</unicode>
@@ -91,8 +91,8 @@
 		<unicode>f01d</unicode>
 	</icon>
 	<icon id="repeat">
-		<alias>rotate-right</alias>
 		<unicode>f01e</unicode>
+		<alias>rotate-right</alias>
 	</icon>
 	<icon id="refresh">
 		<unicode>f021</unicode>
@@ -173,8 +173,8 @@
 		<unicode>f03a</unicode>
 	</icon>
 	<icon id="outdent">
-		<alias>dedent</alias>
 		<unicode>f03b</unicode>
+		<alias>dedent</alias>
 	</icon>
 	<icon id="indent">
 		<unicode>f03c</unicode>
@@ -183,9 +183,9 @@
 		<unicode>f03d</unicode>
 	</icon>
 	<icon id="picture-o">
+		<unicode>f03e</unicode>
 		<alias>photo</alias>
 		<alias>image</alias>
-		<unicode>f03e</unicode>
 	</icon>
 	<icon id="pencil">
 		<unicode>f040</unicode>
@@ -200,8 +200,8 @@
 		<unicode>f043</unicode>
 	</icon>
 	<icon id="pencil-square-o">
-		<alias>edit</alias>
 		<unicode>f044</unicode>
+		<alias>edit</alias>
 	</icon>
 	<icon id="share-square-o">
 		<unicode>f045</unicode>
@@ -291,8 +291,8 @@
 		<unicode>f063</unicode>
 	</icon>
 	<icon id="share">
-		<alias>mail-forward</alias>
 		<unicode>f064</unicode>
+		<alias>mail-forward</alias>
 	</icon>
 	<icon id="expand">
 		<unicode>f065</unicode>
@@ -328,8 +328,8 @@
 		<unicode>f070</unicode>
 	</icon>
 	<icon id="exclamation-triangle">
-		<alias>warning</alias>
 		<unicode>f071</unicode>
+		<alias>warning</alias>
 	</icon>
 	<icon id="plane">
 		<unicode>f072</unicode>
@@ -371,8 +371,8 @@
 		<unicode>f07e</unicode>
 	</icon>
 	<icon id="bar-chart">
-		<alias>bar-chart-o</alias>
 		<unicode>f080</unicode>
+		<alias>bar-chart-o</alias>
 	</icon>
 	<icon id="twitter-square">
 		<unicode>f081</unicode>
@@ -387,8 +387,8 @@
 		<unicode>f084</unicode>
 	</icon>
 	<icon id="cogs">
-		<alias>gears</alias>
 		<unicode>f085</unicode>
+		<alias>gears</alias>
 	</icon>
 	<icon id="comments">
 		<unicode>f086</unicode>
@@ -448,8 +448,8 @@
 		<unicode>f099</unicode>
 	</icon>
 	<icon id="facebook">
-		<alias>facebook-f</alias>
 		<unicode>f09a</unicode>
+		<alias>facebook-f</alias>
 	</icon>
 	<icon id="github">
 		<unicode>f09b</unicode>
@@ -461,8 +461,8 @@
 		<unicode>f09d</unicode>
 	</icon>
 	<icon id="rss">
-		<alias>feed</alias>
 		<unicode>f09e</unicode>
+		<alias>feed</alias>
 	</icon>
 	<icon id="hdd-o">
 		<unicode>f0a0</unicode>
@@ -519,12 +519,12 @@
 		<unicode>f0b2</unicode>
 	</icon>
 	<icon id="users">
-		<alias>group</alias>
 		<unicode>f0c0</unicode>
+		<alias>group</alias>
 	</icon>
 	<icon id="link">
-		<alias>chain</alias>
 		<unicode>f0c1</unicode>
+		<alias>chain</alias>
 	</icon>
 	<icon id="cloud">
 		<unicode>f0c2</unicode>
@@ -533,27 +533,27 @@
 		<unicode>f0c3</unicode>
 	</icon>
 	<icon id="scissors">
-		<alias>cut</alias>
 		<unicode>f0c4</unicode>
+		<alias>cut</alias>
 	</icon>
 	<icon id="files-o">
-		<alias>copy</alias>
 		<unicode>f0c5</unicode>
+		<alias>copy</alias>
 	</icon>
 	<icon id="paperclip">
 		<unicode>f0c6</unicode>
 	</icon>
 	<icon id="floppy-o">
-		<alias>save</alias>
 		<unicode>f0c7</unicode>
+		<alias>save</alias>
 	</icon>
 	<icon id="square">
 		<unicode>f0c8</unicode>
 	</icon>
 	<icon id="bars">
+		<unicode>f0c9</unicode>
 		<alias>navicon</alias>
 		<alias>reorder</alias>
-		<unicode>f0c9</unicode>
 	</icon>
 	<icon id="list-ul">
 		<unicode>f0ca</unicode>
@@ -607,16 +607,16 @@
 		<unicode>f0db</unicode>
 	</icon>
 	<icon id="sort">
-		<alias>unsorted</alias>
 		<unicode>f0dc</unicode>
+		<alias>unsorted</alias>
 	</icon>
 	<icon id="sort-desc">
-		<alias>sort-down</alias>
 		<unicode>f0dd</unicode>
+		<alias>sort-down</alias>
 	</icon>
 	<icon id="sort-asc">
-		<alias>sort-up</alias>
 		<unicode>f0de</unicode>
+		<alias>sort-up</alias>
 	</icon>
 	<icon id="envelope">
 		<unicode>f0e0</unicode>
@@ -625,16 +625,16 @@
 		<unicode>f0e1</unicode>
 	</icon>
 	<icon id="undo">
-		<alias>rotate-left</alias>
 		<unicode>f0e2</unicode>
+		<alias>rotate-left</alias>
 	</icon>
 	<icon id="gavel">
-		<alias>legal</alias>
 		<unicode>f0e3</unicode>
+		<alias>legal</alias>
 	</icon>
 	<icon id="tachometer">
-		<alias>dashboard</alias>
 		<unicode>f0e4</unicode>
+		<alias>dashboard</alias>
 	</icon>
 	<icon id="comment-o">
 		<unicode>f0e5</unicode>
@@ -643,8 +643,8 @@
 		<unicode>f0e6</unicode>
 	</icon>
 	<icon id="bolt">
-		<alias>flash</alias>
 		<unicode>f0e7</unicode>
+		<alias>flash</alias>
 	</icon>
 	<icon id="sitemap">
 		<unicode>f0e8</unicode>
@@ -653,8 +653,8 @@
 		<unicode>f0e9</unicode>
 	</icon>
 	<icon id="clipboard">
-		<alias>paste</alias>
 		<unicode>f0ea</unicode>
+		<alias>paste</alias>
 	</icon>
 	<icon id="lightbulb-o">
 		<unicode>f0eb</unicode>
@@ -747,8 +747,8 @@
 		<unicode>f10a</unicode>
 	</icon>
 	<icon id="mobile">
-		<alias>mobile-phone</alias>
 		<unicode>f10b</unicode>
+		<alias>mobile-phone</alias>
 	</icon>
 	<icon id="circle-o">
 		<unicode>f10c</unicode>
@@ -766,8 +766,8 @@
 		<unicode>f111</unicode>
 	</icon>
 	<icon id="reply">
-		<alias>mail-reply</alias>
 		<unicode>f112</unicode>
+		<alias>mail-reply</alias>
 	</icon>
 	<icon id="github-alt">
 		<unicode>f113</unicode>
@@ -806,13 +806,13 @@
 		<unicode>f121</unicode>
 	</icon>
 	<icon id="reply-all">
-		<alias>mail-reply-all</alias>
 		<unicode>f122</unicode>
+		<alias>mail-reply-all</alias>
 	</icon>
 	<icon id="star-half-o">
+		<unicode>f123</unicode>
 		<alias>star-half-empty</alias>
 		<alias>star-half-full</alias>
-		<unicode>f123</unicode>
 	</icon>
 	<icon id="location-arrow">
 		<unicode>f124</unicode>
@@ -824,8 +824,8 @@
 		<unicode>f126</unicode>
 	</icon>
 	<icon id="chain-broken">
-		<alias>unlink</alias>
 		<unicode>f127</unicode>
+		<alias>unlink</alias>
 	</icon>
 	<icon id="question">
 		<unicode>f128</unicode>
@@ -939,50 +939,50 @@
 		<unicode>f14e</unicode>
 	</icon>
 	<icon id="caret-square-o-down">
-		<alias>toggle-down</alias>
 		<unicode>f150</unicode>
+		<alias>toggle-down</alias>
 	</icon>
 	<icon id="caret-square-o-up">
-		<alias>toggle-up</alias>
 		<unicode>f151</unicode>
+		<alias>toggle-up</alias>
 	</icon>
 	<icon id="caret-square-o-right">
-		<alias>toggle-right</alias>
 		<unicode>f152</unicode>
+		<alias>toggle-right</alias>
 	</icon>
 	<icon id="eur">
-		<alias>euro</alias>
 		<unicode>f153</unicode>
+		<alias>euro</alias>
 	</icon>
 	<icon id="gbp">
 		<unicode>f154</unicode>
 	</icon>
 	<icon id="usd">
-		<alias>dollar</alias>
 		<unicode>f155</unicode>
+		<alias>dollar</alias>
 	</icon>
 	<icon id="inr">
-		<alias>rupee</alias>
 		<unicode>f156</unicode>
+		<alias>rupee</alias>
 	</icon>
 	<icon id="jpy">
+		<unicode>f157</unicode>
 		<alias>cny</alias>
 		<alias>rmb</alias>
 		<alias>yen</alias>
-		<unicode>f157</unicode>
 	</icon>
 	<icon id="rub">
+		<unicode>f158</unicode>
 		<alias>ruble</alias>
 		<alias>rouble</alias>
-		<unicode>f158</unicode>
 	</icon>
 	<icon id="krw">
-		<alias>won</alias>
 		<unicode>f159</unicode>
+		<alias>won</alias>
 	</icon>
 	<icon id="btc">
-		<alias>bitcoin</alias>
 		<unicode>f15a</unicode>
+		<alias>bitcoin</alias>
 	</icon>
 	<icon id="file">
 		<unicode>f15b</unicode>
@@ -1099,8 +1099,8 @@
 		<unicode>f183</unicode>
 	</icon>
 	<icon id="gratipay">
-		<alias>gittip</alias>
 		<unicode>f184</unicode>
+		<alias>gittip</alias>
 	</icon>
 	<icon id="sun-o">
 		<unicode>f185</unicode>
@@ -1136,8 +1136,8 @@
 		<unicode>f190</unicode>
 	</icon>
 	<icon id="caret-square-o-left">
-		<alias>toggle-left</alias>
 		<unicode>f191</unicode>
+		<alias>toggle-left</alias>
 	</icon>
 	<icon id="dot-circle-o">
 		<unicode>f192</unicode>
@@ -1149,8 +1149,8 @@
 		<unicode>f194</unicode>
 	</icon>
 	<icon id="try">
-		<alias>turkish-lira</alias>
 		<unicode>f195</unicode>
+		<alias>turkish-lira</alias>
 	</icon>
 	<icon id="plus-square-o">
 		<unicode>f196</unicode>
@@ -1171,13 +1171,13 @@
 		<unicode>f19b</unicode>
 	</icon>
 	<icon id="university">
+		<unicode>f19c</unicode>
 		<alias>institution</alias>
 		<alias>bank</alias>
-		<unicode>f19c</unicode>
 	</icon>
 	<icon id="graduation-cap">
-		<alias>mortar-board</alias>
 		<unicode>f19d</unicode>
+		<alias>mortar-board</alias>
 	</icon>
 	<icon id="yahoo">
 		<unicode>f19e</unicode>
@@ -1255,12 +1255,12 @@
 		<unicode>f1b8</unicode>
 	</icon>
 	<icon id="car">
-		<alias>automobile</alias>
 		<unicode>f1b9</unicode>
+		<alias>automobile</alias>
 	</icon>
 	<icon id="taxi">
-		<alias>cab</alias>
 		<unicode>f1ba</unicode>
+		<alias>cab</alias>
 	</icon>
 	<icon id="tree">
 		<unicode>f1bb</unicode>
@@ -1290,21 +1290,21 @@
 		<unicode>f1c4</unicode>
 	</icon>
 	<icon id="file-image-o">
+		<unicode>f1c5</unicode>
 		<alias>file-photo-o</alias>
 		<alias>file-picture-o</alias>
-		<unicode>f1c5</unicode>
 	</icon>
 	<icon id="file-archive-o">
-		<alias>file-zip-o</alias>
 		<unicode>f1c6</unicode>
+		<alias>file-zip-o</alias>
 	</icon>
 	<icon id="file-audio-o">
-		<alias>file-sound-o</alias>
 		<unicode>f1c7</unicode>
+		<alias>file-sound-o</alias>
 	</icon>
 	<icon id="file-video-o">
-		<alias>file-movie-o</alias>
 		<unicode>f1c8</unicode>
+		<alias>file-movie-o</alias>
 	</icon>
 	<icon id="file-code-o">
 		<unicode>f1c9</unicode>
@@ -1319,23 +1319,23 @@
 		<unicode>f1cc</unicode>
 	</icon>
 	<icon id="life-ring">
+		<unicode>f1cd</unicode>
 		<alias>life-bouy</alias>
 		<alias>life-buoy</alias>
 		<alias>life-saver</alias>
 		<alias>support</alias>
-		<unicode>f1cd</unicode>
 	</icon>
 	<icon id="circle-o-notch">
 		<unicode>f1ce</unicode>
 	</icon>
 	<icon id="rebel">
+		<unicode>f1d0</unicode>
 		<alias>ra</alias>
 		<alias>resistance</alias>
-		<unicode>f1d0</unicode>
 	</icon>
 	<icon id="empire">
-		<alias>ge</alias>
 		<unicode>f1d1</unicode>
+		<alias>ge</alias>
 	</icon>
 	<icon id="git-square">
 		<unicode>f1d2</unicode>
@@ -1344,9 +1344,9 @@
 		<unicode>f1d3</unicode>
 	</icon>
 	<icon id="hacker-news">
+		<unicode>f1d4</unicode>
 		<alias>y-combinator-square</alias>
 		<alias>yc-square</alias>
-		<unicode>f1d4</unicode>
 	</icon>
 	<icon id="tencent-weibo">
 		<unicode>f1d5</unicode>
@@ -1355,16 +1355,16 @@
 		<unicode>f1d6</unicode>
 	</icon>
 	<icon id="weixin">
-		<alias>wechat</alias>
 		<unicode>f1d7</unicode>
+		<alias>wechat</alias>
 	</icon>
 	<icon id="paper-plane">
-		<alias>send</alias>
 		<unicode>f1d8</unicode>
+		<alias>send</alias>
 	</icon>
 	<icon id="paper-plane-o">
-		<alias>send-o</alias>
 		<unicode>f1d9</unicode>
+		<alias>send-o</alias>
 	</icon>
 	<icon id="history">
 		<unicode>f1da</unicode>
@@ -1391,8 +1391,8 @@
 		<unicode>f1e2</unicode>
 	</icon>
 	<icon id="futbol-o">
-		<alias>soccer-ball-o</alias>
 		<unicode>f1e3</unicode>
+		<alias>soccer-ball-o</alias>
 	</icon>
 	<icon id="tty">
 		<unicode>f1e4</unicode>
@@ -1506,9 +1506,9 @@
 		<unicode>f20a</unicode>
 	</icon>
 	<icon id="ils">
+		<unicode>f20b</unicode>
 		<alias>shekel</alias>
 		<alias>sheqel</alias>
-		<unicode>f20b</unicode>
 	</icon>
 	<icon id="meanpath">
 		<unicode>f20c</unicode>
@@ -1574,8 +1574,8 @@
 		<unicode>f223</unicode>
 	</icon>
 	<icon id="transgender">
-		<alias>intersex</alias>
 		<unicode>f224</unicode>
+		<alias>intersex</alias>
 	</icon>
 	<icon id="transgender-alt">
 		<unicode>f225</unicode>
@@ -1623,8 +1623,8 @@
 		<unicode>f235</unicode>
 	</icon>
 	<icon id="bed">
-		<alias>hotel</alias>
 		<unicode>f236</unicode>
+		<alias>hotel</alias>
 	</icon>
 	<icon id="viacoin">
 		<unicode>f237</unicode>
@@ -1639,8 +1639,8 @@
 		<unicode>f23a</unicode>
 	</icon>
 	<icon id="y-combinator">
-		<alias>yc</alias>
 		<unicode>f23b</unicode>
+		<alias>yc</alias>
 	</icon>
 	<icon id="optin-monster">
 		<unicode>f23c</unicode>
@@ -1652,25 +1652,25 @@
 		<unicode>f23e</unicode>
 	</icon>
 	<icon id="battery-full">
+		<unicode>f240</unicode>
 		<alias>battery-4</alias>
 		<alias>battery</alias>
-		<unicode>f240</unicode>
 	</icon>
 	<icon id="battery-three-quarters">
-		<alias>battery-3</alias>
 		<unicode>f241</unicode>
+		<alias>battery-3</alias>
 	</icon>
 	<icon id="battery-half">
-		<alias>battery-2</alias>
 		<unicode>f242</unicode>
+		<alias>battery-2</alias>
 	</icon>
 	<icon id="battery-quarter">
-		<alias>battery-1</alias>
 		<unicode>f243</unicode>
+		<alias>battery-1</alias>
 	</icon>
 	<icon id="battery-empty">
-		<alias>battery-0</alias>
 		<unicode>f244</unicode>
+		<alias>battery-0</alias>
 	</icon>
 	<icon id="mouse-pointer">
 		<unicode>f245</unicode>
@@ -1706,27 +1706,27 @@
 		<unicode>f250</unicode>
 	</icon>
 	<icon id="hourglass-start">
-		<alias>hourglass-1</alias>
 		<unicode>f251</unicode>
+		<alias>hourglass-1</alias>
 	</icon>
 	<icon id="hourglass-half">
-		<alias>hourglass-2</alias>
 		<unicode>f252</unicode>
+		<alias>hourglass-2</alias>
 	</icon>
 	<icon id="hourglass-end">
-		<alias>hourglass-3</alias>
 		<unicode>f253</unicode>
+		<alias>hourglass-3</alias>
 	</icon>
 	<icon id="hourglass">
 		<unicode>f254</unicode>
 	</icon>
 	<icon id="hand-rock-o">
-		<alias>hand-grab-o</alias>
 		<unicode>f255</unicode>
+		<alias>hand-grab-o</alias>
 	</icon>
 	<icon id="hand-paper-o">
-		<alias>hand-stop-o</alias>
 		<unicode>f256</unicode>
+		<alias>hand-stop-o</alias>
 	</icon>
 	<icon id="hand-scissors-o">
 		<unicode>f257</unicode>
@@ -1789,8 +1789,8 @@
 		<unicode>f26b</unicode>
 	</icon>
 	<icon id="television">
-		<alias>tv</alias>
 		<unicode>f26c</unicode>
+		<alias>tv</alias>
 	</icon>
 	<icon id="contao">
 		<unicode>f26d</unicode>
@@ -1943,13 +1943,13 @@
 		<unicode>f2a2</unicode>
 	</icon>
 	<icon id="american-sign-language-interpreting">
-		<alias>asl-interpreting</alias>
 		<unicode>f2a3</unicode>
+		<alias>asl-interpreting</alias>
 	</icon>
 	<icon id="deaf">
+		<unicode>f2a4</unicode>
 		<alias>deafness</alias>
 		<alias>hard-of-hearing</alias>
-		<unicode>f2a4</unicode>
 	</icon>
 	<icon id="glide">
 		<unicode>f2a5</unicode>
@@ -1958,8 +1958,8 @@
 		<unicode>f2a6</unicode>
 	</icon>
 	<icon id="sign-language">
-		<alias>signing</alias>
 		<unicode>f2a7</unicode>
+		<alias>signing</alias>
 	</icon>
 	<icon id="low-vision">
 		<unicode>f2a8</unicode>
@@ -1992,12 +1992,12 @@
 		<unicode>f2b2</unicode>
 	</icon>
 	<icon id="google-plus-official">
-		<alias>google-plus-circle</alias>
 		<unicode>f2b3</unicode>
+		<alias>google-plus-circle</alias>
 	</icon>
 	<icon id="font-awesome">
-		<alias>fa</alias>
 		<unicode>f2b4</unicode>
+		<alias>fa</alias>
 	</icon>
 	<icon id="handshake-o">
 		<unicode>f2b5</unicode>
@@ -2018,12 +2018,12 @@
 		<unicode>f2ba</unicode>
 	</icon>
 	<icon id="address-card">
-		<alias>vcard</alias>
 		<unicode>f2bb</unicode>
+		<alias>vcard</alias>
 	</icon>
 	<icon id="address-card-o">
-		<alias>vcard-o</alias>
 		<unicode>f2bc</unicode>
+		<alias>vcard-o</alias>
 	</icon>
 	<icon id="user-circle">
 		<unicode>f2bd</unicode>
@@ -2038,12 +2038,12 @@
 		<unicode>f2c1</unicode>
 	</icon>
 	<icon id="id-card">
-		<alias>drivers-license</alias>
 		<unicode>f2c2</unicode>
+		<alias>drivers-license</alias>
 	</icon>
 	<icon id="id-card-o">
-		<alias>drivers-license-o</alias>
 		<unicode>f2c3</unicode>
+		<alias>drivers-license-o</alias>
 	</icon>
 	<icon id="quora">
 		<unicode>f2c4</unicode>
@@ -2055,33 +2055,33 @@
 		<unicode>f2c6</unicode>
 	</icon>
 	<icon id="thermometer-full">
+		<unicode>f2c7</unicode>
 		<alias>thermometer-4</alias>
 		<alias>thermometer</alias>
-		<unicode>f2c7</unicode>
 	</icon>
 	<icon id="thermometer-three-quarters">
-		<alias>thermometer-3</alias>
 		<unicode>f2c8</unicode>
+		<alias>thermometer-3</alias>
 	</icon>
 	<icon id="thermometer-half">
-		<alias>thermometer-2</alias>
 		<unicode>f2c9</unicode>
+		<alias>thermometer-2</alias>
 	</icon>
 	<icon id="thermometer-quarter">
-		<alias>thermometer-1</alias>
 		<unicode>f2ca</unicode>
+		<alias>thermometer-1</alias>
 	</icon>
 	<icon id="thermometer-empty">
-		<alias>thermometer-0</alias>
 		<unicode>f2cb</unicode>
+		<alias>thermometer-0</alias>
 	</icon>
 	<icon id="shower">
 		<unicode>f2cc</unicode>
 	</icon>
 	<icon id="bath">
+		<unicode>f2cd</unicode>
 		<alias>bathtub</alias>
 		<alias>s15</alias>
-		<unicode>f2cd</unicode>
 	</icon>
 	<icon id="podcast">
 		<unicode>f2ce</unicode>
@@ -2096,12 +2096,12 @@
 		<unicode>f2d2</unicode>
 	</icon>
 	<icon id="window-close">
-		<alias>times-rectangle</alias>
 		<unicode>f2d3</unicode>
+		<alias>times-rectangle</alias>
 	</icon>
 	<icon id="window-close-o">
-		<alias>times-rectangle-o</alias>
 		<unicode>f2d4</unicode>
+		<alias>times-rectangle-o</alias>
 	</icon>
 	<icon id="bandcamp">
 		<unicode>f2d5</unicode>

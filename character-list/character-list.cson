@@ -53,11 +53,11 @@ icons: [
   }
   {
     id: "times"
+    unicode: "f00d"
     aliases: [
       "remove"
       "close"
     ]
-    unicode: "f00d"
   }
   {
     id: "search-plus"
@@ -77,10 +77,10 @@ icons: [
   }
   {
     id: "cog"
+    unicode: "f013"
     aliases: [
       "gear"
     ]
-    unicode: "f013"
   }
   {
     id: "trash-o"
@@ -124,10 +124,10 @@ icons: [
   }
   {
     id: "repeat"
+    unicode: "f01e"
     aliases: [
       "rotate-right"
     ]
-    unicode: "f01e"
   }
   {
     id: "refresh"
@@ -235,10 +235,10 @@ icons: [
   }
   {
     id: "outdent"
+    unicode: "f03b"
     aliases: [
       "dedent"
     ]
-    unicode: "f03b"
   }
   {
     id: "indent"
@@ -250,11 +250,11 @@ icons: [
   }
   {
     id: "picture-o"
+    unicode: "f03e"
     aliases: [
       "photo"
       "image"
     ]
-    unicode: "f03e"
   }
   {
     id: "pencil"
@@ -274,10 +274,10 @@ icons: [
   }
   {
     id: "pencil-square-o"
+    unicode: "f044"
     aliases: [
       "edit"
     ]
-    unicode: "f044"
   }
   {
     id: "share-square-o"
@@ -397,10 +397,10 @@ icons: [
   }
   {
     id: "share"
+    unicode: "f064"
     aliases: [
       "mail-forward"
     ]
-    unicode: "f064"
   }
   {
     id: "expand"
@@ -448,10 +448,10 @@ icons: [
   }
   {
     id: "exclamation-triangle"
+    unicode: "f071"
     aliases: [
       "warning"
     ]
-    unicode: "f071"
   }
   {
     id: "plane"
@@ -507,10 +507,10 @@ icons: [
   }
   {
     id: "bar-chart"
+    unicode: "f080"
     aliases: [
       "bar-chart-o"
     ]
-    unicode: "f080"
   }
   {
     id: "twitter-square"
@@ -530,10 +530,10 @@ icons: [
   }
   {
     id: "cogs"
+    unicode: "f085"
     aliases: [
       "gears"
     ]
-    unicode: "f085"
   }
   {
     id: "comments"
@@ -613,10 +613,10 @@ icons: [
   }
   {
     id: "facebook"
+    unicode: "f09a"
     aliases: [
       "facebook-f"
     ]
-    unicode: "f09a"
   }
   {
     id: "github"
@@ -632,10 +632,10 @@ icons: [
   }
   {
     id: "rss"
+    unicode: "f09e"
     aliases: [
       "feed"
     ]
-    unicode: "f09e"
   }
   {
     id: "hdd-o"
@@ -711,17 +711,17 @@ icons: [
   }
   {
     id: "users"
+    unicode: "f0c0"
     aliases: [
       "group"
     ]
-    unicode: "f0c0"
   }
   {
     id: "link"
+    unicode: "f0c1"
     aliases: [
       "chain"
     ]
-    unicode: "f0c1"
   }
   {
     id: "cloud"
@@ -733,17 +733,17 @@ icons: [
   }
   {
     id: "scissors"
+    unicode: "f0c4"
     aliases: [
       "cut"
     ]
-    unicode: "f0c4"
   }
   {
     id: "files-o"
+    unicode: "f0c5"
     aliases: [
       "copy"
     ]
-    unicode: "f0c5"
   }
   {
     id: "paperclip"
@@ -751,10 +751,10 @@ icons: [
   }
   {
     id: "floppy-o"
+    unicode: "f0c7"
     aliases: [
       "save"
     ]
-    unicode: "f0c7"
   }
   {
     id: "square"
@@ -762,11 +762,11 @@ icons: [
   }
   {
     id: "bars"
+    unicode: "f0c9"
     aliases: [
       "navicon"
       "reorder"
     ]
-    unicode: "f0c9"
   }
   {
     id: "list-ul"
@@ -838,24 +838,24 @@ icons: [
   }
   {
     id: "sort"
+    unicode: "f0dc"
     aliases: [
       "unsorted"
     ]
-    unicode: "f0dc"
   }
   {
     id: "sort-desc"
+    unicode: "f0dd"
     aliases: [
       "sort-down"
     ]
-    unicode: "f0dd"
   }
   {
     id: "sort-asc"
+    unicode: "f0de"
     aliases: [
       "sort-up"
     ]
-    unicode: "f0de"
   }
   {
     id: "envelope"
@@ -867,24 +867,24 @@ icons: [
   }
   {
     id: "undo"
+    unicode: "f0e2"
     aliases: [
       "rotate-left"
     ]
-    unicode: "f0e2"
   }
   {
     id: "gavel"
+    unicode: "f0e3"
     aliases: [
       "legal"
     ]
-    unicode: "f0e3"
   }
   {
     id: "tachometer"
+    unicode: "f0e4"
     aliases: [
       "dashboard"
     ]
-    unicode: "f0e4"
   }
   {
     id: "comment-o"
@@ -896,10 +896,10 @@ icons: [
   }
   {
     id: "bolt"
+    unicode: "f0e7"
     aliases: [
       "flash"
     ]
-    unicode: "f0e7"
   }
   {
     id: "sitemap"
@@ -911,10 +911,10 @@ icons: [
   }
   {
     id: "clipboard"
+    unicode: "f0ea"
     aliases: [
       "paste"
     ]
-    unicode: "f0ea"
   }
   {
     id: "lightbulb-o"
@@ -1038,10 +1038,10 @@ icons: [
   }
   {
     id: "mobile"
+    unicode: "f10b"
     aliases: [
       "mobile-phone"
     ]
-    unicode: "f10b"
   }
   {
     id: "circle-o"
@@ -1065,10 +1065,10 @@ icons: [
   }
   {
     id: "reply"
+    unicode: "f112"
     aliases: [
       "mail-reply"
     ]
-    unicode: "f112"
   }
   {
     id: "github-alt"
@@ -1120,18 +1120,18 @@ icons: [
   }
   {
     id: "reply-all"
+    unicode: "f122"
     aliases: [
       "mail-reply-all"
     ]
-    unicode: "f122"
   }
   {
     id: "star-half-o"
+    unicode: "f123"
     aliases: [
       "star-half-empty"
       "star-half-full"
     ]
-    unicode: "f123"
   }
   {
     id: "location-arrow"
@@ -1147,10 +1147,10 @@ icons: [
   }
   {
     id: "chain-broken"
+    unicode: "f127"
     aliases: [
       "unlink"
     ]
-    unicode: "f127"
   }
   {
     id: "question"
@@ -1302,31 +1302,31 @@ icons: [
   }
   {
     id: "caret-square-o-down"
+    unicode: "f150"
     aliases: [
       "toggle-down"
     ]
-    unicode: "f150"
   }
   {
     id: "caret-square-o-up"
+    unicode: "f151"
     aliases: [
       "toggle-up"
     ]
-    unicode: "f151"
   }
   {
     id: "caret-square-o-right"
+    unicode: "f152"
     aliases: [
       "toggle-right"
     ]
-    unicode: "f152"
   }
   {
     id: "eur"
+    unicode: "f153"
     aliases: [
       "euro"
     ]
-    unicode: "f153"
   }
   {
     id: "gbp"
@@ -1334,48 +1334,48 @@ icons: [
   }
   {
     id: "usd"
+    unicode: "f155"
     aliases: [
       "dollar"
     ]
-    unicode: "f155"
   }
   {
     id: "inr"
+    unicode: "f156"
     aliases: [
       "rupee"
     ]
-    unicode: "f156"
   }
   {
     id: "jpy"
+    unicode: "f157"
     aliases: [
       "cny"
       "rmb"
       "yen"
     ]
-    unicode: "f157"
   }
   {
     id: "rub"
+    unicode: "f158"
     aliases: [
       "ruble"
       "rouble"
     ]
-    unicode: "f158"
   }
   {
     id: "krw"
+    unicode: "f159"
     aliases: [
       "won"
     ]
-    unicode: "f159"
   }
   {
     id: "btc"
+    unicode: "f15a"
     aliases: [
       "bitcoin"
     ]
-    unicode: "f15a"
   }
   {
     id: "file"
@@ -1531,10 +1531,10 @@ icons: [
   }
   {
     id: "gratipay"
+    unicode: "f184"
     aliases: [
       "gittip"
     ]
-    unicode: "f184"
   }
   {
     id: "sun-o"
@@ -1582,10 +1582,10 @@ icons: [
   }
   {
     id: "caret-square-o-left"
+    unicode: "f191"
     aliases: [
       "toggle-left"
     ]
-    unicode: "f191"
   }
   {
     id: "dot-circle-o"
@@ -1601,10 +1601,10 @@ icons: [
   }
   {
     id: "try"
+    unicode: "f195"
     aliases: [
       "turkish-lira"
     ]
-    unicode: "f195"
   }
   {
     id: "plus-square-o"
@@ -1632,18 +1632,18 @@ icons: [
   }
   {
     id: "university"
+    unicode: "f19c"
     aliases: [
       "institution"
       "bank"
     ]
-    unicode: "f19c"
   }
   {
     id: "graduation-cap"
+    unicode: "f19d"
     aliases: [
       "mortar-board"
     ]
-    unicode: "f19d"
   }
   {
     id: "yahoo"
@@ -1747,17 +1747,17 @@ icons: [
   }
   {
     id: "car"
+    unicode: "f1b9"
     aliases: [
       "automobile"
     ]
-    unicode: "f1b9"
   }
   {
     id: "taxi"
+    unicode: "f1ba"
     aliases: [
       "cab"
     ]
-    unicode: "f1ba"
   }
   {
     id: "tree"
@@ -1797,32 +1797,32 @@ icons: [
   }
   {
     id: "file-image-o"
+    unicode: "f1c5"
     aliases: [
       "file-photo-o"
       "file-picture-o"
     ]
-    unicode: "f1c5"
   }
   {
     id: "file-archive-o"
+    unicode: "f1c6"
     aliases: [
       "file-zip-o"
     ]
-    unicode: "f1c6"
   }
   {
     id: "file-audio-o"
+    unicode: "f1c7"
     aliases: [
       "file-sound-o"
     ]
-    unicode: "f1c7"
   }
   {
     id: "file-video-o"
+    unicode: "f1c8"
     aliases: [
       "file-movie-o"
     ]
-    unicode: "f1c8"
   }
   {
     id: "file-code-o"
@@ -1842,13 +1842,13 @@ icons: [
   }
   {
     id: "life-ring"
+    unicode: "f1cd"
     aliases: [
       "life-bouy"
       "life-buoy"
       "life-saver"
       "support"
     ]
-    unicode: "f1cd"
   }
   {
     id: "circle-o-notch"
@@ -1856,18 +1856,18 @@ icons: [
   }
   {
     id: "rebel"
+    unicode: "f1d0"
     aliases: [
       "ra"
       "resistance"
     ]
-    unicode: "f1d0"
   }
   {
     id: "empire"
+    unicode: "f1d1"
     aliases: [
       "ge"
     ]
-    unicode: "f1d1"
   }
   {
     id: "git-square"
@@ -1879,11 +1879,11 @@ icons: [
   }
   {
     id: "hacker-news"
+    unicode: "f1d4"
     aliases: [
       "y-combinator-square"
       "yc-square"
     ]
-    unicode: "f1d4"
   }
   {
     id: "tencent-weibo"
@@ -1895,24 +1895,24 @@ icons: [
   }
   {
     id: "weixin"
+    unicode: "f1d7"
     aliases: [
       "wechat"
     ]
-    unicode: "f1d7"
   }
   {
     id: "paper-plane"
+    unicode: "f1d8"
     aliases: [
       "send"
     ]
-    unicode: "f1d8"
   }
   {
     id: "paper-plane-o"
+    unicode: "f1d9"
     aliases: [
       "send-o"
     ]
-    unicode: "f1d9"
   }
   {
     id: "history"
@@ -1948,10 +1948,10 @@ icons: [
   }
   {
     id: "futbol-o"
+    unicode: "f1e3"
     aliases: [
       "soccer-ball-o"
     ]
-    unicode: "f1e3"
   }
   {
     id: "tty"
@@ -2103,11 +2103,11 @@ icons: [
   }
   {
     id: "ils"
+    unicode: "f20b"
     aliases: [
       "shekel"
       "sheqel"
     ]
-    unicode: "f20b"
   }
   {
     id: "meanpath"
@@ -2195,10 +2195,10 @@ icons: [
   }
   {
     id: "transgender"
+    unicode: "f224"
     aliases: [
       "intersex"
     ]
-    unicode: "f224"
   }
   {
     id: "transgender-alt"
@@ -2262,10 +2262,10 @@ icons: [
   }
   {
     id: "bed"
+    unicode: "f236"
     aliases: [
       "hotel"
     ]
-    unicode: "f236"
   }
   {
     id: "viacoin"
@@ -2285,10 +2285,10 @@ icons: [
   }
   {
     id: "y-combinator"
+    unicode: "f23b"
     aliases: [
       "yc"
     ]
-    unicode: "f23b"
   }
   {
     id: "optin-monster"
@@ -2304,39 +2304,39 @@ icons: [
   }
   {
     id: "battery-full"
+    unicode: "f240"
     aliases: [
       "battery-4"
       "battery"
     ]
-    unicode: "f240"
   }
   {
     id: "battery-three-quarters"
+    unicode: "f241"
     aliases: [
       "battery-3"
     ]
-    unicode: "f241"
   }
   {
     id: "battery-half"
+    unicode: "f242"
     aliases: [
       "battery-2"
     ]
-    unicode: "f242"
   }
   {
     id: "battery-quarter"
+    unicode: "f243"
     aliases: [
       "battery-1"
     ]
-    unicode: "f243"
   }
   {
     id: "battery-empty"
+    unicode: "f244"
     aliases: [
       "battery-0"
     ]
-    unicode: "f244"
   }
   {
     id: "mouse-pointer"
@@ -2384,24 +2384,24 @@ icons: [
   }
   {
     id: "hourglass-start"
+    unicode: "f251"
     aliases: [
       "hourglass-1"
     ]
-    unicode: "f251"
   }
   {
     id: "hourglass-half"
+    unicode: "f252"
     aliases: [
       "hourglass-2"
     ]
-    unicode: "f252"
   }
   {
     id: "hourglass-end"
+    unicode: "f253"
     aliases: [
       "hourglass-3"
     ]
-    unicode: "f253"
   }
   {
     id: "hourglass"
@@ -2409,17 +2409,17 @@ icons: [
   }
   {
     id: "hand-rock-o"
+    unicode: "f255"
     aliases: [
       "hand-grab-o"
     ]
-    unicode: "f255"
   }
   {
     id: "hand-paper-o"
+    unicode: "f256"
     aliases: [
       "hand-stop-o"
     ]
-    unicode: "f256"
   }
   {
     id: "hand-scissors-o"
@@ -2503,10 +2503,10 @@ icons: [
   }
   {
     id: "television"
+    unicode: "f26c"
     aliases: [
       "tv"
     ]
-    unicode: "f26c"
   }
   {
     id: "contao"
@@ -2710,18 +2710,18 @@ icons: [
   }
   {
     id: "american-sign-language-interpreting"
+    unicode: "f2a3"
     aliases: [
       "asl-interpreting"
     ]
-    unicode: "f2a3"
   }
   {
     id: "deaf"
+    unicode: "f2a4"
     aliases: [
       "deafness"
       "hard-of-hearing"
     ]
-    unicode: "f2a4"
   }
   {
     id: "glide"
@@ -2733,10 +2733,10 @@ icons: [
   }
   {
     id: "sign-language"
+    unicode: "f2a7"
     aliases: [
       "signing"
     ]
-    unicode: "f2a7"
   }
   {
     id: "low-vision"
@@ -2780,17 +2780,17 @@ icons: [
   }
   {
     id: "google-plus-official"
+    unicode: "f2b3"
     aliases: [
       "google-plus-circle"
     ]
-    unicode: "f2b3"
   }
   {
     id: "font-awesome"
+    unicode: "f2b4"
     aliases: [
       "fa"
     ]
-    unicode: "f2b4"
   }
   {
     id: "handshake-o"
@@ -2818,17 +2818,17 @@ icons: [
   }
   {
     id: "address-card"
+    unicode: "f2bb"
     aliases: [
       "vcard"
     ]
-    unicode: "f2bb"
   }
   {
     id: "address-card-o"
+    unicode: "f2bc"
     aliases: [
       "vcard-o"
     ]
-    unicode: "f2bc"
   }
   {
     id: "user-circle"
@@ -2848,17 +2848,17 @@ icons: [
   }
   {
     id: "id-card"
+    unicode: "f2c2"
     aliases: [
       "drivers-license"
     ]
-    unicode: "f2c2"
   }
   {
     id: "id-card-o"
+    unicode: "f2c3"
     aliases: [
       "drivers-license-o"
     ]
-    unicode: "f2c3"
   }
   {
     id: "quora"
@@ -2874,39 +2874,39 @@ icons: [
   }
   {
     id: "thermometer-full"
+    unicode: "f2c7"
     aliases: [
       "thermometer-4"
       "thermometer"
     ]
-    unicode: "f2c7"
   }
   {
     id: "thermometer-three-quarters"
+    unicode: "f2c8"
     aliases: [
       "thermometer-3"
     ]
-    unicode: "f2c8"
   }
   {
     id: "thermometer-half"
+    unicode: "f2c9"
     aliases: [
       "thermometer-2"
     ]
-    unicode: "f2c9"
   }
   {
     id: "thermometer-quarter"
+    unicode: "f2ca"
     aliases: [
       "thermometer-1"
     ]
-    unicode: "f2ca"
   }
   {
     id: "thermometer-empty"
+    unicode: "f2cb"
     aliases: [
       "thermometer-0"
     ]
-    unicode: "f2cb"
   }
   {
     id: "shower"
@@ -2914,11 +2914,11 @@ icons: [
   }
   {
     id: "bath"
+    unicode: "f2cd"
     aliases: [
       "bathtub"
       "s15"
     ]
-    unicode: "f2cd"
   }
   {
     id: "podcast"
@@ -2938,17 +2938,17 @@ icons: [
   }
   {
     id: "window-close"
+    unicode: "f2d3"
     aliases: [
       "times-rectangle"
     ]
-    unicode: "f2d3"
   }
   {
     id: "window-close-o"
+    unicode: "f2d4"
     aliases: [
       "times-rectangle-o"
     ]
-    unicode: "f2d4"
   }
   {
     id: "bandcamp"

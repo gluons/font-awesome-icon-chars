@@ -1,0 +1,7 @@
+{
+	"extends": "tslint-config-gluons",
+	"rules": {
+		"only-arrow-functions": false,
+		"no-unused-expression": false
+	}
+}
