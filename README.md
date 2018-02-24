@@ -2,7 +2,6 @@
 [![license](https://img.shields.io/github/license/gluons/Font-Awesome-Icon-Chars.svg?style=flat-square)](./LICENSE)
 [![npm](https://img.shields.io/npm/v/font-awesome-icon-chars.svg?style=flat-square)](https://www.npmjs.com/package/font-awesome-icon-chars)
 [![npm](https://img.shields.io/npm/dt/font-awesome-icon-chars.svg?style=flat-square)](https://www.npmjs.com/package/font-awesome-icon-chars)
-[![Bower](https://img.shields.io/bower/v/font-awesome-icon-chars.svg?style=flat-square)](https://github.com/gluons/Font-Awesome-Icon-Chars)
 [![Gemnasium](https://img.shields.io/gemnasium/gluons/Font-Awesome-Icon-Chars.svg?style=flat-square)](https://gemnasium.com/github.com/gluons/Font-Awesome-Icon-Chars)
 [![Known Vulnerabilities](https://snyk.io/test/github/gluons/font-awesome-icon-chars/badge.svg?style=flat-square)](https://snyk.io/test/github/gluons/font-awesome-icon-chars)
 [![Travis](https://img.shields.io/travis/gluons/Font-Awesome-Icon-Chars.svg?style=flat-square)](https://travis-ci.org/gluons/Font-Awesome-Icon-Chars)
