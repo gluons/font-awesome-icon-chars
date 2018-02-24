@@ -34,6 +34,7 @@
   "homepage": "https://github.com/gluons/Font-Awesome-Icon-Chars",
   "dependencies": {},
   "devDependencies": {
+    "@fortawesome/fontawesome-free-solid": "^5.0.6",
     "@types/chai": "^4.1.2",
     "@types/chai-things": "^0.0.32",
     "@types/cson": "^0.0.31",
