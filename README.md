@@ -54,3 +54,32 @@ for (let icon of brands) {
 	console.log(`Icon ID: ${icon.name}, Icon Unicode: ${icon.unicode}`);
 }
 ```
+
+## Schema
+
+### 📜 [CSON](https://github.com/bevry/cson), [JSON](https://www.json.org/), [TOML](https://github.com/toml-lang/toml), [YAML](http://yaml.org/)
+
+- `solid` (`Icon[]`) — Font Awesome [solid icons](https://fontawesome.com/icons?d=gallery&s=solid&m=free)
+- `regular` (`Icon[]`) — Font Awesome [regular icons](https://fontawesome.com/icons?d=gallery&s=regular&m=free)
+- `brands` (`Icons[]`) — Font Awesome [brands icons](https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+
+#### Icon
+
+- `name` (`string`) — Font Awesome icon name.
+- `unicode` (`string`) — An unicode of Font Awesome icon.
+
+### 📜 [XML](https://www.w3.org/XML/)
+
+- `<style>`
+  - `<solid>` — Font Awesome [solid icons](https://fontawesome.com/icons?d=gallery&s=solid&m=free)
+    - `<icon id="...icon name...">`
+      - `id` (attribute) — Font Awesome icon name  
+      - `<unicode>` — Contain an unicode of Font Awesome icon.
+  - `<regular>` — Font Awesome [regular icons](https://fontawesome.com/icons?d=gallery&s=regular&m=free)
+    - `<icon id="...icon name...">`
+      - `id` (attribute) — Font Awesome icon name  
+      - `<unicode>` — Contain an unicode of Font Awesome icon.
+  - `<brands>` — Font Awesome [brands icons](https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+    - `<icon id="...icon name...">`
+      - `id` (attribute) — Font Awesome icon name  
+      - `<unicode>` — Contain an unicode of Font Awesome icon.
