@@ -1,6 +1,7 @@
 /// <reference path='./types.d.ts' />
 
 import { IconDefinition, IconPack } from '@fortawesome/fontawesome-common-types';
+import brands from '@fortawesome/fontawesome-free-brands';
 import regular from '@fortawesome/fontawesome-free-regular';
 import solid from '@fortawesome/fontawesome-free-solid';
 
@@ -33,11 +34,21 @@ export function getSolidIcons(): IconInfo[] {
 }
 
 /**
- * Get regular icons information
+ * Get regular icons information.
  *
  * @export
  * @returns {IconInfo[]}
  */
 export function getRegularIcons(): IconInfo[] {
 	return getIcons(regular);
+}
+
+/**
+ * Get brands icons information.
+ *
+ * @export
+ * @returns {IconInfo[]}
+ */
+export function getBrandsIcons(): IconInfo[] {
+	return getIcons(brands);
 }
