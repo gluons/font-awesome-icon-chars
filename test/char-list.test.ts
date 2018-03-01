@@ -68,7 +68,7 @@ describe('Character list files', function () {
 
 	// Parse all files before start.
 	before(function (done) {
-		this.timeout(5000);
+		this.timeout(10000);
 
 		parsedCSON = CSONContent ? CSON.parse(CSONContent) : {};
 		parsedJSON = JSONContent ? JSON.parse(JSONContent) : {};
