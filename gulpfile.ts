@@ -49,11 +49,6 @@ interface IconXML {
 	'@id': string;
 	'unicode': { '#text': string };
 }
-interface IconsXML {
-	solid: { icon: IconXML[] };
-	regular: { icon: IconXML[] };
-	brands: { icon: IconXML[] };
-}
 export function buildXML() {
 	let convertToXMLObj = (icon: IconInfo): IconXML => {
 		return {
@@ -64,15 +59,17 @@ export function buildXML() {
 		};
 	};
 
-	let xmlObj: IconsXML = {
-		solid: {
-			icon: JSONSource.solid.map(convertToXMLObj)
-		},
-		regular: {
-			icon: JSONSource.regular.map(convertToXMLObj)
-		},
-		brands: {
-			icon: JSONSource.brands.map(convertToXMLObj)
+	let xmlObj = {
+		style: {
+			solid: {
+				icon: JSONSource.solid.map(convertToXMLObj)
+			},
+			regular: {
+				icon: JSONSource.regular.map(convertToXMLObj)
+			},
+			brands: {
+				icon: JSONSource.brands.map(convertToXMLObj)
+			}
 		}
 	};
 	let xmlStr = xmlBuilder.create(xmlObj, { version: '1.0', encoding: 'UTF-8' })
