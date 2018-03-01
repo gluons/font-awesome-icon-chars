@@ -9,6 +9,7 @@
 
 The list of [Font Awesome](https://fontawesome.com/) icon **unicode characters** in several file format.
 
+> This list contains only [**free**](https://fontawesome.com/icons?d=gallery&m=free) icons.
 
 ## Installation
 
