@@ -7,6 +7,8 @@ import yaml = require('js-yaml');
 import tomlify = require('tomlify-j0.4');
 import xmlBuilder = require('xmlbuilder');
 
+import { flatten } from 'lodash';
+
 import { createStream, getSource, IconInfo } from './lib/utils';
 
 const { parallel, series } = gulp;
@@ -105,11 +107,20 @@ export const generate = series(cleanTS, function generate() {
 });
 
 export function countTest() {
+	let { solid, regular, brands } = JSONSource;
+
+	let countAll = (...args: IconInfo[][]): number => {
+		let allKeys = flatten(args.map(iconInfs => {
+			return iconInfs.map(iconInf => iconInf.name);
+		}));
+		return allKeys.length;
+	};
+
 	let iconCount = {
-		all: 0,
-		solid: JSONSource.solid.length,
-		regular: JSONSource.regular.length,
-		brands: JSONSource.brands.length
+		all: countAll(solid, regular, brands),
+		solid: solid.length,
+		regular: regular.length,
+		brands: brands.length
 	};
 
 	return createStream('icon-count.json', JSON.stringify(iconCount, null, '\t'))
