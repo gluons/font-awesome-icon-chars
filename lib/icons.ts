@@ -1,9 +1,9 @@
-/// <reference path='./types.d.ts' />
-
 import { IconDefinition, IconPack } from '@fortawesome/fontawesome-common-types';
 import brands from '@fortawesome/fontawesome-free-brands';
 import regular from '@fortawesome/fontawesome-free-regular';
 import solid from '@fortawesome/fontawesome-free-solid';
+
+import { IconInfo } from './types';
 
 /**
  * Get icons information from icons source.
@@ -13,7 +13,7 @@ import solid from '@fortawesome/fontawesome-free-solid';
  */
 function getIcons(iconsSource: IconPack): IconInfo[] {
 	return Object.keys(iconsSource).map(key => {
-		let iconDef: IconDefinition = solid[key];
+		let iconDef: IconDefinition = iconsSource[key];
 		let iconInf: IconInfo = {
 			name: iconDef.iconName,
 			unicode: iconDef.icon[3] // 4th item of icon is unicode.

@@ -7,13 +7,12 @@ import yaml = require('js-yaml');
 import tomlify = require('tomlify-j0.4');
 import xmlBuilder = require('xmlbuilder');
 
-import { convertSource, createStream, getSource } from './lib/utils';
+import { createStream, getSource, IconInfo } from './lib/utils';
 
 const { parallel, series } = gulp;
 
 const filename = 'character-list';
-const icons = getSource();
-const JSONSource = convertSource(icons);
+const JSONSource = getSource();
 
 export function cleanAssets() {
 	return del(['character-list/*']);
@@ -47,24 +46,26 @@ export function buildTOML() {
 interface IconXML {
 	'@id': string;
 	'unicode': { '#text': string };
-	'alias'?: Array<{ '#text': string }>;
+}
+interface IconsXML {
+	solid: IconXML[];
+	regular: IconXML[];
+	brands: IconXML[];
 }
 export function buildXML() {
-	let xmlObj = {
-		icons: {
-			icon: JSONSource.icons.map(icon => {
-				let iconObj: IconXML = {
-					'@id': icon.id,
-					'unicode': {
-						'#text': icon.unicode
-					}
-				};
-				if (Array.isArray(icon.aliases) && (icon.aliases.length > 0)) {
-					iconObj.alias = icon.aliases.map(alias => ({ '#text': alias }));
-				}
-				return iconObj;
-			})
-		}
+	let convertToXMLObj = (icon: IconInfo): IconXML => {
+		return {
+			'@id': icon.name,
+			'unicode': {
+				'#text': icon.unicode
+			}
+		};
+	};
+
+	let xmlObj: IconsXML = {
+		solid: JSONSource.solid.map(convertToXMLObj),
+		regular: JSONSource.regular.map(convertToXMLObj),
+		brands: JSONSource.brands.map(convertToXMLObj)
 	};
 	let xmlStr = xmlBuilder.create(xmlObj, { version: '1.0', encoding: 'UTF-8' })
 		.end({
@@ -90,10 +91,11 @@ export const generate = series(cleanTS, function generate() {
 	let JSONSourceStr = JSON.stringify(JSONSource, null, '\t');
 	// Replace quote
 	JSONSourceStr = JSONSourceStr
-		.replace(/"icons"/g, 'icons')
-		.replace(/"id"/g, 'id')
+		.replace(/"solid"/g, 'solid')
+		.replace(/"regular"/g, 'regular')
+		.replace(/"brands"/g, 'brands')
+		.replace(/"name"/g, 'name')
 		.replace(/"unicode"/g, 'unicode')
-		.replace(/"aliases"/g, 'aliases')
 		.replace(/"/g, "'");
 	let content = `export default ${JSONSourceStr};\n`;
 
@@ -104,14 +106,11 @@ export const generate = series(cleanTS, function generate() {
 
 export function countTest() {
 	let iconCount = {
-		count: JSONSource.icons.length,
-		aliases: {}
+		all: 0,
+		solid: JSONSource.solid.length,
+		regular: JSONSource.regular.length,
+		brands: JSONSource.brands.length
 	};
-	for (let icon of JSONSource.icons) {
-		if (icon.aliases) {
-			iconCount.aliases[icon.id] = icon.aliases.length;
-		}
-	}
 
 	return createStream('icon-count.json', JSON.stringify(iconCount, null, '\t'))
 		.pipe(gulp.dest('test'));

@@ -1,9 +1,10 @@
 /**
  * Icon information.
  *
+ * @export
  * @interface IconInfo
  */
-interface IconInfo {
+export interface IconInfo {
 	/**
 	 * Icon's name.
 	 *
