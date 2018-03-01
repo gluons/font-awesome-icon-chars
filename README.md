@@ -7,16 +7,11 @@
 [![TSLint](https://img.shields.io/badge/TSLint-gluons-15757B.svg?style=flat-square)](https://github.com/gluons/tslint-config-gluons)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovateapp.com/)
 
-The list of [Font Awesome](http://fontawesome.io/) icon unicode characters in several file format.
+The list of [Font Awesome](https://fontawesome.com/) icon **unicode characters** in several file format.
 
 
 ## Installation
 
-**Via [Bower](https://bower.io/):**
-
-```
-bower install font-awesome-icon-chars
-```
 **Via [NPM](https://www.npmjs.com/):**
 
 [![NPM](https://nodei.co/npm/font-awesome-icon-chars.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/font-awesome-icon-chars)
@@ -24,6 +19,7 @@ bower install font-awesome-icon-chars
 ```
 npm install font-awesome-icon-chars
 ```
+
 **Via [Yarn](https://yarnpkg.com/):**
 
 ```
@@ -34,62 +30,27 @@ yarn add font-awesome-icon-chars
 
 ### Assets
 
-You can use characters list file in [character-list](./character-list) directory. All characters list files will be placed in this directory.
+You can use characters list file in [character-list](./character-list) directory.  
+All characters list files will be placed in this directory.
 
 ### Node.js
 
-You will get array of icon from this module.
+You can also get list of icon from this module.
+
 ```javascript
 const faIconChars = require('font-awesome-icon-chars');
-for (let icon of faIconChars) {
-	console.log(`Icon ID: ${icon.id}, Icon Unicode: ${icon.unicode}`);
+const { solid, regular, brands } = faIconChars;
+
+// Solid icons
+for (let icon of solid) {
+	console.log(`Icon ID: ${icon.name}, Icon Unicode: ${icon.unicode}`);
 }
-```
-
-## Development
-
-- Build all file.
-  ```
-  gulp build
-  ```
-  Or use default gulp task.
-  ```
-  gulp
-  ```
-
-- Build **[CSON](https://github.com/bevry/cson)** file.
-  ```
-  gulp build:cson
-  ```
-
-- Build **[JSON](http://www.json.org/)** file.
-  ```
-  gulp build:json
-  ```
-
-- Build **[TOML](https://github.com/toml-lang/toml)** file.
-  ```
-  gulp build:toml
-  ```
-
-- Build **[XML](https://www.w3.org/XML/)** file.
-  ```
-  gulp build:xml
-  ```
-
-- Build **[YAML](http://yaml.org/)** file.
-  ```
-  gulp build:yaml
-  ```
-
-#### Want ID start with `fa-`?
-Use `--fa` argument in gulp command.
-```
-gulp --fa
-gulp build --fa
-gulp build:cson --fa
-gulp build:json --fa
-gulp build:toml --fa
-gulp build:xml --fa
-gulp build:yaml --fa
+// Regular icons
+for (let icon of regular) {
+	console.log(`Icon ID: ${icon.name}, Icon Unicode: ${icon.unicode}`);
+}
+// Brands icons
+for (let icon of brands) {
+	console.log(`Icon ID: ${icon.name}, Icon Unicode: ${icon.unicode}`);
+}
 ```
