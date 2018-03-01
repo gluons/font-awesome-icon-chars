@@ -22,7 +22,8 @@
     "url": "git+https://github.com/gluons/Font-Awesome-Icon-Chars.git"
   },
   "moduleType": [
-    "node"
+    "node",
+    "es6"
   ],
   "ignore": [
     "**/.*",
