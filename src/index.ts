@@ -1,11 +1,15 @@
 import charList from './character-list';
 
 export interface FontAwesomeIconMetadata {
-	id: string;
+	name: string;
 	unicode: string;
-	aliases?: string[];
 }
-const icons: FontAwesomeIconMetadata[] = charList.icons;
+export interface FontAwesomeIconAllMetadata {
+	solid: FontAwesomeIconMetadata[];
+	regular: FontAwesomeIconMetadata[];
+	brands: FontAwesomeIconMetadata[];
+}
+const icons: FontAwesomeIconAllMetadata = charList;
 
 module.exports = icons;
 export default icons;
