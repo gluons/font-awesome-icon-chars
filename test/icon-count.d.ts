@@ -1,6 +1,6 @@
 interface IconCount {
-	count: number;
-	aliases: {
-		[id: string]: number
-	}
+	all: number;
+	solid: number;
+	regular: number;
+	brands: number;
 }

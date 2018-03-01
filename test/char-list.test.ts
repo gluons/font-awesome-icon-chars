@@ -1,9 +1,12 @@
+/// <reference path='./chai-things-extra.d.ts' />
+/// <reference path='./icon-count.d.ts' />
+
 import { accessSync, constants as fsConsts, readFileSync } from 'fs';
 import { resolve } from 'path';
 
 import chai = require('chai');
 import chaiThings = require('chai-things');
-import { each, find } from 'lodash';
+import { each } from 'lodash';
 
 import CSON = require('cson');
 import YAML = require('js-yaml');
@@ -49,6 +52,10 @@ const TOMLContent = readFile(TOMLPath);
 const XMLContent = readFile(XMLPath);
 const YAMLContent = readFile(YAMLPath);
 
+const styles = ['solid', 'regular', 'brands'];
+
+/* tslint:disable: forin */
+
 describe('Character list files', function () {
 	this.slow(100);
 
@@ -81,68 +88,64 @@ describe('Character list files', function () {
 	it('should create valid CSON character list file', () => {
 		expect(hasFile(CSONPath)).to.be.true;
 		expect(parsedCSON).to.not.be.instanceof(Error);
-		expect(parsedCSON.icons).to.be.instanceof(Array);
-		expect(parsedCSON.icons).to.have.lengthOf(iconCount.count);
-		expect(parsedCSON.icons).to.have.all.property('id');
-		expect(parsedCSON.icons).to.have.all.property('unicode');
-		each(iconCount.aliases, (aliasCount, id) => {
-			let item = find(parsedCSON.icons, { id });
-			expect(item.aliases).to.have.lengthOf(aliasCount);
-		});
+
+		for (let style of styles) {
+			expect(parsedCSON[style]).to.be.instanceof(Array);
+			expect(parsedCSON[style]).to.have.lengthOf(iconCount[style]);
+			expect(parsedCSON[style]).to.have.all.property('name');
+			expect(parsedCSON[style]).to.have.all.property('unicode');
+		}
 	});
 
 	// JSON
 	it('should create valid JSON character list file', () => {
 		expect(hasFile(JSONPath)).to.be.true;
-		expect(parsedJSON.icons).to.be.instanceof(Array);
-		expect(parsedJSON.icons).to.have.lengthOf(iconCount.count);
-		expect(parsedJSON.icons).to.have.all.property('id');
-		expect(parsedJSON.icons).to.have.all.property('unicode');
-		each(iconCount.aliases, (aliasCount, id) => {
-			let item = find(parsedJSON.icons, { id });
-			expect(item.aliases).to.have.lengthOf(aliasCount);
-		});
+
+		for (let style of styles) {
+			expect(parsedJSON[style]).to.be.instanceof(Array);
+			expect(parsedJSON[style]).to.have.lengthOf(iconCount[style]);
+			expect(parsedJSON[style]).to.have.all.property('name');
+			expect(parsedJSON[style]).to.have.all.property('unicode');
+		}
 	});
 
 	// TOML
 	it('should create valid TOML character list file', () => {
 		expect(hasFile(TOMLPath)).to.be.true;
-		expect(parsedTOML.icons).to.be.instanceof(Array);
-		expect(parsedTOML.icons).to.have.lengthOf(iconCount.count);
-		expect(parsedTOML.icons).to.have.all.property('id');
-		expect(parsedTOML.icons).to.have.all.property('unicode');
-		each(iconCount.aliases, (aliasCount, id) => {
-			let item = find(parsedTOML.icons, { id });
-			expect(item.aliases).to.have.lengthOf(aliasCount);
-		});
+
+		for (let style of styles) {
+			expect(parsedTOML[style]).to.be.instanceof(Array);
+			expect(parsedTOML[style]).to.have.lengthOf(iconCount[style]);
+			expect(parsedTOML[style]).to.have.all.property('name');
+			expect(parsedTOML[style]).to.have.all.property('unicode');
+		}
 	});
 
 	// XML
 	it('should create valid XML character list file', () => {
 		expect(hasFile(XMLPath)).to.be.true;
-		expect(parsedXML.icons.icon).to.be.instanceof(Array);
-		expect(parsedXML.icons.icon).to.have.lengthOf(iconCount.count);
-		expect(parsedXML.icons.icon).to.have.all.property('$');
-		expect(parsedXML.icons.icon).to.have.all.property('unicode');
-		each(parsedXML.icons.icon, item => {
-			expect(item.$).to.have.property('id');
-		});
-		each(iconCount.aliases, (aliasCount, id) => {
-			let item = find(parsedXML.icons.icon, { $: { id } });
-			expect(item.alias).to.have.lengthOf(aliasCount);
-		});
+
+		for (let style of styles) {
+			let icons = parsedXML.style[style][0].icon;
+			expect(icons).to.be.instanceof(Array);
+			expect(icons).to.have.lengthOf(iconCount[style]);
+			expect(icons).to.have.all.property('$');
+			expect(icons).to.have.all.property('unicode');
+			each(icons, item => {
+				expect(item.$).to.have.property('id');
+			});
+		}
 	});
 
 	// YAML
 	it('should create valid YAML character list file', () => {
 		expect(hasFile(YAMLPath)).to.be.true;
-		expect(parsedYAML.icons).to.be.instanceof(Array);
-		expect(parsedYAML.icons).to.have.lengthOf(iconCount.count);
-		expect(parsedYAML.icons).to.have.all.property('id');
-		expect(parsedYAML.icons).to.have.all.property('unicode');
-		each(iconCount.aliases, (aliasCount, id) => {
-			let item = find(parsedYAML.icons, { id });
-			expect(item.aliases).to.have.lengthOf(aliasCount);
-		});
+
+		for (let style of styles) {
+			expect(parsedYAML[style]).to.be.instanceof(Array);
+			expect(parsedYAML[style]).to.have.lengthOf(iconCount[style]);
+			expect(parsedYAML[style]).to.have.all.property('name');
+			expect(parsedYAML[style]).to.have.all.property('unicode');
+		}
 	});
 });
