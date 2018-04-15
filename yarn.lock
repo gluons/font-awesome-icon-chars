@@ -24,9 +24,9 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.1.3"
 
-"@types/chai-things@^0.0.32":
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/@types/chai-things/-/chai-things-0.0.32.tgz#ea3fe74c47124f13cf3570b839f8a3adc3e056dd"
+"@types/chai-things@^0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@types/chai-things/-/chai-things-0.0.33.tgz#fdd160d65292beac54d3ee3b782e788a5b206b3c"
   dependencies:
     "@types/chai" "*"
 
