@@ -62,12 +62,15 @@
     "rimraf": "^2.6.2",
     "toml": "^2.3.0",
     "tomlify-j0.4": "^3.0.0",
-    "ts-node": "^5.0.0",
+    "ts-node": "^6.0.0",
     "tslint": "^5.9.1",
     "tslint-config-gluons": "^1.0.5",
     "typescript": "^2.7.2",
     "vinyl": "^2.1.0",
     "xml2js": "^0.4.16",
     "xmlbuilder": "^9.0.0"
+  },
+  "resolutions": {
+    "gulp/**/upath": "^1.0.5"
   }
 }
