@@ -1,11 +1,11 @@
-import gulp = require('gulp');
-import json2cson = require('gulp-json2cson');
-import plumber = require('gulp-plumber');
+import gulp from 'gulp';
+import json2cson from 'gulp-json2cson';
+import plumber from 'gulp-plumber';
 
-import del = require('del');
-import yaml = require('js-yaml');
-import tomlify = require('tomlify-j0.4');
-import xmlBuilder = require('xmlbuilder');
+import del from 'del';
+import yaml from 'js-yaml';
+import tomlify from 'tomlify-j0.4';
+import xmlBuilder from 'xmlbuilder';
 
 import { flatten } from 'lodash';
 
@@ -92,6 +92,7 @@ export function buildYAML() {
 		.pipe(gulp.dest('character-list'));
 }
 
+// tslint:disable-next-line:no-shadowed-variable
 export const generate = series(cleanTS, function generate() {
 	let JSONSourceStr = JSON.stringify(JSONSource, null, '\t');
 	// Replace quote

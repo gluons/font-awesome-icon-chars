@@ -1,8 +1,3 @@
 {
-	"extends": "tslint-config-gluons",
-	"rules": {
-		"only-arrow-functions": false,
-		"no-unused-expression": false,
-		"no-shadowed-variable": false
-	}
+	"extends": "tslint-config-gluons"
 }

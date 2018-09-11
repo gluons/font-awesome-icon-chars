@@ -1,7 +1,7 @@
 import { IconDefinition, IconPack } from '@fortawesome/fontawesome-common-types';
-import brands from '@fortawesome/fontawesome-free-brands';
-import regular from '@fortawesome/fontawesome-free-regular';
-import solid from '@fortawesome/fontawesome-free-solid';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
 import { IconInfo } from './types';
 
@@ -30,7 +30,7 @@ function getIcons(iconsSource: IconPack): IconInfo[] {
  * @returns {IconInfo[]}
  */
 export function getSolidIcons(): IconInfo[] {
-	return getIcons(solid);
+	return getIcons(fas);
 }
 
 /**
@@ -40,7 +40,7 @@ export function getSolidIcons(): IconInfo[] {
  * @returns {IconInfo[]}
  */
 export function getRegularIcons(): IconInfo[] {
-	return getIcons(regular);
+	return getIcons(far);
 }
 
 /**
@@ -50,5 +50,5 @@ export function getRegularIcons(): IconInfo[] {
  * @returns {IconInfo[]}
  */
 export function getBrandsIcons(): IconInfo[] {
-	return getIcons(brands);
+	return getIcons(fab);
 }

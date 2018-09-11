@@ -1,6 +1,5 @@
 import { Readable } from 'stream';
-
-import Vinyl = require('vinyl');
+import Vinyl from 'vinyl';
 
 import { getBrandsIcons, getRegularIcons, getSolidIcons } from './icons';
 
@@ -29,9 +28,9 @@ export function getSource(): IconsSource {
  * @export
  * @param {string} filename File name.
  * @param {string} content Content.
- * @returns Source stream.
+ * @returns {Readable} Source stream.
  */
-export function createStream(filename: string, content: string) {
+export function createStream(filename: string, content: string): Readable {
 	let src = new Readable({
 		objectMode: true,
 		read() {
