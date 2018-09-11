@@ -4,6 +4,9 @@
 		"moduleResolution": "node",
 		"target": "es5",
 		"outDir": "dist",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"esModuleInterop": true,
 		"declaration": true
 	},
 	"include": [

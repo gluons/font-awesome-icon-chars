@@ -4,14 +4,14 @@
 import { accessSync, constants as fsConsts, readFileSync } from 'fs';
 import { resolve } from 'path';
 
-import chai = require('chai');
-import chaiThings = require('chai-things');
+import chai from 'chai';
+import chaiThings from 'chai-things';
 import { each } from 'lodash';
 
-import CSON = require('cson');
-import YAML = require('js-yaml');
-import TOML = require('toml');
-import xml2js = require('xml2js');
+import CSON from 'cson';
+import YAML from 'js-yaml';
+import TOML from 'toml';
+import xml2js from 'xml2js';
 
 const iconCount: IconCount = require('./icon-count.json');
 

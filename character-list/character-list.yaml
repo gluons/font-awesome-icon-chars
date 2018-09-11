@@ -1,11 +1,15 @@
 ---
 solid:
+  - name: ad
+    unicode: f641
   - name: address-book
     unicode: f2b9
   - name: address-card
     unicode: f2bb
   - name: adjust
     unicode: f042
+  - name: air-freshener
+    unicode: f5d0
   - name: align-center
     unicode: f037
   - name: align-justify
@@ -14,6 +18,8 @@ solid:
     unicode: f036
   - name: align-right
     unicode: f038
+  - name: allergies
+    unicode: f461
   - name: ambulance
     unicode: f0f9
   - name: american-sign-language-interpreting
@@ -36,8 +42,16 @@ solid:
     unicode: f105
   - name: angle-up
     unicode: f106
+  - name: angry
+    unicode: f556
+  - name: ankh
+    unicode: f644
+  - name: apple-alt
+    unicode: f5d1
   - name: archive
     unicode: f187
+  - name: archway
+    unicode: f557
   - name: arrow-alt-circle-down
     unicode: f358
   - name: arrow-alt-circle-left
@@ -74,8 +88,16 @@ solid:
     unicode: f069
   - name: at
     unicode: f1fa
+  - name: atlas
+    unicode: f558
+  - name: atom
+    unicode: f5d2
   - name: audio-description
     unicode: f29e
+  - name: award
+    unicode: f559
+  - name: backspace
+    unicode: f55a
   - name: backward
     unicode: f04a
   - name: balance-scale
@@ -112,12 +134,18 @@ solid:
     unicode: f0f3
   - name: bell-slash
     unicode: f1f6
+  - name: bezier-curve
+    unicode: f55b
+  - name: bible
+    unicode: f647
   - name: bicycle
     unicode: f206
   - name: binoculars
     unicode: f1e5
   - name: birthday-cake
     unicode: f1fd
+  - name: blender
+    unicode: f517
   - name: blind
     unicode: f29d
   - name: bold
@@ -126,20 +154,40 @@ solid:
     unicode: f0e7
   - name: bomb
     unicode: f1e2
+  - name: bone
+    unicode: f5d7
+  - name: bong
+    unicode: f55c
   - name: book
     unicode: f02d
+  - name: book-open
+    unicode: f518
+  - name: book-reader
+    unicode: f5da
   - name: bookmark
     unicode: f02e
   - name: bowling-ball
     unicode: f436
   - name: box
     unicode: f466
+  - name: box-open
+    unicode: f49e
   - name: boxes
     unicode: f468
   - name: braille
     unicode: f2a1
+  - name: brain
+    unicode: f5dc
   - name: briefcase
     unicode: f0b1
+  - name: briefcase-medical
+    unicode: f469
+  - name: broadcast-tower
+    unicode: f519
+  - name: broom
+    unicode: f51a
+  - name: brush
+    unicode: f55d
   - name: bug
     unicode: f188
   - name: building
@@ -148,8 +196,14 @@ solid:
     unicode: f0a1
   - name: bullseye
     unicode: f140
+  - name: burn
+    unicode: f46a
   - name: bus
     unicode: f207
+  - name: bus-alt
+    unicode: f55e
+  - name: business-time
+    unicode: f64a
   - name: calculator
     unicode: f1ec
   - name: calendar
@@ -168,8 +222,20 @@ solid:
     unicode: f030
   - name: camera-retro
     unicode: f083
+  - name: cannabis
+    unicode: f55f
+  - name: capsules
+    unicode: f46b
   - name: car
     unicode: f1b9
+  - name: car-alt
+    unicode: f5de
+  - name: car-battery
+    unicode: f5df
+  - name: car-crash
+    unicode: f5e1
+  - name: car-side
+    unicode: f5e4
   - name: caret-down
     unicode: f0d7
   - name: caret-left
@@ -192,6 +258,12 @@ solid:
     unicode: f217
   - name: certificate
     unicode: f0a3
+  - name: chalkboard
+    unicode: f51b
+  - name: chalkboard-teacher
+    unicode: f51c
+  - name: charging-station
+    unicode: f5e7
   - name: chart-area
     unicode: f1fe
   - name: chart-bar
@@ -204,6 +276,8 @@ solid:
     unicode: f00c
   - name: check-circle
     unicode: f058
+  - name: check-double
+    unicode: f560
   - name: check-square
     unicode: f14a
   - name: chess
@@ -240,10 +314,14 @@ solid:
     unicode: f077
   - name: child
     unicode: f1ae
+  - name: church
+    unicode: f51d
   - name: circle
     unicode: f111
   - name: circle-notch
     unicode: f1ce
+  - name: city
+    unicode: f64f
   - name: clipboard
     unicode: f328
   - name: clipboard-check
@@ -262,6 +340,8 @@ solid:
     unicode: f381
   - name: cloud-upload-alt
     unicode: f382
+  - name: cocktail
+    unicode: f561
   - name: code
     unicode: f121
   - name: code-branch
@@ -272,28 +352,56 @@ solid:
     unicode: f013
   - name: cogs
     unicode: f085
+  - name: coins
+    unicode: f51e
   - name: columns
     unicode: f0db
   - name: comment
     unicode: f075
   - name: comment-alt
     unicode: f27a
+  - name: comment-dollar
+    unicode: f651
+  - name: comment-dots
+    unicode: f4ad
+  - name: comment-slash
+    unicode: f4b3
   - name: comments
     unicode: f086
+  - name: comments-dollar
+    unicode: f653
+  - name: compact-disc
+    unicode: f51f
   - name: compass
     unicode: f14e
   - name: compress
     unicode: f066
+  - name: concierge-bell
+    unicode: f562
+  - name: cookie
+    unicode: f563
+  - name: cookie-bite
+    unicode: f564
   - name: copy
     unicode: f0c5
   - name: copyright
     unicode: f1f9
+  - name: couch
+    unicode: f4b8
   - name: credit-card
     unicode: f09d
   - name: crop
     unicode: f125
+  - name: crop-alt
+    unicode: f565
+  - name: cross
+    unicode: f654
   - name: crosshairs
     unicode: f05b
+  - name: crow
+    unicode: f520
+  - name: crown
+    unicode: f521
   - name: cube
     unicode: f1b2
   - name: cubes
@@ -306,6 +414,32 @@ solid:
     unicode: f2a4
   - name: desktop
     unicode: f108
+  - name: dharmachakra
+    unicode: f655
+  - name: diagnoses
+    unicode: f470
+  - name: dice
+    unicode: f522
+  - name: dice-five
+    unicode: f523
+  - name: dice-four
+    unicode: f524
+  - name: dice-one
+    unicode: f525
+  - name: dice-six
+    unicode: f526
+  - name: dice-three
+    unicode: f527
+  - name: dice-two
+    unicode: f528
+  - name: digital-tachograph
+    unicode: f566
+  - name: directions
+    unicode: f5eb
+  - name: divide
+    unicode: f529
+  - name: dizzy
+    unicode: f567
   - name: dna
     unicode: f471
   - name: dollar-sign
@@ -314,10 +448,28 @@ solid:
     unicode: f472
   - name: dolly-flatbed
     unicode: f474
+  - name: donate
+    unicode: f4b9
+  - name: door-closed
+    unicode: f52a
+  - name: door-open
+    unicode: f52b
   - name: dot-circle
     unicode: f192
+  - name: dove
+    unicode: f4ba
   - name: download
     unicode: f019
+  - name: drafting-compass
+    unicode: f568
+  - name: draw-polygon
+    unicode: f5ee
+  - name: drum
+    unicode: f569
+  - name: drum-steelpan
+    unicode: f56a
+  - name: dumbbell
+    unicode: f44b
   - name: edit
     unicode: f044
   - name: eject
@@ -330,8 +482,12 @@ solid:
     unicode: f0e0
   - name: envelope-open
     unicode: f2b6
+  - name: envelope-open-text
+    unicode: f658
   - name: envelope-square
     unicode: f199
+  - name: equals
+    unicode: f52c
   - name: eraser
     unicode: f12d
   - name: euro-sign
@@ -364,6 +520,10 @@ solid:
     unicode: f050
   - name: fax
     unicode: f1ac
+  - name: feather
+    unicode: f52d
+  - name: feather-alt
+    unicode: f56b
   - name: female
     unicode: f182
   - name: fighter-jet
@@ -378,50 +538,96 @@ solid:
     unicode: f1c7
   - name: file-code
     unicode: f1c9
+  - name: file-contract
+    unicode: f56c
+  - name: file-download
+    unicode: f56d
   - name: file-excel
     unicode: f1c3
+  - name: file-export
+    unicode: f56e
   - name: file-image
     unicode: f1c5
+  - name: file-import
+    unicode: f56f
+  - name: file-invoice
+    unicode: f570
+  - name: file-invoice-dollar
+    unicode: f571
+  - name: file-medical
+    unicode: f477
+  - name: file-medical-alt
+    unicode: f478
   - name: file-pdf
     unicode: f1c1
   - name: file-powerpoint
     unicode: f1c4
+  - name: file-prescription
+    unicode: f572
+  - name: file-signature
+    unicode: f573
+  - name: file-upload
+    unicode: f574
   - name: file-video
     unicode: f1c8
   - name: file-word
     unicode: f1c2
+  - name: fill
+    unicode: f575
+  - name: fill-drip
+    unicode: f576
   - name: film
     unicode: f008
   - name: filter
     unicode: f0b0
+  - name: fingerprint
+    unicode: f577
   - name: fire
     unicode: f06d
   - name: fire-extinguisher
     unicode: f134
   - name: first-aid
     unicode: f479
+  - name: fish
+    unicode: f578
   - name: flag
     unicode: f024
   - name: flag-checkered
     unicode: f11e
   - name: flask
     unicode: f0c3
+  - name: flushed
+    unicode: f579
   - name: folder
     unicode: f07b
+  - name: folder-minus
+    unicode: f65d
   - name: folder-open
     unicode: f07c
+  - name: folder-plus
+    unicode: f65e
   - name: font
     unicode: f031
+  - name: font-awesome-logo-full
+    unicode: f4e6
   - name: football-ball
     unicode: f44e
   - name: forward
     unicode: f04e
+  - name: frog
+    unicode: f52e
   - name: frown
     unicode: f119
+  - name: frown-open
+    unicode: f57a
+  - name: funnel-dollar
+    unicode: f662
   - name: futbol
     unicode: f1e3
   - name: gamepad
     unicode: f11b
+  - name: gas-pump
+    unicode: f52f
   - name: gavel
     unicode: f0e3
   - name: gem
@@ -432,14 +638,70 @@ solid:
     unicode: f06b
   - name: glass-martini
     unicode: f000
+  - name: glass-martini-alt
+    unicode: f57b
+  - name: glasses
+    unicode: f530
   - name: globe
     unicode: f0ac
+  - name: globe-africa
+    unicode: f57c
+  - name: globe-americas
+    unicode: f57d
+  - name: globe-asia
+    unicode: f57e
   - name: golf-ball
     unicode: f450
+  - name: gopuram
+    unicode: f664
   - name: graduation-cap
     unicode: f19d
+  - name: greater-than
+    unicode: f531
+  - name: greater-than-equal
+    unicode: f532
+  - name: grimace
+    unicode: f57f
+  - name: grin
+    unicode: f580
+  - name: grin-alt
+    unicode: f581
+  - name: grin-beam
+    unicode: f582
+  - name: grin-beam-sweat
+    unicode: f583
+  - name: grin-hearts
+    unicode: f584
+  - name: grin-squint
+    unicode: f585
+  - name: grin-squint-tears
+    unicode: f586
+  - name: grin-stars
+    unicode: f587
+  - name: grin-tears
+    unicode: f588
+  - name: grin-tongue
+    unicode: f589
+  - name: grin-tongue-squint
+    unicode: f58a
+  - name: grin-tongue-wink
+    unicode: f58b
+  - name: grin-wink
+    unicode: f58c
+  - name: grip-horizontal
+    unicode: f58d
+  - name: grip-vertical
+    unicode: f58e
   - name: h-square
     unicode: f0fd
+  - name: hamsa
+    unicode: f665
+  - name: hand-holding
+    unicode: f4bd
+  - name: hand-holding-heart
+    unicode: f4be
+  - name: hand-holding-usd
+    unicode: f4c0
   - name: hand-lizard
     unicode: f258
   - name: hand-paper
@@ -462,20 +724,34 @@ solid:
     unicode: f257
   - name: hand-spock
     unicode: f259
+  - name: hands
+    unicode: f4c2
+  - name: hands-helping
+    unicode: f4c4
   - name: handshake
     unicode: f2b5
   - name: hashtag
     unicode: f292
+  - name: haykal
+    unicode: f666
   - name: hdd
     unicode: f0a0
   - name: heading
     unicode: f1dc
   - name: headphones
     unicode: f025
+  - name: headphones-alt
+    unicode: f58f
+  - name: headset
+    unicode: f590
   - name: heart
     unicode: f004
   - name: heartbeat
     unicode: f21e
+  - name: helicopter
+    unicode: f533
+  - name: highlighter
+    unicode: f591
   - name: history
     unicode: f1da
   - name: hockey-puck
@@ -484,8 +760,14 @@ solid:
     unicode: f015
   - name: hospital
     unicode: f0f8
+  - name: hospital-alt
+    unicode: f47d
   - name: hospital-symbol
     unicode: f47e
+  - name: hot-tub
+    unicode: f593
+  - name: hotel
+    unicode: f594
   - name: hourglass
     unicode: f254
   - name: hourglass-end
@@ -500,6 +782,8 @@ solid:
     unicode: f2c1
   - name: id-card
     unicode: f2c2
+  - name: id-card-alt
+    unicode: f47f
   - name: image
     unicode: f03e
   - name: images
@@ -510,24 +794,62 @@ solid:
     unicode: f03c
   - name: industry
     unicode: f275
+  - name: infinity
+    unicode: f534
   - name: info
     unicode: f129
   - name: info-circle
     unicode: f05a
   - name: italic
     unicode: f033
+  - name: jedi
+    unicode: f669
+  - name: joint
+    unicode: f595
+  - name: journal-whills
+    unicode: f66a
+  - name: kaaba
+    unicode: f66b
   - name: key
     unicode: f084
   - name: keyboard
     unicode: f11c
+  - name: khanda
+    unicode: f66d
+  - name: kiss
+    unicode: f596
+  - name: kiss-beam
+    unicode: f597
+  - name: kiss-wink-heart
+    unicode: f598
+  - name: kiwi-bird
+    unicode: f535
+  - name: landmark
+    unicode: f66f
   - name: language
     unicode: f1ab
   - name: laptop
     unicode: f109
+  - name: laptop-code
+    unicode: f5fc
+  - name: laugh
+    unicode: f599
+  - name: laugh-beam
+    unicode: f59a
+  - name: laugh-squint
+    unicode: f59b
+  - name: laugh-wink
+    unicode: f59c
+  - name: layer-group
+    unicode: f5fd
   - name: leaf
     unicode: f06c
   - name: lemon
     unicode: f094
+  - name: less-than
+    unicode: f536
+  - name: less-than-equal
+    unicode: f537
   - name: level-down-alt
     unicode: f3be
   - name: level-up-alt
@@ -564,14 +886,22 @@ solid:
     unicode: f30c
   - name: low-vision
     unicode: f2a8
+  - name: luggage-cart
+    unicode: f59d
   - name: magic
     unicode: f0d0
   - name: magnet
     unicode: f076
+  - name: mail-bulk
+    unicode: f674
   - name: male
     unicode: f183
   - name: map
     unicode: f279
+  - name: map-marked
+    unicode: f59f
+  - name: map-marked-alt
+    unicode: f5a0
   - name: map-marker
     unicode: f041
   - name: map-marker-alt
@@ -580,6 +910,8 @@ solid:
     unicode: f276
   - name: map-signs
     unicode: f277
+  - name: marker
+    unicode: f5a1
   - name: mars
     unicode: f222
   - name: mars-double
@@ -590,18 +922,34 @@ solid:
     unicode: f22b
   - name: mars-stroke-v
     unicode: f22a
+  - name: medal
+    unicode: f5a2
   - name: medkit
     unicode: f0fa
   - name: meh
     unicode: f11a
+  - name: meh-blank
+    unicode: f5a4
+  - name: meh-rolling-eyes
+    unicode: f5a5
+  - name: memory
+    unicode: f538
+  - name: menorah
+    unicode: f676
   - name: mercury
     unicode: f223
   - name: microchip
     unicode: f2db
   - name: microphone
     unicode: f130
+  - name: microphone-alt
+    unicode: f3c9
+  - name: microphone-alt-slash
+    unicode: f539
   - name: microphone-slash
     unicode: f131
+  - name: microscope
+    unicode: f610
   - name: minus
     unicode: f068
   - name: minus-circle
@@ -612,10 +960,26 @@ solid:
     unicode: f10b
   - name: mobile-alt
     unicode: f3cd
+  - name: money-bill
+    unicode: f0d6
   - name: money-bill-alt
     unicode: f3d1
+  - name: money-bill-wave
+    unicode: f53a
+  - name: money-bill-wave-alt
+    unicode: f53b
+  - name: money-check
+    unicode: f53c
+  - name: money-check-alt
+    unicode: f53d
+  - name: monument
+    unicode: f5a6
   - name: moon
     unicode: f186
+  - name: mortar-pestle
+    unicode: f5a7
+  - name: mosque
+    unicode: f678
   - name: motorcycle
     unicode: f21c
   - name: mouse-pointer
@@ -626,22 +990,42 @@ solid:
     unicode: f22c
   - name: newspaper
     unicode: f1ea
+  - name: not-equal
+    unicode: f53e
+  - name: notes-medical
+    unicode: f481
   - name: object-group
     unicode: f247
   - name: object-ungroup
     unicode: f248
+  - name: oil-can
+    unicode: f613
+  - name: om
+    unicode: f679
   - name: outdent
     unicode: f03b
   - name: paint-brush
     unicode: f1fc
+  - name: paint-roller
+    unicode: f5aa
+  - name: palette
+    unicode: f53f
   - name: pallet
     unicode: f482
   - name: paper-plane
     unicode: f1d8
   - name: paperclip
     unicode: f0c6
+  - name: parachute-box
+    unicode: f4cd
   - name: paragraph
     unicode: f1dd
+  - name: parking
+    unicode: f540
+  - name: passport
+    unicode: f5ab
+  - name: pastafarianism
+    unicode: f67b
   - name: paste
     unicode: f0ea
   - name: pause
@@ -650,22 +1034,48 @@ solid:
     unicode: f28b
   - name: paw
     unicode: f1b0
+  - name: peace
+    unicode: f67c
+  - name: pen
+    unicode: f304
+  - name: pen-alt
+    unicode: f305
+  - name: pen-fancy
+    unicode: f5ac
+  - name: pen-nib
+    unicode: f5ad
   - name: pen-square
     unicode: f14b
   - name: pencil-alt
     unicode: f303
+  - name: pencil-ruler
+    unicode: f5ae
+  - name: people-carry
+    unicode: f4ce
   - name: percent
     unicode: f295
+  - name: percentage
+    unicode: f541
   - name: phone
     unicode: f095
+  - name: phone-slash
+    unicode: f3dd
   - name: phone-square
     unicode: f098
   - name: phone-volume
     unicode: f2a0
+  - name: piggy-bank
+    unicode: f4d3
   - name: pills
     unicode: f484
+  - name: place-of-worship
+    unicode: f67f
   - name: plane
     unicode: f072
+  - name: plane-arrival
+    unicode: f5af
+  - name: plane-departure
+    unicode: f5b0
   - name: play
     unicode: f04b
   - name: play-circle
@@ -680,12 +1090,36 @@ solid:
     unicode: f0fe
   - name: podcast
     unicode: f2ce
+  - name: poll
+    unicode: f681
+  - name: poll-h
+    unicode: f682
+  - name: poo
+    unicode: f2fe
+  - name: poop
+    unicode: f619
+  - name: portrait
+    unicode: f3e0
   - name: pound-sign
     unicode: f154
   - name: power-off
     unicode: f011
+  - name: pray
+    unicode: f683
+  - name: praying-hands
+    unicode: f684
+  - name: prescription
+    unicode: f5b1
+  - name: prescription-bottle
+    unicode: f485
+  - name: prescription-bottle-alt
+    unicode: f486
   - name: print
     unicode: f02f
+  - name: procedures
+    unicode: f487
+  - name: project-diagram
+    unicode: f542
   - name: puzzle-piece
     unicode: f12e
   - name: qrcode
@@ -700,8 +1134,12 @@ solid:
     unicode: f10d
   - name: quote-right
     unicode: f10e
+  - name: quran
+    unicode: f687
   - name: random
     unicode: f074
+  - name: receipt
+    unicode: f543
   - name: recycle
     unicode: f1b8
   - name: redo
@@ -716,28 +1154,58 @@ solid:
     unicode: f122
   - name: retweet
     unicode: f079
+  - name: ribbon
+    unicode: f4d6
   - name: road
     unicode: f018
+  - name: robot
+    unicode: f544
   - name: rocket
     unicode: f135
+  - name: route
+    unicode: f4d7
   - name: rss
     unicode: f09e
   - name: rss-square
     unicode: f143
   - name: ruble-sign
     unicode: f158
+  - name: ruler
+    unicode: f545
+  - name: ruler-combined
+    unicode: f546
+  - name: ruler-horizontal
+    unicode: f547
+  - name: ruler-vertical
+    unicode: f548
   - name: rupee-sign
     unicode: f156
+  - name: sad-cry
+    unicode: f5b3
+  - name: sad-tear
+    unicode: f5b4
   - name: save
     unicode: f0c7
+  - name: school
+    unicode: f549
+  - name: screwdriver
+    unicode: f54a
   - name: search
     unicode: f002
+  - name: search-dollar
+    unicode: f688
+  - name: search-location
+    unicode: f689
   - name: search-minus
     unicode: f010
   - name: search-plus
     unicode: f00e
+  - name: seedling
+    unicode: f4d8
   - name: server
     unicode: f233
+  - name: shapes
+    unicode: f61f
   - name: share
     unicode: f064
   - name: share-alt
@@ -754,6 +1222,8 @@ solid:
     unicode: f21a
   - name: shipping-fast
     unicode: f48b
+  - name: shoe-prints
+    unicode: f54b
   - name: shopping-bag
     unicode: f290
   - name: shopping-basket
@@ -762,6 +1232,10 @@ solid:
     unicode: f07a
   - name: shower
     unicode: f2cc
+  - name: shuttle-van
+    unicode: f5b6
+  - name: sign
+    unicode: f4d9
   - name: sign-in-alt
     unicode: f2f6
   - name: sign-language
@@ -770,14 +1244,30 @@ solid:
     unicode: f2f5
   - name: signal
     unicode: f012
+  - name: signature
+    unicode: f5b7
   - name: sitemap
     unicode: f0e8
+  - name: skull
+    unicode: f54c
   - name: sliders-h
     unicode: f1de
   - name: smile
     unicode: f118
+  - name: smile-beam
+    unicode: f5b8
+  - name: smile-wink
+    unicode: f4da
+  - name: smoking
+    unicode: f48d
+  - name: smoking-ban
+    unicode: f54d
   - name: snowflake
     unicode: f2dc
+  - name: socks
+    unicode: f696
+  - name: solar-panel
+    unicode: f5ba
   - name: sort
     unicode: f0dc
   - name: sort-alpha-down
@@ -796,18 +1286,36 @@ solid:
     unicode: f163
   - name: sort-up
     unicode: f0de
+  - name: spa
+    unicode: f5bb
   - name: space-shuttle
     unicode: f197
   - name: spinner
     unicode: f110
+  - name: splotch
+    unicode: f5bc
+  - name: spray-can
+    unicode: f5bd
   - name: square
     unicode: f0c8
   - name: square-full
     unicode: f45c
+  - name: square-root-alt
+    unicode: f698
+  - name: stamp
+    unicode: f5bf
   - name: star
     unicode: f005
+  - name: star-and-crescent
+    unicode: f699
   - name: star-half
     unicode: f089
+  - name: star-half-alt
+    unicode: f5c0
+  - name: star-of-david
+    unicode: f69a
+  - name: star-of-life
+    unicode: f621
   - name: step-backward
     unicode: f048
   - name: step-forward
@@ -822,20 +1330,40 @@ solid:
     unicode: f28d
   - name: stopwatch
     unicode: f2f2
+  - name: store
+    unicode: f54e
+  - name: store-alt
+    unicode: f54f
+  - name: stream
+    unicode: f550
   - name: street-view
     unicode: f21d
   - name: strikethrough
     unicode: f0cc
+  - name: stroopwafel
+    unicode: f551
   - name: subscript
     unicode: f12c
   - name: subway
     unicode: f239
   - name: suitcase
     unicode: f0f2
+  - name: suitcase-rolling
+    unicode: f5c1
   - name: sun
     unicode: f185
   - name: superscript
     unicode: f12b
+  - name: surprise
+    unicode: f5c2
+  - name: swatchbook
+    unicode: f5c3
+  - name: swimmer
+    unicode: f5c4
+  - name: swimming-pool
+    unicode: f5c5
+  - name: synagogue
+    unicode: f69b
   - name: sync
     unicode: f021
   - name: sync-alt
@@ -850,16 +1378,24 @@ solid:
     unicode: f10a
   - name: tablet-alt
     unicode: f3fa
+  - name: tablets
+    unicode: f490
   - name: tachometer-alt
     unicode: f3fd
   - name: tag
     unicode: f02b
   - name: tags
     unicode: f02c
+  - name: tape
+    unicode: f4db
   - name: tasks
     unicode: f0ae
   - name: taxi
     unicode: f1ba
+  - name: teeth
+    unicode: f62e
+  - name: teeth-open
+    unicode: f62f
   - name: terminal
     unicode: f120
   - name: text-height
@@ -872,6 +1408,8 @@ solid:
     unicode: f009
   - name: th-list
     unicode: f00b
+  - name: theater-masks
+    unicode: f630
   - name: thermometer
     unicode: f491
   - name: thermometer-empty
@@ -898,12 +1436,26 @@ solid:
     unicode: f057
   - name: tint
     unicode: f043
+  - name: tint-slash
+    unicode: f5c7
+  - name: tired
+    unicode: f5c8
   - name: toggle-off
     unicode: f204
   - name: toggle-on
     unicode: f205
+  - name: toolbox
+    unicode: f552
+  - name: tooth
+    unicode: f5c9
+  - name: torah
+    unicode: f6a0
+  - name: torii-gate
+    unicode: f6a1
   - name: trademark
     unicode: f25c
+  - name: traffic-light
+    unicode: f637
   - name: train
     unicode: f238
   - name: transgender
@@ -920,12 +1472,24 @@ solid:
     unicode: f091
   - name: truck
     unicode: f0d1
+  - name: truck-loading
+    unicode: f4de
+  - name: truck-monster
+    unicode: f63b
+  - name: truck-moving
+    unicode: f4df
+  - name: truck-pickup
+    unicode: f63c
+  - name: tshirt
+    unicode: f553
   - name: tty
     unicode: f1e4
   - name: tv
     unicode: f26c
   - name: umbrella
     unicode: f0e9
+  - name: umbrella-beach
+    unicode: f5ca
   - name: underline
     unicode: f0cd
   - name: undo
@@ -946,30 +1510,74 @@ solid:
     unicode: f093
   - name: user
     unicode: f007
+  - name: user-alt
+    unicode: f406
+  - name: user-alt-slash
+    unicode: f4fa
+  - name: user-astronaut
+    unicode: f4fb
+  - name: user-check
+    unicode: f4fc
   - name: user-circle
     unicode: f2bd
+  - name: user-clock
+    unicode: f4fd
+  - name: user-cog
+    unicode: f4fe
+  - name: user-edit
+    unicode: f4ff
+  - name: user-friends
+    unicode: f500
+  - name: user-graduate
+    unicode: f501
+  - name: user-lock
+    unicode: f502
   - name: user-md
     unicode: f0f0
+  - name: user-minus
+    unicode: f503
+  - name: user-ninja
+    unicode: f504
   - name: user-plus
     unicode: f234
   - name: user-secret
     unicode: f21b
+  - name: user-shield
+    unicode: f505
+  - name: user-slash
+    unicode: f506
+  - name: user-tag
+    unicode: f507
+  - name: user-tie
+    unicode: f508
   - name: user-times
     unicode: f235
   - name: users
     unicode: f0c0
+  - name: users-cog
+    unicode: f509
   - name: utensil-spoon
     unicode: f2e5
   - name: utensils
     unicode: f2e7
+  - name: vector-square
+    unicode: f5cb
   - name: venus
     unicode: f221
   - name: venus-double
     unicode: f226
   - name: venus-mars
     unicode: f228
+  - name: vial
+    unicode: f492
+  - name: vials
+    unicode: f493
   - name: video
     unicode: f03d
+  - name: video-slash
+    unicode: f4e2
+  - name: vihara
+    unicode: f6a7
   - name: volleyball-ball
     unicode: f45f
   - name: volume-down
@@ -978,10 +1586,16 @@ solid:
     unicode: f026
   - name: volume-up
     unicode: f028
+  - name: walking
+    unicode: f554
+  - name: wallet
+    unicode: f555
   - name: warehouse
     unicode: f494
   - name: weight
     unicode: f496
+  - name: weight-hanging
+    unicode: f5cd
   - name: wheelchair
     unicode: f193
   - name: wifi
@@ -994,17 +1608,27 @@ solid:
     unicode: f2d1
   - name: window-restore
     unicode: f2d2
+  - name: wine-glass
+    unicode: f4e3
+  - name: wine-glass-alt
+    unicode: f5ce
   - name: won-sign
     unicode: f159
   - name: wrench
     unicode: f0ad
+  - name: x-ray
+    unicode: f497
   - name: yen-sign
     unicode: f157
+  - name: yin-yang
+    unicode: f6ad
 regular:
   - name: address-book
     unicode: f2b9
   - name: address-card
     unicode: f2bb
+  - name: angry
+    unicode: f556
   - name: arrow-alt-circle-down
     unicode: f358
   - name: arrow-alt-circle-left
@@ -1061,6 +1685,8 @@ regular:
     unicode: f075
   - name: comment-alt
     unicode: f27a
+  - name: comment-dots
+    unicode: f4ad
   - name: comments
     unicode: f086
   - name: compass
@@ -1071,6 +1697,8 @@ regular:
     unicode: f1f9
   - name: credit-card
     unicode: f09d
+  - name: dizzy
+    unicode: f567
   - name: dot-circle
     unicode: f192
   - name: edit
@@ -1079,6 +1707,8 @@ regular:
     unicode: f0e0
   - name: envelope-open
     unicode: f2b6
+  - name: eye
+    unicode: f06e
   - name: eye-slash
     unicode: f070
   - name: file
@@ -1105,16 +1735,50 @@ regular:
     unicode: f1c2
   - name: flag
     unicode: f024
+  - name: flushed
+    unicode: f579
   - name: folder
     unicode: f07b
   - name: folder-open
     unicode: f07c
+  - name: font-awesome-logo-full
+    unicode: f4e6
   - name: frown
     unicode: f119
+  - name: frown-open
+    unicode: f57a
   - name: futbol
     unicode: f1e3
   - name: gem
     unicode: f3a5
+  - name: grimace
+    unicode: f57f
+  - name: grin
+    unicode: f580
+  - name: grin-alt
+    unicode: f581
+  - name: grin-beam
+    unicode: f582
+  - name: grin-beam-sweat
+    unicode: f583
+  - name: grin-hearts
+    unicode: f584
+  - name: grin-squint
+    unicode: f585
+  - name: grin-squint-tears
+    unicode: f586
+  - name: grin-stars
+    unicode: f587
+  - name: grin-tears
+    unicode: f588
+  - name: grin-tongue
+    unicode: f589
+  - name: grin-tongue-squint
+    unicode: f58a
+  - name: grin-tongue-wink
+    unicode: f58b
+  - name: grin-wink
+    unicode: f58c
   - name: hand-lizard
     unicode: f258
   - name: hand-paper
@@ -1157,6 +1821,20 @@ regular:
     unicode: f302
   - name: keyboard
     unicode: f11c
+  - name: kiss
+    unicode: f596
+  - name: kiss-beam
+    unicode: f597
+  - name: kiss-wink-heart
+    unicode: f598
+  - name: laugh
+    unicode: f599
+  - name: laugh-beam
+    unicode: f59a
+  - name: laugh-squint
+    unicode: f59b
+  - name: laugh-wink
+    unicode: f59c
   - name: lemon
     unicode: f094
   - name: life-ring
@@ -1169,6 +1847,10 @@ regular:
     unicode: f279
   - name: meh
     unicode: f11a
+  - name: meh-blank
+    unicode: f5a4
+  - name: meh-rolling-eyes
+    unicode: f5a5
   - name: minus-square
     unicode: f146
   - name: money-bill-alt
@@ -1193,12 +1875,20 @@ regular:
     unicode: f059
   - name: registered
     unicode: f25d
+  - name: sad-cry
+    unicode: f5b3
+  - name: sad-tear
+    unicode: f5b4
   - name: save
     unicode: f0c7
   - name: share-square
     unicode: f14d
   - name: smile
     unicode: f118
+  - name: smile-beam
+    unicode: f5b8
+  - name: smile-wink
+    unicode: f4da
   - name: snowflake
     unicode: f2dc
   - name: square
@@ -1213,12 +1903,16 @@ regular:
     unicode: f28d
   - name: sun
     unicode: f185
+  - name: surprise
+    unicode: f5c2
   - name: thumbs-down
     unicode: f165
   - name: thumbs-up
     unicode: f164
   - name: times-circle
     unicode: f057
+  - name: tired
+    unicode: f5c8
   - name: trash-alt
     unicode: f2ed
   - name: user
@@ -1248,6 +1942,8 @@ brands:
     unicode: f36b
   - name: algolia
     unicode: f36c
+  - name: alipay
+    unicode: f642
   - name: amazon
     unicode: f270
   - name: amazon-pay
@@ -1358,6 +2054,30 @@ brands:
     unicode: f388
   - name: creative-commons
     unicode: f25e
+  - name: creative-commons-by
+    unicode: f4e7
+  - name: creative-commons-nc
+    unicode: f4e8
+  - name: creative-commons-nc-eu
+    unicode: f4e9
+  - name: creative-commons-nc-jp
+    unicode: f4ea
+  - name: creative-commons-nd
+    unicode: f4eb
+  - name: creative-commons-pd
+    unicode: f4ec
+  - name: creative-commons-pd-alt
+    unicode: f4ed
+  - name: creative-commons-remix
+    unicode: f4ee
+  - name: creative-commons-sa
+    unicode: f4ef
+  - name: creative-commons-sampling
+    unicode: f4f0
+  - name: creative-commons-sampling-plus
+    unicode: f4f1
+  - name: creative-commons-share
+    unicode: f4f2
   - name: css3
     unicode: f13c
   - name: css3-alt
@@ -1402,10 +2122,14 @@ brands:
     unicode: f399
   - name: earlybirds
     unicode: f39a
+  - name: ebay
+    unicode: f4f4
   - name: edge
     unicode: f282
   - name: elementor
     unicode: f430
+  - name: ello
+    unicode: f5f1
   - name: ember
     unicode: f423
   - name: empire
@@ -1432,6 +2156,8 @@ brands:
     unicode: f269
   - name: first-order
     unicode: f2b0
+  - name: first-order-alt
+    unicode: f50a
   - name: firstdraft
     unicode: f3a1
   - name: flickr
@@ -1446,6 +2172,8 @@ brands:
     unicode: f35c
   - name: font-awesome-flag
     unicode: f425
+  - name: font-awesome-logo-full
+    unicode: f4e6
   - name: fonticons
     unicode: f280
   - name: fonticons-fi
@@ -1462,6 +2190,12 @@ brands:
     unicode: f2c5
   - name: freebsd
     unicode: f3a4
+  - name: fulcrum
+    unicode: f50b
+  - name: galactic-republic
+    unicode: f50c
+  - name: galactic-senate
+    unicode: f50d
   - name: get-pocket
     unicode: f265
   - name: gg
@@ -1522,12 +2256,16 @@ brands:
     unicode: f1d4
   - name: hacker-news-square
     unicode: f3af
+  - name: hackerrank
+    unicode: f5f7
   - name: hips
     unicode: f452
   - name: hire-a-helper
     unicode: f3b0
   - name: hooli
     unicode: f427
+  - name: hornbill
+    unicode: f592
   - name: hotjar
     unicode: f3b1
   - name: houzz
@@ -1548,6 +2286,10 @@ brands:
     unicode: f3b4
   - name: itunes-note
     unicode: f3b5
+  - name: java
+    unicode: f4e4
+  - name: jedi-order
+    unicode: f50e
   - name: jenkins
     unicode: f3b6
   - name: joget
@@ -1560,6 +2302,10 @@ brands:
     unicode: f3b9
   - name: jsfiddle
     unicode: f1cc
+  - name: kaggle
+    unicode: f5fa
+  - name: keybase
+    unicode: f4f5
   - name: keycdn
     unicode: f3ba
   - name: kickstarter
@@ -1592,6 +2338,14 @@ brands:
     unicode: f3c3
   - name: magento
     unicode: f3c4
+  - name: mailchimp
+    unicode: f59e
+  - name: mandalorian
+    unicode: f50f
+  - name: markdown
+    unicode: f60f
+  - name: mastodon
+    unicode: f4f6
   - name: maxcdn
     unicode: f136
   - name: medapps
@@ -1604,6 +2358,8 @@ brands:
     unicode: f3c8
   - name: meetup
     unicode: f2e0
+  - name: megaport
+    unicode: f5a3
   - name: microsoft
     unicode: f3ca
   - name: mix
@@ -1618,6 +2374,10 @@ brands:
     unicode: f3d0
   - name: napster
     unicode: f3d2
+  - name: neos
+    unicode: f612
+  - name: nimblr
+    unicode: f5a8
   - name: nintendo-switch
     unicode: f418
   - name: node
@@ -1634,6 +2394,8 @@ brands:
     unicode: f263
   - name: odnoklassniki-square
     unicode: f264
+  - name: old-republic
+    unicode: f510
   - name: opencart
     unicode: f23d
   - name: openid
@@ -1660,12 +2422,16 @@ brands:
     unicode: f3db
   - name: phoenix-framework
     unicode: f3dc
+  - name: phoenix-squadron
+    unicode: f511
   - name: php
     unicode: f457
   - name: pied-piper
     unicode: f2ae
   - name: pied-piper-alt
     unicode: f1a8
+  - name: pied-piper-hat
+    unicode: f4e5
   - name: pied-piper-pp
     unicode: f1a7
   - name: pinterest
@@ -1688,10 +2454,14 @@ brands:
     unicode: f459
   - name: quora
     unicode: f2c4
+  - name: r-project
+    unicode: f4f7
   - name: ravelry
     unicode: f2d9
   - name: react
     unicode: f41b
+  - name: readme
+    unicode: f4d5
   - name: rebel
     unicode: f1d0
   - name: red-river
@@ -1708,8 +2478,12 @@ brands:
     unicode: f18b
   - name: replyd
     unicode: f3e6
+  - name: researchgate
+    unicode: f4f8
   - name: resolving
     unicode: f3e7
+  - name: rev
+    unicode: f5b2
   - name: rocketchat
     unicode: f3e8
   - name: rockrms
@@ -1732,10 +2506,14 @@ brands:
     unicode: f3ec
   - name: shirtsinbulk
     unicode: f214
+  - name: shopware
+    unicode: f5b5
   - name: simplybuilt
     unicode: f215
   - name: sistrix
     unicode: f3ee
+  - name: sith
+    unicode: f512
   - name: skyatlas
     unicode: f216
   - name: skype
@@ -1758,6 +2536,8 @@ brands:
     unicode: f3f3
   - name: spotify
     unicode: f1bc
+  - name: squarespace
+    unicode: f5be
   - name: stack-exchange
     unicode: f18d
   - name: stack-overflow
@@ -1788,14 +2568,22 @@ brands:
     unicode: f2dd
   - name: supple
     unicode: f3f9
+  - name: teamspeak
+    unicode: f4f9
   - name: telegram
     unicode: f2c6
   - name: telegram-plane
     unicode: f3fe
   - name: tencent-weibo
     unicode: f1d5
+  - name: the-red-yeti
+    unicode: f69d
+  - name: themeco
+    unicode: f5c6
   - name: themeisle
     unicode: f2b2
+  - name: trade-federation
+    unicode: f513
   - name: trello
     unicode: f181
   - name: tripadvisor
@@ -1848,6 +2636,8 @@ brands:
     unicode: f40b
   - name: vuejs
     unicode: f41f
+  - name: weebly
+    unicode: f5cc
   - name: weibo
     unicode: f18a
   - name: weixin
@@ -1862,6 +2652,10 @@ brands:
     unicode: f266
   - name: windows
     unicode: f17a
+  - name: wix
+    unicode: f5cf
+  - name: wolf-pack-battalion
+    unicode: f514
   - name: wordpress
     unicode: f19a
   - name: wordpress-simple
@@ -1894,3 +2688,5 @@ brands:
     unicode: f167
   - name: youtube-square
     unicode: f431
+  - name: zhihu
+    unicode: f63f
