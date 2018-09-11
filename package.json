@@ -32,9 +32,6 @@
     "url": "https://github.com/gluons/Font-Awesome-Icon-Chars/issues"
   },
   "homepage": "https://github.com/gluons/Font-Awesome-Icon-Chars",
-  "dependencies": {
-    "upath": "^1.0.5"
-  },
   "devDependencies": {
     "@fortawesome/fontawesome-common-types": "^0.2.4",
     "@fortawesome/free-brands-svg-icons": "^5.3.1",
