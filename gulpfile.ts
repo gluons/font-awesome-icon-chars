@@ -92,7 +92,6 @@ export function buildYAML() {
 		.pipe(gulp.dest('character-list'));
 }
 
-// tslint:disable-next-line:no-shadowed-variable
 export const generate = series(cleanTS, function generate() {
 	let JSONSourceStr = JSON.stringify(JSONSource, null, '\t');
 	// Replace quote
