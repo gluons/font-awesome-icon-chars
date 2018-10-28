@@ -220,6 +220,9 @@
 		<icon id="blender">
 			<unicode>f517</unicode>
 		</icon>
+		<icon id="blender-phone">
+			<unicode>f6b6</unicode>
+		</icon>
 		<icon id="blind">
 			<unicode>f29d</unicode>
 		</icon>
@@ -240,6 +243,9 @@
 		</icon>
 		<icon id="book">
 			<unicode>f02d</unicode>
+		</icon>
+		<icon id="book-dead">
+			<unicode>f6b7</unicode>
 		</icon>
 		<icon id="book-open">
 			<unicode>f518</unicode>
@@ -334,6 +340,9 @@
 		<icon id="camera-retro">
 			<unicode>f083</unicode>
 		</icon>
+		<icon id="campground">
+			<unicode>f6bb</unicode>
+		</icon>
 		<icon id="cannabis">
 			<unicode>f55f</unicode>
 		</icon>
@@ -385,8 +394,14 @@
 		<icon id="cart-plus">
 			<unicode>f217</unicode>
 		</icon>
+		<icon id="cat">
+			<unicode>f6be</unicode>
+		</icon>
 		<icon id="certificate">
 			<unicode>f0a3</unicode>
+		</icon>
+		<icon id="chair">
+			<unicode>f6c0</unicode>
 		</icon>
 		<icon id="chalkboard">
 			<unicode>f51b</unicode>
@@ -507,6 +522,12 @@
 		</icon>
 		<icon id="cloud-download-alt">
 			<unicode>f381</unicode>
+		</icon>
+		<icon id="cloud-moon">
+			<unicode>f6c3</unicode>
+		</icon>
+		<icon id="cloud-sun">
+			<unicode>f6c4</unicode>
 		</icon>
 		<icon id="cloud-upload-alt">
 			<unicode>f382</unicode>
@@ -631,6 +652,12 @@
 		<icon id="dice">
 			<unicode>f522</unicode>
 		</icon>
+		<icon id="dice-d20">
+			<unicode>f6cf</unicode>
+		</icon>
+		<icon id="dice-d6">
+			<unicode>f6d1</unicode>
+		</icon>
 		<icon id="dice-five">
 			<unicode>f523</unicode>
 		</icon>
@@ -664,6 +691,9 @@
 		<icon id="dna">
 			<unicode>f471</unicode>
 		</icon>
+		<icon id="dog">
+			<unicode>f6d3</unicode>
+		</icon>
 		<icon id="dollar-sign">
 			<unicode>f155</unicode>
 		</icon>
@@ -694,6 +724,9 @@
 		<icon id="drafting-compass">
 			<unicode>f568</unicode>
 		</icon>
+		<icon id="dragon">
+			<unicode>f6d5</unicode>
+		</icon>
 		<icon id="draw-polygon">
 			<unicode>f5ee</unicode>
 		</icon>
@@ -703,8 +736,14 @@
 		<icon id="drum-steelpan">
 			<unicode>f56a</unicode>
 		</icon>
+		<icon id="drumstick-bite">
+			<unicode>f6d7</unicode>
+		</icon>
 		<icon id="dumbbell">
 			<unicode>f44b</unicode>
+		</icon>
+		<icon id="dungeon">
+			<unicode>f6d9</unicode>
 		</icon>
 		<icon id="edit">
 			<unicode>f044</unicode>
@@ -811,6 +850,9 @@
 		<icon id="file-contract">
 			<unicode>f56c</unicode>
 		</icon>
+		<icon id="file-csv">
+			<unicode>f6dd</unicode>
+		</icon>
 		<icon id="file-download">
 			<unicode>f56d</unicode>
 		</icon>
@@ -886,6 +928,9 @@
 		<icon id="fish">
 			<unicode>f578</unicode>
 		</icon>
+		<icon id="fist-raised">
+			<unicode>f6de</unicode>
+		</icon>
 		<icon id="flag">
 			<unicode>f024</unicode>
 		</icon>
@@ -951,6 +996,9 @@
 		</icon>
 		<icon id="genderless">
 			<unicode>f22d</unicode>
+		</icon>
+		<icon id="ghost">
+			<unicode>f6e2</unicode>
 		</icon>
 		<icon id="gift">
 			<unicode>f06b</unicode>
@@ -1042,6 +1090,9 @@
 		<icon id="h-square">
 			<unicode>f0fd</unicode>
 		</icon>
+		<icon id="hammer">
+			<unicode>f6e3</unicode>
+		</icon>
 		<icon id="hamsa">
 			<unicode>f665</unicode>
 		</icon>
@@ -1096,8 +1147,14 @@
 		<icon id="handshake">
 			<unicode>f2b5</unicode>
 		</icon>
+		<icon id="hanukiah">
+			<unicode>f6e6</unicode>
+		</icon>
 		<icon id="hashtag">
 			<unicode>f292</unicode>
+		</icon>
+		<icon id="hat-wizard">
+			<unicode>f6e8</unicode>
 		</icon>
 		<icon id="haykal">
 			<unicode>f666</unicode>
@@ -1129,6 +1186,12 @@
 		<icon id="highlighter">
 			<unicode>f591</unicode>
 		</icon>
+		<icon id="hiking">
+			<unicode>f6ec</unicode>
+		</icon>
+		<icon id="hippo">
+			<unicode>f6ed</unicode>
+		</icon>
 		<icon id="history">
 			<unicode>f1da</unicode>
 		</icon>
@@ -1137,6 +1200,9 @@
 		</icon>
 		<icon id="home">
 			<unicode>f015</unicode>
+		</icon>
+		<icon id="horse">
+			<unicode>f6f0</unicode>
 		</icon>
 		<icon id="hospital">
 			<unicode>f0f8</unicode>
@@ -1164,6 +1230,12 @@
 		</icon>
 		<icon id="hourglass-start">
 			<unicode>f251</unicode>
+		</icon>
+		<icon id="house-damage">
+			<unicode>f6f1</unicode>
+		</icon>
+		<icon id="hryvnia">
+			<unicode>f6f2</unicode>
 		</icon>
 		<icon id="i-cursor">
 			<unicode>f246</unicode>
@@ -1384,6 +1456,9 @@
 		<icon id="mars-stroke-v">
 			<unicode>f22a</unicode>
 		</icon>
+		<icon id="mask">
+			<unicode>f6fa</unicode>
+		</icon>
 		<icon id="medal">
 			<unicode>f5a2</unicode>
 		</icon>
@@ -1474,11 +1549,17 @@
 		<icon id="motorcycle">
 			<unicode>f21c</unicode>
 		</icon>
+		<icon id="mountain">
+			<unicode>f6fc</unicode>
+		</icon>
 		<icon id="mouse-pointer">
 			<unicode>f245</unicode>
 		</icon>
 		<icon id="music">
 			<unicode>f001</unicode>
+		</icon>
+		<icon id="network-wired">
+			<unicode>f6ff</unicode>
 		</icon>
 		<icon id="neuter">
 			<unicode>f22c</unicode>
@@ -1503,6 +1584,9 @@
 		</icon>
 		<icon id="om">
 			<unicode>f679</unicode>
+		</icon>
+		<icon id="otter">
+			<unicode>f700</unicode>
 		</icon>
 		<icon id="outdent">
 			<unicode>f03b</unicode>
@@ -1735,6 +1819,9 @@
 		<icon id="ribbon">
 			<unicode>f4d6</unicode>
 		</icon>
+		<icon id="ring">
+			<unicode>f70b</unicode>
+		</icon>
 		<icon id="road">
 			<unicode>f018</unicode>
 		</icon>
@@ -1768,6 +1855,9 @@
 		<icon id="ruler-vertical">
 			<unicode>f548</unicode>
 		</icon>
+		<icon id="running">
+			<unicode>f70c</unicode>
+		</icon>
 		<icon id="rupee-sign">
 			<unicode>f156</unicode>
 		</icon>
@@ -1785,6 +1875,9 @@
 		</icon>
 		<icon id="screwdriver">
 			<unicode>f54a</unicode>
+		</icon>
+		<icon id="scroll">
+			<unicode>f70e</unicode>
 		</icon>
 		<icon id="search">
 			<unicode>f002</unicode>
@@ -1876,6 +1969,12 @@
 		<icon id="skull">
 			<unicode>f54c</unicode>
 		</icon>
+		<icon id="skull-crossbones">
+			<unicode>f714</unicode>
+		</icon>
+		<icon id="slash">
+			<unicode>f715</unicode>
+		</icon>
 		<icon id="sliders-h">
 			<unicode>f1de</unicode>
 		</icon>
@@ -1935,6 +2034,9 @@
 		</icon>
 		<icon id="space-shuttle">
 			<unicode>f197</unicode>
+		</icon>
+		<icon id="spider">
+			<unicode>f717</unicode>
 		</icon>
 		<icon id="spinner">
 			<unicode>f110</unicode>
@@ -2167,6 +2269,9 @@
 		<icon id="toggle-on">
 			<unicode>f205</unicode>
 		</icon>
+		<icon id="toilet-paper">
+			<unicode>f71e</unicode>
+		</icon>
 		<icon id="toolbox">
 			<unicode>f552</unicode>
 		</icon>
@@ -2178,6 +2283,9 @@
 		</icon>
 		<icon id="torii-gate">
 			<unicode>f6a1</unicode>
+		</icon>
+		<icon id="tractor">
+			<unicode>f722</unicode>
 		</icon>
 		<icon id="trademark">
 			<unicode>f25c</unicode>
@@ -2296,6 +2404,9 @@
 		<icon id="user-graduate">
 			<unicode>f501</unicode>
 		</icon>
+		<icon id="user-injured">
+			<unicode>f728</unicode>
+		</icon>
 		<icon id="user-lock">
 			<unicode>f502</unicode>
 		</icon>
@@ -2374,11 +2485,17 @@
 		<icon id="volume-down">
 			<unicode>f027</unicode>
 		</icon>
+		<icon id="volume-mute">
+			<unicode>f6a9</unicode>
+		</icon>
 		<icon id="volume-off">
 			<unicode>f026</unicode>
 		</icon>
 		<icon id="volume-up">
 			<unicode>f028</unicode>
+		</icon>
+		<icon id="vr-cardboard">
+			<unicode>f729</unicode>
 		</icon>
 		<icon id="walking">
 			<unicode>f554</unicode>
@@ -2401,6 +2518,9 @@
 		<icon id="wifi">
 			<unicode>f1eb</unicode>
 		</icon>
+		<icon id="wind">
+			<unicode>f72e</unicode>
+		</icon>
 		<icon id="window-close">
 			<unicode>f410</unicode>
 		</icon>
@@ -2412,6 +2532,9 @@
 		</icon>
 		<icon id="window-restore">
 			<unicode>f2d2</unicode>
+		</icon>
+		<icon id="wine-bottle">
+			<unicode>f72f</unicode>
 		</icon>
 		<icon id="wine-glass">
 			<unicode>f4e3</unicode>
@@ -2903,6 +3026,9 @@
 		<icon id="accusoft">
 			<unicode>f369</unicode>
 		</icon>
+		<icon id="acquisitions-incorporated">
+			<unicode>f6af</unicode>
+		</icon>
 		<icon id="adn">
 			<unicode>f170</unicode>
 		</icon>
@@ -3119,6 +3245,12 @@
 		<icon id="creative-commons-share">
 			<unicode>f4f2</unicode>
 		</icon>
+		<icon id="creative-commons-zero">
+			<unicode>f4f3</unicode>
+		</icon>
+		<icon id="critical-role">
+			<unicode>f6c9</unicode>
+		</icon>
 		<icon id="css3">
 			<unicode>f13c</unicode>
 		</icon>
@@ -3131,6 +3263,9 @@
 		<icon id="d-and-d">
 			<unicode>f38d</unicode>
 		</icon>
+		<icon id="d-and-d-beyond">
+			<unicode>f6ca</unicode>
+		</icon>
 		<icon id="dashcube">
 			<unicode>f210</unicode>
 		</icon>
@@ -3142,6 +3277,9 @@
 		</icon>
 		<icon id="deskpro">
 			<unicode>f38f</unicode>
+		</icon>
+		<icon id="dev">
+			<unicode>f6cc</unicode>
 		</icon>
 		<icon id="deviantart">
 			<unicode>f1bd</unicode>
@@ -3229,6 +3367,9 @@
 		</icon>
 		<icon id="facebook-square">
 			<unicode>f082</unicode>
+		</icon>
+		<icon id="fantasy-flight-games">
+			<unicode>f6dc</unicode>
 		</icon>
 		<icon id="firefox">
 			<unicode>f269</unicode>
@@ -3626,6 +3767,9 @@
 		<icon id="paypal">
 			<unicode>f1ed</unicode>
 		</icon>
+		<icon id="penny-arcade">
+			<unicode>f704</unicode>
+		</icon>
 		<icon id="periscope">
 			<unicode>f3da</unicode>
 		</icon>
@@ -3709,9 +3853,6 @@
 		</icon>
 		<icon id="reddit-square">
 			<unicode>f1a2</unicode>
-		</icon>
-		<icon id="rendact">
-			<unicode>f3e4</unicode>
 		</icon>
 		<icon id="renren">
 			<unicode>f18b</unicode>
@@ -3875,6 +4016,9 @@
 		<icon id="themeisle">
 			<unicode>f2b2</unicode>
 		</icon>
+		<icon id="think-peaks">
+			<unicode>f731</unicode>
+		</icon>
 		<icon id="trade-federation">
 			<unicode>f513</unicode>
 		</icon>
@@ -3983,6 +4127,9 @@
 		<icon id="wix">
 			<unicode>f5cf</unicode>
 		</icon>
+		<icon id="wizards-of-the-coast">
+			<unicode>f730</unicode>
+		</icon>
 		<icon id="wolf-pack-battalion">
 			<unicode>f514</unicode>
 		</icon>
@@ -4000,6 +4147,9 @@
 		</icon>
 		<icon id="wpforms">
 			<unicode>f298</unicode>
+		</icon>
+		<icon id="wpressr">
+			<unicode>f3e4</unicode>
 		</icon>
 		<icon id="xbox">
 			<unicode>f412</unicode>

@@ -291,6 +291,10 @@ name = "blender"
 unicode = "f517"
 
 [[solid]]
+name = "blender-phone"
+unicode = "f6b6"
+
+[[solid]]
 name = "blind"
 unicode = "f29d"
 
@@ -317,6 +321,10 @@ unicode = "f55c"
 [[solid]]
 name = "book"
 unicode = "f02d"
+
+[[solid]]
+name = "book-dead"
+unicode = "f6b7"
 
 [[solid]]
 name = "book-open"
@@ -443,6 +451,10 @@ name = "camera-retro"
 unicode = "f083"
 
 [[solid]]
+name = "campground"
+unicode = "f6bb"
+
+[[solid]]
 name = "cannabis"
 unicode = "f55f"
 
@@ -511,8 +523,16 @@ name = "cart-plus"
 unicode = "f217"
 
 [[solid]]
+name = "cat"
+unicode = "f6be"
+
+[[solid]]
 name = "certificate"
 unicode = "f0a3"
+
+[[solid]]
+name = "chair"
+unicode = "f6c0"
 
 [[solid]]
 name = "chalkboard"
@@ -673,6 +693,14 @@ unicode = "f0c2"
 [[solid]]
 name = "cloud-download-alt"
 unicode = "f381"
+
+[[solid]]
+name = "cloud-moon"
+unicode = "f6c3"
+
+[[solid]]
+name = "cloud-sun"
+unicode = "f6c4"
 
 [[solid]]
 name = "cloud-upload-alt"
@@ -839,6 +867,14 @@ name = "dice"
 unicode = "f522"
 
 [[solid]]
+name = "dice-d20"
+unicode = "f6cf"
+
+[[solid]]
+name = "dice-d6"
+unicode = "f6d1"
+
+[[solid]]
 name = "dice-five"
 unicode = "f523"
 
@@ -883,6 +919,10 @@ name = "dna"
 unicode = "f471"
 
 [[solid]]
+name = "dog"
+unicode = "f6d3"
+
+[[solid]]
 name = "dollar-sign"
 unicode = "f155"
 
@@ -923,6 +963,10 @@ name = "drafting-compass"
 unicode = "f568"
 
 [[solid]]
+name = "dragon"
+unicode = "f6d5"
+
+[[solid]]
 name = "draw-polygon"
 unicode = "f5ee"
 
@@ -935,8 +979,16 @@ name = "drum-steelpan"
 unicode = "f56a"
 
 [[solid]]
+name = "drumstick-bite"
+unicode = "f6d7"
+
+[[solid]]
 name = "dumbbell"
 unicode = "f44b"
+
+[[solid]]
+name = "dungeon"
+unicode = "f6d9"
 
 [[solid]]
 name = "edit"
@@ -1079,6 +1131,10 @@ name = "file-contract"
 unicode = "f56c"
 
 [[solid]]
+name = "file-csv"
+unicode = "f6dd"
+
+[[solid]]
 name = "file-download"
 unicode = "f56d"
 
@@ -1179,6 +1235,10 @@ name = "fish"
 unicode = "f578"
 
 [[solid]]
+name = "fist-raised"
+unicode = "f6de"
+
+[[solid]]
 name = "flag"
 unicode = "f024"
 
@@ -1265,6 +1325,10 @@ unicode = "f3a5"
 [[solid]]
 name = "genderless"
 unicode = "f22d"
+
+[[solid]]
+name = "ghost"
+unicode = "f6e2"
 
 [[solid]]
 name = "gift"
@@ -1387,6 +1451,10 @@ name = "h-square"
 unicode = "f0fd"
 
 [[solid]]
+name = "hammer"
+unicode = "f6e3"
+
+[[solid]]
 name = "hamsa"
 unicode = "f665"
 
@@ -1459,8 +1527,16 @@ name = "handshake"
 unicode = "f2b5"
 
 [[solid]]
+name = "hanukiah"
+unicode = "f6e6"
+
+[[solid]]
 name = "hashtag"
 unicode = "f292"
+
+[[solid]]
+name = "hat-wizard"
+unicode = "f6e8"
 
 [[solid]]
 name = "haykal"
@@ -1503,6 +1579,14 @@ name = "highlighter"
 unicode = "f591"
 
 [[solid]]
+name = "hiking"
+unicode = "f6ec"
+
+[[solid]]
+name = "hippo"
+unicode = "f6ed"
+
+[[solid]]
 name = "history"
 unicode = "f1da"
 
@@ -1513,6 +1597,10 @@ unicode = "f453"
 [[solid]]
 name = "home"
 unicode = "f015"
+
+[[solid]]
+name = "horse"
+unicode = "f6f0"
 
 [[solid]]
 name = "hospital"
@@ -1549,6 +1637,14 @@ unicode = "f252"
 [[solid]]
 name = "hourglass-start"
 unicode = "f251"
+
+[[solid]]
+name = "house-damage"
+unicode = "f6f1"
+
+[[solid]]
+name = "hryvnia"
+unicode = "f6f2"
 
 [[solid]]
 name = "i-cursor"
@@ -1843,6 +1939,10 @@ name = "mars-stroke-v"
 unicode = "f22a"
 
 [[solid]]
+name = "mask"
+unicode = "f6fa"
+
+[[solid]]
 name = "medal"
 unicode = "f5a2"
 
@@ -1963,12 +2063,20 @@ name = "motorcycle"
 unicode = "f21c"
 
 [[solid]]
+name = "mountain"
+unicode = "f6fc"
+
+[[solid]]
 name = "mouse-pointer"
 unicode = "f245"
 
 [[solid]]
 name = "music"
 unicode = "f001"
+
+[[solid]]
+name = "network-wired"
+unicode = "f6ff"
 
 [[solid]]
 name = "neuter"
@@ -2001,6 +2109,10 @@ unicode = "f613"
 [[solid]]
 name = "om"
 unicode = "f679"
+
+[[solid]]
+name = "otter"
+unicode = "f700"
 
 [[solid]]
 name = "outdent"
@@ -2311,6 +2423,10 @@ name = "ribbon"
 unicode = "f4d6"
 
 [[solid]]
+name = "ring"
+unicode = "f70b"
+
+[[solid]]
 name = "road"
 unicode = "f018"
 
@@ -2355,6 +2471,10 @@ name = "ruler-vertical"
 unicode = "f548"
 
 [[solid]]
+name = "running"
+unicode = "f70c"
+
+[[solid]]
 name = "rupee-sign"
 unicode = "f156"
 
@@ -2377,6 +2497,10 @@ unicode = "f549"
 [[solid]]
 name = "screwdriver"
 unicode = "f54a"
+
+[[solid]]
+name = "scroll"
+unicode = "f70e"
 
 [[solid]]
 name = "search"
@@ -2499,6 +2623,14 @@ name = "skull"
 unicode = "f54c"
 
 [[solid]]
+name = "skull-crossbones"
+unicode = "f714"
+
+[[solid]]
+name = "slash"
+unicode = "f715"
+
+[[solid]]
 name = "sliders-h"
 unicode = "f1de"
 
@@ -2577,6 +2709,10 @@ unicode = "f5bb"
 [[solid]]
 name = "space-shuttle"
 unicode = "f197"
+
+[[solid]]
+name = "spider"
+unicode = "f717"
 
 [[solid]]
 name = "spinner"
@@ -2887,6 +3023,10 @@ name = "toggle-on"
 unicode = "f205"
 
 [[solid]]
+name = "toilet-paper"
+unicode = "f71e"
+
+[[solid]]
 name = "toolbox"
 unicode = "f552"
 
@@ -2901,6 +3041,10 @@ unicode = "f6a0"
 [[solid]]
 name = "torii-gate"
 unicode = "f6a1"
+
+[[solid]]
+name = "tractor"
+unicode = "f722"
 
 [[solid]]
 name = "trademark"
@@ -3059,6 +3203,10 @@ name = "user-graduate"
 unicode = "f501"
 
 [[solid]]
+name = "user-injured"
+unicode = "f728"
+
+[[solid]]
 name = "user-lock"
 unicode = "f502"
 
@@ -3163,12 +3311,20 @@ name = "volume-down"
 unicode = "f027"
 
 [[solid]]
+name = "volume-mute"
+unicode = "f6a9"
+
+[[solid]]
 name = "volume-off"
 unicode = "f026"
 
 [[solid]]
 name = "volume-up"
 unicode = "f028"
+
+[[solid]]
+name = "vr-cardboard"
+unicode = "f729"
 
 [[solid]]
 name = "walking"
@@ -3199,6 +3355,10 @@ name = "wifi"
 unicode = "f1eb"
 
 [[solid]]
+name = "wind"
+unicode = "f72e"
+
+[[solid]]
 name = "window-close"
 unicode = "f410"
 
@@ -3213,6 +3373,10 @@ unicode = "f2d1"
 [[solid]]
 name = "window-restore"
 unicode = "f2d2"
+
+[[solid]]
+name = "wine-bottle"
+unicode = "f72f"
 
 [[solid]]
 name = "wine-glass"
@@ -3863,6 +4027,10 @@ name = "accusoft"
 unicode = "f369"
 
 [[brands]]
+name = "acquisitions-incorporated"
+unicode = "f6af"
+
+[[brands]]
 name = "adn"
 unicode = "f170"
 
@@ -4151,6 +4319,14 @@ name = "creative-commons-share"
 unicode = "f4f2"
 
 [[brands]]
+name = "creative-commons-zero"
+unicode = "f4f3"
+
+[[brands]]
+name = "critical-role"
+unicode = "f6c9"
+
+[[brands]]
 name = "css3"
 unicode = "f13c"
 
@@ -4167,6 +4343,10 @@ name = "d-and-d"
 unicode = "f38d"
 
 [[brands]]
+name = "d-and-d-beyond"
+unicode = "f6ca"
+
+[[brands]]
 name = "dashcube"
 unicode = "f210"
 
@@ -4181,6 +4361,10 @@ unicode = "f38e"
 [[brands]]
 name = "deskpro"
 unicode = "f38f"
+
+[[brands]]
+name = "dev"
+unicode = "f6cc"
 
 [[brands]]
 name = "deviantart"
@@ -4297,6 +4481,10 @@ unicode = "f39f"
 [[brands]]
 name = "facebook-square"
 unicode = "f082"
+
+[[brands]]
+name = "fantasy-flight-games"
+unicode = "f6dc"
 
 [[brands]]
 name = "firefox"
@@ -4827,6 +5015,10 @@ name = "paypal"
 unicode = "f1ed"
 
 [[brands]]
+name = "penny-arcade"
+unicode = "f704"
+
+[[brands]]
 name = "periscope"
 unicode = "f3da"
 
@@ -4937,10 +5129,6 @@ unicode = "f281"
 [[brands]]
 name = "reddit-square"
 unicode = "f1a2"
-
-[[brands]]
-name = "rendact"
-unicode = "f3e4"
 
 [[brands]]
 name = "renren"
@@ -5159,6 +5347,10 @@ name = "themeisle"
 unicode = "f2b2"
 
 [[brands]]
+name = "think-peaks"
+unicode = "f731"
+
+[[brands]]
 name = "trade-federation"
 unicode = "f513"
 
@@ -5303,6 +5495,10 @@ name = "wix"
 unicode = "f5cf"
 
 [[brands]]
+name = "wizards-of-the-coast"
+unicode = "f730"
+
+[[brands]]
 name = "wolf-pack-battalion"
 unicode = "f514"
 
@@ -5325,6 +5521,10 @@ unicode = "f2de"
 [[brands]]
 name = "wpforms"
 unicode = "f298"
+
+[[brands]]
+name = "wpressr"
+unicode = "f3e4"
 
 [[brands]]
 name = "xbox"
