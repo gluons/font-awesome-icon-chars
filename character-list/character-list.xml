@@ -523,11 +523,26 @@
 		<icon id="cloud-download-alt">
 			<unicode>f381</unicode>
 		</icon>
+		<icon id="cloud-meatball">
+			<unicode>f73b</unicode>
+		</icon>
 		<icon id="cloud-moon">
 			<unicode>f6c3</unicode>
 		</icon>
+		<icon id="cloud-moon-rain">
+			<unicode>f73c</unicode>
+		</icon>
+		<icon id="cloud-rain">
+			<unicode>f73d</unicode>
+		</icon>
+		<icon id="cloud-showers-heavy">
+			<unicode>f740</unicode>
+		</icon>
 		<icon id="cloud-sun">
 			<unicode>f6c4</unicode>
+		</icon>
+		<icon id="cloud-sun-rain">
+			<unicode>f743</unicode>
 		</icon>
 		<icon id="cloud-upload-alt">
 			<unicode>f382</unicode>
@@ -639,6 +654,9 @@
 		</icon>
 		<icon id="deaf">
 			<unicode>f2a4</unicode>
+		</icon>
+		<icon id="democrat">
+			<unicode>f747</unicode>
 		</icon>
 		<icon id="desktop">
 			<unicode>f108</unicode>
@@ -936,6 +954,9 @@
 		</icon>
 		<icon id="flag-checkered">
 			<unicode>f11e</unicode>
+		</icon>
+		<icon id="flag-usa">
+			<unicode>f74d</unicode>
 		</icon>
 		<icon id="flask">
 			<unicode>f0c3</unicode>
@@ -1483,6 +1504,9 @@
 		<icon id="mercury">
 			<unicode>f223</unicode>
 		</icon>
+		<icon id="meteor">
+			<unicode>f753</unicode>
+		</icon>
 		<icon id="microchip">
 			<unicode>f2db</unicode>
 		</icon>
@@ -1669,6 +1693,9 @@
 		<icon id="percentage">
 			<unicode>f541</unicode>
 		</icon>
+		<icon id="person-booth">
+			<unicode>f756</unicode>
+		</icon>
 		<icon id="phone">
 			<unicode>f095</unicode>
 		</icon>
@@ -1728,6 +1755,9 @@
 		</icon>
 		<icon id="poo">
 			<unicode>f2fe</unicode>
+		</icon>
+		<icon id="poo-storm">
+			<unicode>f75a</unicode>
 		</icon>
 		<icon id="poop">
 			<unicode>f619</unicode>
@@ -1789,6 +1819,9 @@
 		<icon id="quran">
 			<unicode>f687</unicode>
 		</icon>
+		<icon id="rainbow">
+			<unicode>f75b</unicode>
+		</icon>
 		<icon id="random">
 			<unicode>f074</unicode>
 		</icon>
@@ -1812,6 +1845,9 @@
 		</icon>
 		<icon id="reply-all">
 			<unicode>f122</unicode>
+		</icon>
+		<icon id="republican">
+			<unicode>f75e</unicode>
 		</icon>
 		<icon id="retweet">
 			<unicode>f079</unicode>
@@ -1986,6 +2022,9 @@
 		</icon>
 		<icon id="smile-wink">
 			<unicode>f4da</unicode>
+		</icon>
+		<icon id="smog">
+			<unicode>f75f</unicode>
 		</icon>
 		<icon id="smoking">
 			<unicode>f48d</unicode>
@@ -2196,6 +2235,12 @@
 		</icon>
 		<icon id="teeth-open">
 			<unicode>f62f</unicode>
+		</icon>
+		<icon id="temperature-high">
+			<unicode>f769</unicode>
+		</icon>
+		<icon id="temperature-low">
+			<unicode>f76b</unicode>
 		</icon>
 		<icon id="terminal">
 			<unicode>f120</unicode>
@@ -2494,6 +2539,9 @@
 		<icon id="volume-up">
 			<unicode>f028</unicode>
 		</icon>
+		<icon id="vote-yea">
+			<unicode>f772</unicode>
+		</icon>
 		<icon id="vr-cardboard">
 			<unicode>f729</unicode>
 		</icon>
@@ -2505,6 +2553,9 @@
 		</icon>
 		<icon id="warehouse">
 			<unicode>f494</unicode>
+		</icon>
+		<icon id="water">
+			<unicode>f773</unicode>
 		</icon>
 		<icon id="weight">
 			<unicode>f496</unicode>
@@ -3835,6 +3886,9 @@
 		</icon>
 		<icon id="react">
 			<unicode>f41b</unicode>
+		</icon>
+		<icon id="reacteurope">
+			<unicode>f75d</unicode>
 		</icon>
 		<icon id="readme">
 			<unicode>f4d5</unicode>

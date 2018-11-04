@@ -695,12 +695,32 @@ name = "cloud-download-alt"
 unicode = "f381"
 
 [[solid]]
+name = "cloud-meatball"
+unicode = "f73b"
+
+[[solid]]
 name = "cloud-moon"
 unicode = "f6c3"
 
 [[solid]]
+name = "cloud-moon-rain"
+unicode = "f73c"
+
+[[solid]]
+name = "cloud-rain"
+unicode = "f73d"
+
+[[solid]]
+name = "cloud-showers-heavy"
+unicode = "f740"
+
+[[solid]]
 name = "cloud-sun"
 unicode = "f6c4"
+
+[[solid]]
+name = "cloud-sun-rain"
+unicode = "f743"
 
 [[solid]]
 name = "cloud-upload-alt"
@@ -849,6 +869,10 @@ unicode = "f1c0"
 [[solid]]
 name = "deaf"
 unicode = "f2a4"
+
+[[solid]]
+name = "democrat"
+unicode = "f747"
 
 [[solid]]
 name = "desktop"
@@ -1245,6 +1269,10 @@ unicode = "f024"
 [[solid]]
 name = "flag-checkered"
 unicode = "f11e"
+
+[[solid]]
+name = "flag-usa"
+unicode = "f74d"
 
 [[solid]]
 name = "flask"
@@ -1975,6 +2003,10 @@ name = "mercury"
 unicode = "f223"
 
 [[solid]]
+name = "meteor"
+unicode = "f753"
+
+[[solid]]
 name = "microchip"
 unicode = "f2db"
 
@@ -2223,6 +2255,10 @@ name = "percentage"
 unicode = "f541"
 
 [[solid]]
+name = "person-booth"
+unicode = "f756"
+
+[[solid]]
 name = "phone"
 unicode = "f095"
 
@@ -2301,6 +2337,10 @@ unicode = "f682"
 [[solid]]
 name = "poo"
 unicode = "f2fe"
+
+[[solid]]
+name = "poo-storm"
+unicode = "f75a"
 
 [[solid]]
 name = "poop"
@@ -2383,6 +2423,10 @@ name = "quran"
 unicode = "f687"
 
 [[solid]]
+name = "rainbow"
+unicode = "f75b"
+
+[[solid]]
 name = "random"
 unicode = "f074"
 
@@ -2413,6 +2457,10 @@ unicode = "f3e5"
 [[solid]]
 name = "reply-all"
 unicode = "f122"
+
+[[solid]]
+name = "republican"
+unicode = "f75e"
 
 [[solid]]
 name = "retweet"
@@ -2645,6 +2693,10 @@ unicode = "f5b8"
 [[solid]]
 name = "smile-wink"
 unicode = "f4da"
+
+[[solid]]
+name = "smog"
+unicode = "f75f"
 
 [[solid]]
 name = "smoking"
@@ -2925,6 +2977,14 @@ unicode = "f62e"
 [[solid]]
 name = "teeth-open"
 unicode = "f62f"
+
+[[solid]]
+name = "temperature-high"
+unicode = "f769"
+
+[[solid]]
+name = "temperature-low"
+unicode = "f76b"
 
 [[solid]]
 name = "terminal"
@@ -3323,6 +3383,10 @@ name = "volume-up"
 unicode = "f028"
 
 [[solid]]
+name = "vote-yea"
+unicode = "f772"
+
+[[solid]]
 name = "vr-cardboard"
 unicode = "f729"
 
@@ -3337,6 +3401,10 @@ unicode = "f555"
 [[solid]]
 name = "warehouse"
 unicode = "f494"
+
+[[solid]]
+name = "water"
+unicode = "f773"
 
 [[solid]]
 name = "weight"
@@ -5105,6 +5173,10 @@ unicode = "f2d9"
 [[brands]]
 name = "react"
 unicode = "f41b"
+
+[[brands]]
+name = "reacteurope"
+unicode = "f75d"
 
 [[brands]]
 name = "readme"

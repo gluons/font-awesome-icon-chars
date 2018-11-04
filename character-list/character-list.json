@@ -697,12 +697,32 @@
 			"unicode": "f381"
 		},
 		{
+			"name": "cloud-meatball",
+			"unicode": "f73b"
+		},
+		{
 			"name": "cloud-moon",
 			"unicode": "f6c3"
 		},
 		{
+			"name": "cloud-moon-rain",
+			"unicode": "f73c"
+		},
+		{
+			"name": "cloud-rain",
+			"unicode": "f73d"
+		},
+		{
+			"name": "cloud-showers-heavy",
+			"unicode": "f740"
+		},
+		{
 			"name": "cloud-sun",
 			"unicode": "f6c4"
+		},
+		{
+			"name": "cloud-sun-rain",
+			"unicode": "f743"
 		},
 		{
 			"name": "cloud-upload-alt",
@@ -851,6 +871,10 @@
 		{
 			"name": "deaf",
 			"unicode": "f2a4"
+		},
+		{
+			"name": "democrat",
+			"unicode": "f747"
 		},
 		{
 			"name": "desktop",
@@ -1247,6 +1271,10 @@
 		{
 			"name": "flag-checkered",
 			"unicode": "f11e"
+		},
+		{
+			"name": "flag-usa",
+			"unicode": "f74d"
 		},
 		{
 			"name": "flask",
@@ -1977,6 +2005,10 @@
 			"unicode": "f223"
 		},
 		{
+			"name": "meteor",
+			"unicode": "f753"
+		},
+		{
 			"name": "microchip",
 			"unicode": "f2db"
 		},
@@ -2225,6 +2257,10 @@
 			"unicode": "f541"
 		},
 		{
+			"name": "person-booth",
+			"unicode": "f756"
+		},
+		{
 			"name": "phone",
 			"unicode": "f095"
 		},
@@ -2303,6 +2339,10 @@
 		{
 			"name": "poo",
 			"unicode": "f2fe"
+		},
+		{
+			"name": "poo-storm",
+			"unicode": "f75a"
 		},
 		{
 			"name": "poop",
@@ -2385,6 +2425,10 @@
 			"unicode": "f687"
 		},
 		{
+			"name": "rainbow",
+			"unicode": "f75b"
+		},
+		{
 			"name": "random",
 			"unicode": "f074"
 		},
@@ -2415,6 +2459,10 @@
 		{
 			"name": "reply-all",
 			"unicode": "f122"
+		},
+		{
+			"name": "republican",
+			"unicode": "f75e"
 		},
 		{
 			"name": "retweet",
@@ -2647,6 +2695,10 @@
 		{
 			"name": "smile-wink",
 			"unicode": "f4da"
+		},
+		{
+			"name": "smog",
+			"unicode": "f75f"
 		},
 		{
 			"name": "smoking",
@@ -2927,6 +2979,14 @@
 		{
 			"name": "teeth-open",
 			"unicode": "f62f"
+		},
+		{
+			"name": "temperature-high",
+			"unicode": "f769"
+		},
+		{
+			"name": "temperature-low",
+			"unicode": "f76b"
 		},
 		{
 			"name": "terminal",
@@ -3325,6 +3385,10 @@
 			"unicode": "f028"
 		},
 		{
+			"name": "vote-yea",
+			"unicode": "f772"
+		},
+		{
 			"name": "vr-cardboard",
 			"unicode": "f729"
 		},
@@ -3339,6 +3403,10 @@
 		{
 			"name": "warehouse",
 			"unicode": "f494"
+		},
+		{
+			"name": "water",
+			"unicode": "f773"
 		},
 		{
 			"name": "weight",
@@ -5111,6 +5179,10 @@
 		{
 			"name": "react",
 			"unicode": "f41b"
+		},
+		{
+			"name": "reacteurope",
+			"unicode": "f75d"
 		},
 		{
 			"name": "readme",
