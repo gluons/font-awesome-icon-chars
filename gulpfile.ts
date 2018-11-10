@@ -2,9 +2,9 @@ import gulp from 'gulp';
 import json2cson from 'gulp-json2cson';
 import plumber from 'gulp-plumber';
 
+import TOML from '@iarna/toml';
 import del from 'del';
 import yaml from 'js-yaml';
-import tomlify from 'tomlify-j0.4';
 import xmlBuilder from 'xmlbuilder';
 
 import { flatten } from 'lodash';
@@ -40,7 +40,7 @@ export function buildJSON() {
 }
 
 export function buildTOML() {
-	return createStream(`${filename}.toml`, tomlify.toToml(JSONSource, { space: 2 }))
+	return createStream(`${filename}.toml`, TOML.stringify(JSONSource))
 		.pipe(plumber())
 		.pipe(gulp.dest('character-list'));
 }

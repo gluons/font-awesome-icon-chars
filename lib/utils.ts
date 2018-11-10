@@ -10,6 +10,7 @@ export interface IconsSource {
 	solid: IconInfo[];
 	regular: IconInfo[];
 	brands: IconInfo[];
+	[key: string]: any;
 }
 
 export function getSource(): IconsSource {

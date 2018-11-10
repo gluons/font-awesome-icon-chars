@@ -8,9 +8,9 @@ import chai from 'chai';
 import chaiThings from 'chai-things';
 import { each } from 'lodash';
 
+import TOML from '@iarna/toml';
 import CSON from 'cson';
 import YAML from 'js-yaml';
-import TOML from 'toml';
 import xml2js from 'xml2js';
 
 const iconCount: IconCount = require('./icon-count.json');
