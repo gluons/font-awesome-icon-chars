@@ -17,11 +17,11 @@ const filename = 'character-list';
 const JSONSource = getSource();
 
 export function cleanAssets() {
-	return del(['character-list/*']);
+	return del('character-list/*');
 }
 
 export function cleanTS() {
-	return del([`src/${filename}.ts`]);
+	return del([`src/${filename}.ts`, 'dist/*']);
 }
 
 export const clean = parallel(cleanAssets, cleanTS);
