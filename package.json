@@ -43,7 +43,7 @@
     "@types/del": "^3.0.0",
     "@types/gulp": "^4.0.5",
     "@types/js-yaml": "^3.10.1",
-    "@types/lodash": "^4.14.117",
+    "@types/lodash": "^4.14.118",
     "@types/mocha": "^5.0.0",
     "@types/node": "8",
     "@types/vinyl": "^2.0.2",
