@@ -192,6 +192,14 @@ solid: [
     unicode: "f559"
   }
   {
+    name: "baby"
+    unicode: "f77c"
+  }
+  {
+    name: "baby-carriage"
+    unicode: "f77d"
+  }
+  {
     name: "backspace"
     unicode: "f55a"
   }
@@ -284,6 +292,10 @@ solid: [
     unicode: "f1e5"
   }
   {
+    name: "biohazard"
+    unicode: "f780"
+  }
+  {
     name: "birthday-cake"
     unicode: "f1fd"
   }
@@ -298,6 +310,10 @@ solid: [
   {
     name: "blind"
     unicode: "f29d"
+  }
+  {
+    name: "blog"
+    unicode: "f781"
   }
   {
     name: "bold"
@@ -432,6 +448,10 @@ solid: [
     unicode: "f274"
   }
   {
+    name: "calendar-day"
+    unicode: "f783"
+  }
+  {
     name: "calendar-minus"
     unicode: "f272"
   }
@@ -444,6 +464,10 @@ solid: [
     unicode: "f273"
   }
   {
+    name: "calendar-week"
+    unicode: "f784"
+  }
+  {
     name: "camera"
     unicode: "f030"
   }
@@ -454,6 +478,10 @@ solid: [
   {
     name: "campground"
     unicode: "f6bb"
+  }
+  {
+    name: "candy-cane"
+    unicode: "f786"
   }
   {
     name: "cannabis"
@@ -516,12 +544,20 @@ solid: [
     unicode: "f0d8"
   }
   {
+    name: "carrot"
+    unicode: "f787"
+  }
+  {
     name: "cart-arrow-down"
     unicode: "f218"
   }
   {
     name: "cart-plus"
     unicode: "f217"
+  }
+  {
+    name: "cash-register"
+    unicode: "f788"
   }
   {
     name: "cat"
@@ -800,6 +836,10 @@ solid: [
     unicode: "f066"
   }
   {
+    name: "compress-arrows-alt"
+    unicode: "f78c"
+  }
+  {
     name: "concierge-bell"
     unicode: "f562"
   }
@@ -1012,6 +1052,14 @@ solid: [
     unicode: "f44b"
   }
   {
+    name: "dumpster"
+    unicode: "f793"
+  }
+  {
+    name: "dumpster-fire"
+    unicode: "f794"
+  }
+  {
     name: "dungeon"
     unicode: "f6d9"
   }
@@ -1054,6 +1102,10 @@ solid: [
   {
     name: "eraser"
     unicode: "f12d"
+  }
+  {
+    name: "ethernet"
+    unicode: "f796"
   }
   {
     name: "euro-sign"
@@ -1248,6 +1300,10 @@ solid: [
     unicode: "f06d"
   }
   {
+    name: "fire-alt"
+    unicode: "f7e4"
+  }
+  {
     name: "fire-extinguisher"
     unicode: "f134"
   }
@@ -1364,12 +1420,24 @@ solid: [
     unicode: "f06b"
   }
   {
+    name: "gifts"
+    unicode: "f79c"
+  }
+  {
+    name: "glass-cheers"
+    unicode: "f79f"
+  }
+  {
     name: "glass-martini"
     unicode: "f000"
   }
   {
     name: "glass-martini-alt"
     unicode: "f57b"
+  }
+  {
+    name: "glass-whiskey"
+    unicode: "f7a0"
   }
   {
     name: "glasses"
@@ -1390,6 +1458,10 @@ solid: [
   {
     name: "globe-asia"
     unicode: "f57e"
+  }
+  {
+    name: "globe-europe"
+    unicode: "f7a2"
   }
   {
     name: "golf-ball"
@@ -1472,8 +1544,20 @@ solid: [
     unicode: "f58d"
   }
   {
+    name: "grip-lines"
+    unicode: "f7a4"
+  }
+  {
+    name: "grip-lines-vertical"
+    unicode: "f7a5"
+  }
+  {
     name: "grip-vertical"
     unicode: "f58e"
+  }
+  {
+    name: "guitar"
+    unicode: "f7a6"
   }
   {
     name: "h-square"
@@ -1596,6 +1680,10 @@ solid: [
     unicode: "f004"
   }
   {
+    name: "heart-broken"
+    unicode: "f7a9"
+  }
+  {
     name: "heartbeat"
     unicode: "f21e"
   }
@@ -1624,12 +1712,20 @@ solid: [
     unicode: "f453"
   }
   {
+    name: "holly-berry"
+    unicode: "f7aa"
+  }
+  {
     name: "home"
     unicode: "f015"
   }
   {
     name: "horse"
     unicode: "f6f0"
+  }
+  {
+    name: "horse-head"
+    unicode: "f7ab"
   }
   {
     name: "hospital"
@@ -1680,6 +1776,10 @@ solid: [
     unicode: "f246"
   }
   {
+    name: "icicles"
+    unicode: "f7ad"
+  }
+  {
     name: "id-badge"
     unicode: "f2c1"
   }
@@ -1690,6 +1790,10 @@ solid: [
   {
     name: "id-card-alt"
     unicode: "f47f"
+  }
+  {
+    name: "igloo"
+    unicode: "f7ae"
   }
   {
     name: "image"
@@ -2044,6 +2148,10 @@ solid: [
     unicode: "f146"
   }
   {
+    name: "mitten"
+    unicode: "f7b5"
+  }
+  {
     name: "mobile"
     unicode: "f10b"
   }
@@ -2102,6 +2210,10 @@ solid: [
   {
     name: "mouse-pointer"
     unicode: "f245"
+  }
+  {
+    name: "mug-hot"
+    unicode: "f7b6"
   }
   {
     name: "music"
@@ -2424,6 +2536,14 @@ solid: [
     unicode: "f687"
   }
   {
+    name: "radiation"
+    unicode: "f7b9"
+  }
+  {
+    name: "radiation-alt"
+    unicode: "f7ba"
+  }
+  {
     name: "rainbow"
     unicode: "f75b"
   }
@@ -2462,6 +2582,10 @@ solid: [
   {
     name: "republican"
     unicode: "f75e"
+  }
+  {
+    name: "restroom"
+    unicode: "f7bd"
   }
   {
     name: "retweet"
@@ -2536,6 +2660,14 @@ solid: [
     unicode: "f5b4"
   }
   {
+    name: "satellite"
+    unicode: "f7bf"
+  }
+  {
+    name: "satellite-dish"
+    unicode: "f7c0"
+  }
+  {
     name: "save"
     unicode: "f0c7"
   }
@@ -2550,6 +2682,10 @@ solid: [
   {
     name: "scroll"
     unicode: "f70e"
+  }
+  {
+    name: "sd-card"
+    unicode: "f7c2"
   }
   {
     name: "search"
@@ -2664,8 +2800,24 @@ solid: [
     unicode: "f5b7"
   }
   {
+    name: "sim-card"
+    unicode: "f7c4"
+  }
+  {
     name: "sitemap"
     unicode: "f0e8"
+  }
+  {
+    name: "skating"
+    unicode: "f7c5"
+  }
+  {
+    name: "skiing"
+    unicode: "f7c9"
+  }
+  {
+    name: "skiing-nordic"
+    unicode: "f7ca"
   }
   {
     name: "skull"
@@ -2678,6 +2830,10 @@ solid: [
   {
     name: "slash"
     unicode: "f715"
+  }
+  {
+    name: "sleigh"
+    unicode: "f7cc"
   }
   {
     name: "sliders-h"
@@ -2708,8 +2864,24 @@ solid: [
     unicode: "f54d"
   }
   {
+    name: "sms"
+    unicode: "f7cd"
+  }
+  {
+    name: "snowboarding"
+    unicode: "f7ce"
+  }
+  {
     name: "snowflake"
     unicode: "f2dc"
+  }
+  {
+    name: "snowman"
+    unicode: "f7d0"
+  }
+  {
+    name: "snowplow"
+    unicode: "f7d2"
   }
   {
     name: "socks"
@@ -2988,6 +3160,10 @@ solid: [
     unicode: "f76b"
   }
   {
+    name: "tenge"
+    unicode: "f7d7"
+  }
+  {
     name: "terminal"
     unicode: "f120"
   }
@@ -3084,12 +3260,20 @@ solid: [
     unicode: "f205"
   }
   {
+    name: "toilet"
+    unicode: "f7d8"
+  }
+  {
     name: "toilet-paper"
     unicode: "f71e"
   }
   {
     name: "toolbox"
     unicode: "f552"
+  }
+  {
+    name: "tools"
+    unicode: "f7d9"
   }
   {
     name: "tooth"
@@ -3118,6 +3302,10 @@ solid: [
   {
     name: "train"
     unicode: "f238"
+  }
+  {
+    name: "tram"
+    unicode: "f7da"
   }
   {
     name: "transgender"
@@ -4108,6 +4296,10 @@ brands: [
     unicode: "f170"
   }
   {
+    name: "adobe"
+    unicode: "f778"
+  }
+  {
     name: "adversal"
     unicode: "f36a"
   }
@@ -4172,8 +4364,16 @@ brands: [
     unicode: "f415"
   }
   {
+    name: "artstation"
+    unicode: "f77a"
+  }
+  {
     name: "asymmetrik"
     unicode: "f372"
+  }
+  {
+    name: "atlassian"
+    unicode: "f77b"
   }
   {
     name: "audible"
@@ -4260,6 +4460,10 @@ brands: [
     unicode: "f20d"
   }
   {
+    name: "canadian-maple-leaf"
+    unicode: "f785"
+  }
+  {
     name: "cc-amazon-pay"
     unicode: "f42d"
   }
@@ -4304,6 +4508,10 @@ brands: [
     unicode: "f380"
   }
   {
+    name: "centos"
+    unicode: "f789"
+  }
+  {
     name: "chrome"
     unicode: "f268"
   }
@@ -4326,6 +4534,10 @@ brands: [
   {
     name: "codiepie"
     unicode: "f284"
+  }
+  {
+    name: "confluence"
+    unicode: "f78d"
   }
   {
     name: "connectdevelop"
@@ -4444,6 +4656,14 @@ brands: [
     unicode: "f1bd"
   }
   {
+    name: "dhl"
+    unicode: "f790"
+  }
+  {
+    name: "diaspora"
+    unicode: "f791"
+  }
+  {
     name: "digg"
     unicode: "f1a6"
   }
@@ -4558,6 +4778,18 @@ brands: [
   {
     name: "fantasy-flight-games"
     unicode: "f6dc"
+  }
+  {
+    name: "fedex"
+    unicode: "f797"
+  }
+  {
+    name: "fedora"
+    unicode: "f798"
+  }
+  {
+    name: "figma"
+    unicode: "f799"
   }
   {
     name: "firefox"
@@ -4812,8 +5044,16 @@ brands: [
     unicode: "f16d"
   }
   {
+    name: "intercom"
+    unicode: "f7af"
+  }
+  {
     name: "internet-explorer"
     unicode: "f26b"
+  }
+  {
+    name: "invision"
+    unicode: "f7b0"
   }
   {
     name: "ioxhost"
@@ -4838,6 +5078,10 @@ brands: [
   {
     name: "jenkins"
     unicode: "f3b6"
+  }
+  {
+    name: "jira"
+    unicode: "f7b1"
   }
   {
     name: "joget"
@@ -4974,6 +5218,10 @@ brands: [
   {
     name: "megaport"
     unicode: "f5a3"
+  }
+  {
+    name: "mendeley"
+    unicode: "f7b3"
   }
   {
     name: "microsoft"
@@ -5172,6 +5420,10 @@ brands: [
     unicode: "f4f7"
   }
   {
+    name: "raspberry-pi"
+    unicode: "f7bb"
+  }
+  {
     name: "ravelry"
     unicode: "f2d9"
   }
@@ -5206,6 +5458,10 @@ brands: [
   {
     name: "reddit-square"
     unicode: "f1a2"
+  }
+  {
+    name: "redhat"
+    unicode: "f7bc"
   }
   {
     name: "renren"
@@ -5288,6 +5544,10 @@ brands: [
     unicode: "f512"
   }
   {
+    name: "sketch"
+    unicode: "f7c6"
+  }
+  {
     name: "skyatlas"
     unicode: "f216"
   }
@@ -5322,6 +5582,10 @@ brands: [
   {
     name: "soundcloud"
     unicode: "f1be"
+  }
+  {
+    name: "sourcetree"
+    unicode: "f7d3"
   }
   {
     name: "speakap"
@@ -5396,6 +5660,10 @@ brands: [
     unicode: "f3f9"
   }
   {
+    name: "suse"
+    unicode: "f7d6"
+  }
+  {
     name: "teamspeak"
     unicode: "f4f9"
   }
@@ -5468,6 +5736,10 @@ brands: [
     unicode: "f402"
   }
   {
+    name: "ubuntu"
+    unicode: "f7df"
+  }
+  {
     name: "uikit"
     unicode: "f403"
   }
@@ -5480,8 +5752,16 @@ brands: [
     unicode: "f405"
   }
   {
+    name: "ups"
+    unicode: "f7e0"
+  }
+  {
     name: "usb"
     unicode: "f287"
+  }
+  {
+    name: "usps"
+    unicode: "f7e1"
   }
   {
     name: "ussunnah"
@@ -5630,6 +5910,10 @@ brands: [
   {
     name: "yandex-international"
     unicode: "f414"
+  }
+  {
+    name: "yarn"
+    unicode: "f7e3"
   }
   {
     name: "yelp"

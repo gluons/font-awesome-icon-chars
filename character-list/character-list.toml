@@ -191,6 +191,14 @@ name = "award"
 unicode = "f559"
 
 [[solid]]
+name = "baby"
+unicode = "f77c"
+
+[[solid]]
+name = "baby-carriage"
+unicode = "f77d"
+
+[[solid]]
 name = "backspace"
 unicode = "f55a"
 
@@ -283,6 +291,10 @@ name = "binoculars"
 unicode = "f1e5"
 
 [[solid]]
+name = "biohazard"
+unicode = "f780"
+
+[[solid]]
 name = "birthday-cake"
 unicode = "f1fd"
 
@@ -297,6 +309,10 @@ unicode = "f6b6"
 [[solid]]
 name = "blind"
 unicode = "f29d"
+
+[[solid]]
+name = "blog"
+unicode = "f781"
 
 [[solid]]
 name = "bold"
@@ -431,6 +447,10 @@ name = "calendar-check"
 unicode = "f274"
 
 [[solid]]
+name = "calendar-day"
+unicode = "f783"
+
+[[solid]]
 name = "calendar-minus"
 unicode = "f272"
 
@@ -443,6 +463,10 @@ name = "calendar-times"
 unicode = "f273"
 
 [[solid]]
+name = "calendar-week"
+unicode = "f784"
+
+[[solid]]
 name = "camera"
 unicode = "f030"
 
@@ -453,6 +477,10 @@ unicode = "f083"
 [[solid]]
 name = "campground"
 unicode = "f6bb"
+
+[[solid]]
+name = "candy-cane"
+unicode = "f786"
 
 [[solid]]
 name = "cannabis"
@@ -515,12 +543,20 @@ name = "caret-up"
 unicode = "f0d8"
 
 [[solid]]
+name = "carrot"
+unicode = "f787"
+
+[[solid]]
 name = "cart-arrow-down"
 unicode = "f218"
 
 [[solid]]
 name = "cart-plus"
 unicode = "f217"
+
+[[solid]]
+name = "cash-register"
+unicode = "f788"
 
 [[solid]]
 name = "cat"
@@ -799,6 +835,10 @@ name = "compress"
 unicode = "f066"
 
 [[solid]]
+name = "compress-arrows-alt"
+unicode = "f78c"
+
+[[solid]]
 name = "concierge-bell"
 unicode = "f562"
 
@@ -1011,6 +1051,14 @@ name = "dumbbell"
 unicode = "f44b"
 
 [[solid]]
+name = "dumpster"
+unicode = "f793"
+
+[[solid]]
+name = "dumpster-fire"
+unicode = "f794"
+
+[[solid]]
 name = "dungeon"
 unicode = "f6d9"
 
@@ -1053,6 +1101,10 @@ unicode = "f52c"
 [[solid]]
 name = "eraser"
 unicode = "f12d"
+
+[[solid]]
+name = "ethernet"
+unicode = "f796"
 
 [[solid]]
 name = "euro-sign"
@@ -1247,6 +1299,10 @@ name = "fire"
 unicode = "f06d"
 
 [[solid]]
+name = "fire-alt"
+unicode = "f7e4"
+
+[[solid]]
 name = "fire-extinguisher"
 unicode = "f134"
 
@@ -1363,12 +1419,24 @@ name = "gift"
 unicode = "f06b"
 
 [[solid]]
+name = "gifts"
+unicode = "f79c"
+
+[[solid]]
+name = "glass-cheers"
+unicode = "f79f"
+
+[[solid]]
 name = "glass-martini"
 unicode = "f000"
 
 [[solid]]
 name = "glass-martini-alt"
 unicode = "f57b"
+
+[[solid]]
+name = "glass-whiskey"
+unicode = "f7a0"
 
 [[solid]]
 name = "glasses"
@@ -1389,6 +1457,10 @@ unicode = "f57d"
 [[solid]]
 name = "globe-asia"
 unicode = "f57e"
+
+[[solid]]
+name = "globe-europe"
+unicode = "f7a2"
 
 [[solid]]
 name = "golf-ball"
@@ -1471,8 +1543,20 @@ name = "grip-horizontal"
 unicode = "f58d"
 
 [[solid]]
+name = "grip-lines"
+unicode = "f7a4"
+
+[[solid]]
+name = "grip-lines-vertical"
+unicode = "f7a5"
+
+[[solid]]
 name = "grip-vertical"
 unicode = "f58e"
+
+[[solid]]
+name = "guitar"
+unicode = "f7a6"
 
 [[solid]]
 name = "h-square"
@@ -1595,6 +1679,10 @@ name = "heart"
 unicode = "f004"
 
 [[solid]]
+name = "heart-broken"
+unicode = "f7a9"
+
+[[solid]]
 name = "heartbeat"
 unicode = "f21e"
 
@@ -1623,12 +1711,20 @@ name = "hockey-puck"
 unicode = "f453"
 
 [[solid]]
+name = "holly-berry"
+unicode = "f7aa"
+
+[[solid]]
 name = "home"
 unicode = "f015"
 
 [[solid]]
 name = "horse"
 unicode = "f6f0"
+
+[[solid]]
+name = "horse-head"
+unicode = "f7ab"
 
 [[solid]]
 name = "hospital"
@@ -1679,6 +1775,10 @@ name = "i-cursor"
 unicode = "f246"
 
 [[solid]]
+name = "icicles"
+unicode = "f7ad"
+
+[[solid]]
 name = "id-badge"
 unicode = "f2c1"
 
@@ -1689,6 +1789,10 @@ unicode = "f2c2"
 [[solid]]
 name = "id-card-alt"
 unicode = "f47f"
+
+[[solid]]
+name = "igloo"
+unicode = "f7ae"
 
 [[solid]]
 name = "image"
@@ -2043,6 +2147,10 @@ name = "minus-square"
 unicode = "f146"
 
 [[solid]]
+name = "mitten"
+unicode = "f7b5"
+
+[[solid]]
 name = "mobile"
 unicode = "f10b"
 
@@ -2101,6 +2209,10 @@ unicode = "f6fc"
 [[solid]]
 name = "mouse-pointer"
 unicode = "f245"
+
+[[solid]]
+name = "mug-hot"
+unicode = "f7b6"
 
 [[solid]]
 name = "music"
@@ -2423,6 +2535,14 @@ name = "quran"
 unicode = "f687"
 
 [[solid]]
+name = "radiation"
+unicode = "f7b9"
+
+[[solid]]
+name = "radiation-alt"
+unicode = "f7ba"
+
+[[solid]]
 name = "rainbow"
 unicode = "f75b"
 
@@ -2461,6 +2581,10 @@ unicode = "f122"
 [[solid]]
 name = "republican"
 unicode = "f75e"
+
+[[solid]]
+name = "restroom"
+unicode = "f7bd"
 
 [[solid]]
 name = "retweet"
@@ -2535,6 +2659,14 @@ name = "sad-tear"
 unicode = "f5b4"
 
 [[solid]]
+name = "satellite"
+unicode = "f7bf"
+
+[[solid]]
+name = "satellite-dish"
+unicode = "f7c0"
+
+[[solid]]
 name = "save"
 unicode = "f0c7"
 
@@ -2549,6 +2681,10 @@ unicode = "f54a"
 [[solid]]
 name = "scroll"
 unicode = "f70e"
+
+[[solid]]
+name = "sd-card"
+unicode = "f7c2"
 
 [[solid]]
 name = "search"
@@ -2663,8 +2799,24 @@ name = "signature"
 unicode = "f5b7"
 
 [[solid]]
+name = "sim-card"
+unicode = "f7c4"
+
+[[solid]]
 name = "sitemap"
 unicode = "f0e8"
+
+[[solid]]
+name = "skating"
+unicode = "f7c5"
+
+[[solid]]
+name = "skiing"
+unicode = "f7c9"
+
+[[solid]]
+name = "skiing-nordic"
+unicode = "f7ca"
 
 [[solid]]
 name = "skull"
@@ -2677,6 +2829,10 @@ unicode = "f714"
 [[solid]]
 name = "slash"
 unicode = "f715"
+
+[[solid]]
+name = "sleigh"
+unicode = "f7cc"
 
 [[solid]]
 name = "sliders-h"
@@ -2707,8 +2863,24 @@ name = "smoking-ban"
 unicode = "f54d"
 
 [[solid]]
+name = "sms"
+unicode = "f7cd"
+
+[[solid]]
+name = "snowboarding"
+unicode = "f7ce"
+
+[[solid]]
 name = "snowflake"
 unicode = "f2dc"
+
+[[solid]]
+name = "snowman"
+unicode = "f7d0"
+
+[[solid]]
+name = "snowplow"
+unicode = "f7d2"
 
 [[solid]]
 name = "socks"
@@ -2987,6 +3159,10 @@ name = "temperature-low"
 unicode = "f76b"
 
 [[solid]]
+name = "tenge"
+unicode = "f7d7"
+
+[[solid]]
 name = "terminal"
 unicode = "f120"
 
@@ -3083,12 +3259,20 @@ name = "toggle-on"
 unicode = "f205"
 
 [[solid]]
+name = "toilet"
+unicode = "f7d8"
+
+[[solid]]
 name = "toilet-paper"
 unicode = "f71e"
 
 [[solid]]
 name = "toolbox"
 unicode = "f552"
+
+[[solid]]
+name = "tools"
+unicode = "f7d9"
 
 [[solid]]
 name = "tooth"
@@ -3117,6 +3301,10 @@ unicode = "f637"
 [[solid]]
 name = "train"
 unicode = "f238"
+
+[[solid]]
+name = "tram"
+unicode = "f7da"
 
 [[solid]]
 name = "transgender"
@@ -4103,6 +4291,10 @@ name = "adn"
 unicode = "f170"
 
 [[brands]]
+name = "adobe"
+unicode = "f778"
+
+[[brands]]
 name = "adversal"
 unicode = "f36a"
 
@@ -4167,8 +4359,16 @@ name = "apple-pay"
 unicode = "f415"
 
 [[brands]]
+name = "artstation"
+unicode = "f77a"
+
+[[brands]]
 name = "asymmetrik"
 unicode = "f372"
+
+[[brands]]
+name = "atlassian"
+unicode = "f77b"
 
 [[brands]]
 name = "audible"
@@ -4255,6 +4455,10 @@ name = "buysellads"
 unicode = "f20d"
 
 [[brands]]
+name = "canadian-maple-leaf"
+unicode = "f785"
+
+[[brands]]
 name = "cc-amazon-pay"
 unicode = "f42d"
 
@@ -4299,6 +4503,10 @@ name = "centercode"
 unicode = "f380"
 
 [[brands]]
+name = "centos"
+unicode = "f789"
+
+[[brands]]
 name = "chrome"
 unicode = "f268"
 
@@ -4321,6 +4529,10 @@ unicode = "f1cb"
 [[brands]]
 name = "codiepie"
 unicode = "f284"
+
+[[brands]]
+name = "confluence"
+unicode = "f78d"
 
 [[brands]]
 name = "connectdevelop"
@@ -4439,6 +4651,14 @@ name = "deviantart"
 unicode = "f1bd"
 
 [[brands]]
+name = "dhl"
+unicode = "f790"
+
+[[brands]]
+name = "diaspora"
+unicode = "f791"
+
+[[brands]]
 name = "digg"
 unicode = "f1a6"
 
@@ -4553,6 +4773,18 @@ unicode = "f082"
 [[brands]]
 name = "fantasy-flight-games"
 unicode = "f6dc"
+
+[[brands]]
+name = "fedex"
+unicode = "f797"
+
+[[brands]]
+name = "fedora"
+unicode = "f798"
+
+[[brands]]
+name = "figma"
+unicode = "f799"
 
 [[brands]]
 name = "firefox"
@@ -4807,8 +5039,16 @@ name = "instagram"
 unicode = "f16d"
 
 [[brands]]
+name = "intercom"
+unicode = "f7af"
+
+[[brands]]
 name = "internet-explorer"
 unicode = "f26b"
+
+[[brands]]
+name = "invision"
+unicode = "f7b0"
 
 [[brands]]
 name = "ioxhost"
@@ -4833,6 +5073,10 @@ unicode = "f50e"
 [[brands]]
 name = "jenkins"
 unicode = "f3b6"
+
+[[brands]]
+name = "jira"
+unicode = "f7b1"
 
 [[brands]]
 name = "joget"
@@ -4969,6 +5213,10 @@ unicode = "f2e0"
 [[brands]]
 name = "megaport"
 unicode = "f5a3"
+
+[[brands]]
+name = "mendeley"
+unicode = "f7b3"
 
 [[brands]]
 name = "microsoft"
@@ -5167,6 +5415,10 @@ name = "r-project"
 unicode = "f4f7"
 
 [[brands]]
+name = "raspberry-pi"
+unicode = "f7bb"
+
+[[brands]]
 name = "ravelry"
 unicode = "f2d9"
 
@@ -5201,6 +5453,10 @@ unicode = "f281"
 [[brands]]
 name = "reddit-square"
 unicode = "f1a2"
+
+[[brands]]
+name = "redhat"
+unicode = "f7bc"
 
 [[brands]]
 name = "renren"
@@ -5283,6 +5539,10 @@ name = "sith"
 unicode = "f512"
 
 [[brands]]
+name = "sketch"
+unicode = "f7c6"
+
+[[brands]]
 name = "skyatlas"
 unicode = "f216"
 
@@ -5317,6 +5577,10 @@ unicode = "f2ad"
 [[brands]]
 name = "soundcloud"
 unicode = "f1be"
+
+[[brands]]
+name = "sourcetree"
+unicode = "f7d3"
 
 [[brands]]
 name = "speakap"
@@ -5391,6 +5655,10 @@ name = "supple"
 unicode = "f3f9"
 
 [[brands]]
+name = "suse"
+unicode = "f7d6"
+
+[[brands]]
 name = "teamspeak"
 unicode = "f4f9"
 
@@ -5463,6 +5731,10 @@ name = "uber"
 unicode = "f402"
 
 [[brands]]
+name = "ubuntu"
+unicode = "f7df"
+
+[[brands]]
 name = "uikit"
 unicode = "f403"
 
@@ -5475,8 +5747,16 @@ name = "untappd"
 unicode = "f405"
 
 [[brands]]
+name = "ups"
+unicode = "f7e0"
+
+[[brands]]
 name = "usb"
 unicode = "f287"
+
+[[brands]]
+name = "usps"
+unicode = "f7e1"
 
 [[brands]]
 name = "ussunnah"
@@ -5625,6 +5905,10 @@ unicode = "f413"
 [[brands]]
 name = "yandex-international"
 unicode = "f414"
+
+[[brands]]
+name = "yarn"
+unicode = "f7e3"
 
 [[brands]]
 name = "yelp"
