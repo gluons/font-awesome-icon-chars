@@ -209,8 +209,20 @@
 			"unicode": "f04a"
 		},
 		{
+			"name": "bacon",
+			"unicode": "f7e5"
+		},
+		{
 			"name": "balance-scale",
 			"unicode": "f24e"
+		},
+		{
+			"name": "balance-scale-left",
+			"unicode": "f515"
+		},
+		{
+			"name": "balance-scale-right",
+			"unicode": "f516"
 		},
 		{
 			"name": "ban",
@@ -289,6 +301,10 @@
 			"unicode": "f206"
 		},
 		{
+			"name": "biking",
+			"unicode": "f84a"
+		},
+		{
 			"name": "binoculars",
 			"unicode": "f1e5"
 		},
@@ -345,6 +361,10 @@
 			"unicode": "f6b7"
 		},
 		{
+			"name": "book-medical",
+			"unicode": "f7e6"
+		},
+		{
 			"name": "book-open",
 			"unicode": "f518"
 		},
@@ -355,6 +375,18 @@
 		{
 			"name": "bookmark",
 			"unicode": "f02e"
+		},
+		{
+			"name": "border-all",
+			"unicode": "f84c"
+		},
+		{
+			"name": "border-none",
+			"unicode": "f850"
+		},
+		{
+			"name": "border-style",
+			"unicode": "f853"
 		},
 		{
 			"name": "bowling-ball",
@@ -379,6 +411,10 @@
 		{
 			"name": "brain",
 			"unicode": "f5dc"
+		},
+		{
+			"name": "bread-slice",
+			"unicode": "f7ec"
 		},
 		{
 			"name": "briefcase",
@@ -617,6 +653,10 @@
 			"unicode": "f14a"
 		},
 		{
+			"name": "cheese",
+			"unicode": "f7ef"
+		},
+		{
 			"name": "chess",
 			"unicode": "f439"
 		},
@@ -699,6 +739,10 @@
 		{
 			"name": "city",
 			"unicode": "f64f"
+		},
+		{
+			"name": "clinic-medical",
+			"unicode": "f7f2"
 		},
 		{
 			"name": "clipboard",
@@ -813,6 +857,10 @@
 			"unicode": "f4ad"
 		},
 		{
+			"name": "comment-medical",
+			"unicode": "f7f5"
+		},
+		{
 			"name": "comment-slash",
 			"unicode": "f4b3"
 		},
@@ -891,6 +939,10 @@
 		{
 			"name": "crown",
 			"unicode": "f521"
+		},
+		{
+			"name": "crutch",
+			"unicode": "f7f7"
 		},
 		{
 			"name": "cube",
@@ -1069,6 +1121,10 @@
 			"unicode": "f044"
 		},
 		{
+			"name": "egg",
+			"unicode": "f7fb"
+		},
+		{
 			"name": "eject",
 			"unicode": "f052"
 		},
@@ -1155,6 +1211,10 @@
 		{
 			"name": "eye-slash",
 			"unicode": "f070"
+		},
+		{
+			"name": "fan",
+			"unicode": "f863"
 		},
 		{
 			"name": "fast-backward",
@@ -1565,6 +1625,10 @@
 			"unicode": "f0fd"
 		},
 		{
+			"name": "hamburger",
+			"unicode": "f805"
+		},
+		{
 			"name": "hammer",
 			"unicode": "f6e3"
 		},
@@ -1587,6 +1651,10 @@
 		{
 			"name": "hand-lizard",
 			"unicode": "f258"
+		},
+		{
+			"name": "hand-middle-finger",
+			"unicode": "f806"
 		},
 		{
 			"name": "hand-paper",
@@ -1643,6 +1711,10 @@
 		{
 			"name": "hanukiah",
 			"unicode": "f6e6"
+		},
+		{
+			"name": "hard-hat",
+			"unicode": "f807"
 		},
 		{
 			"name": "hashtag",
@@ -1745,6 +1817,10 @@
 			"unicode": "f593"
 		},
 		{
+			"name": "hotdog",
+			"unicode": "f80f"
+		},
+		{
 			"name": "hotel",
 			"unicode": "f594"
 		},
@@ -1777,8 +1853,16 @@
 			"unicode": "f246"
 		},
 		{
+			"name": "ice-cream",
+			"unicode": "f810"
+		},
+		{
 			"name": "icicles",
 			"unicode": "f7ad"
+		},
+		{
+			"name": "icons",
+			"unicode": "f86d"
 		},
 		{
 			"name": "id-badge",
@@ -1891,6 +1975,10 @@
 		{
 			"name": "laptop-code",
 			"unicode": "f5fc"
+		},
+		{
+			"name": "laptop-medical",
+			"unicode": "f812"
 		},
 		{
 			"name": "laugh",
@@ -2265,6 +2353,10 @@
 			"unicode": "f03b"
 		},
 		{
+			"name": "pager",
+			"unicode": "f815"
+		},
+		{
 			"name": "paint-brush",
 			"unicode": "f1fc"
 		},
@@ -2361,6 +2453,10 @@
 			"unicode": "f4ce"
 		},
 		{
+			"name": "pepper-hot",
+			"unicode": "f816"
+		},
+		{
 			"name": "percent",
 			"unicode": "f295"
 		},
@@ -2377,6 +2473,10 @@
 			"unicode": "f095"
 		},
 		{
+			"name": "phone-alt",
+			"unicode": "f879"
+		},
+		{
 			"name": "phone-slash",
 			"unicode": "f3dd"
 		},
@@ -2385,8 +2485,16 @@
 			"unicode": "f098"
 		},
 		{
+			"name": "phone-square-alt",
+			"unicode": "f87b"
+		},
+		{
 			"name": "phone-volume",
 			"unicode": "f2a0"
+		},
+		{
+			"name": "photo-video",
+			"unicode": "f87c"
 		},
 		{
 			"name": "piggy-bank",
@@ -2395,6 +2503,10 @@
 		{
 			"name": "pills",
 			"unicode": "f484"
+		},
+		{
+			"name": "pizza-slice",
+			"unicode": "f818"
 		},
 		{
 			"name": "place-of-worship",
@@ -2571,6 +2683,10 @@
 		{
 			"name": "registered",
 			"unicode": "f25d"
+		},
+		{
+			"name": "remove-format",
+			"unicode": "f87d"
 		},
 		{
 			"name": "reply",
@@ -2901,16 +3017,32 @@
 			"unicode": "f15d"
 		},
 		{
+			"name": "sort-alpha-down-alt",
+			"unicode": "f881"
+		},
+		{
 			"name": "sort-alpha-up",
 			"unicode": "f15e"
+		},
+		{
+			"name": "sort-alpha-up-alt",
+			"unicode": "f882"
 		},
 		{
 			"name": "sort-amount-down",
 			"unicode": "f160"
 		},
 		{
+			"name": "sort-amount-down-alt",
+			"unicode": "f884"
+		},
+		{
 			"name": "sort-amount-up",
 			"unicode": "f161"
+		},
+		{
+			"name": "sort-amount-up-alt",
+			"unicode": "f885"
 		},
 		{
 			"name": "sort-down",
@@ -2921,8 +3053,16 @@
 			"unicode": "f162"
 		},
 		{
+			"name": "sort-numeric-down-alt",
+			"unicode": "f886"
+		},
+		{
 			"name": "sort-numeric-up",
 			"unicode": "f163"
+		},
+		{
+			"name": "sort-numeric-up-alt",
+			"unicode": "f887"
 		},
 		{
 			"name": "sort-up",
@@ -2935,6 +3075,10 @@
 		{
 			"name": "space-shuttle",
 			"unicode": "f197"
+		},
+		{
+			"name": "spell-check",
+			"unicode": "f891"
 		},
 		{
 			"name": "spider",
@@ -3325,6 +3469,14 @@
 			"unicode": "f2ed"
 		},
 		{
+			"name": "trash-restore",
+			"unicode": "f829"
+		},
+		{
+			"name": "trash-restore-alt",
+			"unicode": "f82a"
+		},
+		{
 			"name": "tree",
 			"unicode": "f1bb"
 		},
@@ -3473,6 +3625,10 @@
 			"unicode": "f504"
 		},
 		{
+			"name": "user-nurse",
+			"unicode": "f82f"
+		},
+		{
 			"name": "user-plus",
 			"unicode": "f234"
 		},
@@ -3553,6 +3709,10 @@
 			"unicode": "f6a7"
 		},
 		{
+			"name": "voicemail",
+			"unicode": "f897"
+		},
+		{
 			"name": "volleyball-ball",
 			"unicode": "f45f"
 		},
@@ -3595,6 +3755,10 @@
 		{
 			"name": "water",
 			"unicode": "f773"
+		},
+		{
+			"name": "wave-square",
+			"unicode": "f83e"
 		},
 		{
 			"name": "weight",
@@ -4309,6 +4473,10 @@
 			"unicode": "f36b"
 		},
 		{
+			"name": "airbnb",
+			"unicode": "f834"
+		},
+		{
 			"name": "algolia",
 			"unicode": "f36c"
 		},
@@ -4401,6 +4569,10 @@
 			"unicode": "f2d5"
 		},
 		{
+			"name": "battle-net",
+			"unicode": "f835"
+		},
+		{
 			"name": "behance",
 			"unicode": "f1b4"
 		},
@@ -4449,8 +4621,16 @@
 			"unicode": "f294"
 		},
 		{
+			"name": "bootstrap",
+			"unicode": "f836"
+		},
+		{
 			"name": "btc",
 			"unicode": "f15a"
+		},
+		{
+			"name": "buffer",
+			"unicode": "f837"
 		},
 		{
 			"name": "buromobelexperte",
@@ -4515,6 +4695,10 @@
 		{
 			"name": "chrome",
 			"unicode": "f268"
+		},
+		{
+			"name": "chromecast",
+			"unicode": "f838"
 		},
 		{
 			"name": "cloudscale",
@@ -4757,6 +4941,10 @@
 			"unicode": "f2d7"
 		},
 		{
+			"name": "evernote",
+			"unicode": "f839"
+		},
+		{
 			"name": "expeditedssl",
 			"unicode": "f23e"
 		},
@@ -4895,6 +5083,10 @@
 		{
 			"name": "git",
 			"unicode": "f1d3"
+		},
+		{
+			"name": "git-alt",
+			"unicode": "f841"
 		},
 		{
 			"name": "git-square",
@@ -5059,6 +5251,10 @@
 		{
 			"name": "ioxhost",
 			"unicode": "f208"
+		},
+		{
+			"name": "itch-io",
+			"unicode": "f83a"
 		},
 		{
 			"name": "itunes",
@@ -5259,10 +5455,6 @@
 		{
 			"name": "nimblr",
 			"unicode": "f5a8"
-		},
-		{
-			"name": "nintendo-switch",
-			"unicode": "f418"
 		},
 		{
 			"name": "node",
@@ -5497,6 +5689,10 @@
 			"unicode": "f267"
 		},
 		{
+			"name": "salesforce",
+			"unicode": "f83b"
+		},
+		{
 			"name": "sass",
 			"unicode": "f41e"
 		},
@@ -5593,6 +5789,10 @@
 			"unicode": "f3f3"
 		},
 		{
+			"name": "speaker-deck",
+			"unicode": "f83c"
+		},
+		{
 			"name": "spotify",
 			"unicode": "f1bc"
 		},
@@ -5607,6 +5807,10 @@
 		{
 			"name": "stack-overflow",
 			"unicode": "f16c"
+		},
+		{
+			"name": "stackpath",
+			"unicode": "f842"
 		},
 		{
 			"name": "staylinked",
@@ -5663,6 +5867,10 @@
 		{
 			"name": "suse",
 			"unicode": "f7d6"
+		},
+		{
+			"name": "symfony",
+			"unicode": "f83d"
 		},
 		{
 			"name": "teamspeak",
@@ -5817,6 +6025,10 @@
 			"unicode": "f41f"
 		},
 		{
+			"name": "waze",
+			"unicode": "f83f"
+		},
+		{
 			"name": "weebly",
 			"unicode": "f5cc"
 		},
@@ -5903,6 +6115,10 @@
 		{
 			"name": "yahoo",
 			"unicode": "f19e"
+		},
+		{
+			"name": "yammer",
+			"unicode": "f840"
 		},
 		{
 			"name": "yandex",

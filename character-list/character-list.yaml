@@ -104,8 +104,14 @@ solid:
     unicode: f55a
   - name: backward
     unicode: f04a
+  - name: bacon
+    unicode: f7e5
   - name: balance-scale
     unicode: f24e
+  - name: balance-scale-left
+    unicode: f515
+  - name: balance-scale-right
+    unicode: f516
   - name: ban
     unicode: f05e
   - name: band-aid
@@ -144,6 +150,8 @@ solid:
     unicode: f647
   - name: bicycle
     unicode: f206
+  - name: biking
+    unicode: f84a
   - name: binoculars
     unicode: f1e5
   - name: biohazard
@@ -172,12 +180,20 @@ solid:
     unicode: f02d
   - name: book-dead
     unicode: f6b7
+  - name: book-medical
+    unicode: f7e6
   - name: book-open
     unicode: f518
   - name: book-reader
     unicode: f5da
   - name: bookmark
     unicode: f02e
+  - name: border-all
+    unicode: f84c
+  - name: border-none
+    unicode: f850
+  - name: border-style
+    unicode: f853
   - name: bowling-ball
     unicode: f436
   - name: box
@@ -190,6 +206,8 @@ solid:
     unicode: f2a1
   - name: brain
     unicode: f5dc
+  - name: bread-slice
+    unicode: f7ec
   - name: briefcase
     unicode: f0b1
   - name: briefcase-medical
@@ -308,6 +326,8 @@ solid:
     unicode: f560
   - name: check-square
     unicode: f14a
+  - name: cheese
+    unicode: f7ef
   - name: chess
     unicode: f439
   - name: chess-bishop
@@ -350,6 +370,8 @@ solid:
     unicode: f1ce
   - name: city
     unicode: f64f
+  - name: clinic-medical
+    unicode: f7f2
   - name: clipboard
     unicode: f328
   - name: clipboard-check
@@ -406,6 +428,8 @@ solid:
     unicode: f651
   - name: comment-dots
     unicode: f4ad
+  - name: comment-medical
+    unicode: f7f5
   - name: comment-slash
     unicode: f4b3
   - name: comments
@@ -446,6 +470,8 @@ solid:
     unicode: f520
   - name: crown
     unicode: f521
+  - name: crutch
+    unicode: f7f7
   - name: cube
     unicode: f1b2
   - name: cubes
@@ -534,6 +560,8 @@ solid:
     unicode: f6d9
   - name: edit
     unicode: f044
+  - name: egg
+    unicode: f7fb
   - name: eject
     unicode: f052
   - name: ellipsis-h
@@ -578,6 +606,8 @@ solid:
     unicode: f1fb
   - name: eye-slash
     unicode: f070
+  - name: fan
+    unicode: f863
   - name: fast-backward
     unicode: f049
   - name: fast-forward
@@ -782,6 +812,8 @@ solid:
     unicode: f7a6
   - name: h-square
     unicode: f0fd
+  - name: hamburger
+    unicode: f805
   - name: hammer
     unicode: f6e3
   - name: hamsa
@@ -794,6 +826,8 @@ solid:
     unicode: f4c0
   - name: hand-lizard
     unicode: f258
+  - name: hand-middle-finger
+    unicode: f806
   - name: hand-paper
     unicode: f256
   - name: hand-peace
@@ -822,6 +856,8 @@ solid:
     unicode: f2b5
   - name: hanukiah
     unicode: f6e6
+  - name: hard-hat
+    unicode: f807
   - name: hashtag
     unicode: f292
   - name: hat-wizard
@@ -872,6 +908,8 @@ solid:
     unicode: f47e
   - name: hot-tub
     unicode: f593
+  - name: hotdog
+    unicode: f80f
   - name: hotel
     unicode: f594
   - name: hourglass
@@ -888,8 +926,12 @@ solid:
     unicode: f6f2
   - name: i-cursor
     unicode: f246
+  - name: ice-cream
+    unicode: f810
   - name: icicles
     unicode: f7ad
+  - name: icons
+    unicode: f86d
   - name: id-badge
     unicode: f2c1
   - name: id-card
@@ -946,6 +988,8 @@ solid:
     unicode: f109
   - name: laptop-code
     unicode: f5fc
+  - name: laptop-medical
+    unicode: f812
   - name: laugh
     unicode: f599
   - name: laugh-beam
@@ -1132,6 +1176,8 @@ solid:
     unicode: f700
   - name: outdent
     unicode: f03b
+  - name: pager
+    unicode: f815
   - name: paint-brush
     unicode: f1fc
   - name: paint-roller
@@ -1180,6 +1226,8 @@ solid:
     unicode: f5ae
   - name: people-carry
     unicode: f4ce
+  - name: pepper-hot
+    unicode: f816
   - name: percent
     unicode: f295
   - name: percentage
@@ -1188,16 +1236,24 @@ solid:
     unicode: f756
   - name: phone
     unicode: f095
+  - name: phone-alt
+    unicode: f879
   - name: phone-slash
     unicode: f3dd
   - name: phone-square
     unicode: f098
+  - name: phone-square-alt
+    unicode: f87b
   - name: phone-volume
     unicode: f2a0
+  - name: photo-video
+    unicode: f87c
   - name: piggy-bank
     unicode: f4d3
   - name: pills
     unicode: f484
+  - name: pizza-slice
+    unicode: f818
   - name: place-of-worship
     unicode: f67f
   - name: plane
@@ -1286,6 +1342,8 @@ solid:
     unicode: f2f9
   - name: registered
     unicode: f25d
+  - name: remove-format
+    unicode: f87d
   - name: reply
     unicode: f3e5
   - name: reply-all
@@ -1450,24 +1508,38 @@ solid:
     unicode: f0dc
   - name: sort-alpha-down
     unicode: f15d
+  - name: sort-alpha-down-alt
+    unicode: f881
   - name: sort-alpha-up
     unicode: f15e
+  - name: sort-alpha-up-alt
+    unicode: f882
   - name: sort-amount-down
     unicode: f160
+  - name: sort-amount-down-alt
+    unicode: f884
   - name: sort-amount-up
     unicode: f161
+  - name: sort-amount-up-alt
+    unicode: f885
   - name: sort-down
     unicode: f0dd
   - name: sort-numeric-down
     unicode: f162
+  - name: sort-numeric-down-alt
+    unicode: f886
   - name: sort-numeric-up
     unicode: f163
+  - name: sort-numeric-up-alt
+    unicode: f887
   - name: sort-up
     unicode: f0de
   - name: spa
     unicode: f5bb
   - name: space-shuttle
     unicode: f197
+  - name: spell-check
+    unicode: f891
   - name: spider
     unicode: f717
   - name: spinner
@@ -1662,6 +1734,10 @@ solid:
     unicode: f1f8
   - name: trash-alt
     unicode: f2ed
+  - name: trash-restore
+    unicode: f829
+  - name: trash-restore-alt
+    unicode: f82a
   - name: tree
     unicode: f1bb
   - name: trophy
@@ -1736,6 +1812,8 @@ solid:
     unicode: f503
   - name: user-ninja
     unicode: f504
+  - name: user-nurse
+    unicode: f82f
   - name: user-plus
     unicode: f234
   - name: user-secret
@@ -1776,6 +1854,8 @@ solid:
     unicode: f4e2
   - name: vihara
     unicode: f6a7
+  - name: voicemail
+    unicode: f897
   - name: volleyball-ball
     unicode: f45f
   - name: volume-down
@@ -1798,6 +1878,8 @@ solid:
     unicode: f494
   - name: water
     unicode: f773
+  - name: wave-square
+    unicode: f83e
   - name: weight
     unicode: f496
   - name: weight-hanging
@@ -2154,6 +2236,8 @@ brands:
     unicode: f36a
   - name: affiliatetheme
     unicode: f36b
+  - name: airbnb
+    unicode: f834
   - name: algolia
     unicode: f36c
   - name: alipay
@@ -2200,6 +2284,8 @@ brands:
     unicode: f375
   - name: bandcamp
     unicode: f2d5
+  - name: battle-net
+    unicode: f835
   - name: behance
     unicode: f1b4
   - name: behance-square
@@ -2224,8 +2310,12 @@ brands:
     unicode: f293
   - name: bluetooth-b
     unicode: f294
+  - name: bootstrap
+    unicode: f836
   - name: btc
     unicode: f15a
+  - name: buffer
+    unicode: f837
   - name: buromobelexperte
     unicode: f37f
   - name: buysellads
@@ -2258,6 +2348,8 @@ brands:
     unicode: f789
   - name: chrome
     unicode: f268
+  - name: chromecast
+    unicode: f838
   - name: cloudscale
     unicode: f383
   - name: cloudsmith
@@ -2378,6 +2470,8 @@ brands:
     unicode: f42e
   - name: etsy
     unicode: f2d7
+  - name: evernote
+    unicode: f839
   - name: expeditedssl
     unicode: f23e
   - name: facebook
@@ -2448,6 +2542,8 @@ brands:
     unicode: f261
   - name: git
     unicode: f1d3
+  - name: git-alt
+    unicode: f841
   - name: git-square
     unicode: f1d2
   - name: github
@@ -2530,6 +2626,8 @@ brands:
     unicode: f7b0
   - name: ioxhost
     unicode: f208
+  - name: itch-io
+    unicode: f83a
   - name: itunes
     unicode: f3b4
   - name: itunes-note
@@ -2630,8 +2728,6 @@ brands:
     unicode: f612
   - name: nimblr
     unicode: f5a8
-  - name: nintendo-switch
-    unicode: f418
   - name: node
     unicode: f419
   - name: node-js
@@ -2748,6 +2844,8 @@ brands:
     unicode: f3e9
   - name: safari
     unicode: f267
+  - name: salesforce
+    unicode: f83b
   - name: sass
     unicode: f41e
   - name: schlix
@@ -2796,6 +2894,8 @@ brands:
     unicode: f7d3
   - name: speakap
     unicode: f3f3
+  - name: speaker-deck
+    unicode: f83c
   - name: spotify
     unicode: f1bc
   - name: squarespace
@@ -2804,6 +2904,8 @@ brands:
     unicode: f18d
   - name: stack-overflow
     unicode: f16c
+  - name: stackpath
+    unicode: f842
   - name: staylinked
     unicode: f3f5
   - name: steam
@@ -2832,6 +2934,8 @@ brands:
     unicode: f3f9
   - name: suse
     unicode: f7d6
+  - name: symfony
+    unicode: f83d
   - name: teamspeak
     unicode: f4f9
   - name: telegram
@@ -2908,6 +3012,8 @@ brands:
     unicode: f40b
   - name: vuejs
     unicode: f41f
+  - name: waze
+    unicode: f83f
   - name: weebly
     unicode: f5cc
   - name: weibo
@@ -2952,6 +3058,8 @@ brands:
     unicode: f23b
   - name: yahoo
     unicode: f19e
+  - name: yammer
+    unicode: f840
   - name: yandex
     unicode: f413
   - name: yandex-international
