@@ -70,10 +70,10 @@
     "@nodelib/fs.scandir" "2.1.1"
     fastq "^1.6.0"
 
-"@types/chai-things@^0.0.33":
-  version "0.0.33"
-  resolved "https://registry.npmjs.org/@types/chai-things/-/chai-things-0.0.33.tgz#fdd160d65292beac54d3ee3b782e788a5b206b3c"
-  integrity sha512-OfNGJCbcRbFp6ZcFkshPYw3GKdTiCItLYzb1BorKSJwJTHN4au/O4SJ1mf7wQXRGTanTJ2+JAt6pY1S1KyYTmg==
+"@types/chai-things@^0.0.34":
+  version "0.0.34"
+  resolved "https://registry.npmjs.org/@types/chai-things/-/chai-things-0.0.34.tgz#42c2be3c9670559b342d163473403da488ce27bc"
+  integrity sha512-vcpFz782jq7FpEnE9Yq0cfgP8NwRPQgQ2271Q+7hEldOHttTQaYuVj0S9ViQXkM+sYSgUh/2OF5vTq8iei8Ljg==
   dependencies:
     "@types/chai" "*"
 
