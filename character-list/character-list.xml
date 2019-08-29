@@ -3551,6 +3551,9 @@
 		<icon id="contao">
 			<unicode>f26d</unicode>
 		</icon>
+		<icon id="cotton-bureau">
+			<unicode>f89e</unicode>
+		</icon>
 		<icon id="cpanel">
 			<unicode>f388</unicode>
 		</icon>

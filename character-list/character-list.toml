@@ -4727,6 +4727,10 @@ name = "contao"
 unicode = "f26d"
 
 [[brands]]
+name = "cotton-bureau"
+unicode = "f89e"
+
+[[brands]]
 name = "cpanel"
 unicode = "f388"
 
