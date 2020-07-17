@@ -213,6 +213,18 @@
 			"unicode": "f7e5"
 		},
 		{
+			"name": "bacteria",
+			"unicode": "e059"
+		},
+		{
+			"name": "bacterium",
+			"unicode": "e05a"
+		},
+		{
+			"name": "bahai",
+			"unicode": "f666"
+		},
+		{
 			"name": "balance-scale",
 			"unicode": "f24e"
 		},
@@ -401,6 +413,10 @@
 			"unicode": "f49e"
 		},
 		{
+			"name": "box-tissue",
+			"unicode": "e05b"
+		},
+		{
 			"name": "boxes",
 			"unicode": "f468"
 		},
@@ -547,6 +563,10 @@
 		{
 			"name": "car-side",
 			"unicode": "f5e4"
+		},
+		{
+			"name": "caravan",
+			"unicode": "f8ff"
 		},
 		{
 			"name": "caret-down",
@@ -885,6 +905,10 @@
 			"unicode": "f066"
 		},
 		{
+			"name": "compress-alt",
+			"unicode": "f422"
+		},
+		{
 			"name": "compress-arrows-alt",
 			"unicode": "f78c"
 		},
@@ -1023,6 +1047,10 @@
 		{
 			"name": "directions",
 			"unicode": "f5eb"
+		},
+		{
+			"name": "disease",
+			"unicode": "f7fa"
 		},
 		{
 			"name": "divide",
@@ -1189,6 +1217,10 @@
 			"unicode": "f065"
 		},
 		{
+			"name": "expand-alt",
+			"unicode": "f424"
+		},
+		{
 			"name": "expand-arrows-alt",
 			"unicode": "f31e"
 		},
@@ -1223,6 +1255,10 @@
 		{
 			"name": "fast-forward",
 			"unicode": "f050"
+		},
+		{
+			"name": "faucet",
+			"unicode": "e005"
 		},
 		{
 			"name": "fax",
@@ -1645,8 +1681,16 @@
 			"unicode": "f4be"
 		},
 		{
+			"name": "hand-holding-medical",
+			"unicode": "e05c"
+		},
+		{
 			"name": "hand-holding-usd",
 			"unicode": "f4c0"
+		},
+		{
+			"name": "hand-holding-water",
+			"unicode": "f4c1"
 		},
 		{
 			"name": "hand-lizard",
@@ -1693,6 +1737,10 @@
 			"unicode": "f257"
 		},
 		{
+			"name": "hand-sparkles",
+			"unicode": "e05d"
+		},
+		{
 			"name": "hand-spock",
 			"unicode": "f259"
 		},
@@ -1705,8 +1753,20 @@
 			"unicode": "f4c4"
 		},
 		{
+			"name": "hands-wash",
+			"unicode": "e05e"
+		},
+		{
 			"name": "handshake",
 			"unicode": "f2b5"
+		},
+		{
+			"name": "handshake-alt-slash",
+			"unicode": "e05f"
+		},
+		{
+			"name": "handshake-slash",
+			"unicode": "e060"
 		},
 		{
 			"name": "hanukiah",
@@ -1721,16 +1781,36 @@
 			"unicode": "f292"
 		},
 		{
+			"name": "hat-cowboy",
+			"unicode": "f8c0"
+		},
+		{
+			"name": "hat-cowboy-side",
+			"unicode": "f8c1"
+		},
+		{
 			"name": "hat-wizard",
 			"unicode": "f6e8"
 		},
 		{
-			"name": "haykal",
-			"unicode": "f666"
-		},
-		{
 			"name": "hdd",
 			"unicode": "f0a0"
+		},
+		{
+			"name": "head-side-cough",
+			"unicode": "e061"
+		},
+		{
+			"name": "head-side-cough-slash",
+			"unicode": "e062"
+		},
+		{
+			"name": "head-side-mask",
+			"unicode": "e063"
+		},
+		{
+			"name": "head-side-virus",
+			"unicode": "e064"
 		},
 		{
 			"name": "heading",
@@ -1813,6 +1893,10 @@
 			"unicode": "f47e"
 		},
 		{
+			"name": "hospital-user",
+			"unicode": "f80d"
+		},
+		{
 			"name": "hot-tub",
 			"unicode": "f593"
 		},
@@ -1843,6 +1927,10 @@
 		{
 			"name": "house-damage",
 			"unicode": "f6f1"
+		},
+		{
+			"name": "house-user",
+			"unicode": "e065"
 		},
 		{
 			"name": "hryvnia",
@@ -1977,6 +2065,10 @@
 			"unicode": "f5fc"
 		},
 		{
+			"name": "laptop-house",
+			"unicode": "e066"
+		},
+		{
 			"name": "laptop-medical",
 			"unicode": "f812"
 		},
@@ -2091,6 +2183,14 @@
 		{
 			"name": "luggage-cart",
 			"unicode": "f59d"
+		},
+		{
+			"name": "lungs",
+			"unicode": "f604"
+		},
+		{
+			"name": "lungs-virus",
+			"unicode": "e067"
 		},
 		{
 			"name": "magic",
@@ -2297,6 +2397,10 @@
 			"unicode": "f6fc"
 		},
 		{
+			"name": "mouse",
+			"unicode": "f8cc"
+		},
+		{
 			"name": "mouse-pointer",
 			"unicode": "f245"
 		},
@@ -2449,6 +2553,10 @@
 			"unicode": "f5ae"
 		},
 		{
+			"name": "people-arrows",
+			"unicode": "e068"
+		},
+		{
 			"name": "people-carry",
 			"unicode": "f4ce"
 		},
@@ -2523,6 +2631,10 @@
 		{
 			"name": "plane-departure",
 			"unicode": "f5b0"
+		},
+		{
+			"name": "plane-slash",
+			"unicode": "e069"
 		},
 		{
 			"name": "play",
@@ -2617,6 +2729,14 @@
 			"unicode": "f542"
 		},
 		{
+			"name": "pump-medical",
+			"unicode": "e06a"
+		},
+		{
+			"name": "pump-soap",
+			"unicode": "e06b"
+		},
+		{
 			"name": "puzzle-piece",
 			"unicode": "f12e"
 		},
@@ -2667,6 +2787,10 @@
 		{
 			"name": "receipt",
 			"unicode": "f543"
+		},
+		{
+			"name": "record-vinyl",
+			"unicode": "f8d9"
 		},
 		{
 			"name": "recycle",
@@ -2861,6 +2985,10 @@
 			"unicode": "f3ed"
 		},
 		{
+			"name": "shield-virus",
+			"unicode": "e06c"
+		},
+		{
 			"name": "ship",
 			"unicode": "f21a"
 		},
@@ -2919,6 +3047,10 @@
 		{
 			"name": "sim-card",
 			"unicode": "f7c4"
+		},
+		{
+			"name": "sink",
+			"unicode": "e06d"
 		},
 		{
 			"name": "sitemap",
@@ -2999,6 +3131,10 @@
 		{
 			"name": "snowplow",
 			"unicode": "f7d2"
+		},
+		{
+			"name": "soap",
+			"unicode": "e06e"
 		},
 		{
 			"name": "socks",
@@ -3165,12 +3301,24 @@
 			"unicode": "f2f2"
 		},
 		{
+			"name": "stopwatch-20",
+			"unicode": "e06f"
+		},
+		{
 			"name": "store",
 			"unicode": "f54e"
 		},
 		{
 			"name": "store-alt",
 			"unicode": "f54f"
+		},
+		{
+			"name": "store-alt-slash",
+			"unicode": "e070"
+		},
+		{
+			"name": "store-slash",
+			"unicode": "e071"
 		},
 		{
 			"name": "stream",
@@ -3413,6 +3561,10 @@
 			"unicode": "f71e"
 		},
 		{
+			"name": "toilet-paper-slash",
+			"unicode": "e072"
+		},
+		{
 			"name": "toolbox",
 			"unicode": "f552"
 		},
@@ -3443,6 +3595,10 @@
 		{
 			"name": "traffic-light",
 			"unicode": "f637"
+		},
+		{
+			"name": "trailer",
+			"unicode": "e041"
 		},
 		{
 			"name": "train",
@@ -3665,6 +3821,10 @@
 			"unicode": "f509"
 		},
 		{
+			"name": "users-slash",
+			"unicode": "e073"
+		},
+		{
 			"name": "utensil-spoon",
 			"unicode": "f2e5"
 		},
@@ -3707,6 +3867,18 @@
 		{
 			"name": "vihara",
 			"unicode": "f6a7"
+		},
+		{
+			"name": "virus",
+			"unicode": "e074"
+		},
+		{
+			"name": "virus-slash",
+			"unicode": "e075"
+		},
+		{
+			"name": "viruses",
+			"unicode": "e076"
 		},
 		{
 			"name": "voicemail",
@@ -4637,6 +4809,10 @@
 			"unicode": "f37f"
 		},
 		{
+			"name": "buy-n-large",
+			"unicode": "f8a6"
+		},
+		{
 			"name": "buysellads",
 			"unicode": "f20d"
 		},
@@ -4821,8 +4997,16 @@
 			"unicode": "f6ca"
 		},
 		{
+			"name": "dailymotion",
+			"unicode": "e052"
+		},
+		{
 			"name": "dashcube",
 			"unicode": "f210"
+		},
+		{
+			"name": "deezer",
+			"unicode": "e077"
 		},
 		{
 			"name": "delicious",
@@ -4913,6 +5097,10 @@
 			"unicode": "f282"
 		},
 		{
+			"name": "edge-legacy",
+			"unicode": "e078"
+		},
+		{
 			"name": "elementor",
 			"unicode": "f430"
 		},
@@ -4987,6 +5175,10 @@
 		{
 			"name": "firefox",
 			"unicode": "f269"
+		},
+		{
+			"name": "firefox-browser",
+			"unicode": "e007"
 		},
 		{
 			"name": "first-order",
@@ -5149,6 +5341,10 @@
 			"unicode": "f3aa"
 		},
 		{
+			"name": "google-pay",
+			"unicode": "e079"
+		},
+		{
 			"name": "google-play",
 			"unicode": "f3ab"
 		},
@@ -5233,12 +5429,20 @@
 			"unicode": "f3b2"
 		},
 		{
+			"name": "ideal",
+			"unicode": "e013"
+		},
+		{
 			"name": "imdb",
 			"unicode": "f2d8"
 		},
 		{
 			"name": "instagram",
 			"unicode": "f16d"
+		},
+		{
+			"name": "instagram-square",
+			"unicode": "e055"
 		},
 		{
 			"name": "intercom",
@@ -5397,6 +5601,10 @@
 			"unicode": "f136"
 		},
 		{
+			"name": "mdb",
+			"unicode": "f8ca"
+		},
+		{
 			"name": "medapps",
 			"unicode": "f3c6"
 		},
@@ -5425,6 +5633,10 @@
 			"unicode": "f7b3"
 		},
 		{
+			"name": "microblog",
+			"unicode": "e01a"
+		},
+		{
 			"name": "microsoft",
 			"unicode": "f3ca"
 		},
@@ -5435,6 +5647,10 @@
 		{
 			"name": "mixcloud",
 			"unicode": "f289"
+		},
+		{
+			"name": "mixer",
+			"unicode": "e056"
 		},
 		{
 			"name": "mizuni",
@@ -5509,6 +5725,10 @@
 			"unicode": "f23c"
 		},
 		{
+			"name": "orcid",
+			"unicode": "f8d2"
+		},
+		{
 			"name": "osi",
 			"unicode": "f41a"
 		},
@@ -5571,6 +5791,10 @@
 		{
 			"name": "pied-piper-pp",
 			"unicode": "f1a7"
+		},
+		{
+			"name": "pied-piper-square",
+			"unicode": "e01e"
 		},
 		{
 			"name": "pinterest",
@@ -5689,6 +5913,10 @@
 			"unicode": "f3e9"
 		},
 		{
+			"name": "rust",
+			"unicode": "e07a"
+		},
+		{
 			"name": "safari",
 			"unicode": "f267"
 		},
@@ -5727,6 +5955,10 @@
 		{
 			"name": "shirtsinbulk",
 			"unicode": "f214"
+		},
+		{
+			"name": "shopify",
+			"unicode": "e057"
 		},
 		{
 			"name": "shopware",
@@ -5873,6 +6105,10 @@
 			"unicode": "f7d6"
 		},
 		{
+			"name": "swift",
+			"unicode": "f8e1"
+		},
+		{
 			"name": "symfony",
 			"unicode": "f83d"
 		},
@@ -5907,6 +6143,10 @@
 		{
 			"name": "think-peaks",
 			"unicode": "f731"
+		},
+		{
+			"name": "tiktok",
+			"unicode": "e07b"
 		},
 		{
 			"name": "trade-federation",
@@ -5957,8 +6197,20 @@
 			"unicode": "f403"
 		},
 		{
+			"name": "umbraco",
+			"unicode": "f8e8"
+		},
+		{
 			"name": "uniregistry",
 			"unicode": "f404"
+		},
+		{
+			"name": "unity",
+			"unicode": "e049"
+		},
+		{
+			"name": "unsplash",
+			"unicode": "e07c"
 		},
 		{
 			"name": "untappd",
