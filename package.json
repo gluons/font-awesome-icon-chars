@@ -1,6 +1,6 @@
 {
   "name": "font-awesome-icon-chars",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "The list of Font Awesome icon unicode characters in several file format",
   "main": "./dist/index.js",
   "files": [
