@@ -51,7 +51,7 @@
     "chai": "4.2.0",
     "chai-things": "^0.2.0",
     "cson": "^7.15.0",
-    "del": "^5.1.0",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-json2cson": "^2.0.0",
     "gulp-plumber": "^1.1.0",
