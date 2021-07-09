@@ -92,10 +92,10 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
-"@types/cson@^0.0.31":
-  version "0.0.31"
-  resolved "https://registry.npmjs.org/@types/cson/-/cson-0.0.31.tgz#ad0c475a6b3736cecd9b754eae53a5ae8a6df891"
-  integrity sha512-/HZsi3XbITcXPW477omGMiCwfngXaB/HTmGab6BtRD4sIaIFvODQwbmHNG6n+A9pFB5utI2FxLRFfVRvNKb0Dg==
+"@types/cson@^7.0.0":
+  version "7.20.0"
+  resolved "https://registry.yarnpkg.com/@types/cson/-/cson-7.20.0.tgz#618ff4ab0c1502be2f58cdcf0cae80d90f290f04"
+  integrity sha512-Rxwt3Kk2Rt+SHKQDrPBgZKbLYDTr7PIsZyxDSNThVmKf0nsDA6twxcQHOCzj9nEOWAPabWtoeN4xIlPiPglaMA==
 
 "@types/expect@^1.20.4":
   version "1.20.4"
